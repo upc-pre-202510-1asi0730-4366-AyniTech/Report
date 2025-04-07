@@ -24,20 +24,24 @@
             <th style="text-align:center;">Code</th>
         </tr>
         <tr>
-            <td>name</td>
-            <td>U</td>
+            <td>Jocelyn Damaly Almerco Rojas</td>
+            <td>U20221g068</td>
         </tr>
         <tr>
             <td>Sanchez Rios, Camila Cristina</td>
             <td>U202210973</td>
         </tr>
         <tr>
-            <td>...</td>
-            <td>U</td>
+            <td>Henry Kalet Esteban Roman</td>
+            <td>U202310210</td>
         </tr>
         <tr>
-            <td>..</td>
-            <td>U</td>
+            <td>Maria Fernanda Peña Riofrio</td>
+            <td>U202113279</td>
+        </tr>
+        <tr>
+            <td>Fabiola Del Rocio Saldaña Ayala</td>
+            <td>U202313773</td>
         </tr>
     </table>
 </div>
