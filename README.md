@@ -526,6 +526,7 @@ de audiencia.</td>
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 ### 1.1.2. Perfiles de integrantes del equipo
+
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 ### 1.2.2 Lean UX Process
@@ -553,12 +554,14 @@ de audiencia.</td>
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
+
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
 # Capítulo IV: Product Design
+
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
 ### 4.1.2. Web Style Guidelines
@@ -588,6 +591,7 @@ de audiencia.</td>
 ### 4.8.1. Database Diagram.
 
 # Capítulo V: Product Implementation, Validation & Deployment
+
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
 ### 5.1.2. Source Code Management.
