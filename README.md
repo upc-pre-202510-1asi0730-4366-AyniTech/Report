@@ -524,17 +524,120 @@ de audiencia.</td>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
+StockWise es una plataforma web de gestión de inventarios dirigida a pequeñas y medianas empresas, startups, y bodegas especializadas. Permite controlar entradas y salidas de productos, gestionar usuarios, configurar alertas inteligentes y generar reportes detallados. Con un sistema intuitivo y accesible, facilita la digitalización del inventario, ayudando a optimizar la logística y mejorar la toma de decisiones.
 ### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <th>
+      <img src="" alt="Foto de perfil de " width="800px">
+    </th>
+    <td valign="top">
+      <p><b>name</b></p>
+      <p>
+        ..
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="assets/Chapter-1/fotocam.png" alt="Foto de perfil de Camila" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Sánchez Ríos, Camila Cristina</b></p>
+      <p>
+        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el setimo ciclo. Me gusta escuchar música y leer en los ratos libres y aprender más sobre la carrera.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="" alt="Foto de perfil de " width="800px">
+    </th>
+    <td valign="top">
+      <p><b>name</b></p>
+      <p>
+        ..
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src=" " alt="Foto de perfil de " width="800px">
+    </th>
+    <td valign="top">
+      <p><b>name</b></p>
+      <p>
+      </p>
+    </td>
+  </tr>
+</table>
+<br>
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+
+- **Who (¿Quiénes?)**
+ Emprendedores, y negocios con bodegas físicas que necesitan organizar y optimizar su inventario, tales como bodegas de ropa, calzado, electrodomésticos, ferreterías, alimentos, etc. 
+
+- **What (¿Qué sucede?)**
+Cuando el negocio comienza a escalar, las bodegas se llenan de más productos y la gestión manual se vuelve ineficiente, lo que genera errores, pérdidas de productos, compras innecesarias y baja visibilidad sobre su operación. Es entonces cuando la necesidad de un sistema de gestión de inventarios se vuelve crucial.
+
+- **When (¿Cuándo ocurre?)**
+En pequeñas y medianas bodegas o almacenes, ya sea en una tienda física, almacenes compartidos, o almacenes de empresas en expansión.
+
+- **Where (¿Dónde ocurre?)**
+En pequeñas y medianas bodegas o almacenes, ya sea en una tienda física, almacenes compartidos, o almacenes de empresas en expansión.
+
+- **Why (¿Por qué es un problema?)**
+La falta de control adecuado sobre el inventario puede llevar a pérdidas económicas, quiebres de stock, sobrecompras, y una mala experiencia para el cliente. Sin un sistema que centralice esta información, el negocio no puede tomar decisiones basadas en datos en tiempo real.
+
+-**How (¿Cómo lo solucionan hoy?)**
+Muchos negocios aún gestionan su inventario usando métodos manuales como hojas de cálculo, registros en papel, o sistemas no especializados, lo que conlleva errores y una gestión ineficaz.
+
+-**How much (¿Cuánto cuesta no resolverlo?)**
+La falta de una solución de gestión de inventarios eficiente puede resultar en pérdidas económicas significativas para los negocios. Los errores de inventario, como quiebres de stock, compras incorrectas o exceso de productos no vendidos, afectan directamente las ventas y la experiencia del cliente. Además, el tiempo perdido gestionando inventarios manualmente puede ser mejor invertido en otras áreas del negocio, como la atención al cliente o la estrategia de ventas.
+
+Modelo Freemium (Free y Premium)
+
+**Versión Free:**
+Con el modelo freemium, las empresas pueden comenzar con la versión gratuita para probar las funcionalidades básicas del sistema y luego optar por la versión premium a medida que sus necesidades de gestión de inventario se amplían, asegurando así que solo paguen por las funcionalidades que realmente necesitan. 
+
+- Gestión básica de productos y movimientos de stock.
+- Acceso limitado a usuarios y funcionalidades.
+- Reportes limitados (solo acceso básico a información).
+- Alertas básicas de stock bajo.
+
+**Versión Premium:**
+
+- Acceso completo a todas las funcionalidades avanzadas, incluyendo alertas inteligentes y reportes detallados.
+- Gestión de múltiples usuarios y roles, con control de acceso detallado y gestión de permisos.
+- Exportación ilimitada de reportes en formatos Excel/PDF.
+- Integración con otros sistemas de ventas o plataformas de e-commerce.
+- Soporte técnico prioritario, garantizando asistencia más rápida y eficiente.
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
 #### 1.2.2.2. Lean UX Assumptions
+**Business Outcomes:**
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
 #### 1.2.2.4. Lean UX Canvas
+
 ## 1.3. Segmentos objetivo
+
+**Segmento 1: Bodegas especializadas por rubro (ropa, ferretería, alimentos, etc.)**
+
+Este segmento incluye negocios que poseen bodegas físicas para almacenar productos específicos según su rubro. Suelen ser tiendas mayoristas o minoristas que necesitan tener un control formal del inventario sobre productos que varían en características como tallas, colores, fechas de vencimiento o dimensiones técnicas. Estas bodegas enfrentan desafíos como la alta rotación de productos, pérdidas por falta de trazabilidad o desorden, y decisiones de compra poco informadas.
+StockWise les permite organizar su inventario de forma clara, generar alertas inteligentes según tipo de producto, y tomar decisiones basadas en reportes visuales y detallados.
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas** 
+
+Son negocios en crecimiento que han comenzado a escalar su operación, ya sea vendiendo online (Shopify, MercadoLibre, Instagram) o desde un punto físico, y que almacenan sus productos en bodegas propias, alquiladas o incluso en casa.
+En esta etapa, el desorden en el inventario puede afectar la atención al cliente, las ventas y la planificación de compras. No cuentan con un sistema formal, pero necesitan profesionalizar su operación para seguir creciendo.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
