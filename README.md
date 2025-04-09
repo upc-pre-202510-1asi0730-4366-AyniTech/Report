@@ -629,7 +629,7 @@ Con el modelo freemium, las empresas pueden comenzar con la versión gratuita pa
 
 ## 1.3. Segmentos objetivo
 
-**Segmento 1: Bodegas especializadas por rubro (ropa, ferretería, alimentos, etc.)**
+**Segmento 1: Bodegas especializadas por rubro**
 
 Este segmento incluye negocios que poseen bodegas físicas para almacenar productos específicos según su rubro. Suelen ser tiendas mayoristas o minoristas que necesitan tener un control formal del inventario sobre productos que varían en características como tallas, colores, fechas de vencimiento o dimensiones técnicas. Estas bodegas enfrentan desafíos como la alta rotación de productos, pérdidas por falta de trazabilidad o desorden, y decisiones de compra poco informadas.
 StockWise les permite organizar su inventario de forma clara, generar alertas inteligentes según tipo de producto, y tomar decisiones basadas en reportes visuales y detallados.
