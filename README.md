@@ -68,10 +68,10 @@
                 <td>07/04/2025</td>
                 <td>
                     <ul>
-          <li>..</li>
-          <li>Camila Sanchez</li>
-          <li>..</li>
-          <li>..</li>
+                      <li>..</li>
+                      <li>Camila Sanchez</li>
+                      <li>Maria Fernanda Peña</li>
+                      <li>..</li>
                     <ul>
            </td>
       <td>            
@@ -553,12 +553,12 @@ StockWise es una plataforma web de gestión de inventarios dirigida a pequeñas 
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de " width="800px">
+      <img src="assets/Chapter-1/fotomafer.jpg" alt="Foto de perfil de Mafer" width="800px">
     </th>
     <td valign="top">
-      <p><b>name</b></p>
+      <p><b>Peña Riofrio, Maria Fernanda</b></p>
       <p>
-        ..
+        Soy estudiante de la carrear de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el sexto ciclo. En mismo tiempos libres me gusta leer sobre temas diversos y ver películas.
       </p>
     </td>
   </tr>
