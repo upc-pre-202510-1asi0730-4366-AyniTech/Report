@@ -564,17 +564,18 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
     <td valign="top">
       <p><b>Peña Riofrio, Maria Fernanda</b></p>
       <p>
-        Soy estudiante de la carrear de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el sexto ciclo. En mismo tiempos libres me gusta leer sobre temas diversos y ver películas.
+        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el sexto ciclo. En mismo tiempos libres me gusta leer sobre temas diversos y ver películas.
       </p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src=" " alt="Foto de perfil de " width="800px">
+      <img src="assets/Chapter-1/fotoHenry.jpg" alt="Foto de perfil de Henry" width="800px">
     </th>
     <td valign="top">
-      <p><b>name</b></p>
+      <p><b>Esteban Román, Henr Kalet</b></p>
       <p>
+      Soy estudiante de la carrera de Ingeniería de Software. Actualmente me encunetro en 5to ciclo y me gusta mucho escuchar música y pasear.
       </p>
     </td>
   </tr>
