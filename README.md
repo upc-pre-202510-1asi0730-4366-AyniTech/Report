@@ -619,6 +619,73 @@ Escala:
 <br>
 
 ### 4.1.2. Web Style Guidelines
+
+La guía de estilo de un sitio web es un documento detallado que se basa en el diseño y la marca del sitio. Su propósito es crear una guía de estilo mucho más completa que abarca el uso de elementos en varios contextos, incluyendo medios impresos y otros medios. Es importante destacar que un sistema de diseño no siempre equivale a una guía de estilo.
+
+**Footers y Headers**
+
+- Header limpio y fijo, con fondo color #F5E1A4 o blanco. Incluye logo a la izquierda, navegación principal al centro/derecha, botón de login o “Empezar” en rojo #BC162A.
+
+- Footer informativo, con fondo #302325 y texto claro en blanco o gris suave.
+
+   - Secciones: Información de la empresa, enlaces rápidos, redes sociales (íconos minimalistas), soporte.
+   - Tipografía en Inter Regular para facilitar lectura.
+
+**Responsividad**
+
+La web debe estar optimizada para múltiples dispositivos, desde móviles hasta pantallas de escritorio grandes.
+
+- Diseño mobile-first, adaptable desde 320px hasta pantallas de escritorio grandes (>1440px).
+- Componentes escalables: tarjetas, inputs y botones con padding amplio y bordes redondeados
+
+**Imágenes y Multimedia:**
+
+Las imágenes deben ser de alta calidad y alinearse con el tono visual de TaskLinker.
+
+- Imágenes de Cabecera
+- Imágenes en Contenido
+
+**Botones y Llamadas a la Acción (CTAs):**
+
+Los botones deben ser claramente distinguibles y usar colores de la paleta para indicar su función.
+
+- Botones principales:
+  - Color: Rojo #BC162A (hover más oscuro)
+  - Texto blanco en Nunito Bold
+
+- Botones secundarios:
+  - Fondo blanco, borde #EE7F27, texto naranja o negro
+  - Redondeados, con sombra suave para dar profundidad
+
+- CTAs visibles en las páginas clave: "Agregar Producto", "Ver Reporte", "Crear Alerta".
+
+**Encabezados y Jerarquía de Contenido:**
+
+Mantén una jerarquía clara para los diferentes niveles de encabezados (H1, H2, H3) para guiar al usuario a través del contenido.
+
+- H1 – Nunito ExtraBold 36–48px – Titulares principales (ej. "Gestión inteligente para tu inventario")
+- H2 – Nunito Bold 28–36px – Subtítulos o secciones
+- H3 – Inter SemiBold 20–24px – Títulos menores o cards
+- Texto general – Inter Regular 16px – Lectura clara, gris oscuro o marrón (#302325)
+- Labels, tablas o formularios – Inter Medium 14px
+
+<center> <img src="assets/Chapter-4/tipo.png" style="width: 250px;"/> </center>
+<br>
+
+**Fuentes**
+
+- Nunito: Branding, títulos, botones, elementos destacados
+- Inter: Cuerpo de texto, formularios, menús, información secundaria
+
+**Tono de voz & Microcopy**
+- Familiar, claro, y directo
+- Habla como si estuvieras ayudando a un amigo con su bodega
+  - “¡Todo está bajo control!”
+
+❌ Evitar lenguaje técnico o confuso.
+
+✅ Preferir lenguaje humano: “producto agotado” en vez de “stock = 0”.
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
