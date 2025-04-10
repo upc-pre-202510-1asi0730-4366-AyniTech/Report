@@ -618,7 +618,50 @@ Hemos observado que esta situación impacta negativamente en la productividad de
 
 
 #### 1.2.2.2. Lean UX Assumptions
-**Business Outcomes:**
+Business Assumptions:
+
+1.Creemos que los negocios emergentes necesitan digitalizar su gestión de inventarios.
+
+2.Estas necesidades se pueden satisfacer con una plataforma web intuitiva, escalable y accesible.
+
+3.Nuestros clientes iniciales serán emprendedores y start ups con bodegas especializadas.
+
+4.El valor más importante que un cliente quiere de nuestros servicios es control y visibilidad de su inventario.
+
+5.El cliente también va a obtener alertas inteligentes, reportes automáticos y una experiencia intuitiva.
+
+6.Vamos a obtener la mayoría de los clientes mediante publicidad en línea  y asociaciones con comunidades de emprendedores.
+
+7.Vamos a obtener ingresos mediante un modelo freemium con upgrade a planes premium.
+
+8.Nuestra competencia en el mercado serán herramientas genéricas como Excel, Google Sheets y ERPs complejos.
+
+9.Vamos a tener ventaja frente a nuestra competencia debido a nuestra simplicidad, enfoque en pymes, y especialización en inventarios.
+
+10.El mayor riesgo del servicio es la baja adopción o la percepción de que es complejo o costoso.
+
+11.Lo resolveremos realizando pruebas con usuarios reales, iteraciones constantes y una estrategia clara de onboarding.
+
+User Assumptions:</br>
+¿Quién es el usuario? Dueños de negocios, encargados de bodegas o logística en pymes/startups.
+
+¿Qué problemas tiene nuestro producto que busca resolver? Falta de control de stock, errores manuales, sobrecostos, quiebres de stock.
+
+¿Qué características son importantes? Registro de productos, historial de movimientos, alertas, reportes, roles y permisos.
+
+¿Dónde encaja nuestro producto en su vida/trabajo? En la gestión diaria del inventario, decisiones de compra, y control de logística.
+
+¿Cuándo y cómo es usado nuestro producto? A diario, desde computadoras o móviles, al inicio y cierre de turnos, y durante reposiciones.
+
+¿Cómo debe verse y comportarse? Simple, rápida, intuitiva, con interfaz limpia, adaptable a cualquier dispositivo.
+
+Feature Assumptions:
+
+Creemos que la aplicación debe contar con una interfaz de usuario intuitiva y responsiva que permitirá a los encargados de almacén, emprendedores y administradores adoptarla sin dificultad, reduciendo la curva de aprendizaje.
+
+Creemos que la plataforma debe proporcionar notificaciones y alertas personalizables (como stock bajo o fechas próximas de vencimiento) que mantendrán a los usuarios informados de manera oportuna para evitar errores logísticos y quiebres de stock.
+
+Creemos que el sistema debe incluir herramientas de generación de reportes y gráficos que permitan visualizar fácilmente información clave del inventario (productos más rotados, niveles de stock, tendencias de ventas), ayudando a los usuarios a tomar decisiones informadas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
