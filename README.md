@@ -526,7 +526,13 @@ de audiencia.</td>
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
-StockWise es una plataforma web de gestión de inventarios dirigida a pequeñas y medianas empresas, startups, y bodegas especializadas. Permite controlar entradas y salidas de productos, gestionar usuarios, configurar alertas inteligentes y generar reportes detallados. Con un sistema intuitivo y accesible, facilita la digitalización del inventario, ayudando a optimizar la logística y mejorar la toma de decisiones.
+StockWise es una plataforma web de gestión de inventarios dirigida a pequeñas y medianas empresas, startups y bodegas especializadas. Su objetivo principal es facilitar el control eficiente de entradas y salidas de productos, la gestión de usuarios, la configuración de alertas inteligentes y la generación de reportes detallados, todo a través de una interfaz intuitiva y accesible desde cualquier dispositivo.
+
+La solución responde a una problemática concreta: muchos negocios aún utilizan métodos manuales (como hojas de cálculo o registros en papel) para administrar sus inventarios, lo cual genera errores, desorganización, sobrecompras y pérdidas económicas. StockWise busca resolver este problema digitalizando y centralizando el control del inventario, permitiendo a los negocios tomar decisiones basadas en datos y optimizar su operación.
+<br>
+<b>Misión: </b>Brindar a pequeñas y medianas empresas una solución de gestión de inventarios sencilla, accesible y eficiente, que les permita digitalizar su operación, reducir errores logísticos y tomar decisiones basadas en datos reales, apoyando así su crecimiento sostenible.
+<br>
+<b>Visión: </b>StockWise se enfoca en ser la plataforma preferida de los empresarios que buscan una gestión de inventarios, herramientas de alto valor con un modelo escalable, adaptable y centrado en el usuario.
 ### 1.1.2. Perfiles de integrantes del equipo
 <table>
   <tr>
