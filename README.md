@@ -606,7 +606,7 @@ La paleta de colores de StockWise ha sido cuidadosamente seleccionada para trans
 
 **Tipografía**
 
-La elección tipográfica para TaskLinker es un componente esencial que complementa la identidad visual de la marca. Se han seleccionado dos familias tipográficas que juntas ofrecen versatilidad y coherencia, asegurando que la comunicación sea clara y efectiva en todos los medios.
+La elección tipográfica para StockWise es un componente esencial que complementa la identidad visual de la marca. Se han seleccionado dos familias tipográficas que juntas ofrecen versatilidad y coherencia, asegurando que la comunicación sea clara y efectiva en todos los medios.
 
 Escala:
 
@@ -687,7 +687,10 @@ Mantén una jerarquía clara para los diferentes niveles de encabezados (H1, H2,
 ✅ Preferir lenguaje humano: “producto agotado” en vez de “stock = 0”.
 
 ## 4.2. Information Architecture
+La arquitectura de la información, también conocida como Information Architecture (IA), implica la organización de la información de manera clara y lógica, de modo que los usuarios puedan comprender su ubicación, lo que han descubierto, qué pueden esperar y qué está disponible a su alrededor. Esto tiene como objetivo permitir a los usuarios encontrar con facilidad lo que están buscando, y a los clientes, comprender las capacidades de la plataforma. Además, la arquitectura de la información posibilita la incorporación de nuevas funciones y la expansión del producto sin generar una estructura compleja o de difícil comprensión (Rosenfeld, Morville & Arango 2015).
 ### 4.2.1. Organization Systems.
+Los usuarios podrán percibir la interfaz de forma lógica e intuitiva gracias a la estructura organizativa prevista para StockWise.
+
 ### 4.2.2. Labeling Systems.
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems.
