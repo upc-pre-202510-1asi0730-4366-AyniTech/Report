@@ -665,6 +665,20 @@ Creemos que el sistema debe incluir herramientas de generación de reportes y gr
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+Creemos que los usuarios valorarán las alertas inteligentes.</br> sabremos que es cierto. 
+</br>cuando recibamos al menos un 80% de los usuarios, un  feedback positivo y alta frecuencia de uso en esta funcionalidad.
+
+Creemos que los usuarios encontrarán valiosos los reportes visuales.</br> sabremos que es cierto .
+</br>cuando observemos mínimamente un 20% mayor retención y uso del módulo de reportes.
+
+Creemos que ofrecer una versión gratuita con funcionalidades limitadas incentivará la adopción inicial.</br>
+ sabremos que es cierto.</br>
+  cuando el número de registros y usuarios activos supere nuestras métricas objetivo durante el primer mes.
+
+Creemos que implementar alertas inteligentes por stock bajo y fechas de vencimiento reducirá los quiebres de stock.</br>
+Sabremos que tenemos razón </br>
+Cuando comparemos el número de productos con quiebre antes y después de la activación de alertas por parte del usuario.
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
