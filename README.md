@@ -584,44 +584,26 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 
-- **Who (¿Quiénes?)**
- Emprendedores, y negocios con bodegas físicas que necesitan organizar y optimizar su inventario, tales como bodegas de ropa, calzado, electrodomésticos, ferreterías, alimentos, etc. 
+- **Who (¿Quiénes?)**<br>
+Emprendedores, startups y pequeñas/medianas empresas con bodegas físicas que almacenan productos de distintos rubros como ropa, calzado, electrodomésticos, ferretería o alimentos. 
 
-- **What (¿Qué sucede?)**
-Cuando el negocio comienza a escalar, las bodegas se llenan de más productos y la gestión manual se vuelve ineficiente, lo que genera errores, pérdidas de productos, compras innecesarias y baja visibilidad sobre su operación. Es entonces cuando la necesidad de un sistema de gestión de inventarios se vuelve crucial.
+- **What (¿Qué sucede?)**<br>
+A medida que sus negocios escalan, la gestión manual del inventario con hojas de cálculo o registros físicos se vuelve ineficiente, generando pérdidas, errores, quiebres de stock, sobrecompras y desorden logístico.
 
-- **When (¿Cuándo ocurre?)**
-En pequeñas y medianas bodegas o almacenes, ya sea en una tienda física, almacenes compartidos, o almacenes de empresas en expansión.
+- **When (¿Cuándo ocurre?)**<br>
+En el momento en que el negocio empieza a crecer, aumentar su variedad de productos o abrir múltiples canales de venta, como tiendas físicas y plataformas online.
 
-- **Where (¿Dónde ocurre?)**
-En pequeñas y medianas bodegas o almacenes, ya sea en una tienda física, almacenes compartidos, o almacenes de empresas en expansión.
+- **Where (¿Dónde ocurre?)**<br>
+En bodegas físicas propias, espacios alquilados o incluso en el hogar del emprendedor, especialmente en etapas tempranas o de expansión del negocio.
 
-- **Why (¿Por qué es un problema?)**
-La falta de control adecuado sobre el inventario puede llevar a pérdidas económicas, quiebres de stock, sobrecompras, y una mala experiencia para el cliente. Sin un sistema que centralice esta información, el negocio no puede tomar decisiones basadas en datos en tiempo real.
+- **Why (¿Por qué es un problema?)**<br>
+La falta de un sistema centralizado y en tiempo real impide tomar decisiones estratégicas basadas en datos. Esto afecta la planificación de compras, genera pérdidas económicas, y daña la experiencia del cliente final.
 
--**How (¿Cómo lo solucionan hoy?)**
-Muchos negocios aún gestionan su inventario usando métodos manuales como hojas de cálculo, registros en papel, o sistemas no especializados, lo que conlleva errores y una gestión ineficaz.
+-**How (¿Cómo lo solucionan hoy?)**<br>
+Mediante herramientas manuales como hojas de Excel, inventarios escritos o software no especializado, que resultan limitados, propensos a errores y poco escalables.
 
--**How much (¿Cuánto cuesta no resolverlo?)**
-La falta de una solución de gestión de inventarios eficiente puede resultar en pérdidas económicas significativas para los negocios. Los errores de inventario, como quiebres de stock, compras incorrectas o exceso de productos no vendidos, afectan directamente las ventas y la experiencia del cliente. Además, el tiempo perdido gestionando inventarios manualmente puede ser mejor invertido en otras áreas del negocio, como la atención al cliente o la estrategia de ventas.
-
-Modelo Freemium (Free y Premium)
-
-**Versión Free:**
-Con el modelo freemium, las empresas pueden comenzar con la versión gratuita para probar las funcionalidades básicas del sistema y luego optar por la versión premium a medida que sus necesidades de gestión de inventario se amplían, asegurando así que solo paguen por las funcionalidades que realmente necesitan. 
-
-- Gestión básica de productos y movimientos de stock.
-- Acceso limitado a usuarios y funcionalidades.
-- Reportes limitados (solo acceso básico a información).
-- Alertas básicas de stock bajo.
-
-**Versión Premium:**
-
-- Acceso completo a todas las funcionalidades avanzadas, incluyendo alertas inteligentes y reportes detallados.
-- Gestión de múltiples usuarios y roles, con control de acceso detallado y gestión de permisos.
-- Exportación ilimitada de reportes en formatos Excel/PDF.
-- Integración con otros sistemas de ventas o plataformas de e-commerce.
-- Soporte técnico prioritario, garantizando asistencia más rápida y eficiente.
+-**How much (¿Cuánto cuesta no resolverlo?)**<br>
+El costo se traduce en pérdidas económicas significativas por productos no vendidos, errores de stock, tiempo invertido en tareas manuales y menor competitividad frente a negocios más organizados.
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
