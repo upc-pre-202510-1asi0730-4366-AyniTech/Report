@@ -540,9 +540,86 @@ de audiencia.</td>
 
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
+   | **Elemento**                                                                 | **Stock Wise**                                                                                   | **MECALUX**                                                                                           | **VENDUS**                                                                                     | **DUX Software**                                                                                         |
+|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| **¿Por qué llevar a cabo este análisis?**                                    | Este análisis se lleva a cabo con la finalidad de identificar a nuestros competidores y generar estrategias que nos diferencien, brindando información clave para tomar decisiones estratégicas en el desarrollo y crecimiento de nuestra aplicación. |                                                                                                        |                                                                                                        |                                                                                                            |
+| **Perfil**                                                                   |                                                                                                  |                                                                                                        |                                                                                                        |                                                                                                            |
+| Overview                                                                     | Plataforma web para gestionar inventarios de pymes, startup y bodegas                           | Plataforma web especializada en soluciones logísticas e inventarios industriales                      | Plataforma web de punto de venta e inventario enfocada en pequeños comercios                  | Software peruano de gestión para negocios minoristas y distribuidores                                     |
+| Ventaja Competitiva – ¿Qué valor ofrece a los clientes?                     | Fácil de usar, accesible, con alertas inteligentes y reportes visuales. Optimiza inventarios, reduce errores y mejora decisiones con datos en tiempo real | Tecnología avanzada y soluciones integrales para almacenes. Automatización del almacenamiento, control de stock en tiempo real | Facilidad de uso y precios accesibles. Ofrece una gestión rápida de ventas, inventario, facturación electrónica | Adaptado al mercado local. Ofrece control de inventarios, ventas y caja con cumplimiento tributario local |
+| **Perfil de Marketing**                                                     |                                                                                                  |                                                                                                        |                                                                                                        |                                                                                                            |
+| Mercado objetivo                                                             | Emprendedores y pymes                                                                           | Empresas medianas y grandes con necesidades logísticas complejas                                      | Tiendas pequeñas, emprendedores, minoristas                                                   | Comercios pequeños y medianos del Perú                                                                    |
+| Estrategias de Marketing                                                     | Publicidad en redes sociales, alianzas con MYPES, contenido educativo                            | Ferias industriales, redes sociales                                                                    | Publicidad digital, redes sociales, prueba gratuita                                           | Marketing local, publicidad en redes, presencia en eventos MYPE                                           |
+| **Perfil de Productos**                                                     |                                                                                                  |                                                                                                        |                                                                                                        |                                                                                                            |
+| Productos & Servicios                                                        | Gestión de stock, alertas, reportes, control de usuarios, versión gratuita                      | Software de gestión de almacenes (WMS), estanterías, robots logísticos                                | POS, control de stock, reportes, gestión de clientes                                           | Gestión de stock, ventas, compras, reportes contables                                                    |
+| Precios y Costos                                                             | Bajo costo inicial, modelo freemium con planes escalables                                       | Precios altos ya que tiene soluciones personalizadas según la empresa                                 | Modelos de suscripción mensuales accesibles desde 10 a 25 dólares                             | Modelos por licencia o suscripción, accesible para MYPES                                                 |
+| Canales de distribución (Web y/o Móvil)                                     | Web, soporte técnico local                                                                      | Web corporativa, atención directa con ejecutivos de ventas                                            | Web y app móvil, soporte técnico local                                                         | Web, soporte técnico local                                                                               |
+| **Análisis SWOT**                                                            |                                                                                                  |                                                                                                        |                                                                                                        |                                                                                                            |
+| Fortalezas                                                                   | Intuitiva, enfocada en negocios en crecimiento, funciones clave bien integradas                | Tecnología robusta, experiencia global, soluciones a medida                                           | Bajo costo, interfaz amigable, soporte en español                                             | Cumplimiento legal en Perú, lenguaje y enfoque local                                                     |
+| Debilidades                                                                  | Marca nueva, validación en proceso                                                              | Costos elevados, poca accesibilidad para pymes                                                        | Funcionalidades limitadas frente a soluciones más avanzadas                                  | Poca expansión internacional, interfaz no tan moderna                                                    |
+| Oportunidades                                                                | Alta demanda de digitalización en LATAM, posible integración con e-commerce                    | Expansión hacia software más accesible para negocios pequeños                                         | Crecimiento en mercados emergentes, integración con apps externas                            | Ampliación de módulos (delivery, e-commerce); expansión a LATAM                                          |
+| Amenazas                                                                     | Competencia establecida, resistencia al cambio                                                  | Competencia con soluciones más simples y económicas                                                   | Alta competencia en el segmento de POS económicos                                             | Competencia extranjera con mejor tecnología y marketing                                                  |       
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+StockWise destacar frente a la competencia aprovechando sus ventajas clave frente a competidores como Mecalux, Vendus y Dux Software. A continuación, se detallarán algunas estrategias y tácticas que podríamos considerar:
+
+**Diferenciación del Producto:**
+
+**Estrategia**: Resaltar los aspectos únicos de StockWise frente a competidores como Mecalux, Vendus y Dux Software.
+
+**Táctica**: Enfatizar la simplicidad, accesibilidad y bajo costo del producto, junto con la oferta de una versión freemium que facilite la  adopción en negocios pequeños.
+
+**Optimización de la experiencia del usuario**
+
+**Estrategia:** Fomentar la satisfacción y fidelidad del usuario mediante una interfaz intuitiva y fácil de usar.
+
+**Táctica**: Mejorar continuamente la interfaz de usuario, simplificando la navegación, e incorporar funcionalidades clave como alertas inteligentes y reportes visuales que faciliten la gestión.
+
+**Expansión de la base de usuarios**
+
+**Estrategia**: Atraer nuevos usuarios para incrementar la presencia de StockWise en el mercado de pymes y startups.
+
+**Táctica**: Implementar un modelo freemium para incentivar la adopción inicial, y ejecutar campañas digitales dirigidas a pequeñas empresas que busquen una solución eficiente de gestión de inventarios.
+
 ## 2.2. Entrevistas
+
+La finalidad de realizar entrevistas es obtener un alcance más completo sobre las experiencias, perspectivas y opiniones de los segmentos de mercado definidos. Nuestro objetivo es recolectar información valiosa que nos permita conocer mejor a nuestro público objetivo. Con estas entrevistas se tendrá una visión más clara de las necesidades y expectativas de nuestros usuarios.
+
 ### 2.2.1. Diseño de entrevistas
+
+**Segmento #1: Bodegas especializadas por rubro**
+
+**Preguntas principales**
+
+1. ¿Podrías contarme cómo gestionas actualmente el inventario de tu bodega?
+2. ¿Cuáles son los mayores retos que enfrentas al momento de organizar tus productos?
+3. ¿Has tenido pérdidas o problemas por errores en el inventario? ¿Cómo los resolviste?
+4. ¿Qué tan importante es para ti tener un control en tiempo real de tu stock?
+5. ¿Utilizas algún sistema o herramienta digital? ¿Cuál y cómo te va con ella?
+
+**Preguntas complementarias**
+
+1. ¿Cómo te enteras cuando falta un producto o está a punto de vencerse?
+2. ¿Qué tipo de reportes o información te gustaría tener sobre tu inventario?
+3. ¿Qué dispositivos usas más en tu trabajo (laptop, celular, tablet)?
+4. ¿Cómo crees que una plataforma digital podría ayudarte a mejorar tu operación?
+
+**Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
+
+**Preguntas principales**
+1. ¿Cómo manejas actualmente el inventario de tu negocio?
+2. ¿En qué momentos has sentido que el control del stock te limita o te hace perder tiempo?
+3. ¿Cómo llevas el registro de entradas y salidas de productos?
+4. ¿Qué te gustaría mejorar de tu proceso logístico actual?
+5. ¿Has considerado usar alguna plataforma para gestionar tu inventario? ¿Por qué sí o por qué no?
+
+**Preguntas complementarias**
+1. ¿Qué herramientas digitales usas en tu negocio actualmente?
+2. ¿Dónde almacenas tus productos?
+3. ¿Qué tan seguido necesitas revisar el stock?
+4. ¿Qué redes sociales o canales digitales usas para vender?
+
+
+
 ### 2.2.2. Registro de entrevistas 
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
@@ -552,7 +629,6 @@ de audiencia.</td>
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
-
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
