@@ -624,7 +624,50 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="segmento1.png" alt="User persona - segmento 1" width="800"/>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="segmento2.png" alt="User persona - segmento 2" width="800"/>
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
 ### 2.3.2. User Task Matrix
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+| **Task Matrix**                                                     | **Frecuencia** | **Importancia** |
+|----------------------------------------------------------------------|----------------|------------------|
+| Supervisar el stock y revisar niveles de inventario                 | Alta           | Alta             |
+| Realizar conteos físicos o auditorías manuales                      | Media          | Alta             |
+| Negociar precios y coordinar con proveedores                        | Alta           | Alta             |
+| Revisar reportes de ventas, rotación y márgenes                     | Media          | Alta             |
+| Ingresar datos en Excel o sistemas básicos de control               | Media          | Media            |
+| Delegar tareas a sus asistentes o empleados                         | Media          | Alta             |
+| Atender clientes en tienda                                          | Alta           | Alta             |
+| Coordinar pedidos con mayoristas o distribuidores                   | Alta           | Alta             |
+| Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
+| Resolver errores de inventario (*sobrestock*, productos vencidos)  | Alta           | Alta             |
+
+<br><br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+| **Task Matrix**                                                          | **Frecuencia** | **Importancia** |
+|----------------------------------------------------------------------|------------|-------------|
+| Gestionar pedidos (stock, envíos, publicaciones)                    | Alta       | Alta        |
+| Revisar ventas y responder a clientes por DM o redes                | Alta       | Alta        |
+| Crear contenido y diseñar piezas para su marca                      | Alta       | Alta        |
+| Empaquetar productos y coordinar entregas                           | Media      | Alta        |
+| Registrar ventas, productos y movimientos en herramientas básicas   | Media      | Media       |
+| Organizar su inventario y controlar niveles de stock                | Alta       | Alta        |
+| Aprender herramientas nuevas o mejorar procesos                     | Media      | Media       |
+| Analizar qué productos se venden más o generan mayor rentabilidad   | Media      | Alta        |
+| Realizar tareas administrativas y de control manual                 | Media      | Alta        |
+| Diseñar estrategias para crecer sin perder control ni saturarse     | Media      | Alta        |
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
