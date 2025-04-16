@@ -682,6 +682,8 @@ Cuando comparemos el número de productos con quiebre antes y después de la act
 
 #### 1.2.2.4. Lean UX Canvas
 
+ <img src="assets/Chapter-1/Lean Ux canvas.png" alt="Lean Ux canvas" width="800px">
+
 ## 1.3. Segmentos objetivo
 
 **Segmento 1: Bodegas especializadas por rubro**
