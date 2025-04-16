@@ -548,6 +548,17 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
   </tr>
   <tr>
     <th>
+      <img src="assets/Chapter-1/fotoFabs.jpg" alt="Foto de perfil de Fabiola" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Saldaña Ayala, Fabiola del Rocio</b></p>
+      <p>
+        Soy estudiante de la carrera de Ingeniería de Software, actualmente me encuentro en el quinto ciclo. Me gusta viajar, aprender nuevos idiomas, leer y me interesa aprender más acerca de nuevas tecnologías.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
       <img src="assets/Chapter-1/fotocam.png" alt="Foto de perfil de Camila" width="800px">
     </th>
     <td valign="top">
