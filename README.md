@@ -584,7 +584,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
       <img src="assets/Chapter-1/fotoHenry.jpg" alt="Foto de perfil de Henry" width="800px">
     </th>
     <td valign="top">
-      <p><b>Esteban Román, Henr Kalet</b></p>
+      <p><b>Esteban Román, Henry Kalet</b></p>
       <p>
       Soy estudiante de la carrera de Ingeniería de Software. Actualmente me encunetro en 5to ciclo y me gusta mucho escuchar música y pasear.
       </p>
@@ -692,6 +692,8 @@ Sabremos que tenemos razón </br>
 Cuando comparemos el número de productos con quiebre antes y después de la activación de alertas por parte del usuario.
 
 #### 1.2.2.4. Lean UX Canvas
+
+ <img src="assets/Chapter-1/Lean Ux canvas.png" alt="Lean Ux canvas" width="800px">
 
 ## 1.3. Segmentos objetivo
 
