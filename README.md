@@ -537,12 +537,12 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
 <table>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de " width="800px">
+      <img src="assets/Chapter-1/fotoJocy.png" alt="Foto de perfil de " width="800px">
     </th>
     <td valign="top">
-      <p><b>name</b></p>
+      <p><b>Jocelyn Damaly Almerco Rohas</b></p>
       <p>
-        ..
+        Soy estudiante de Ingeniería de Software y actualmente curso el 5to ciclo. En mi tiempo libre me gusta tocar ukelele, leer libros, resolver sudoku, escuchar música y ver series.
       </p>
     </td>
   </tr>
