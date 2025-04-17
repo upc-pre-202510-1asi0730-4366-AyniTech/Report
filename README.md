@@ -699,13 +699,59 @@ Cuando comparemos el número de productos con quiebre antes y después de la act
 
 **Segmento 1: Bodegas especializadas por rubro**
 
-Este segmento incluye negocios que poseen bodegas físicas para almacenar productos específicos según su rubro. Suelen ser tiendas mayoristas o minoristas que necesitan tener un control formal del inventario sobre productos que varían en características como tallas, colores, fechas de vencimiento o dimensiones técnicas. Estas bodegas enfrentan desafíos como la alta rotación de productos, pérdidas por falta de trazabilidad o desorden, y decisiones de compra poco informadas.
-StockWise les permite organizar su inventario de forma clara, generar alertas inteligentes según tipo de producto, y tomar decisiones basadas en reportes visuales y detallados.
+Aspectos demográficos:
 
-**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas** 
+Sexo: Femenino
 
-Son negocios en crecimiento que han comenzado a escalar su operación, ya sea vendiendo online (Shopify, MercadoLibre, Instagram) o desde un punto físico, y que almacenan sus productos en bodegas propias, alquiladas o incluso en casa.
-En esta etapa, el desorden en el inventario puede afectar la atención al cliente, las ventas y la planificación de compras. No cuentan con un sistema formal, pero necesitan profesionalizar su operación para seguir creciendo.
+Edades: 28 a 50 años
+
+Nivel socioeconómico: Clases B y C
+
+Aspectos geográficos:
+
+Nacionalidad: Peruana
+
+Zona geográfica: Urbana
+
+Departamento: Lima Metropolitana y otras ciudades con fuerte actividad comercial
+
+Aspectos psicográficos:
+
+Dirigen negocios mayoristas o minoristas que gestionan inventario con productos variados en tallas, colores, fechas de vencimiento o dimensiones técnicas.
+
+Enfrentan desafíos como alta rotación de productos, pérdidas por desorden o falta de trazabilidad y decisiones poco informadas de compra.
+
+Buscan soluciones para profesionalizar su operación, evitar errores y mantener el control del stock.
+
+Valoran herramientas tecnológicas, que les permite ordenar su inventario, recibir alertas según el tipo de producto y tomar decisiones basadas en reportes visuales y detallados
+
+**Segmento 2: Startups y emprendedores de textiles en expansión con necesidades logísticas** 
+
+Aspectos demográficos:
+
+Sexo: Masculino
+
+Edades: 20 a 30 años
+
+Nivel socioeconómico: Clases B y C
+
+Aspectos geográficos:
+
+Nacionalidad: Peruana
+
+Zona geográfica: Urbana
+
+Departamento: Lima Metropolitana y otras ciudades con fuerte actividad comercial
+
+Aspectos psicográficos:
+
+Están en una etapa de crecimiento empresarial y buscan escalar su operación de manera eficiente.
+
+Tienen una mentalidad emprendedora y están dispuestos a invertir en herramientas que optimicen su logística.
+
+Reconocen que el desorden en su inventario afecta su productividad y atención al cliente.
+
+Valoran las soluciones tecnológicas que profesionalicen su negocio y les permitan competir a mayor escala.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
