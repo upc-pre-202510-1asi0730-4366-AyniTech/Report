@@ -620,7 +620,42 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 
 
 
-### 2.2.2. Registro de entrevistas 
+### 2.2.2. Registro de entrevistas
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Milagros Almerco</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        En la entrevista, la estudiante Milagros Almerco comenta que lleva el control de su bodega en un cuaderno, anotando manualmente las ventas y compras. Reconoce que su sistema es básico y que a veces se olvida de registrar productos, lo que dificulta llevar un control claro del inventario. Además, le resulta complicado encontrar información específica entre tantas hojas. Señala como uno de sus principales problemas la falta de control sobre las fechas de vencimiento, lo que ha ocasionado pérdidas por productos que no logró vender a tiempo. También menciona que no siempre actualiza los cambios de precio. Para prevenir esto, trata de revisar los estantes y adelantar los productos por vencer. Respecto a herramientas digitales, indica que usa el celular y la calculadora por practicidad. Pero le gustaría contar con un sistema que le avise qué productos están por vencer, cuáles debe reponer y cómo están cambiando los precios. Además, considera importante poder visualizar su inventario en tiempo real. Le gustaría recibir alertas y reportes que le ayuden a organizar mejor su negocio.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/personal/u202313773_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313773%5Fupc%5Fedu%5Fpe%2FDocuments%2FAPPS%20WEB%20Entrevistas%2FSegmento%201%20%2D%20Milagros%20Almerco%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edc94b62e%2D1e74%2D40a3%2D95b6%2Df2d0a4409236">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 6:58
+    </td>
+  </tr>
+</table>
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
