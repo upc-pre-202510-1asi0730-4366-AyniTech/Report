@@ -540,18 +540,191 @@ de audiencia.</td>
 
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
+   | **Elemento**                                                                 | **Stock Wise**                                                                                   | **MECALUX**                                                                                           | **VENDUS**                                                                                     | **DUX Software**                                                                                         |
+|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| **¿Por qué llevar a cabo este análisis?**                                    | Este análisis se lleva a cabo con la finalidad de identificar a nuestros competidores y generar estrategias que nos diferencien, brindando información clave para tomar decisiones estratégicas en el desarrollo y crecimiento de nuestra aplicación. |                                                                                                        |                                                                                                        |                                                                                                            |
+| **Perfil**                                                                   |![stockwise](assets/Chapter-2/stockwiselogo.jpg)                                                                                  |![MECALUX](assets/Chapter-2/mecaluxlogo.jpg)                                                                                                        |![VENDUS](assets/Chapter-2/venduslogo.jpg)                                                                                                        | ![DUX](assets/Chapter-2/duxsoftwarelogo.jpg)                                                                                                           |
+| Overview                                                                     | Plataforma web para gestionar inventarios de pymes, startup y bodegas                           | Plataforma web especializada en soluciones logísticas e inventarios industriales                      | Plataforma web de punto de venta e inventario enfocada en pequeños comercios                  | Software peruano de gestión para negocios minoristas y distribuidores                                     |
+| Ventaja Competitiva – ¿Qué valor ofrece a los clientes?                     | Fácil de usar, accesible, con alertas inteligentes y reportes visuales. Optimiza inventarios, reduce errores y mejora decisiones con datos en tiempo real | Tecnología avanzada y soluciones integrales para almacenes. Automatización del almacenamiento, control de stock en tiempo real | Facilidad de uso y precios accesibles. Ofrece una gestión rápida de ventas, inventario, facturación electrónica | Adaptado al mercado local. Ofrece control de inventarios, ventas y caja con cumplimiento tributario local |
+| **Perfil de Marketing**                                                     |                                                                                                  |                                                                                                        |                                                                                                        |                                                                                                            |
+| Mercado objetivo                                                             | Emprendedores y pymes                                                                           | Empresas medianas y grandes con necesidades logísticas complejas                                      | Tiendas pequeñas, emprendedores, minoristas                                                   | Comercios pequeños y medianos del Perú                                                                    |
+| Estrategias de Marketing                                                     | Publicidad en redes sociales, alianzas con MYPES, contenido educativo                            | Ferias industriales, redes sociales                                                                    | Publicidad digital, redes sociales, prueba gratuita                                           | Marketing local, publicidad en redes, presencia en eventos MYPE                                           |
+| **Perfil de Productos**                                                     |                                                                                                  |                                                                                                        |                                                                                                        |                                                                                                            |
+| Productos & Servicios                                                        | Gestión de stock, alertas, reportes, control de usuarios, versión gratuita                      | Software de gestión de almacenes (WMS), estanterías, robots logísticos                                | POS, control de stock, reportes, gestión de clientes                                           | Gestión de stock, ventas, compras, reportes contables                                                    |
+| Precios y Costos                                                             | Bajo costo inicial, modelo freemium con planes escalables                                       | Precios altos ya que tiene soluciones personalizadas según la empresa                                 | Modelos de suscripción mensuales accesibles desde 10 a 25 dólares                             | Modelos por licencia o suscripción, accesible para MYPES                                                 |
+| Canales de distribución (Web y/o Móvil)                                     | Web, soporte técnico local                                                                      | Web corporativa, atención directa con ejecutivos de ventas                                            | Web y app móvil, soporte técnico local                                                         | Web, soporte técnico local                                                                               |
+| **Análisis SWOT**                                                            |                                                                                                  |                                                                                                        |                                                                                                        |                                                                                                            |
+| Fortalezas                                                                   | Intuitiva, enfocada en negocios en crecimiento, funciones clave bien integradas                | Tecnología robusta, experiencia global, soluciones a medida                                           | Bajo costo, interfaz amigable, soporte en español                                             | Cumplimiento legal en Perú, lenguaje y enfoque local                                                     |
+| Debilidades                                                                  | Marca nueva, validación en proceso                                                              | Costos elevados, poca accesibilidad para pymes                                                        | Funcionalidades limitadas frente a soluciones más avanzadas                                  | Poca expansión internacional, interfaz no tan moderna                                                    |
+| Oportunidades                                                                | Alta demanda de digitalización en LATAM, posible integración con e-commerce                    | Expansión hacia software más accesible para negocios pequeños                                         | Crecimiento en mercados emergentes, integración con apps externas                            | Ampliación de módulos (delivery, e-commerce); expansión a LATAM                                          |
+| Amenazas                                                                     | Competencia establecida, resistencia al cambio                                                  | Competencia con soluciones más simples y económicas                                                   | Alta competencia en el segmento de POS económicos                                             | Competencia extranjera con mejor tecnología y marketing                                                  |       
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+StockWise destacar frente a la competencia aprovechando sus ventajas clave frente a competidores como Mecalux, Vendus y Dux Software. A continuación, se detallarán algunas estrategias y tácticas que podríamos considerar:
+
+**Diferenciación del Producto:**
+
+**Estrategia**: Resaltar los aspectos únicos de StockWise frente a competidores como Mecalux, Vendus y Dux Software.
+
+**Táctica**: Enfatizar la simplicidad, accesibilidad y bajo costo del producto, junto con la oferta de una versión freemium que facilite la  adopción en negocios pequeños.
+
+**Optimización de la experiencia del usuario**
+
+**Estrategia:** Fomentar la satisfacción y fidelidad del usuario mediante una interfaz intuitiva y fácil de usar.
+
+**Táctica**: Mejorar continuamente la interfaz de usuario, simplificando la navegación, e incorporar funcionalidades clave como alertas inteligentes y reportes visuales que faciliten la gestión.
+
+**Expansión de la base de usuarios**
+
+**Estrategia**: Atraer nuevos usuarios para incrementar la presencia de StockWise en el mercado de pymes y startups.
+
+**Táctica**: Implementar un modelo freemium para incentivar la adopción inicial, y ejecutar campañas digitales dirigidas a pequeñas empresas que busquen una solución eficiente de gestión de inventarios.
+
 ## 2.2. Entrevistas
+
+La finalidad de realizar entrevistas es obtener un alcance más completo sobre las experiencias, perspectivas y opiniones de los segmentos de mercado definidos. Nuestro objetivo es recolectar información valiosa que nos permita conocer mejor a nuestro público objetivo. Con estas entrevistas se tendrá una visión más clara de las necesidades y expectativas de nuestros usuarios.
+
 ### 2.2.1. Diseño de entrevistas
-### 2.2.2. Registro de entrevistas 
+
+**Segmento #1: Bodegas especializadas por rubro**
+
+**Preguntas principales**
+
+1. ¿Podrías contarme cómo gestionas actualmente el inventario de tu bodega?
+2. ¿Cuáles son los mayores retos que enfrentas al momento de organizar tus productos?
+3. ¿Has tenido pérdidas o problemas por errores en el inventario? ¿Cómo los resolviste?
+4. ¿Qué tan importante es para ti tener un control en tiempo real de tu stock?
+5. ¿Utilizas algún sistema o herramienta digital? ¿Cuál y cómo te va con ella?
+
+**Preguntas complementarias**
+
+1. ¿Cómo te enteras cuando falta un producto o está a punto de vencerse?
+2. ¿Qué tipo de reportes o información te gustaría tener sobre tu inventario?
+3. ¿Qué dispositivos usas más en tu trabajo (laptop, celular, tablet)?
+4. ¿Cómo crees que una plataforma digital podría ayudarte a mejorar tu operación?
+
+**Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
+
+**Preguntas principales**
+1. ¿Cómo manejas actualmente el inventario de tu negocio?
+2. ¿En qué momentos has sentido que el control del stock te limita o te hace perder tiempo?
+3. ¿Cómo llevas el registro de entradas y salidas de productos?
+4. ¿Qué te gustaría mejorar de tu proceso logístico actual?
+5. ¿Has considerado usar alguna plataforma para gestionar tu inventario? ¿Por qué sí o por qué no?
+
+**Preguntas complementarias**
+1. ¿Qué herramientas digitales usas en tu negocio actualmente?
+2. ¿Dónde almacenas tus productos?
+3. ¿Qué tan seguido necesitas revisar el stock?
+4. ¿Qué redes sociales o canales digitales usas para vender?
+
+
+
+### 2.2.2. Registro de entrevistas
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Milagros Almerco</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        En la entrevista, la estudiante Milagros Almerco comenta que lleva el control de su bodega en un cuaderno, anotando manualmente las ventas y compras. Reconoce que su sistema es básico y que a veces se olvida de registrar productos, lo que dificulta llevar un control claro del inventario. Además, le resulta complicado encontrar información específica entre tantas hojas. Señala como uno de sus principales problemas la falta de control sobre las fechas de vencimiento, lo que ha ocasionado pérdidas por productos que no logró vender a tiempo. También menciona que no siempre actualiza los cambios de precio. Para prevenir esto, trata de revisar los estantes y adelantar los productos por vencer. Respecto a herramientas digitales, indica que usa el celular y la calculadora por practicidad. Pero le gustaría contar con un sistema que le avise qué productos están por vencer, cuáles debe reponer y cómo están cambiando los precios. Además, considera importante poder visualizar su inventario en tiempo real. Le gustaría recibir alertas y reportes que le ayuden a organizar mejor su negocio.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/personal/u202313773_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313773%5Fupc%5Fedu%5Fpe%2FDocuments%2FAPPS%20WEB%20Entrevistas%2FSegmento%201%20%2D%20Milagros%20Almerco%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edc94b62e%2D1e74%2D40a3%2D95b6%2Df2d0a4409236">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 6:58
+    </td>
+  </tr>
+</table>
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="segmento1.png" alt="User persona - segmento 1" width="800"/>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="segmento2.png" alt="User persona - segmento 2" width="800"/>
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
 ### 2.3.2. User Task Matrix
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+| **Task Matrix**                                                     | **Frecuencia** | **Importancia** |
+|----------------------------------------------------------------------|----------------|------------------|
+| Supervisar el stock y revisar niveles de inventario                 | Alta           | Alta             |
+| Realizar conteos físicos o auditorías manuales                      | Media          | Alta             |
+| Negociar precios y coordinar con proveedores                        | Alta           | Alta             |
+| Revisar reportes de ventas, rotación y márgenes                     | Media          | Alta             |
+| Ingresar datos en Excel o sistemas básicos de control               | Media          | Media            |
+| Delegar tareas a sus asistentes o empleados                         | Media          | Alta             |
+| Atender clientes en tienda                                          | Alta           | Alta             |
+| Coordinar pedidos con mayoristas o distribuidores                   | Alta           | Alta             |
+| Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
+| Resolver errores de inventario (*sobrestock*, productos vencidos)  | Alta           | Alta             |
+
+<br><br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+| **Task Matrix**                                                          | **Frecuencia** | **Importancia** |
+|----------------------------------------------------------------------|------------|-------------|
+| Gestionar pedidos (stock, envíos, publicaciones)                    | Alta       | Alta        |
+| Revisar ventas y responder a clientes por DM o redes                | Alta       | Alta        |
+| Crear contenido y diseñar piezas para su marca                      | Alta       | Alta        |
+| Empaquetar productos y coordinar entregas                           | Media      | Alta        |
+| Registrar ventas, productos y movimientos en herramientas básicas   | Media      | Media       |
+| Organizar su inventario y controlar niveles de stock                | Alta       | Alta        |
+| Aprender herramientas nuevas o mejorar procesos                     | Media      | Media       |
+| Analizar qué productos se venden más o generan mayor rentabilidad   | Media      | Alta        |
+| Realizar tareas administrativas y de control manual                 | Media      | Alta        |
+| Diseñar estrategias para crecer sin perder control ni saturarse     | Media      | Alta        |
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
+El siguiente glosario presenta los términos clave utilizados a lo largo del desarrollo del proyecto StockWise. Este lenguaje común busca asegurar que todos los miembros del equipo (tanto técnicos como no ténicos) compartan una compresnión unificada de los conceptos centrales del sistema, facilitando así la comunicación y el diseño colaborativo.
+
+1. **Landing Page:** Página de presentación a la que llegan los usuarios cuando visitan el sitio oficial de stockwise.
+2. **Inventario:** Conjunto de productos almacenados en una bodega. Incluye información como cantidad disponible, ubicación, fecha de vencimiento, entre otros.
+3. **Producto:** Bien que se registra en la plataforma, con atributos específicos como nombre, descripción, stock mínimo, unidades, fecha de vencimiento, y categoría.
+4. **Stock:** Cantidad disponible de un producto exacto en el inventario
+5. **Stock bajo:** Estado de un producto que ha superado la mínima cantidad definida por el usuario. 
+6. **Panel de Control:** Interfaz principal de la plataforma donde el usuario puede visualizar métricas clave del inventario, movimientos y reportes
+7. **Movimiento de Inventario:** Registro de cualquier cambio en la cantidad de productos: entrada (nueva compra), salida (venta o pérdida), ajuste manual, etc.
+8. **Reporte:** Documento visual o estadístico que resume información clave del inventario
+9. **Bodega:** Negocio pequeños donde se venden productos de primera necesidad, como alimentos y bebidas.
+10. **Usuario Administrador:** Persona que tiene acceso total a la plataforma, puede crear usuarios, modificar configuraciones y visualizar todos los datos.
+11. **Emprendedor:** Usuario que está en proceso de expansión de su negocio, y busca profesionalizar su gestión
+12. **Dueña de bodega:** Usuario generalmente con experiencia en el rubro comercial que busca optimizar su gestión operativa con herramientas digitales
+13. **Versión Freemium:** Modelo de negocio que permite a los usuarios acceder a funciones básicas de forma gratuita, con la posibilidad de pagar por funciones premium.
+14. **Onboarding:** Proceso de bienvenida y guía para nuevos usuarios que les enseña cómo usar la plataforma y aprovechar sus funcionalidades.
+15. **MVP (Producto Mínimo Viable):** Versión inicial de la plataforma con las funciones mínimas necesarias para validar hipótesis clave con usuarios reales.
+
 
 # Capítulo III: Requirements Specification
 
