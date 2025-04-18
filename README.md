@@ -412,11 +412,11 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     </thead>
   <tbody>
     <tr>
-      <td><b>Comunica oralmente con
-efectividad a diferentes rangos
-de audiencia.</b></td>
+      <td><b>Trabaja en equipo para <br>
+      proporcionar liderazgo en <br>
+      forma conjunta.</b></td>
       <td>
-        <p><b>name  </b></p>
+        <p><b>name </b></p>
         <p><b>TB1:</b></p>
         <p>..</p>
         <p><b>TP1:</b></p>
@@ -426,7 +426,7 @@ de audiencia.</b></td>
         <p><b>TF:</b></p>
         <p>.</p>
         <p><b>name</b></p>
-       <p><b>TB1:</b></p>
+        <p><b>TB1:</b></p>
         <p></p>
         <p><b>TP1:</b></p>
         <p></p>
@@ -436,16 +436,27 @@ de audiencia.</b></td>
         <p>.</p>
         <p><b>name</b></p>
         <p><b>TB1:</b></p>
-        <p>     
-        </p>
+        <p></p>
         <p><b>TP1:</b></p>
         <p>.</p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b></b></p>
-       <p><b>TB1:</b></p>
+        <p><b>Maria Fernanda Peña Riofrio</b></p>
+        <p><b>TB1:</b></p>
+        <p>Me encargue del anális competitivo<br>
+        y a definir estrategías frente a<br>
+        competidores.
+        </p>
+        <p><b>TP1:</b></p>
+        <p></p>
+        <p><b>TB2:</b></p>
+        <p></p>
+        <p><b>TF:</b></p>
+        <p></p>
+        <p><b>name</b></p>
+        <p><b>TB1:</b></p>
         <p></p>
         <p><b>TP1:</b></p>
         <p></p>
@@ -466,11 +477,11 @@ de audiencia.</b></td>
       </td>
     </tr>
     <tr>
-      <td>Comunica por escrito con
-efectividad a diferentes rangos
-de audiencia.</td>
+      <td><b>Crea un entorno colaborativo e <br>
+inclusivo, estable metas, planifica tareas <br>
+y cumple objetivos.</b></td>
       <td>
-        <p><b>name  </b></p>
+        <p><b>name</b></p>
         <p><b>TB1:</b></p>
         <p>..</p>
         <p><b>TP1:</b></p>
@@ -480,7 +491,7 @@ de audiencia.</td>
         <p><b>TF:</b></p>
         <p>..</p>
         <p><b>name</b></p>
-       <p><b>TB1:</b></p>
+        <p><b>TB1:</b></p>
         <p>..</p>
         <p><b>TP1:</b></p>
         <p>..</p>
@@ -490,16 +501,28 @@ de audiencia.</td>
         <p>.</p>
         <p><b>name</b></p>
         <p><b>TB1:</b></p>
-        <p>..
+        <p>..</p>
+        <p><b>TP1:</b></p>
+        <p>..</p>
+        <p><b>TB2:</b></p>
+        <p>...</p>
+        <p><b>TF:</b></p>
+        <p>.</p>
+        <p><b>Maria Fernanda Peña Riofrio</b></p>
+        <p><b>TB1:</b></p>
+        <p>Coordine el diseño y análisis de <br>
+        entrevistas, propuse términos para <br>
+        el ubiquitous language y ayudé a <br> 
+        distribuir tareas dentro del equipo  <br> 
         </p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>...</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
-        <p>.</p>
+        <p>...</p>
         <p><b>name</b></p>
-       <p><b>TB1:</b></p>
+        <p><b>TB1:</b></p>
         <p>...</p>
         <p><b>TP1:</b></p>
         <p>...</p>
