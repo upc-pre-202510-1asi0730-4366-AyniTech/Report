@@ -137,7 +137,7 @@
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.3.5. As-is Scenario](#235-as-is-scenario)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -235,7 +235,7 @@
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.3.5. As-is Scenario](#235-as-is-scenario)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -327,7 +327,7 @@
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.3.5. As-is Scenario](#235-as-is-scenario)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -621,6 +621,9 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 
 
 ### 2.2.2. Registro de entrevistas
+
+**Segmento 1: Bodegas especializadas por rubro**
+
 <table border="1">
   <tr>
     <th>Entrevista</th>
@@ -655,19 +658,63 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     </td>
   </tr>
 </table>
+<br>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>4</td>
+    <th>Nombre</th>
+    <td>Alexander Miranda</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>Villa el Salvador</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/segmento2 - Alexander Miranda.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        En la entrevista, Alexander Miranda comentó que se dedica a la venta texti. Explicó que hace sus registros de manera manual lo que es agotador para él y que siente que pierde mucho tiempo ya que le puede tomar horas. Mediante excel controla sus ingresos y luego revisa las boletas para actualziar el inventario y llevar un conteo general. Nos dice que le gustaría automatizar sus procesos y ha considerado emplear tecnologías que le apoyen a modernizar su negocio para la gestión de inventarios. 
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/ETPQr9I6u29Err2BinQ0Zr8Bu1EkhHaYdA8rEER-XxKDbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AKIgP2">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 3:00
+    </td>
+  </tr>
+</table>
 
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
-### 2.3.1. User Personas
-**Segmento 1: Bodegas especializadas por rubro**
 
-<img src="segmento1.png" alt="User persona - segmento 1" width="800"/>
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
+
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> 
+### 2.3.1. User Personas
+
+**Segmento 1: Bodegas especializadas por rubro**
+<img src="assets/Chapter-2/segmento1.png" alt="User persona - segmento 1" width="800"/>
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
-<img src="segmento2.png" alt="User persona - segmento 2" width="800"/>
+<img src="assets/Chapter-2/nuevosegmento2.png" alt="User persona - segmento 2" width="800"/>
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
-
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 ### 2.3.2. User Task Matrix
 
 **Segmento 1: Bodegas especializadas por rubro**
@@ -685,27 +732,62 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 | Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
 | Resolver errores de inventario (*sobrestock*, productos vencidos)  | Alta           | Alta             |
 
-<br><br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 
-| **Task Matrix**                                                          | **Frecuencia** | **Importancia** |
-|----------------------------------------------------------------------|------------|-------------|
-| Gestionar pedidos (stock, envíos, publicaciones)                    | Alta       | Alta        |
-| Revisar ventas y responder a clientes por DM o redes                | Alta       | Alta        |
-| Crear contenido y diseñar piezas para su marca                      | Alta       | Alta        |
-| Empaquetar productos y coordinar entregas                           | Media      | Alta        |
-| Registrar ventas, productos y movimientos en herramientas básicas   | Media      | Media       |
-| Organizar su inventario y controlar niveles de stock                | Alta       | Alta        |
-| Aprender herramientas nuevas o mejorar procesos                     | Media      | Media       |
-| Analizar qué productos se venden más o generan mayor rentabilidad   | Media      | Alta        |
-| Realizar tareas administrativas y de control manual                 | Media      | Alta        |
-| Diseñar estrategias para crecer sin perder control ni saturarse     | Media      | Alta        |
-
+| **Task Matrix**                                                                       | **Frecuencia** | **Importancia** |
+|---------------------------------------------------------------------------------------|----------------|------------------|
+| Supervisar la producción (propia o con talleres externos)                             | Alta           | Alta             |
+| Gestionar inventario de insumos y productos terminados (telas, hilos, prendas)        | Alta           | Alta             |
+| Registrar entradas, salidas y devoluciones de productos                               | Media          | Alta             |
+| Coordinar pedidos con clientes o puntos de venta                                      | Alta           | Alta             |
+| Diseñar nuevas piezas o adaptar modelos a la demanda                                  | Alta           | Alta             |
+| Publicar contenido y gestionar redes sociales                                         | Alta           | Media            |
+| Empaquetar productos y organizar despachos                                            | Media          | Alta             |
+| Analizar qué productos se venden más y qué insumos se usan más                        | Media          | Alta             |
+| Actualizar listas de precios, catálogos o colecciones                                 | Media          | Media            |
+| Registrar ventas y organizar información contable o administrativa                    | Media          | Alta             |
+| Aprender herramientas nuevas para mejorar su operativa (apps, control, automatización)| Media          | Alta             |
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> 
 ### 2.3.3. User Journey Mapping
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="assets/Chapter-2/journeymap1.png" alt="User persona - segmento 1" width="600"/>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-2/journeymap1.png" alt="User persona - segmento 2" width="600"/>
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
 ### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="assets/Chapter-2/empathymap1.png" alt="User persona - segmento 1" width="800"/>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-2/empathymap2.png" alt="User persona - segmento 2" width="800"/>
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
+### 2.3.5. As-is Scenario 
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="assets/Chapter-2/as-is1.jpg" alt="User persona - segmento 1" width="900"/>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-2/as-is2.jpg" alt="User persona - segmento 2" width="900"/>
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
 ## 2.4. Ubiquitous Language
 # Capítulo III: Requirements Specification
 
