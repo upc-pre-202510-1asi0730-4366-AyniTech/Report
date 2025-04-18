@@ -630,7 +630,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   </tr>
   <tr>
     <th>Edad</th>
-    <td>25</td>
+    <td>28</td>
     <th>Distrito</th>
     <td>San Martín de Porres</td>
   </tr>
