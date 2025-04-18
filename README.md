@@ -725,7 +725,7 @@ Buscan soluciones para profesionalizar su operación, evitar errores y mantener 
 
 Valoran herramientas tecnológicas, que les permite ordenar su inventario, recibir alertas según el tipo de producto y tomar decisiones basadas en reportes visuales y detallados
 
-**Segmento 2: Startups y emprendedores de textiles en expansión con necesidades logísticas** 
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas** 
 
 Aspectos demográficos:
 
