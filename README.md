@@ -515,7 +515,6 @@ Cuando comparemos el número de productos con quiebre antes y después de la act
   Enlace para acceder al Lean Ux
 </a>
 
- *Imagen (N°1). Elaboración propia. Realizado en Canva*
 
 ## 1.3. Segmentos objetivo
 
