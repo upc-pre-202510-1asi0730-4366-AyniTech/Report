@@ -668,9 +668,27 @@ style="width:128px;height:128px">
 4. Separar las declaraciones y selectores en nuevas líneas para agilizar la legibilidad.
 
 ### 5.1.4. Software Deployment Configuration.
+
+**Landing Page**
+
+Para poder desplegar la Landing Page resulta necesario contar con una serie de requisitos, entre ellos, es necesario contar con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:
+
+1. Crear un repositorio para alojar el Landing Page.
+
+2. Asegurarse de que los archivos sigan las nomenclaturas "index.html", para el contenido de la landing page; "style.css" para los estilos. Se tendra una carpeta "assets" y dentro estaran las carpetas "img".
+
+3. Cargar los archivos al repositorio mediante un commit.
+
+4. Dirigirse a Settings > Pages y seleccionar la branch correspondiente dentro de la cual se encuentra el proyecto,
+generalmente se trata de "main" o "master".
+
+1. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page desplegado.
+
 ## 5.2. Landing Page, Services & Applications Implementation
+En esta sección se explica y evidencia el proceso de implementación, pruebas, documentación y despliegue del Landing Page, Web Services y Frontend Web Applications.
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 #### 5.2.1.3. Sprint Backlog n.
 #### 5.2.1.4. Development Evidence for Sprint Review.
