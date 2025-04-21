@@ -174,7 +174,7 @@
     - [4.8.1. Database Diagram.](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
@@ -272,7 +272,7 @@
     - [4.8.1. Database Diagram.](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
@@ -364,7 +364,7 @@
     - [4.8.1. Database Diagram.](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
@@ -591,9 +591,27 @@ de audiencia.</td>
 ### 4.8.1. Database Diagram.
 
 # Capítulo V: Product Implementation, Validation & Deployment
-
 ## 5.1. Software Configuration Management.
-### 5.1.1. Software Development Environment Configuration.
+En la siguiente sección se describe la ruta de referencia de cada uno de los productos de software para que cualquier miembro del equipo pueda desarrollar cada punto del trabajo.
+
+- **UXPressia:** Plataforma colaborativa que nos permitirá crear user personas e integrados con los múltiples mapas para evaluar sus prioridades.
+- **Figma:** Herramienta colaborativa que nos permitirá desarrollar wireframes y mockups.
+- **Miro:** Es una plataforma en línea que facilita la colaboración en tiempo real mediante pizarras digitales. Proporciona herramientas para crear diagramas, mapas mentales, flujos de trabajo y otros tipos de representaciones visuales. En
+- **LucidChart:** Aplicación web destinada a la elaboración de Wireflows, Users Flows y diagramas de clases.
+- **HTML:** Es el lenguaje de marcado que se utiliza para estructurar y organizar el contenido de una página web.
+- **CSS:** Es el lenguaje de estilos que se utiliza para controlar la apariencia visual de la página. 
+
+**Software Deployment**
+- **Git:** Es una herramienta de control de versiones que nos permitirá rastrear cambios, colaborar de manera eficiente y mantener un historial detallado de las modificaciones en el código.
+- **Software Documentation and Project Management GitHub:** Como plataforma de alojamiento, facilitará la colaboración en equipo, la gestión de ramas y la integración continua
+
+### 5.1.1. Software Development Environment Configuration
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como Workflow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page, Web Services y Frontend Web Applications.
+
+- [**Repositorio Landing Page:**](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Landing-Page)  https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Landing-Page
+- [**Repositorio Web Services:**](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Web-Services) https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Web-Services
+-  [**Repositorio Frontend Web Applications:**](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications) https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications
+
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
