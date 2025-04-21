@@ -612,6 +612,29 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 - [**Repositorio Web Services:**](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Web-Services) https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Web-Services
 -  [**Repositorio Frontend Web Applications:**](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications) https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications
 
+**GitFlow**
+
+Estructura de branches (Ramas):
+
+**1. Master branch (Rama principal):** Esta rama será considerada como la principal para la aplicación, y contendrá versiones estables y finales del desarrollo. Solo se permitirán cambios que hayan sido previamente probados y verificados en otras ramas de prueba.
+
+**2. Develop branch (Rama de desarrollo):** El propósito de esta rama es llevar a cabo los avances del proyecto en equipo y de mantener los archivos centrales del desarrollo continuo.
+
+**3. Feature branches (Ramas de funcionalidad):** Cada funcionalidad desarrollada por el equipo o separada del enfoque actual del desarrollo tendrá su propia rama. Una vez que una funcionalidad esté completamente trabajada, se fusionará con la rama de desarrollo del proyecto. Las convenciones para nombrar las ramas de funcionalidad seguirán un patrón descriptivo y único, por ejemplo, "feature/nombre-de-la-funcionalidad".
+
+**4. Release branches (Ramas de lanzamiento):** Estas ramas se utilizarán para mantener una instancia de la rama develop
+que esté próxima a ser incluida en la rama principal. Se seguirá el sistema de versionamiento semántico (Semantic
+Versioning) para nombrar las Releases.
+
+**Versionamiento Semántico:** Para nombrar las Releases, se aplicará el sistema de versionamiento semántico (Semantic
+Versioning 2.0.0).
+
+**Convenciones de Commits:** Para los mensajes de los commits realizados, se utilizará la especificación Conventional Commits basada en Angular Commit Guidelines. La estructura a seguir será la siguiente:
+
+```bash
+git commit -m "<type>[optional scope]:<title>" -m"<description>"
+```
+
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
