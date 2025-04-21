@@ -750,8 +750,6 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Juan Carlos Ramírez, emprendedor de 49 años, gestiona su inventario principalmente de forma manual, registrando entradas y salidas mediante boletas y facturas sin un control digital completo. Actualmente está en proceso de digitalizar su sistema con un programa y una máquina POS que escanea códigos de barra, aunque aún no emite boletas ni facturas electrónicas. La revisión del stock se realiza visualmente y las ventas se gestionan principalmente por WhatsApp con entrega a domicilio. Busca mejorar la eficiencia y liberar tiempo mediante la implementación de herramientas digitales más integradas.
-
-
     </td>
   </tr>
   <tr>
@@ -766,6 +764,40 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
    <th>Timing</th>
     <td colspan="3">
         00:00 - 3:34
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>6</td>
+    <th>Nombre</th>
+    <td>Octavio</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>23</td>
+    <th>Distrito</th>
+    <td>Jesus Maria</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2-octavio.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        En la entrevista, Octavio comentó que se dedica a vender productos ecologicos para el hogar, nos cuentas que para gestionar su inventario lo hace de forma manual a través de un excel en google sheets pero ya se queda corto pq no se sincroniza con sus canales de venta y que ha estado investigando sobre buscar una plataforma para gestionar su inventario pero estas lo detiene por su cruva de aprendizaje, cuenta que si va a pagar por una plataforma quiere que sea intuitiva y facil de utilizar para que valga la pena la inversión que esta haciendo</td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/personal/u202313773_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313773%5Fupc%5Fedu%5Fpe%2FDocuments%2FAPPS%20WEB%20Entrevistas%2FSegmento%202%20%2D%20Entrevista%20a%20Octavio%20Chavarria%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb711aed2%2Db633%2D4749%2Db08a%2Da30a92f34105&mode=View">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 3:11
     </td>
   </tr>
 </table>
