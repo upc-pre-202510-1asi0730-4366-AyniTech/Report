@@ -142,6 +142,7 @@
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
+    - [Technical Stories](#technical-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -240,6 +241,7 @@
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
+    - [Technical Stories](#technical-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -332,6 +334,7 @@
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
+    - [Technical Stories](#technical-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -557,7 +560,425 @@ de audiencia.</td>
 
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+
+### Technical Stories
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>Título</th>
+      <th>Descripción técnica</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TUS01</td>
+      <td>API para registrar productos</td>
+      <td>Como desarrollador, quiero crear un endpoint para registrar productos, para almacenar productos nuevos en la base de datos.</td>
+      <td>
+        <strong>Escenario 1: Registro exitoso de producto</strong><br>
+        Dado que tengo un producto con todos los campos obligatorios,<br>
+        Cuando envío una solicitud POST a <code>/productos</code>,<br>
+        Entonces el sistema guarda el producto y retorna un código 201.<br><br>
+        <strong>Escenario 2: Validación de campos</strong><br>
+        Dado que falta un campo obligatorio,<br>
+        Cuando intento registrar el producto,<br>
+        Entonces recibo un error 400 con mensaje de validación.
+      </td>
+      <td>US01</td>
+    </tr>
+    <tr>
+      <td>TUS02</td>
+      <td>Actualizar producto existente</td>
+      <td>Como desarrollador, quiero crear un endpoint para editar productos, para permitir la actualización de datos existentes.</td>
+      <td>
+        <strong>Escenario 1: Edición exitosa</strong><br>
+        Dado que existe un producto,<br>
+        Cuando envío una solicitud PUT con datos válidos,<br>
+        Entonces el sistema actualiza el producto y retorna código 200.<br><br>
+        <strong>Escenario 2: Datos inválidos</strong><br>
+        Dado que el campo de precio contiene texto,<br>
+        Cuando intento actualizar,<br>
+        Entonces recibo error de validación.
+      </td>
+      <td>US02</td>
+    </tr>
+    <tr>
+      <td>TUS03</td>
+      <td>Registrar salida de stock</td>
+      <td>Como desarrollador, quiero implementar la lógica para registrar salidas de stock, para mantener actualizado el inventario.</td>
+      <td>
+        <strong>Escenario 1: Salida válida</strong><br>
+        Dado que hay suficiente stock,<br>
+        Cuando registro una salida,<br>
+        Entonces se descuenta correctamente y se guarda el movimiento.<br><br>
+        <strong>Escenario 2: Stock insuficiente</strong><br>
+        Dado que el stock es menor que la cantidad solicitada,<br>
+        Cuando intento registrar la salida,<br>
+        Entonces el sistema muestra un mensaje de error.
+      </td>
+      <td>US03</td>
+    </tr>
+    <tr>
+      <td>TUS04</td>
+      <td>Listar historial de movimientos</td>
+      <td>Como desarrollador, quiero listar los movimientos de un producto, para que el usuario vea su historial.</td>
+      <td>
+        <strong>Escenario 1: Producto con movimientos</strong><br>
+        Dado que el producto tiene movimientos,<br>
+        Cuando accedo al endpoint de historial,<br>
+        Entonces se muestra la lista cronológica.<br><br>
+        <strong>Escenario 2: Sin movimientos</strong><br>
+        Dado que no hay movimientos,<br>
+        Cuando accedo al historial,<br>
+        Entonces el sistema muestra un mensaje informativo.
+      </td>
+      <td>US04</td>
+    </tr>
+    <tr>
+      <td>TUS05</td>
+      <td>Alertas de stock bajo</td>
+      <td>Como desarrollador, quiero implementar alertas cuando el stock sea inferior al mínimo, para advertir al usuario.</td>
+      <td>
+        <strong>Escenario 1: Stock bajo</strong><br>
+        Dado que el stock es menor al mínimo configurado,<br>
+        Cuando se consulta el producto,<br>
+        Entonces se muestra una alerta visual.<br><br>
+        <strong>Escenario 2: Configuración de mínimos</strong><br>
+        Dado que soy administrador,<br>
+        Cuando configuro un nuevo valor mínimo,<br>
+        Entonces el sistema lo usa como referencia para futuras alertas.
+      </td>
+      <td>US05</td>
+    </tr>
+    <tr>
+      <td>TUS06</td>
+      <td>Registrar entrada de stock</td>
+      <td>Como desarrollador, quiero registrar entradas de stock, para reflejar nuevos ingresos de productos.</td>
+      <td>
+        <strong>Escenario 1: Entrada válida</strong><br>
+        Dado que recibo una nueva carga de productos,<br>
+        Cuando registro la entrada con cantidad y fecha,<br>
+        Entonces el stock se incrementa correctamente.<br><br>
+        <strong>Escenario 2: Datos incompletos</strong><br>
+        Dado que falta la cantidad,<br>
+        Cuando intento registrar la entrada,<br>
+        Entonces el sistema lanza un mensaje de error.
+      </td>
+      <td>US06</td>
+    </tr>
+    <tr>
+      <td>TUS07</td>
+      <td>Eliminar producto</td>
+      <td>Como desarrollador, quiero permitir eliminar productos, para mantener el catálogo actualizado.</td>
+      <td>
+        <strong>Escenario 1: Eliminación exitosa</strong><br>
+        Dado que el producto no tiene movimientos,<br>
+        Cuando envío una solicitud DELETE,<br>
+        Entonces el producto se elimina correctamente.<br><br>
+        <strong>Escenario 2: Producto con historial</strong><br>
+        Dado que el producto tiene historial de movimientos,<br>
+        Cuando intento eliminarlo,<br>
+        Entonces el sistema no permite eliminar y muestra una advertencia.
+      </td>
+      <td>US07</td>
+    </tr>
+    <tr>
+      <td>TUS08</td>
+      <td>Buscar productos por nombre o código</td>
+      <td>Como desarrollador, quiero implementar búsqueda por nombre o código, para facilitar el acceso rápido a productos.</td>
+      <td>
+        <strong>Escenario 1: Búsqueda por nombre</strong><br>
+        Dado que ingreso un texto parcial del nombre,<br>
+        Cuando hago la búsqueda,<br>
+        Entonces se muestran los productos que coincidan.<br><br>
+        <strong>Escenario 2: Búsqueda exacta por código</strong><br>
+        Dado que ingreso el código exacto,<br>
+        Cuando presiono buscar,<br>
+        Entonces el sistema muestra el producto correspondiente.
+      </td>
+      <td>US08</td>
+    </tr>
+    <tr>
+      <td>TUS09</td>
+      <td>Paginar resultados de productos</td>
+      <td>Como desarrollador, quiero paginar la lista de productos, para mejorar el rendimiento y usabilidad del sistema.</td>
+      <td>
+        <strong>Escenario 1: Página de resultados</strong><br>
+        Dado que hay más de 10 productos,<br>
+        Cuando accedo a la lista,<br>
+        Entonces se muestran solo 10 por página con botones de navegación.<br><br>
+        <strong>Escenario 2: Filtro + paginación</strong><br>
+        Dado que uso un filtro de categoría,<br>
+        Cuando navego por páginas,<br>
+        Entonces solo se muestran los productos filtrados.
+      </td>
+      <td>US09</td>
+    </tr>
+    <tr>
+      <td>TUS10</td>
+      <td>Generar reportes PDF</td>
+      <td>Como desarrollador, quiero generar reportes PDF del inventario, para facilitar su exportación y respaldo.</td>
+      <td>
+        <strong>Escenario 1: Reporte completo</strong><br>
+        Dado que presiono "Exportar",<br>
+        Cuando genero un PDF,<br>
+        Entonces el archivo incluye todos los productos y sus cantidades.<br><br>
+        <strong>Escenario 2: Reporte filtrado</strong><br>
+        Dado que aplico un filtro por fecha o categoría,<br>
+        Cuando exporto el reporte,<br>
+        Entonces solo se incluyen los productos filtrados.
+      </td>
+      <td>US10</td>
+    </tr>
+    <tr>
+      <td>TUS11</td>
+      <td>Login de usuarios</td>
+      <td>Como desarrollador, quiero implementar el login de usuarios, para que accedan de forma segura al sistema.</td>
+      <td>
+        <strong>Escenario 1: Login exitoso</strong><br>
+        Dado que el usuario ingresa credenciales válidas,<br>
+        Cuando hace clic en “Iniciar sesión”,<br>
+        Entonces accede al sistema.<br><br>
+        <strong>Escenario 2: Credenciales inválidas</strong><br>
+        Dado que las credenciales son incorrectas,<br>
+        Cuando intenta ingresar,<br>
+        Entonces el sistema muestra un mensaje de error.
+      </td>
+      <td>US11</td>
+    </tr>
+    <tr>
+      <td>TUS12</td>
+      <td>Registro de usuarios</td>
+      <td>Como desarrollador, quiero permitir el registro de nuevos usuarios, para que puedan acceder al sistema.</td>
+      <td>
+        <strong>Escenario 1: Registro válido</strong><br>
+        Dado que el formulario está completo,<br>
+        Cuando se envía,<br>
+        Entonces se crea un nuevo usuario.<br><br>
+        <strong>Escenario 2: Campos incompletos</strong><br>
+        Dado que falta información,<br>
+        Cuando se intenta registrar,<br>
+        Entonces se muestra un mensaje de error.
+      </td>
+      <td>US12</td>
+    </tr>
+    <tr>
+      <td>TUS13</td>
+      <td>Gestión de roles</td>
+      <td>Como desarrollador, quiero asignar roles a los usuarios, para controlar sus permisos en el sistema.</td>
+      <td>
+        <strong>Escenario 1: Asignación de rol</strong><br>
+        Dado que soy administrador,<br>
+        Cuando selecciono un usuario,<br>
+        Entonces puedo asignarle un rol.<br><br>
+        <strong>Escenario 2: Acceso restringido</strong><br>
+        Dado que un usuario tiene rol básico,<br>
+        Cuando intenta acceder al panel de administración,<br>
+        Entonces se deniega el acceso.
+      </td>
+      <td>US13</td>
+    </tr>
+    <tr>
+      <td>TUS14</td>
+      <td>Auditoría de acciones</td>
+      <td>Como desarrollador, quiero registrar las acciones importantes, para tener trazabilidad de lo que ocurre en el sistema.</td>
+      <td>
+        <strong>Escenario 1: Registro automático</strong><br>
+        Dado que un usuario crea o edita un producto,<br>
+        Cuando se guarda la acción,<br>
+        Entonces se genera un log en el historial de auditoría.<br><br>
+        <strong>Escenario 2: Revisión de auditoría</strong><br>
+        Dado que soy un auditor,<br>
+        Cuando ingreso al módulo de auditoría,<br>
+        Entonces puedo ver todas las acciones con fecha y usuario.
+      </td>
+      <td>US14</td>
+    </tr>
+    <tr>
+      <td>TUS15</td>
+      <td>Gestión de categorías</td>
+      <td>Como desarrollador, quiero crear, editar y eliminar categorías, para organizar los productos eficientemente.</td>
+      <td>
+        <strong>Escenario 1: Crear categoría</strong><br>
+        Dado que ingreso un nombre de categoría,<br>
+        Cuando presiono guardar,<br>
+        Entonces la nueva categoría se almacena.<br><br>
+        <strong>Escenario 2: Evitar duplicados</strong><br>
+        Dado que ya existe una categoría con ese nombre,<br>
+        Cuando intento crearla de nuevo,<br>
+        Entonces el sistema muestra un error.
+      </td>
+      <td>US15</td>
+    </tr>
+    <tr>
+      <td>TUS16</td>
+      <td>Filtrar productos por categoría</td>
+      <td>Como desarrollador, quiero filtrar productos por categoría, para facilitar la búsqueda específica.</td>
+      <td>
+        <strong>Escenario 1: Filtrado correcto</strong><br>
+        Dado que selecciono una categoría,<br>
+        Cuando se actualiza la lista,<br>
+        Entonces solo se muestran productos de esa categoría.<br><br>
+        <strong>Escenario 2: Categoría sin productos</strong><br>
+        Dado que no hay productos en la categoría,<br>
+        Cuando la selecciono,<br>
+        Entonces el sistema muestra un mensaje indicando que no hay resultados.
+      </td>
+      <td>US16</td>
+    </tr>
+    <tr>
+      <td>TUS17</td>
+      <td>Control de caducidad</td>
+      <td>Como desarrollador, quiero controlar la fecha de caducidad de productos, para evitar ventas de productos vencidos.</td>
+      <td>
+        <strong>Escenario 1: Alerta de vencimiento próximo</strong><br>
+        Dado que un producto vencerá en menos de 30 días,<br>
+        Cuando accedo a su información,<br>
+        Entonces el sistema muestra una alerta.<br><br>
+        <strong>Escenario 2: Producto vencido</strong><br>
+        Dado que la fecha de hoy es posterior a la de caducidad,<br>
+        Cuando consulto el inventario,<br>
+        Entonces el sistema indica que el producto está vencido.
+      </td>
+      <td>US17</td>
+    </tr>
+    <tr>
+      <td>TUS18</td>
+      <td>Reportes por rango de fechas</td>
+      <td>Como desarrollador, quiero generar reportes filtrados por fechas, para análisis temporales del inventario.</td>
+      <td>
+        <strong>Escenario 1: Filtro de fechas válido</strong><br>
+        Dado que ingreso un rango válido,<br>
+        Cuando genero el reporte,<br>
+        Entonces se incluyen solo los movimientos dentro de ese rango.<br><br>
+        <strong>Escenario 2: Rango vacío</strong><br>
+        Dado que el rango no contiene movimientos,<br>
+        Cuando genero el reporte,<br>
+        Entonces el sistema indica que no hay datos disponibles.
+      </td>
+      <td>US18</td>
+    </tr>
+    <tr>
+      <td>TUS19</td>
+      <td>Dashboard de indicadores</td>
+      <td>Como desarrollador, quiero crear un dashboard con KPIs, para mostrar métricas clave del inventario.</td>
+      <td>
+        <strong>Escenario 1: Visualización de métricas</strong><br>
+        Dado que accedo al dashboard,<br>
+        Cuando se cargan los datos,<br>
+        Entonces veo indicadores como stock total, productos con stock bajo, productos vencidos.<br><br>
+        <strong>Escenario 2: Indicadores actualizados</strong><br>
+        Dado que cambia el inventario,<br>
+        Cuando recargo el dashboard,<br>
+        Entonces los datos reflejan la situación actual.
+      </td>
+      <td>US19</td>
+    </tr>
+    <tr>
+      <td>TUS20</td>
+      <td>Exportar a Excel</td>
+      <td>Como desarrollador, quiero exportar el inventario a Excel, para facilitar el análisis externo de los datos.</td>
+      <td>
+        <strong>Escenario 1: Exportación completa</strong><br>
+        Dado que presiono el botón “Exportar a Excel”,<br>
+        Cuando el sistema genera el archivo,<br>
+        Entonces contiene todos los productos y detalles.<br><br>
+        <strong>Escenario 2: Exportación filtrada</strong><br>
+        Dado que aplico un filtro,<br>
+        Cuando exporto,<br>
+        Entonces solo se exportan los datos visibles.
+      </td>
+      <td>US20</td>
+    </tr>
+    <tr>
+      <td>TUS21</td>
+      <td>Backup automático</td>
+      <td>Como desarrollador, quiero implementar backups automáticos, para proteger la información del inventario.</td>
+      <td>
+        <strong>Escenario 1: Backup diario</strong><br>
+        Dado que el sistema está configurado,<br>
+        Cuando llega la hora programada,<br>
+        Entonces se genera un archivo de respaldo.<br><br>
+        <strong>Escenario 2: Restauración de backup</strong><br>
+        Dado que tengo un backup,<br>
+        Cuando lo restauro,<br>
+        Entonces el sistema recupera los datos correctamente.
+      </td>
+      <td>US21</td>
+    </tr>
+    <tr>
+      <td>TUS22</td>
+      <td>Notificaciones por email</td>
+      <td>Como desarrollador, quiero enviar correos automáticos por alertas, para informar a los usuarios de eventos importantes.</td>
+      <td>
+        <strong>Escenario 1: Stock crítico</strong><br>
+        Dado que el stock de un producto es crítico,<br>
+        Cuando se detecta esta situación,<br>
+        Entonces se envía un correo al responsable.<br><br>
+        <strong>Escenario 2: Producto vencido</strong><br>
+        Dado que un producto ha caducado,<br>
+        Cuando ocurre,<br>
+        Entonces se notifica por email.
+      </td>
+      <td>US22</td>
+    </tr>
+    <tr>
+      <td>TUS23</td>
+      <td>Soporte para código de barras</td>
+      <td>Como desarrollador, quiero permitir escaneo de códigos de barras, para agilizar la búsqueda y registro de productos.</td>
+      <td>
+        <strong>Escenario 1: Escaneo exitoso</strong><br>
+        Dado que escaneo un producto con lector,<br>
+        Cuando se detecta el código,<br>
+        Entonces el sistema carga automáticamente el producto.<br><br>
+        <strong>Escenario 2: Código no registrado</strong><br>
+        Dado que el código no existe,<br>
+        Cuando lo escaneo,<br>
+        Entonces se muestra un mensaje de error.
+      </td>
+      <td>US23</td>
+    </tr>
+    <tr>
+      <td>TUS24</td>
+      <td>Interfaz responsiva</td>
+      <td>Como desarrollador, quiero que la interfaz sea responsiva, para que funcione en dispositivos móviles y de escritorio.</td>
+      <td>
+        <strong>Escenario 1: Visualización en móvil</strong><br>
+        Dado que accedo desde un celular,<br>
+        Cuando ingreso al sistema,<br>
+        Entonces se adapta correctamente al tamaño de pantalla.<br><br>
+        <strong>Escenario 2: Navegación fluida</strong><br>
+        Dado que uso el sistema en tablet,<br>
+        Cuando navego entre módulos,<br>
+        Entonces la experiencia es fluida y sin errores visuales.
+      </td>
+      <td>US24</td>
+    </tr>
+    <tr>
+      <td>TUS25</td>
+      <td>Accesibilidad</td>
+      <td>Como desarrollador, quiero que el sistema cumpla estándares de accesibilidad, para que sea usable por personas con discapacidades.</td>
+      <td>
+        <strong>Escenario 1: Compatibilidad con lectores de pantalla</strong><br>
+        Dado que uso un lector de pantalla,<br>
+        Cuando navego por la app,<br>
+        Entonces los elementos son anunciados correctamente.<br><br>
+        <strong>Escenario 2: Teclado como único medio</strong><br>
+        Dado que no uso mouse,<br>
+        Cuando navego solo con el teclado,<br>
+        Entonces puedo acceder a todas las funciones.
+      </td>
+      <td>US25</td>
+    </tr>
+  </tbody>
+</table>
+
 ## 3.3. Impact Mapping
+
+
 ## 3.4. Product Backlog
 <table>
   <thead>
