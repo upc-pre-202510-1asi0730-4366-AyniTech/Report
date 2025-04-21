@@ -592,6 +592,7 @@ de audiencia.</td>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
+### 5.1.1. Software Development Environment Configuration
 En la siguiente sección se describe la ruta de referencia de cada uno de los productos de software para que cualquier miembro del equipo pueda desarrollar cada punto del trabajo.
 
 - **UXPressia:** Plataforma colaborativa que nos permitirá crear user personas e integrados con los múltiples mapas para evaluar sus prioridades.
@@ -605,7 +606,8 @@ En la siguiente sección se describe la ruta de referencia de cada uno de los pr
 - **Git:** Es una herramienta de control de versiones que nos permitirá rastrear cambios, colaborar de manera eficiente y mantener un historial detallado de las modificaciones en el código.
 - **Software Documentation and Project Management GitHub:** Como plataforma de alojamiento, facilitará la colaboración en equipo, la gestión de ramas y la integración continua
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.2. Source Code Management.
+
 El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como Workflow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page, Web Services y Frontend Web Applications.
 
 - [**Repositorio Landing Page:**](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Landing-Page)  https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Landing-Page
@@ -635,8 +637,36 @@ Versioning 2.0.0).
 git commit -m "<type>[optional scope]:<title>" -m"<description>"
 ```
 
-### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
+**HTML:** Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las siguientes:
+1. Cerrar todos los elementos HTML. Por ejemplo:
+``` html
+<p>Esto es un párrafo.</p>
+```
+
+2. A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad.
+
+3. Utilizar comillas en caso de que los atributos contengan espacios entre sí.
+
+4. Procurar especificar el texto alt y las dimensiones width y height de las imágenes, ya que de esta manera se facilitará la disponibilidad del contenido. Por ejemplo:
+``` html
+ <img src="abc.img" alt="image name"
+style="width:128px;height:128px">
+```
+
+**CSS:** Entre las prácticas empleadas se mencionan:
+
+1. Los nombres de las clases deben de ser breves y autodescriptivos.
+
+2. Separar los nombres de las clases y ID con un guión. Por ejemplo:
+```css
+#video-id .hero-shadow
+```
+
+3. Evitar especificar la unidad de medida luego de usar el valor 0.
+
+4. Separar las declaraciones y selectores en nuevas líneas para agilizar la legibilidad.
+
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
