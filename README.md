@@ -559,6 +559,24 @@ de audiencia.</td>
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="assets/Chapter-3/To-be1.png" alt="User persona - segmento 1" width="900"/>
+<a href="https://miro.com/welcomeonboard/aDlWMVF5ZmljQnhsTnBqVXV3aHgxck5BVUhWZTJudkNLKzJuZEJNUnEyYXd2RFBkdjhuSzVzYU44RWl6YU94ZC9DbWhZUWJTWU1Xck84R1cxekFSNVZXMGkwRHlXNHlQbkZyb2NyeWVYZVRGYytiNEppeE9JK1hjV0d1cEhxM1FhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=354513357599" target="_blank" style="color: skye blue; text-decoration: underline;">
+Enlace para acceder al Miro
+</a>
+
+*Imagen (N°10). Elaboración propia. Realizado en LucidChart*
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-3/To-be2.png" alt="User persona - segmento 2" width="900"/>
+<a href="https://miro.com/welcomeonboard/aDlWMVF5ZmljQnhsTnBqVXV3aHgxck5BVUhWZTJudkNLKzJuZEJNUnEyYXd2RFBkdjhuSzVzYU44RWl6YU94ZC9DbWhZUWJTWU1Xck84R1cxekFSNVZXMGkwRHlXNHlQbkZyb2NyeWVYZVRGYytiNEppeE9JK1hjV0d1cEhxM1FhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=354513357599" target="_blank" style="color: skye blue; text-decoration: underline;">
+Enlace para acceder al Miro
+</a>
+
+*Imagen (N°11). Elaboración propia. Realizado en LucidChart*
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 ## 3.2. User Stories
 
 ### Technical Stories
