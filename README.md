@@ -683,6 +683,9 @@ Cuando comparemos el número de productos con quiebre antes y después de la act
 #### 1.2.2.4. Lean UX Canvas
 
  <img src="assets/Chapter-1/Lean Ux canvas.png" alt="Lean Ux canvas" width="800px">
+<a href="https://app.mural.co/t/5tociclo9997/m/5tociclo9997/1744307557604/0864191a887d015814c90d39ec59b42d1980e4e2?sender=u0c816fe38ad2a13bddb77838" target="_blank" style="color: sky blue; text-decoration: underline;">
+  Enlace para acceder al Lean Ux
+</a>
 
 ## 1.3. Segmentos objetivo
 
