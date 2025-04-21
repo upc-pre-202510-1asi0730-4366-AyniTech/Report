@@ -697,7 +697,30 @@ Los usuarios podrán percibir la interfaz de forma lógica e intuitiva gracias a
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+El prototipado de la landing page cuenta diversas secciones:
+
+- Header: Incluye botones para facilitar la navegación
+- Hero Section: Con un botón CTA principal, un título y una imagen.
+- Sección de Beneficios / Características: mostrara un resumen de 3 beneficios que ofrece la app
+- Planes / Precios: Trendra 2 planes con su referente título y lista de características y contara con un botón CTA secundario por cada plan.
+- Testimonios: Consta de un título y subtítulo, así como de unos testimonios de usuarios de cada segmento, lo que aumenta la confianza en los potenciales clientes.
+- Llamado a la acción final (CTA grande) : Tiene un título y subtítulo, un boton CTA grande para "Crear cuenta gratis"
+- Footer: Sección que da fin a la landing page, cuenta con las redes sociales de la plataforma.
+
+**Wireframe Desktop**
+<center> <img src="assets/Chapter-4/Wireframe-Desktop.png" style="width: 420px;"/> </center>
+<br>
+
+**Wireframe Mobile**
+
+En la versión mobile el navbar se reemplaza por un menu desplegable.
+
+<center> <img src="assets/Chapter-4/Wireframe - Mobile.png" style="width: 420px;"/> </center>
+<br>
+
 ### 4.3.2. Landing Page Mock-up.
+
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ### 4.4.2. Web Applications Wireflow Diagrams.
