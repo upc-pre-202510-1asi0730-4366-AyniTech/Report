@@ -485,6 +485,41 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   </tr>
 </table>
 <br>
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Kerry Baquerrizo</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>21</td>
+    <th>Distrito</th>
+    <td>San Luis</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/Seg1-Kerry.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Kerry Baquerrizo tiene 21 años y trabaja en la bodega de sus padres. A lo largo de la entrevista menciona la falta de un sistema para poder organizar mejor su inventario y manejo de stock, teniendo como un ejemplo las frutas, siendo agotador para ella estar yendo al mercado para abastacer las frutas ya que se malogran muy rápido por la temporada o los clientes simplemente  no compran la cantidad suficiente que los vendedores esperan que compren, por lo que se deteriora y pierden ganancias. También menciona la importancia de poder adquirir una herramienta que pueda gestionar, alertar y registrar sus productos, pues considera que podrían mejorar enormemente su manera de organizar sus productos en su tienda.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/EdvU6q7-tklGlINzJ3SsyyUB0igfJW09hNHBKEtfB670VQ?e=MpVczY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 5:24
+    </td>
+  </tr>
+</table>
+<br>
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 
