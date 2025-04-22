@@ -995,7 +995,11 @@ Enlace para acceder al Miro
 </table>
 
 ## 3.3. Impact Mapping
+### Segmento Objetivo 1: Bodegas especializadas por rubro
+![bodeguero](assets/Chapter-3/stockwise%20-%20impact%20map-bodeguero.png)
 
+### Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas
+![emprendedor](assets/Chapter-3/stockwise%20-%20impact%20map-emprendedor.png)
 
 ## 3.4. Product Backlog
 <table>
