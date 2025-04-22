@@ -719,7 +719,26 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 <br>
 
 ### 4.3.2. Landing Page Mock-up.
+El prototipado de la landing page cuenta diversas secciones:
 
+- Header: Incluye botones para facilitar la navegación
+- Hero Section: Con un botón CTA principal, un título y una imagen.
+- Sección de Beneficios / Características: mostrara un resumen de 3 beneficios que ofrece la app
+- Planes / Precios: Trendra 2 planes con su referente título y lista de características y contara con un botón CTA secundario por cada plan.
+- Testimonios: Consta de un título y subtítulo, así como de unos testimonios de usuarios de cada segmento, lo que aumenta la confianza en los potenciales clientes.
+- Llamado a la acción final (CTA grande) : Tiene un título y subtítulo, un boton CTA grande para "Crear cuenta gratis"
+- Footer: Sección que da fin a la landing page, cuenta con las redes sociales de la plataforma.
+
+**Mock-up Desktop**
+<center> <img src="assets/Chapter-4/Mockup-Desktop.png" style="width: 420px;"/> </center>
+<br>
+
+**Mock-up Mobile**
+
+En la versión mobile el navbar se reemplaza por un menu desplegable.
+
+<center> <img src="assets/Chapter-4/Mockup - Mobile.png" style="width: 420px;"/> </center>
+<br>
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
