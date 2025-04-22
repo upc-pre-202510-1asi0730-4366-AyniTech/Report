@@ -689,12 +689,96 @@ Mantén una jerarquía clara para los diferentes niveles de encabezados (H1, H2,
 ## 4.2. Information Architecture
 La arquitectura de la información, también conocida como Information Architecture (IA), implica la organización de la información de manera clara y lógica, de modo que los usuarios puedan comprender su ubicación, lo que han descubierto, qué pueden esperar y qué está disponible a su alrededor. Esto tiene como objetivo permitir a los usuarios encontrar con facilidad lo que están buscando, y a los clientes, comprender las capacidades de la plataforma. Además, la arquitectura de la información posibilita la incorporación de nuevas funciones y la expansión del producto sin generar una estructura compleja o de difícil comprensión (Rosenfeld, Morville & Arango 2015).
 ### 4.2.1. Organization Systems.
-Los usuarios podrán percibir la interfaz de forma lógica e intuitiva gracias a la estructura organizativa prevista para StockWise.
+La interfaz se divide en módulos bien definidos, accesibles desde un panel de navegación estructurado jerárquicamente. Estos módulos incluyen: Inicio, Home, Inventario y Configuración. Cada sección agrupa funciones específicas según su propósito, permitiendo que las tareas clave estén siempre al alcance del usuario.
+
+Por ejemplo:
+
+- En **Home**, los usuarios pueden crear kits o combos de productos, generar alertas por bajo stock, gestionar proveedores, revisar el historial de movimientos y acceder a estadísticas claves como los productos más vendidos o el ticket promedio.
+
+- El módulo de **Inventario** ofrece un entorno completo para registrar nuevos productos, gestionar precios, unidades, ubicaciones físicas (estanterías), etiquetas, notas internas, devoluciones y caducidades, así como personalizar columnas para facilitar la visualización.
+
+- En **Configuración**, se pueden gestionar los roles de usuario (Administrador o Empleado), permisos según el plan activo, y actualizar perfiles a través de un asistente guiado.
+
+La interfaz adapta su contenido según el tipo de usuario:
+
+- **Administradores** tienen acceso completo a la configuración del sistema y la gestión general.
+
+- **Empleados** acceden a funciones operativas esenciales, sin comprometer la seguridad ni integridad de la información.
+
+La disposición lógica de las herramientas, acompañada de una navegación consistente, etiquetas claras y una estructura jerárquica coherente, garantiza que tanto nuevos usuarios como operadores frecuentes puedan comprender rápidamente el flujo de trabajo y realizar sus tareas con eficiencia.
 
 ### 4.2.2. Labeling Systems.
+En StockWise ha sido diseñado para mejorar la organización, búsqueda y clasificación de productos dentro del inventario, facilitando la gestión y toma de decisiones por parte de los usuarios.
+
+| Elemento de Navegación  | Descripción     |
+|----------------------------|-----------------------|
+| Sistema de Etiquetas         | Permite asignar múltiples etiquetas a productos para mejorar la organización, búsqueda y clasificación dentro del inventario.                   |
+| Creación de Etiquetas        | Los usuarios pueden crear nuevas etiquetas o seleccionar etiquetas ya existentes mediante autocompletado en el formulario del producto.         |
+| Visualización de Etiquetas   | Las etiquetas se muestran como chips de colores junto al nombre del producto, permitiendo una identificación rápida y visual.                   |
+| Filtro por Etiquetas         | En la vista de inventario se puede filtrar por una o varias etiquetas, facilitando la segmentación de productos.                              |
+| Permisos por Rol             | Administradores pueden crear/editar/eliminar etiquetas globales. Empleados pueden aplicar etiquetas existentes o proponer nuevas.              |
+| Sugerencia de Etiquetas      | El sistema sugiere etiquetas ya existentes mientras se escriben nuevas, para evitar duplicados y mantener consistencia.                        |
+| Accesibilidad y Estilo       | Las etiquetas tienen colores accesibles y tipografía legible, respetando la paleta y el diseño UI de StockWise.                                |
+| Aplicación en Reportes       | Las etiquetas también pueden utilizarse como criterio para generar reportes filtrados de productos e inventario.                               |
+
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+**SEO Tags**
+
+SEO (Search Engine Optimization) Tags son elementos de HTML que ayudan a los motores de búsqueda a entender el contenido y la estructura de una página web. Estos tags influyen en cómo los motores de búsqueda indexan y clasifican tu sitio en los resultados de búsqueda. 
+
+**Algunos ejemplos importantes de SEO Tags incluyen:**
+
+**Title Tag:**
+
+Es el título de la página web que aparece en la pestaña del navegador y como el título del enlace en los resultados de búsqueda. Importancia: Es crucial porque es uno de los factores más influyentes en el ranking de la página. Debe ser relevante, contener palabras clave, y tener una longitud de entre 50 y 60 caracteres. 
+
+*Ejemplo:* 
+``` html
+<title>Compra Ropa de Moda Online - Tienda XYZ</title>
+``` 
+
+**Header Tags (H1, H2, H3, etc.):** 
+
+Son etiquetas utilizadas para definir los encabezados y subencabezados dentro del contenido de la página. El H1 es el encabezado principal y es el más importante en términos de SEO. Importancia: Ayudan a organizar el contenido y permiten a los motores de búsqueda comprender la jerarquía y el tema principal de la página. 
+
+*Ejemplo:*
+```html
+<h1>Las Mejores Ofertas en Ropa de Moda</h1>
+```
+
+**Alt Tags:**
+
+Son atributos utilizados en imágenes para describir su contenido. Aunque los usuarios no pueden ver este texto directamente, los motores de búsqueda lo utilizan para entender el contenido de la imagen. Importancia: Mejoran la accesibilidad y también son importantes para el SEO, especialmente en la búsqueda de imágenes.
+
+**Meta Tags**
+
+Los Meta Tags son fragmentos de texto que describen el contenido de la página; no aparecen en la página misma, pero se encuentran en el código HTML de la página. Los motores de búsqueda y los navegadores utilizan estos tags para obtener información adicional sobre la página. Algunos de los Meta Tags más relevantes para SEO son:
+
+**Meta Description Tag:**
+
+Proporciona un resumen breve del contenido de la página. Aunque no afecta directamente al ranking de búsqueda, es importante porque aparece en los resultados de búsqueda bajo el título de la página. Importancia: Una meta descripción atractiva puede aumentar la tasa de clics (CTR) desde los motores de búsqueda. 
+
+Originalmente, se utilizaba para listar palabras clave relevantes para la página. Sin embargo, hoy en día, la mayoría de los motores de búsqueda ya no utilizan este tag para el ranking. Importancia: Es menos relevante en la actualidad, pero puede ser utilizado por algunos motores de búsqueda secundarios. 
+
+**Meta Robots Tag:**
+
+Indica a los motores de búsqueda cómo deben indexar o seguir los enlaces en la página. Importancia: Se utiliza para controlar la indexación de la página. Por ejemplo, si no quieres que una página específica sea indexada, puedes usar este tag. 
+
+*Ejemplo:*
+```
+ Viewport Tag
+```
+ Especifica cómo se ajustará la página a la pantalla del dispositivo (especialmente importante para dispositivos móviles). 
+ 
+ Importancia: Crucial para la optimización móvil, ya que garantiza que el sitio web se visualice correctamente en dispositivos de diferentes tamaños.
+
 ### 4.2.4. Searching Systems.
+Un Searching Systems, también conocido como sistema de búsqueda o motor de búsqueda, es una aplicación automática diseñada para buscar y recuperar información almacenada en una base de datos o en internet. Su principal objetivo es encontrar y mostrar resultados relevantes que coincidan con las palabras clave o términos de búsqueda ingresados por el usuario.
+
 ### 4.2.5. Navigation Systems.
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 El prototipado de la landing page cuenta diversas secciones:
