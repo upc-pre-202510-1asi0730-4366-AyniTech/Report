@@ -837,6 +837,193 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ### 4.7.2. Class Dictionary.
+
+<h2>Clase Producto</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>String</td>
+      <td>Identificador único del producto</td>
+    </tr>
+    <tr>
+      <td>nombre</td>
+      <td>String</td>
+      <td>Nombre del producto</td>
+    </tr>
+    <tr>
+      <td>descripcion</td>
+      <td>String</td>
+      <td>Descripción detallada del producto</td>
+    </tr>
+    <tr>
+      <td>stockActual</td>
+      <td>int</td>
+      <td>Cantidad actual disponible en inventario</td>
+    </tr>
+    <tr>
+      <td>stockMinimo</td>
+      <td>int</td>
+      <td>Nivel mínimo de stock permitido</td>
+    </tr>
+    <tr>
+      <td>precioCompra</td>
+      <td>double</td>
+      <td>Precio de compra del producto</td>
+    </tr>
+    <tr>
+      <td>precioVenta</td>
+      <td>double</td>
+      <td>Precio de venta del producto</td>
+    </tr>
+    <tr>
+      <td>notasInternas</td>
+      <td>String</td>
+      <td>Observaciones internas del producto</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Clase Movimiento</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del movimiento</td></tr>
+    <tr><td>fechaIngreso</td><td>Date</td><td>Fecha del movimiento de inventario</td></tr>
+    <tr><td>condiciones</td><td>String</td><td>Condiciones en las que se registra el movimiento</td></tr>
+    <tr><td>direccion</td><td>String</td><td>Indica si fue entrada o salida</td></tr>
+    <tr><td>motivo</td><td>String</td><td>Razón del movimiento</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase Usuario</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador único del usuario</td></tr>
+    <tr><td>nombre</td><td>String</td><td>Nombre completo del usuario</td></tr>
+    <tr><td>correo</td><td>String</td><td>Correo electrónico del usuario</td></tr>
+    <tr><td>rol</td><td>String</td><td>Rol asignado al usuario</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase Proveedor</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del proveedor</td></tr>
+    <tr><td>fechaIngreso</td><td>Date</td><td>Fecha de ingreso como proveedor</td></tr>
+    <tr><td>condiciones</td><td>String</td><td>Condiciones comerciales del proveedor</td></tr>
+    <tr><td>direccion</td><td>String</td><td>Dirección del proveedor</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase Ubicación</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la ubicación</td></tr>
+    <tr><td>fechaIngreso</td><td>Date</td><td>Fecha en que el producto se ubicó</td></tr>
+    <tr><td>condiciones</td><td>String</td><td>Condiciones físicas del almacenamiento</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase Etiqueta</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la etiqueta</td></tr>
+    <tr><td>condiciones</td><td>String</td><td>Categoría o agrupación del producto</td></tr>
+  </tbody>
+</table>
+<h2>Clase Lote</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Código identificador del lote</td></tr>
+    <tr><td>fechaIngreso</td><td>Date</td><td>Fecha en la que ingresó el lote</td></tr>
+    <tr><td>condiciones</td><td>String</td><td>Condiciones comunes del lote</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase AlertaStock</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la alerta</td></tr>
+    <tr><td>productId</td><td>String</td><td>ID del producto asociado</td></tr>
+    <tr><td>tipoAlerta</td><td>String</td><td>Tipo de alerta</td></tr>
+    <tr><td>mensaje</td><td>String</td><td>Mensaje descriptivo de la alerta</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase ReporteInventario</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del reporte generado</td></tr>
+    <tr><td>fechaGeneracion</td><td>String</td><td>Fecha en que se generó el reporte</td></tr>
+    <tr><td>tipo</td><td>String</td><td>Tipo de reporte generado</td></tr>
+  </tbody>
+</table>
+
+
+
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
 
