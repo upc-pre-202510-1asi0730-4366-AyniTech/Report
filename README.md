@@ -1194,10 +1194,26 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 <br>
 
 **Panel de control (Dashboard)**
+<center> <img src="assets/Chapter-4/Dashboard1.png" style="width: 500px;"/> </center>
+<br>
+
+
 **Combinación de Productos en Kits**
+<center> <img src="assets/Chapter-4/Kit.png" style="width: 500px;"/> </center>
+<br>
+
 **Agregar Producto**
+<center> <img src="assets/Chapter-4/AG.png" style="width: 500px;"/> </center>
+<br>
+
 **Registro de Nuevo Producto**
+<center> <img src="assets/Chapter-4/EP.png" style="width: 500px;"/> </center>
+<br>
+
 *Edición Rápida de Producto*
+<center> <img src="assets/Chapter-4/EPP.png" style="width: 500px;"/> </center>
+<br>
+
 **Historial de Movimientos**
 *Confirmación de Eliminación*
 **Ticket Promedio**   
