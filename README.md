@@ -1128,10 +1128,52 @@ Confirmar si se desea eliminar una alerta del sistema.
 <br>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+Los Web Applications Wireflow Diagrams son una combinación de wireframes y flujos de usuario (user flows) que ilustran no solo la estructura y disposición de las páginas de una aplicación web, sino también cómo los usuarios navegarán entre ellas. Estos diagramas proporcionan una visión detallada del recorrido del usuario, mostrando las interacciones clave y las transiciones de una página a otra dentro de la aplicación.
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar". A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico. Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma. Del mismo modo, si el usuario desea retirar su información o actualizar lo podrá hacer a través de su perfil. Finalmente hacer clic en el botón "Aceptar".
+
+<center> <img src="assets/Chapter-4/user registrar.png" style="width: 500px;"/> </center>
+<br>
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña, luego hace clic en el botón "Log In". Después, se le redirige al panel de perfil, donde podrá editar su información personal y acceder a las herramientas según su perfil "Administrador" o "Empleado".
+
+<center> <img src="assets/Chapter-4/user iniciar sesion.png" style="width: 500px;"/> </center>
+<br>
+
+**User Goal: Navegar por el dashboard**
+
+<center> <img src="assets/Chapter-4/user home.png" style="width: 500px;"/> </center>
+<br>
+
+**User Goal: Inventario (Producto/Lote)**
+
+<center> <img src="assets/Chapter-4/user inventario .png" style="width: 500px;"/> </center>
+<br>
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+<center> <img src="assets/Chapter-4/agregar producto1.png" style="width: 500px;"/> </center>
+<br>
+
+**User Goal: Historial de Movimientos**
+
+<center> <img src="assets/Chapter-4/user historial.png" style="width: 500px;"/> </center>
+<br>
+
+**User Goal: Alerta de Stock**
+
+<center> <img src="assets/Chapter-4/user alerta.png" style="width: 500px;"/> </center>
+<br>
 
 ### 4.4.2. Web Applications Mock-ups.
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
+
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
 ### 4.6.2. Software Architecture Container Diagrams.
