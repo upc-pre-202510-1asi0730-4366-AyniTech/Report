@@ -838,149 +838,53 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 ### 4.7.1. Class Diagrams.
 ### 4.7.2. Class Dictionary.
 
-<style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    table {
-      border-collapse: collapse;
-      width: 80%;
-      margin-bottom: 30px;
-    }
-    th, td {
-      border: 1px solid #555;
-      padding: 8px;
-      text-align: left;
-    }
-  
-    h2 {
-      margin-top: 40px;
-    }
-  </style>
-<<body>
-<h2>Clase Ubicación</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>String</td></tr>
-<tr><td>fechaIngreso</td><td>Date</td></tr>
-<tr><td>descripcion</td><td>String</td></tr>
-</tbody></table>
+<body><h2>Clase Ubicación</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la ubicación</td></tr>
+    <tr><td>fechaIngreso</td><td>Date</td><td>Fecha en que se ubicó</td></tr>
+    <tr><td>descripcion</td><td>String</td><td>Condiciones físicas del almacenamiento</td></tr>
+  </tbody>
+</table>
+
 <h2>Clase Categoría</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>String</td></tr>
-<tr><td>nombre</td><td>String</td></tr>
-</tbody></table>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la categoría</td></tr>
+    <tr><td>nombre</td><td>String</td><td>Nombre de la categoría</td></tr>
+  </tbody>
+</table>
+
 <h2>Clase VentaProducto</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>int</td></tr>
-<tr><td>cantidad</td><td>int</td></tr>
-</tbody></table>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>ID de la venta</td></tr>
+    <tr><td>cantidad</td><td>int</td><td>Cantidad de productos vendidos</td></tr>
+  </tbody>
+</table>
+
 <h2>Clase Transacción</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>int</td></tr>
-<tr><td>precioTotal</td><td>double</td></tr>
-<tr><td>fecha</td><td>Date</td></tr>
-<tr><td>lista</td><td>Producto</td></tr>
-</tbody></table>
-<h2>Clase Producto</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>String</td></tr>
-<tr><td>nombre</td><td>String</td></tr>
-<tr><td>descripcion</td><td>String</td></tr>
-<tr><td>precioCompra</td><td>double</td></tr>
-<tr><td>precioVenta</td><td>double</td></tr>
-<tr><td>notasInternas</td><td>String</td></tr>
-</tbody></table>
-<h2>Clase StockProducto</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>stockMinimo</td><td>int</td></tr>
-<tr><td>stockActual</td><td>int</td></tr>
-</tbody></table>
-<h2>Clase AlertaStock</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>String</td></tr>
-<tr><td>productoId</td><td>String</td></tr>
-<tr><td>tipoAlerta</td><td>String</td></tr>
-<tr><td>mensaje</td><td>String</td></tr>
-</tbody></table>
-<h2>Clase ReporteInventario</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>String</td></tr>
-<tr><td>fechaGeneracion</td><td>String</td></tr>
-<tr><td>tipo</td><td>String</td></tr>
-</tbody></table>
-<h2>Clase Kit</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>int</td></tr>
-<tr><td>nombre</td><td>string</td></tr>
-<tr><td>items</td><td>list</td></tr>
-</tbody></table>
-<h2>Clase KitItem</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>int</td></tr>
-<tr><td>cantidad</td><td>int</td></tr>
-<tr><td>producto</td><td>Producto</td></tr>
-</tbody></table>
-<h2>Clase Lote</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>String</td></tr>
-<tr><td>fechaIngreso</td><td>Date</td></tr>
-<tr><td>descripcion</td><td>String</td></tr>
-</tbody></table>
-<h2>Clase Proveedor</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>String</td></tr>
-<tr><td>fechaIngreso</td><td>Date</td></tr>
-<tr><td>condiciones</td><td>String</td></tr>
-<tr><td>direccion</td><td>String</td></tr>
-</tbody></table>
-<h2>Clase Movimiento</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>int</td></tr>
-<tr><td>fechaIngreso</td><td>date</td></tr>
-<tr><td>descripcion</td><td>string</td></tr>
-<tr><td>direccion</td><td>string</td></tr>
-</tbody></table>
-<h2>Clase Usuario</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>int</td></tr>
-<tr><td>nombre</td><td>String</td></tr>
-<tr><td>correo</td><td>String</td></tr>
-<tr><td>rol</td><td>String</td></tr>
-<tr><td>contraseña</td><td>String</td></tr>
-</tbody></table>
-<h2>Clase Rol</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>int</td></tr>
-<tr><td>nombre</td><td>String</td></tr>
-<tr><td>permisos</td><td>List</td></tr>
-</tbody></table>
-<h2>Clase AlertaVencimiento</h2>
-<table>
-<tbody><tr><th>Atributo</th><th>Tipo</th></tr>
-<tr><td>id</td><td>int</td></tr>
-<tr><td>fecha</td><td>Date</td></tr>
-<tr><td>lote</td><td>Lote</td></tr>
-</tbody></table>
-
-
-
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador de la transacción</td></tr>
+    <tr><td>precioTotal</td><td>double</td><td>Precio total de la transacción</td></tr>
+    <tr><td>fecha</td><td>Date</td><td>Fecha de la transacción</td></tr>
+    <tr><td>lista</td><td>Producto</td><td>Lista de productos incluidos</td></tr>
+  </tbody>
+</table>
 </body>
-
 
 
 
