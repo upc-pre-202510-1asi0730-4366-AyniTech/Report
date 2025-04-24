@@ -825,8 +825,40 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 <br>
 
 ## 4.4. Web Applications UX/UI Design.
+El diseño UX/UI para aplicaciones web se centra en crear interfaces intuitivas y experiencias de usuario fluidas que maximicen la satisfacción y eficiencia al interactuar con una plataforma. Para el diseño de los wireframes en StockWise, se aplicaron principios heurísticos de usabilidad reconocidos por Jakob Nielsen, garantizando que la experiencia del usuario sea intuitiva, eficiente y centrada en sus necesidades dentro del entorno de gestión de inventario.
+
+1. Visibilidad del estado del sistema
+Los usuarios siempre sabrán en qué parte del sistema se encuentran y qué acciones están ocurriendo, gracias a indicadores claros como barras de progreso, breadcrumbs, notificaciones de estado, y confirmaciones visuales al ejecutar tareas clave como agregar productos o generar reportes.
+
+2. Coincidencia entre el sistema y el mundo real
+La terminología, iconografía y flujo de interacción se alinean con el lenguaje y procesos habituales en la gestión de inventarios. Por ejemplo, los módulos se nombran como “Entradas”, “Salidas”, “Kardex” o “Reportes”, usando símbolos familiares y metáforas visuales reconocibles.
+
+3. Control y libertad del usuario
+StockWise permite deshacer o rehacer acciones, navegar entre módulos sin pérdida de datos, y salir de operaciones sin consecuencias no deseadas. Esto otorga al usuario flexibilidad y sensación de control durante su experiencia.
+
+4. Consistencia y estándares
+La interfaz mantiene una consistencia visual y funcional en todos los módulos. Se siguen patrones comunes de UI/UX y estándares reconocidos en sistemas de gestión, facilitando el aprendizaje y reduciendo la carga cognitiva del usuario.
+
+5. Prevención de errores
+Se han implementado validaciones en formularios, confirmaciones antes de acciones críticas (como eliminaciones), y restricciones visuales que ayudan a evitar errores frecuentes como duplicación de registros o selecciones erróneas.
+
+6. Reconocimiento en lugar de recuerdo
+Los usuarios no necesitan memorizar pasos. Menús contextuales, accesos directos visibles y formularios autocompletados permiten una interacción basada en reconocimiento.
+
+7. Flexibilidad y eficiencia de uso
+StockWise permite configurar accesos rápidos, personalizar vistas y generar reportes filtrados, adaptándose tanto a usuarios principiantes como avanzados. Esto mejora la productividad y acelera tareas repetitivas.
+
+8. Diseño estético y minimalista
+La interfaz prioriza la funcionalidad sin sacrificar el diseño. Usamos una estética limpia con jerarquía visual clara, apoyada en una paleta de colores corporativa armoniosa y tipografía legible (Nunito e Inter), evitando la sobrecarga informativa.
+
+9. Ayuda y documentación
+La plataforma incluye accesos rápidos a tutoriales, guías interactivas y secciones de ayuda contextual. Esto asegura que los usuarios siempre tengan soporte disponible, especialmente durante la adopción inicial del sistema.
+
 ### 4.4.1. Web Applications Wireframes.
+Los wireframes ayudan a los diseñadores y desarrolladores a planificar la arquitectura y la funcionalidad de la aplicación, permitiendo visualizar cómo los usuarios interactuarán con ella. Son esenciales en las primeras etapas de desarrollo, ya que facilitan la comunicación de ideas, la identificación de problemas potenciales y la alineación de todos los involucrados en el proyecto antes de pasar al diseño detallado y la programación.
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
 ### 4.4.2. Web Applications Mock-ups.
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
