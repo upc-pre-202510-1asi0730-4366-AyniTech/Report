@@ -885,6 +885,123 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
   </tbody>
 </table>
 </body>
+<body><h2>Clase Producto</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del producto</td></tr>
+    <tr><td>nombre</td><td>String</td><td>Nombre del producto</td></tr>
+    <tr><td>descripcion</td><td>String</td><td>Descripción del producto</td></tr>
+    <tr><td>precioCompra</td><td>double</td><td>Precio de compra del producto</td></tr>
+    <tr><td>precioVenta</td><td>double</td><td>Precio de venta del producto</td></tr>
+    <tr><td>notasInternas</td><td>String</td><td>Comentarios internos</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase StockProducto</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>stockMinimo</td><td>int</td><td>Cantidad mínima permitida</td></tr>
+    <tr><td>stockActual</td><td>int</td><td>Cantidad actual disponible</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase Kit</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador del kit</td></tr>
+    <tr><td>nombre</td><td>String</td><td>Nombre del kit</td></tr>
+    <tr><td>items</td><td>list</td><td>Lista de productos incluidos</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase KitItem</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador del ítem del kit</td></tr>
+    <tr><td>cantidad</td><td>int</td><td>Cantidad del producto en el kit</td></tr>
+    <tr><td>producto</td><td>Producto</td><td>Producto incluido</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase Movimiento</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador del movimiento</td></tr>
+    <tr><td>fechaIngreso</td><td>date</td><td>Fecha del movimiento</td></tr>
+    <tr><td>descripcion</td><td>String</td><td>Descripción del movimiento</td></tr>
+    <tr><td>direccion</td><td>String</td><td>Dirección (entrada/salida)</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase Usuario</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>ID del usuario</td></tr>
+    <tr><td>nombre</td><td>String</td><td>Nombre del usuario</td></tr>
+    <tr><td>correo</td><td>String</td><td>Correo electrónico</td></tr>
+    <tr><td>rol</td><td>String</td><td>Rol del usuario</td></tr>
+    <tr><td>contraseña</td><td>String</td><td>Contraseña del usuario</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase Rol</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>ID del rol</td></tr>
+    <tr><td>nombre</td><td>String</td><td>Nombre del rol</td></tr>
+    <tr><td>permisos</td><td>List</td><td>Permisos asociados al rol</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase AlertaVencimiento</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador de la alerta</td></tr>
+    <tr><td>fecha</td><td>Date</td><td>Fecha de vencimiento del producto</td></tr>
+    <tr><td>lote</td><td>Lote</td><td>Lote vinculado a la alerta</td></tr>
+  </tbody>
+</table>
+<h2>Clase AlertaStock</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la alerta</td></tr>
+    <tr><td>productId</td><td>String</td><td>ID del producto asociado</td></tr>
+    <tr><td>tipoAlerta</td><td>String</td><td>Tipo de alerta (bajo stock, vencimiento, etc.)</td></tr>
+    <tr><td>mensaje</td><td>String</td><td>Mensaje descriptivo de la alerta</td></tr>
+  </tbody>
+</table>
+
+<h2>Clase ReporteInventario</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del reporte generado</td></tr>
+    <tr><td>fechaGeneracion</td><td>String</td><td>Fecha en que se generó el reporte</td></tr>
+    <tr><td>tipo</td><td>String</td><td>Tipo de reporte (completo, por fechas, filtrado)</td></tr>
+  </tbody>
+</table>
+</body>
 
 
 
