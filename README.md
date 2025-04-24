@@ -880,14 +880,130 @@ La siguiente imagen presenta la sección “Elegir plan de pago”, la cual desp
 
 **Pasarela de pagos**
 
-La siguiente imagen corresponde a la sección “Pasarela de pagos” donde los usuarios son dirigidos a un formulario para seleccionar y registrar su método de pago. Esta sección también muestra el monto correspondiente al plan elegido. Una vez que el proceso de pago es completado exitosamente, se notifica al usuario con un mensaje confirmando la suscripción y fecha de registro.
+La siguiente imagen corresponde a la sección “Pasarela de pagos” donde los usuarios son dirigidas a un formulario para seleccionar y registrar su método de pago. Una vez que el proceso de pago es completado exitosamente, se notifica al usuario con un mensaje confirmando el vinculo de su tarjeta con la plataforma. Del mismo modo, si el usuario desea retirar su información o actualizar lo podra hacer a travéz de su perfil.
 
 <center> <img src="assets/Chapter-4/Pago.png" style="width: 500px;"/> </center>
 <br>
 
 **Mi perfil**
 
-La sección titulada “Mi perfil” solicita al usuario que complete información en dos categorías para registrar sus datos. Adicionalmente, la categoría cuenta no requiere ingresar información, en su lugar, ofrece la opción de eliminar cuenta en caso el usuario desee abandonar la plataforma.
+La sección titulada “Mi perfil” solicita al usuario que complete información en dos categorías para registrar sus datos. Adicionalmente, la categoría "cambiar cuenta" ofrece la opción de permitir al usuario cambiar de cuenta a una de empleador y utilizar las herramientas de este por la plataforma. Tambien, tiene libertad de cambiar el plan si es necesario. 
+
+*Perfil Administrador*
+
+En este perfil, el usuario puede ver a la derecha sus herramientas correpondientes a su cuenta.
+<center> <img src="assets/Chapter-4/Perfil.png" style="width: 500px;"/> </center>
+<br>
+
+**Panel de control (Dashboard)**
+Esta pantalla representa el panel de control principal del sistema StockWise. Su objetivo es proporcionar al usuario una vista general del estado del inventario y acceso rápido a funciones clave. Entre sus elementos principales se encuentran:
+
+- **Resumen de información:**
+   - **Total de Productos:** número total de ítems registrados.
+   - **Fecha del Último Proveedor:** muestra la última fecha de ingreso de productos (por proveedor).
+   - **Próximos a Caducar:** productos con fecha de vencimiento próxima, indicando la fecha y el stock restante.
+
+- **Accesos rápidos:**
+  - **Historial de Movimientos:** seguimiento de entradas y salidas del inventario.
+  - **Inventario:** acceso directo a la lista completa de productos.
+
+- **Botones de acción:**
+  - **Agregar Productos:** para registrar nuevos productos en el sistema.
+  - **Kits de Productos:** permite combinar productos individuales en un kit.
+  - **Devolución de Productos:** facilita el registro de productos devueltos por proveedores o clientes.
+
+<center> <img src="assets/Chapter-4/Dashboard.png" style="width: 500px;"/> </center>
+<br>
+
+**Combinación de Productos en Kits**
+
+Esta sección está dedicada a la funcionalidad de crear kits de productos, una herramienta útil para negocios que venden combos o paquetes predefinidos. Las características principales incluyen:
+
+- **Buscador de productos:** permite al usuario localizar rápidamente productos por nombre.
+- **Listado de productos existentes:**
+  - Muestra el nombre, precio y stock disponible de cada producto.
+  - Incluye un botón de acción en cada fila para añadir productos al kit.
+- **Botón “Seleccionar para kit”:** una vez seleccionados los productos deseados, el usuario puede avanzar para crear el kit final.
+
+Esta funcionalidad mejora la gestión del stock agrupado y permite optimizar estrategias de venta, como combos promocionales o paquetes de temporada.
+
+<center> <img src="assets/Chapter-4/Kit Productos.png" style="width: 500px;"/> </center>
+<br>
+
+**Agregar Producto**
+
+Esta pantalla permite visualizar todos los productos actualmente registrados en el inventario, con acceso rápido para editar o ver más detalles. Las funcionalidades clave incluyen:
+
+- Tarjetas de producto con información relevante:
+  - Nombre del producto (ej. Galleta).
+  - Categoría/etiqueta (ej. Golosina).
+  - Stock disponible.
+- Botón “+ Detalle” para ver información adicional o editar.
+ - Botón “+”: permite agregar un nuevo producto desde cero
+ - Buscador de productos y opción de filtro por categoría o stock.
+
+<center> <img src="assets/Chapter-4/Agregar Producto.png" style="width: 500px;"/> </center>
+<br>
+
+**Registro de Nuevo Producto**
+
+Pantalla que aparece al presionar el botón “+”, diseñada para agregar un nuevo producto al sistema. Incluye los siguientes campos:
+
+- Nombre del producto.
+- Etiquetas/Categorías (por ejemplo: Golosina, Bebida).
+- Precio de compra y de venta.
+- Cantidad inicial del producto.
+- Número de lote y fecha de caducidad.
+- Notas adicionales, si se desea registrar observaciones específicas.
+
+Una vez completado el formulario, se debe presionar "Guardar" para registrar el nuevo ítem.
+
+<center> <img src="assets/Chapter-4/NuevoProducto.png" style="width: 500px;"/> </center>
+<br>
+
+**Edición Rápida de Producto**
+
+Este modal aparece al hacer clic en “+ Detalle” sobre cualquier tarjeta de producto en la pantalla principal. Permite realizar modificaciones rápidas sobre un producto específico:
+
+- Editar etiquetas.
+- Actualizar cantidad.
+- Modificar fecha de caducidad.
+- Agregar notas.
+
+Incluye botones para “Duplicar” (crear una copia rápida del producto) y “Eliminar” (quitar del sistema).
+
+<center> <img src="assets/Chapter-4/EditarProducto.png" style="width: 500px;"/> </center>
+<br>
+
+**Historial de Movimientos**
+
+Esta vista permite al usuario consultar todos los movimientos registrados en el sistema, ya sea por producto individual, por categoría o mediante cálculo del ticket promedio.
+
+- **Filtros disponibles:**
+  - Tipo de gestión: Producto, Categoría o Stock Promedio.
+  - Rango de fecha: permite buscar registros por fechas específicas.
+- **Resultados organizados en tarjetas que muestran:**
+  - Producto o categoría
+  - Fecha del movimiento
+  - Precio unitario (si aplica)
+  - Cantidad gestionada
+  - Total del movimiento
+
+- **También cuenta con botones para:**
+  - Editar un registro
+  - Eliminar un registro (con confirmación previa).
+
+<center> <img src="assets/Chapter-4/Historial.png" style="width: 500px;"/> </center>
+<br>
+
+*Confirmación de Eliminación*
+
+Al presionar el botón de eliminar, se despliega una ventana emergente de confirmación que advierte al usuario antes de borrar un registro del historial.
+
+<center> <img src="assets/Chapter-4/Historial1.png" style="width: 500px;"/> </center>
+<br>
+
+**Ticket Promedio**
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
