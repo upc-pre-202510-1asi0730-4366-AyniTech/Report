@@ -1170,7 +1170,49 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 <br>
 
 ### 4.4.2. Web Applications Mock-ups.
+
+**Iniciar sesión**
+<center> <img src="assets/Chapter-4/inicio.png" style="width: 500px;"/> </center>
+<br>
+
+**Crear cuenta**
+<center> <img src="assets/Chapter-4/Registro1.png" style="width: 500px;"/> </center>
+<br>
+
+**Elegir plan de pago**
+<center> <img src="assets/Chapter-4/Plan.png" style="width: 500px;"/> </center>
+<br>
+
+**Pasarela de pagos**
+<center> <img src="assets/Chapter-4/Pago1.png" style="width: 500px;"/> </center>
+<br>
+
+**Mi perfil**
+
+*Perfil Administrador*
+<center> <img src="assets/Chapter-4/Perfil1.png" style="width: 500px;"/> </center>
+<br>
+
+**Panel de control (Dashboard)**
+**Combinación de Productos en Kits**
+**Agregar Producto**
+**Registro de Nuevo Producto**
+*Edición Rápida de Producto*
+**Historial de Movimientos**
+*Confirmación de Eliminación*
+**Ticket Promedio**   
+**Pantalla principal de Inventario por Lote**
+*Pantalla de Comentarios del Lote* 
+*Pantalla de Exportación*
+**Pantalla de Inventario por Producto**
+*Edición de Registro*
+**Pantalla Principal de Alerta Stock**
+*Detalles de Alerta*
+*Eliminar Alerta*
+
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+
 ## 4.5. Web Applications Prototyping.
 
 
