@@ -857,6 +857,38 @@ La plataforma incluye accesos rápidos a tutoriales, guías interactivas y secci
 ### 4.4.1. Web Applications Wireframes.
 Los wireframes ayudan a los diseñadores y desarrolladores a planificar la arquitectura y la funcionalidad de la aplicación, permitiendo visualizar cómo los usuarios interactuarán con ella. Son esenciales en las primeras etapas de desarrollo, ya que facilitan la comunicación de ideas, la identificación de problemas potenciales y la alineación de todos los involucrados en el proyecto antes de pasar al diseño detallado y la programación.
 
+**Iniciar sesión**
+
+La siguiente imagen evidencia el wireframe de la sección de “inicio de sesión” desde la vista desktop web browser. En ella, los usuarios deberán ingresar las credenciales necesarias para poder acceder a la aplicación, siempre y cuando posean con una cuenta previamente creada.
+
+<center> <img src="assets/Chapter-4/Iniciosesion.png" style="width: 500px;"/> </center>
+<br>
+
+**Crear cuenta**
+
+La siguiente imagen presenta la sección de “registro de usuario”, a través de la cual los administradores podrán remitir a la aplicación la información necesaria para crear una cuenta.
+
+<center> <img src="assets/Chapter-4/Registro.png" style="width: 500px;"/> </center>
+<br>
+
+**Elegir plan de pago**
+
+La siguiente imagen presenta la sección “Elegir plan de pago”, la cual despliega las categorías de planes disponibles en la plataforma. Los tres planes están diseñados para adaptarse a las necesidades de los administradores de tienda acorde a sus necesidades.
+
+<center> <img src="assets/Chapter-4/Seleccionar Plan.png" style="width: 500px;"/> </center>
+<br>
+
+**Pasarela de pagos**
+
+La siguiente imagen corresponde a la sección “Pasarela de pagos” donde los usuarios son dirigidos a un formulario para seleccionar y registrar su método de pago. Esta sección también muestra el monto correspondiente al plan elegido. Una vez que el proceso de pago es completado exitosamente, se notifica al usuario con un mensaje confirmando la suscripción y fecha de registro.
+
+<center> <img src="assets/Chapter-4/Pago.png" style="width: 500px;"/> </center>
+<br>
+
+**Mi perfil**
+
+La sección titulada “Mi perfil” solicita al usuario que complete información en dos categorías para registrar sus datos. Adicionalmente, la categoría cuenta no requiere ingresar información, en su lugar, ofrece la opción de eliminar cuenta en caso el usuario desee abandonar la plataforma.
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 ### 4.4.2. Web Applications Mock-ups.
