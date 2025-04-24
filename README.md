@@ -961,7 +961,7 @@ Una vez completado el formulario, se debe presionar "Guardar" para registrar el 
 <center> <img src="assets/Chapter-4/NuevoProducto.png" style="width: 500px;"/> </center>
 <br>
 
-**Edición Rápida de Producto**
+*Edición Rápida de Producto*
 
 Este modal aparece al hacer clic en “+ Detalle” sobre cualquier tarjeta de producto en la pantalla principal. Permite realizar modificaciones rápidas sobre un producto específico:
 
@@ -1003,7 +1003,129 @@ Al presionar el botón de eliminar, se despliega una ventana emergente de confir
 <center> <img src="assets/Chapter-4/Historial1.png" style="width: 500px;"/> </center>
 <br>
 
-**Ticket Promedio**
+**Ticket Promedio**     
+
+Al seleccionar “Stock Promedio” como tipo de gestión, se habilita el acceso al cálculo de Ticket Promedio, que estima el valor promedio de venta por unidad en un rango de fechas. Este recurso permite realizar un análisis financiero rápido sobre el comportamiento de productos específicos.
+
+Campos del formulario:
+- Rango de fecha.
+- Producto a analizar.
+- Cantidad de ventas.
+- Precio total de ventas.
+- Resultado del ticket promedio (calculado automáticamente).
+
+Botones:
+- Crear: Guarda el registro del ticket.
+- Cancelar: Cierra el modal sin guardar.
+
+<center> <img src="assets/Chapter-4/Tikect  Promedio.png" style="width: 500px;"/> </center>
+<br>
+
+**Pantalla principal de Inventario por Lote**
+
+Esta pantalla permite la visualización y gestión del inventario agrupado por lote de entrada.
+- Filtros en la parte superior: 
+  - Búsqueda por Producto
+  - Proveedor 
+  - Fecha de ingreso 
+  - Cantidad 
+  - Precio
+- Lista de productos ingresados por lote: 
+  - Proveedor
+  - Producto
+  - Fecha de entrada 
+  - Cantidad por unidad 
+  - Precio por unidad 
+  - Unidad de medida
+- Botón rojo “Generar Nuevo Lote” ubicado a la derecha, que permite agregar un nuevo registro.
+
+<center> <img src="assets/Chapter-4/Inventario - lote.png" style="width: 500px;"/> </center>
+<br>
+
+*Pantalla de Comentarios del Lote* 
+
+Este modal aparece al hacer clic en el icono de "Comentarios", permite dejar notas asociadas a un producto, útiles para incidencias, condiciones especiales del lote o instrucciones de seguimiento.
+
+- Campos de entrada para seleccionar el Lote y el Producto.
+- Área para ingresar el comentario del usuario.
+- Botones:
+  -  “Guardar” (acción de confirmar)
+  -  “Cancelar” (descartar el comentario)
+
+<center> <img src="assets/Chapter-4/Inventariolote-comen.png" style="width: 500px;"/> </center>
+<br>
+
+*Pantalla de Exportación*
+
+Permite obtener un respaldo o trabajar fuera del sistema con los datos del inventario. Al dar click, saldra una ventana emergente con el ícono de exportación. Mostrara un texto  “¿Deseas exportar en excel?” y botones de acción: “Volver” y “Continuar”. 
+
+<center> <img src="assets/Chapter-4/Inventario - lote - exportación.png" style="width: 500px;"/> </center>
+<br>
+
+**Pantalla de Inventario por Producto**
+
+Visualización clara de todos los productos del inventario, con opción de filtrar por condiciones específicas, lo cual optimiza el control individualizado del stock.
+
+- **Filtros:** 
+  - Categoría 
+  - Productos 
+  - Rango de Fecha  
+  - Stock Mínimo.
+- **Tabla:**
+  - Categoría  
+  - Producto 
+  - Fecha de entrada 
+  - Cantidad 
+  - Precio 
+  - Stock mínimo  
+  - Unidad de medida.
+- **Botón:** “Generar Nuevo Lote”.
+
+<center> <img src="assets/Chapter-4/Inventario - producto.png" style="width: 500px;"/> </center>
+<br>
+
+*Edición de Registro*
+
+Facilita la actualización de datos en tiempo real, permitiendo mantener el inventario siempre actualizado y preciso.
+
+Elementos mostrados:
+- Formulario editable con campos: Categoría, Producto, Cantidad por unidad, Precio por unidad, Unidad de medida.
+- Botones de acción: “Crear” (confirmar edición) y “Cancelar”.
+
+<center> <img src="assets/Chapter-4/Inventario - producto - editar registro.png" style="width: 500px;"/> </center>
+<br>
+
+**Pantalla Principal de Alerta Stock**
+
+Esta pantalla vindra una visión de todas las alertas activas y gestionar su estado.
+
+Componentes funcionales:
+- **Buscador de alertas:** Permite filtrar por texto para encontrar alertas específicas.
+- **Listado de alertas** con información clave:
+  - Categoría de alerta (Ej.: Stock Mínimo, Stock Máximo, Pronto a vencer)
+  - Categoría de producto
+  - Nombre del producto
+  - Fecha de alerta
+- **Botones de acción** al lado derecho:
+  - Menú de opciones (ícono de tres puntos) para más acciones.
+  - Ícono de papelera para eliminar la alerta.
+
+<center> <img src="assets/Chapter-4/Alerta Stock.png" style="width: 500px;"/> </center>
+<br>
+
+*Detalles de Alerta*
+
+ Ofrece una opción rápida para revisar a fondo cada alerta, ya sea por condiciones especiales o requerimientos de seguimiento.
+
+ <center> <img src="assets/Chapter-4/Más detalles.png" style="width: 500px;"/> </center>
+<br>
+
+*Eliminar Alerta*
+
+Confirmar si se desea eliminar una alerta del sistema.  
+
+ <center> <img src="assets/Chapter-4/Eliminar Alerta.png" style="width: 500px;"/> </center>
+<br>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
