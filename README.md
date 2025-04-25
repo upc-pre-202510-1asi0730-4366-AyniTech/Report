@@ -718,6 +718,17 @@ Para lograr una distribución eficiente del trabajo y mayor claridad en las resp
 |Esteban Román, Henry Kalet  |Kalet123-commit  | C | C | C | L |
 
 #### 5.2.1.3. Sprint Backlog n.
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+**Link del Trello:** 
+[Trello](https://trello.com/b/GaGqplFO)
+
+**Vista del Sprint Backlog en Trello:**
+
+![trello](assets/Chapter-5/Trello_stockwise_sprint1.png)
+
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
