@@ -795,12 +795,16 @@ El prototipado de la landing page cuenta diversas secciones:
 <center> <img src="assets/Chapter-4/Wireframe-Desktop.png" style="width: 420px;"/> </center>
 <br>
 
+*Imagen (N°13). Elaboración propia. Realizado en Figma*
+
 **Wireframe Mobile**
 
 En la versión mobile el navbar se reemplaza por un menu desplegable.
 
 <center> <img src="assets/Chapter-4/Wireframe - Mobile.png" style="width: 420px;"/> </center>
 <br>
+
+*Imagen (N°14). Elaboración propia. Realizado en Figma*
 
 ### 4.3.2. Landing Page Mock-up.
 El prototipado de la landing page cuenta diversas secciones:
@@ -817,12 +821,16 @@ El prototipado de la landing page cuenta diversas secciones:
 <center> <img src="assets/Chapter-4/Mockup-Desktop.png" style="width: 420px;"/> </center>
 <br>
 
+*Imagen (N°15). Elaboración propia. Realizado en Figma*
+
 **Mock-up Mobile**
 
 En la versión mobile el navbar se reemplaza por un menu desplegable.
 
 <center> <img src="assets/Chapter-4/Mockup - Mobile.png" style="width: 420px;"/> </center>
 <br>
+
+*Imagen (N°16). Elaboración propia. Realizado en Figma*
 
 ## 4.4. Web Applications UX/UI Design.
 El diseño UX/UI para aplicaciones web se centra en crear interfaces intuitivas y experiencias de usuario fluidas que maximicen la satisfacción y eficiencia al interactuar con una plataforma. Para el diseño de los wireframes en StockWise, se aplicaron principios heurísticos de usabilidad reconocidos por Jakob Nielsen, garantizando que la experiencia del usuario sea intuitiva, eficiente y centrada en sus necesidades dentro del entorno de gestión de inventario.
@@ -864,12 +872,16 @@ La siguiente imagen evidencia el wireframe de la sección de “inicio de sesió
 <center> <img src="assets/Chapter-4/Iniciosesion.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°17). Elaboración propia. Realizado en Figma*
+
 **Crear cuenta**
 
 La siguiente imagen presenta la sección de “registro de usuario”, a través de la cual los administradores podrán remitir a la aplicación la información necesaria para crear una cuenta.
 
 <center> <img src="assets/Chapter-4/Registro.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°18). Elaboración propia. Realizado en Figma*
 
 **Elegir plan de pago**
 
@@ -878,12 +890,16 @@ La siguiente imagen presenta la sección “Elegir plan de pago”, la cual desp
 <center> <img src="assets/Chapter-4/Seleccionar Plan.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°19). Elaboración propia. Realizado en Figma*
+
 **Pasarela de pagos**
 
 La siguiente imagen corresponde a la sección “Pasarela de pagos” donde los usuarios son dirigidas a un formulario para seleccionar y registrar su método de pago. Una vez que el proceso de pago es completado exitosamente, se notifica al usuario con un mensaje confirmando el vinculo de su tarjeta con la plataforma. Del mismo modo, si el usuario desea retirar su información o actualizar lo podra hacer a travéz de su perfil.
 
 <center> <img src="assets/Chapter-4/Pago.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°20). Elaboración propia. Realizado en Figma*
 
 **Mi perfil**
 
@@ -894,6 +910,8 @@ La sección titulada “Mi perfil” solicita al usuario que complete informaci�
 En este perfil, el usuario puede ver a la derecha sus herramientas correpondientes a su cuenta.
 <center> <img src="assets/Chapter-4/Perfil.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°21). Elaboración propia. Realizado en Figma*
 
 **Panel de control (Dashboard)**
 Esta pantalla representa el panel de control principal del sistema StockWise. Su objetivo es proporcionar al usuario una vista general del estado del inventario y acceso rápido a funciones clave. Entre sus elementos principales se encuentran:
@@ -915,6 +933,8 @@ Esta pantalla representa el panel de control principal del sistema StockWise. Su
 <center> <img src="assets/Chapter-4/Dashboard.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°22). Elaboración propia. Realizado en Figma*
+
 **Combinación de Productos en Kits**
 
 Esta sección está dedicada a la funcionalidad de crear kits de productos, una herramienta útil para negocios que venden combos o paquetes predefinidos. Las características principales incluyen:
@@ -930,6 +950,8 @@ Esta funcionalidad mejora la gestión del stock agrupado y permite optimizar est
 <center> <img src="assets/Chapter-4/Kit Productos.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°23). Elaboración propia. Realizado en Figma*
+
 **Agregar Producto**
 
 Esta pantalla permite visualizar todos los productos actualmente registrados en el inventario, con acceso rápido para editar o ver más detalles. Las funcionalidades clave incluyen:
@@ -944,6 +966,8 @@ Esta pantalla permite visualizar todos los productos actualmente registrados en 
 
 <center> <img src="assets/Chapter-4/Agregar Producto.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°24). Elaboración propia. Realizado en Figma*
 
 **Registro de Nuevo Producto**
 
@@ -961,6 +985,8 @@ Una vez completado el formulario, se debe presionar "Guardar" para registrar el 
 <center> <img src="assets/Chapter-4/NuevoProducto.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°25). Elaboración propia. Realizado en Figma*
+
 *Edición Rápida de Producto*
 
 Este modal aparece al hacer clic en “+ Detalle” sobre cualquier tarjeta de producto en la pantalla principal. Permite realizar modificaciones rápidas sobre un producto específico:
@@ -974,6 +1000,8 @@ Incluye botones para “Duplicar” (crear una copia rápida del producto) y “
 
 <center> <img src="assets/Chapter-4/EditarProducto.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°26). Elaboración propia. Realizado en Figma*
 
 **Historial de Movimientos**
 
@@ -996,12 +1024,16 @@ Esta vista permite al usuario consultar todos los movimientos registrados en el 
 <center> <img src="assets/Chapter-4/Historial.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°27). Elaboración propia. Realizado en Figma*
+
 *Confirmación de Eliminación*
 
 Al presionar el botón de eliminar, se despliega una ventana emergente de confirmación que advierte al usuario antes de borrar un registro del historial.
 
 <center> <img src="assets/Chapter-4/Historial1.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°28). Elaboración propia. Realizado en Figma*
 
 **Ticket Promedio**     
 
@@ -1020,6 +1052,8 @@ Botones:
 
 <center> <img src="assets/Chapter-4/Tikect  Promedio.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°29). Elaboración propia. Realizado en Figma*
 
 **Pantalla principal de Inventario por Lote**
 
@@ -1042,6 +1076,8 @@ Esta pantalla permite la visualización y gestión del inventario agrupado por l
 <center> <img src="assets/Chapter-4/Inventario - lote.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°30). Elaboración propia. Realizado en Figma*
+
 *Pantalla de Comentarios del Lote* 
 
 Este modal aparece al hacer clic en el icono de "Comentarios", permite dejar notas asociadas a un producto, útiles para incidencias, condiciones especiales del lote o instrucciones de seguimiento.
@@ -1055,12 +1091,16 @@ Este modal aparece al hacer clic en el icono de "Comentarios", permite dejar not
 <center> <img src="assets/Chapter-4/Inventariolote-comen.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°31). Elaboración propia. Realizado en Figma*
+
 *Pantalla de Exportación*
 
 Permite obtener un respaldo o trabajar fuera del sistema con los datos del inventario. Al dar click, saldra una ventana emergente con el ícono de exportación. Mostrara un texto  “¿Deseas exportar en excel?” y botones de acción: “Volver” y “Continuar”. 
 
 <center> <img src="assets/Chapter-4/Inventario - lote - exportación.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°32). Elaboración propia. Realizado en Figma*
 
 **Pantalla de Inventario por Producto**
 
@@ -1084,6 +1124,8 @@ Visualización clara de todos los productos del inventario, con opción de filtr
 <center> <img src="assets/Chapter-4/Inventario - producto.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°33). Elaboración propia. Realizado en Figma*
+
 *Edición de Registro*
 
 Facilita la actualización de datos en tiempo real, permitiendo mantener el inventario siempre actualizado y preciso.
@@ -1094,6 +1136,8 @@ Elementos mostrados:
 
 <center> <img src="assets/Chapter-4/Inventario - producto - editar registro.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°34). Elaboración propia. Realizado en Figma*
 
 **Pantalla Principal de Alerta Stock**
 
@@ -1113,6 +1157,8 @@ Componentes funcionales:
 <center> <img src="assets/Chapter-4/Alerta Stock.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°35). Elaboración propia. Realizado en Figma*
+
 *Detalles de Alerta*
 
  Ofrece una opción rápida para revisar a fondo cada alerta, ya sea por condiciones especiales o requerimientos de seguimiento.
@@ -1120,12 +1166,16 @@ Componentes funcionales:
  <center> <img src="assets/Chapter-4/Más detalles.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°36). Elaboración propia. Realizado en Figma*
+
 *Eliminar Alerta*
 
 Confirmar si se desea eliminar una alerta del sistema.  
 
  <center> <img src="assets/Chapter-4/Eliminar Alerta.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°37). Elaboración propia. Realizado en Figma*
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 Los Web Applications Wireflow Diagrams son una combinación de wireframes y flujos de usuario (user flows) que ilustran no solo la estructura y disposición de las páginas de una aplicación web, sino también cómo los usuarios navegarán entre ellas. Estos diagramas proporcionan una visión detallada del recorrido del usuario, mostrando las interacciones clave y las transiciones de una página a otra dentro de la aplicación.
@@ -1137,6 +1187,8 @@ El usuario selecciona la opción "Register", completa los campos solicitados y h
 <center> <img src="assets/Chapter-4/user registrar.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°38). Elaboración propia. Realizado en Lucychart*
+
 **User Goal: Iniciar sesión**
 
 El usuario introduce su correo y contraseña, luego hace clic en el botón "Log In". Después, se le redirige al panel de perfil, donde podrá editar su información personal y acceder a las herramientas según su perfil "Administrador" o "Empleado".
@@ -1144,30 +1196,42 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 <center> <img src="assets/Chapter-4/user iniciar sesion.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°39). Elaboración propia. Realizado en Lucychart*
+
 **User Goal: Navegar por el dashboard**
 
 <center> <img src="assets/Chapter-4/user home.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°40). Elaboración propia. Realizado en Lucychart*
 
 **User Goal: Inventario (Producto/Lote)**
 
 <center> <img src="assets/Chapter-4/user inventario .png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°41). Elaboración propia. Realizado en Lucychart*
+
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
 <center> <img src="assets/Chapter-4/agregar producto1.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°42). Elaboración propia. Realizado en Lucychart*
 
 **User Goal: Historial de Movimientos**
 
 <center> <img src="assets/Chapter-4/user historial.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°43). Elaboración propia. Realizado en Lucychart*
+
 **User Goal: Alerta de Stock**
 
 <center> <img src="assets/Chapter-4/user alerta.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°44). Elaboración propia. Realizado en Lucychart*
 
 ### 4.4.2. Web Applications Mock-ups.
 
@@ -1175,17 +1239,25 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 <center> <img src="assets/Chapter-4/inicio.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°45). Elaboración propia. Realizado en Figma*
+
 **Crear cuenta**
 <center> <img src="assets/Chapter-4/Registro1.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°46). Elaboración propia. Realizado en Figma*
 
 **Elegir plan de pago**
 <center> <img src="assets/Chapter-4/Plan.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°47). Elaboración propia. Realizado en Figma*
+
 **Pasarela de pagos**
 <center> <img src="assets/Chapter-4/Pago1.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°48). Elaboración propia. Realizado en Figma*
 
 **Mi perfil**
 
@@ -1193,38 +1265,103 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 <center> <img src="assets/Chapter-4/Perfil1.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°49). Elaboración propia. Realizado en Figma*
+
 **Panel de control (Dashboard)**
 <center> <img src="assets/Chapter-4/Dashboard1.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°50). Elaboración propia. Realizado en Figma*
 
 **Combinación de Productos en Kits**
 <center> <img src="assets/Chapter-4/Kit.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°51). Elaboración propia. Realizado en Figma*
+
 **Agregar Producto**
 <center> <img src="assets/Chapter-4/AG.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°52). Elaboración propia. Realizado en Figma*
 
 **Registro de Nuevo Producto**
 <center> <img src="assets/Chapter-4/EP.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°53). Elaboración propia. Realizado en Figma*
+
 *Edición Rápida de Producto*
 <center> <img src="assets/Chapter-4/EPP.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°54). Elaboración propia. Realizado en Figma*
+
 **Historial de Movimientos**
+<center> <img src="assets/Chapter-4/H.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°55). Elaboración propia. Realizado en Figma*
+
 *Confirmación de Eliminación*
-**Ticket Promedio**   
+<center> <img src="assets/Chapter-4/EliminarBoton.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°56). Elaboración propia. Realizado en Figma*
+
+**Ticket Promedio**
+<center> <img src="assets/Chapter-4/ticket.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°57). Elaboración propia. Realizado en Figma*
+
 **Pantalla principal de Inventario por Lote**
+<center> <img src="assets/Chapter-4/IL.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°58). Elaboración propia. Realizado en Figma*
+
 *Pantalla de Comentarios del Lote* 
+<center> <img src="assets/Chapter-4/ILC.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°59). Elaboración propia. Realizado en Figma*
+
 *Pantalla de Exportación*
+<center> <img src="assets/Chapter-4/ILE.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°60). Elaboración propia. Realizado en Figma*
+
 **Pantalla de Inventario por Producto**
+<center> <img src="assets/Chapter-4/IP.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°61). Elaboración propia. Realizado en Figma*
+
 *Edición de Registro*
+<center> <img src="assets/Chapter-4/IPE.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°62). Elaboración propia. Realizado en Figma*
+
 **Pantalla Principal de Alerta Stock**
+<center> <img src="assets/Chapter-4/AS.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°63). Elaboración propia. Realizado en Figma*
+
 *Detalles de Alerta*
+<center> <img src="assets/Chapter-4/AD.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°64). Elaboración propia. Realizado en Figma*
+
 *Eliminar Alerta*
+<center> <img src="assets/Chapter-4/EA.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°65). Elaboración propia. Realizado en Figma*
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
