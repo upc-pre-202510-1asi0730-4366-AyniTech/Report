@@ -144,6 +144,8 @@
   - [3.2. User Stories](#32-user-stories)
     - [Technical Stories](#technical-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
+    - [Segmento Objetivo 1: Bodegas especializadas por rubro](#segmento-objetivo-1-bodegas-especializadas-por-rubro)
+    - [Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas](#segmento-objetivo-2-startups-y-emprendedores-en-expansión-con-necesidades-logísticas)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
@@ -243,6 +245,8 @@
   - [3.2. User Stories](#32-user-stories)
     - [Technical Stories](#technical-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
+    - [Segmento Objetivo 1: Bodegas especializadas por rubro](#segmento-objetivo-1-bodegas-especializadas-por-rubro)
+    - [Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas](#segmento-objetivo-2-startups-y-emprendedores-en-expansión-con-necesidades-logísticas)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
@@ -336,6 +340,8 @@
   - [3.2. User Stories](#32-user-stories)
     - [Technical Stories](#technical-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
+    - [Segmento Objetivo 1: Bodegas especializadas por rubro](#segmento-objetivo-1-bodegas-especializadas-por-rubro)
+    - [Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas](#segmento-objetivo-2-startups-y-emprendedores-en-expansión-con-necesidades-logísticas)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
@@ -998,8 +1004,12 @@ Enlace para acceder al Miro
 ### Segmento Objetivo 1: Bodegas especializadas por rubro
 ![bodeguero](assets/Chapter-3/stockwise%20-%20impact%20map-bodeguero.png)
 
+*Imagen (N°12). Elaboración propia. Realizado en UXPRESSIA*
+
 ### Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas
 ![emprendedor](assets/Chapter-3/stockwise%20-%20impact%20map-emprendedor.png)
+
+*Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA*
 
 ## 3.4. Product Backlog
 <table>
