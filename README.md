@@ -1187,7 +1187,7 @@ El usuario selecciona la opción "Register", completa los campos solicitados y h
 <center> <img src="assets/Chapter-4/user registrar.png" style="width: 500px;"/> </center>
 <br>
 
-*Imagen (N°38). Elaboración propia. Realizado en Lucychart*
+*Imagen (N°38). Elaboración propia. Realizado en Lucidchart*
 
 **User Goal: Iniciar sesión**
 
@@ -1196,42 +1196,42 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 <center> <img src="assets/Chapter-4/user iniciar sesion.png" style="width: 500px;"/> </center>
 <br>
 
-*Imagen (N°39). Elaboración propia. Realizado en Lucychart*
+*Imagen (N°39). Elaboración propia. Realizado en Lucidchart*
 
 **User Goal: Navegar por el dashboard**
 
 <center> <img src="assets/Chapter-4/user home.png" style="width: 500px;"/> </center>
 <br>
 
-*Imagen (N°40). Elaboración propia. Realizado en Lucychart*
+*Imagen (N°40). Elaboración propia. Realizado en Lucidchart*
 
 **User Goal: Inventario (Producto/Lote)**
 
 <center> <img src="assets/Chapter-4/user inventario .png" style="width: 500px;"/> </center>
 <br>
 
-*Imagen (N°41). Elaboración propia. Realizado en Lucychart*
+*Imagen (N°41). Elaboración propia. Realizado en Lucidchart*
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
 <center> <img src="assets/Chapter-4/agregar producto1.png" style="width: 500px;"/> </center>
 <br>
 
-*Imagen (N°42). Elaboración propia. Realizado en Lucychart*
+*Imagen (N°42). Elaboración propia. Realizado en Lucidchart*
 
 **User Goal: Historial de Movimientos**
 
 <center> <img src="assets/Chapter-4/user historial.png" style="width: 500px;"/> </center>
 <br>
 
-*Imagen (N°43). Elaboración propia. Realizado en Lucychart*
+*Imagen (N°43). Elaboración propia. Realizado en Lucidchart*
 
 **User Goal: Alerta de Stock**
 
 <center> <img src="assets/Chapter-4/user alerta.png" style="width: 500px;"/> </center>
 <br>
 
-*Imagen (N°44). Elaboración propia. Realizado en Lucychart*
+*Imagen (N°44). Elaboración propia. Realizado en Lucidchart*
 
 ### 4.4.2. Web Applications Mock-ups.
 
@@ -1364,7 +1364,47 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 *Imagen (N°65). Elaboración propia. Realizado en Figma*
 
 ### 4.4.3. Web Applications User Flow Diagrams.
+**User Goal: Registrar**
+<center> <img src="assets/Chapter-4/user registro.png" style="width: 500px;"/> </center>
+<br>
 
+*Imagen (N°66). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Iniciar sesión**
+<center> <img src="assets/Chapter-4/user inicio.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°67). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Navegar por el dashboard**
+<center> <img src="assets/Chapter-4/home2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°68). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Inventario (Producto/Lote)**
+<center> <img src="assets/Chapter-4/IPL.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°69). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+<center> <img src="assets/Chapter-4/AG2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°70). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Historial de Movimientos**
+<center> <img src="assets/Chapter-4/H2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°71). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Alerta de Stock**
+<center> <img src="assets/Chapter-4/AS2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°72). Elaboración propia. Realizado en Lucidchart*
 
 ## 4.5. Web Applications Prototyping.
 
