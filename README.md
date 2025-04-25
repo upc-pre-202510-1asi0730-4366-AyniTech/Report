@@ -706,10 +706,17 @@ En el Sprint Planning 1, se muestran evidencias de la planeación y creación de
 |Sprint Velocity 1 |18 |
 |Sum of Story Points |18 |
 
-
-
-
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+Para lograr una distribución eficiente del trabajo y mayor claridad en las responsabilidades, se identificaron 4 áreas claves: Diseño UX/UI, Landing Page, Deploy y Documentation, La asignación se basó en experiencia y carga equilibrada. La tabla detalla los roles por área, leader (L) y collaborator(C):
+
+|Team Member|GitHub Username | Diseño UX/UI | Landing Page | Deploy | Documentation |
+|---|---|---|---|---|---|
+|Almerco Rojas, Jocelyn Damaly  |JocyDam |L  | C | C | C |
+|Saldaña Ayala, Fabiola del Rocio  |fabs-in-space | C |L  | C |C  |
+|Sánchez Ríos, Camila Cristina  |C4m174 | C | C | L | C |
+|Peña Riofrio, Maria Fernanda  |mariafep | C | C | C | C |
+|Esteban Román, Henry Kalet  |Kalet123-commit  | C | C | C | L |
+
 #### 5.2.1.3. Sprint Backlog n.
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
