@@ -68,10 +68,11 @@
                 <td>07/04/2025</td>
                 <td>
                     <ul>
-          <li>..</li>
-          <li>Camila Sanchez</li>
-          <li>..</li>
-          <li>..</li>
+                      <li>Jocelyn Damaly Almerco Rojas</li>
+                      <li>Camila Sanchez</li>
+                      <li>Maria Fernanda Peña</li>
+                      <li>Fabiola Del Rocio Saldaña Ayala</li>
+                      <li>Henry Kalet Esteban Roman</li>
                     <ul>
            </td>
       <td>            
@@ -108,96 +109,20 @@
 - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [COURSE PROJECT](#course-project)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems.](#424-searching-systems)
-    - [4.2.5. Navigation Systems.](#425-navigation-systems)
-  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-    - [4.7.2. Class Dictionary.](#472-class-dictionary)
-  - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagram.](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management.](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management.](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -206,188 +131,55 @@
 - [3.4. Product Backlog](#34-product-backlog)
 
 [Capítulo IV: Product Design](#capítulo-iv-product-design)
-- [COURSE PROJECT](#course-project)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems.](#424-searching-systems)
-    - [4.2.5. Navigation Systems.](#425-navigation-systems)
-  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-    - [4.7.2. Class Dictionary.](#472-class-dictionary)
-  - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagram.](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management.](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management.](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+- [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+- [4.2. Information Architecture](#42-information-architecture)
+  - [4.2.1. Organization Systems](#421-organization-systems)
+  - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tag](#423-seo-tags-and-meta-tag)
+  - [4.2.4. Searching Systems](#424-searching-systems)
+  - [4.2.5. Navigation Systems](#425-navigation-systems)
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+- [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+  - [4.4.1. Web Applications Wireframes](#411-general-style-guidelines)
+  - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+  - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+  - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+  - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+  - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+  - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+  - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.7.2. Class Dictionary](#472-class-dictionary)
+- [4.8. Database Design](#48-database-design)
+  - [4.8.1. Database Diagram](#481-database-diagram)
 
 [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [COURSE PROJECT](#course-project)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems.](#424-searching-systems)
-    - [4.2.5. Navigation Systems.](#425-navigation-systems)
-  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-    - [4.7.2. Class Dictionary.](#472-class-dictionary)
-  - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagram.](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management.](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management.](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+- [5.1. Software Configuration Management](#51-software-configuration-management)
+  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+  - [5.1.2. Source Code Management](#512-source-code-management)
+  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+  - [5.2.X. Sprint ](#52x-sprint)
+    - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
+    - [5.2.X.2. Sprint Backlog n](#52x2-sprint-backlog-n)
+    - [5.2.X.3. Development Evidence for Sprint Review](#52x3-development-evidence-for-sprint-review)
+    - [5.2.X.4. Testing Suite Evidence for Sprint Review](#52x4-testing-suite-evidence-for-sprint-review)
+    - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
+    - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
+    - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
+    - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
+- [5.3. Validation Interviews](#53-validation-interviews)
+  - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+  - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+- [5.4. Video About-the-Product](#54-video-about-the-product)
 
 [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -412,11 +204,11 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     </thead>
   <tbody>
     <tr>
-      <td><b>Comunica oralmente con
-efectividad a diferentes rangos
-de audiencia.</b></td>
+      <td><b>Trabaja en equipo para <br>
+      proporcionar liderazgo en <br>
+      forma conjunta.</b></td>
       <td>
-        <p><b>name  </b></p>
+        <p><b>name </b></p>
         <p><b>TB1:</b></p>
         <p>..</p>
         <p><b>TP1:</b></p>
@@ -426,7 +218,7 @@ de audiencia.</b></td>
         <p><b>TF:</b></p>
         <p>.</p>
         <p><b>name</b></p>
-       <p><b>TB1:</b></p>
+        <p><b>TB1:</b></p>
         <p></p>
         <p><b>TP1:</b></p>
         <p></p>
@@ -436,16 +228,27 @@ de audiencia.</b></td>
         <p>.</p>
         <p><b>name</b></p>
         <p><b>TB1:</b></p>
-        <p>     
-        </p>
+        <p></p>
         <p><b>TP1:</b></p>
         <p>.</p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b></b></p>
-       <p><b>TB1:</b></p>
+        <p><b>Maria Fernanda Peña Riofrio</b></p>
+        <p><b>TB1:</b></p>
+        <p>Me encargue del anális competitivo<br>
+        y a definir estrategías frente a<br>
+        competidores.
+        </p>
+        <p><b>TP1:</b></p>
+        <p></p>
+        <p><b>TB2:</b></p>
+        <p></p>
+        <p><b>TF:</b></p>
+        <p></p>
+        <p><b>name</b></p>
+        <p><b>TB1:</b></p>
         <p></p>
         <p><b>TP1:</b></p>
         <p></p>
@@ -466,11 +269,11 @@ de audiencia.</b></td>
       </td>
     </tr>
     <tr>
-      <td>Comunica por escrito con
-efectividad a diferentes rangos
-de audiencia.</td>
+      <td><b>Crea un entorno colaborativo e <br>
+inclusivo, estable metas, planifica tareas <br>
+y cumple objetivos.</b></td>
       <td>
-        <p><b>name  </b></p>
+        <p><b>name</b></p>
         <p><b>TB1:</b></p>
         <p>..</p>
         <p><b>TP1:</b></p>
@@ -480,7 +283,7 @@ de audiencia.</td>
         <p><b>TF:</b></p>
         <p>..</p>
         <p><b>name</b></p>
-       <p><b>TB1:</b></p>
+        <p><b>TB1:</b></p>
         <p>..</p>
         <p><b>TP1:</b></p>
         <p>..</p>
@@ -490,16 +293,28 @@ de audiencia.</td>
         <p>.</p>
         <p><b>name</b></p>
         <p><b>TB1:</b></p>
-        <p>..
+        <p>..</p>
+        <p><b>TP1:</b></p>
+        <p>..</p>
+        <p><b>TB2:</b></p>
+        <p>...</p>
+        <p><b>TF:</b></p>
+        <p>.</p>
+        <p><b>Maria Fernanda Peña Riofrio</b></p>
+        <p><b>TB1:</b></p>
+        <p>Coordine el diseño y análisis de <br>
+        entrevistas, propuse términos para <br>
+        el ubiquitous language y ayudé a <br> 
+        distribuir tareas dentro del equipo  <br> 
         </p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>...</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
-        <p>.</p>
+        <p>...</p>
         <p><b>name</b></p>
-       <p><b>TB1:</b></p>
+        <p><b>TB1:</b></p>
         <p>...</p>
         <p><b>TP1:</b></p>
         <p>...</p>
@@ -524,17 +339,226 @@ de audiencia.</td>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
+StockWise es una plataforma web de gestión de inventarios dirigida a pequeñas y medianas empresas, startups y bodegas especializadas. Su objetivo principal es facilitar el control eficiente de entradas y salidas de productos, la gestión de usuarios, la configuración de alertas inteligentes y la generación de reportes detallados, todo a través de una interfaz intuitiva y accesible desde cualquier dispositivo.
+
+La solución responde a una problemática concreta: muchos negocios aún utilizan métodos manuales (como hojas de cálculo o registros en papel) para administrar sus inventarios, lo cual genera errores, desorganización, sobrecompras y pérdidas económicas. StockWise busca resolver este problema digitalizando y centralizando el control del inventario, permitiendo a los negocios tomar decisiones basadas en datos y optimizar su operación.
+
+<br>
+<b>Misión: </b>Brindar a pequeñas y medianas empresas una solución de gestión de inventarios sencilla, accesible y eficiente, que les permita digitalizar su operación, reducir errores logísticos y tomar decisiones basadas en datos reales, apoyando así su crecimiento sostenible.
+
+<br>
+<b>Visión: </b>StockWise se enfoca en ser la plataforma preferida de los empresarios que buscan una gestión de inventarios, herramientas de alto valor con un modelo escalable, adaptable y centrado en el usuario.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <th>
+      <img src="assets/Chapter-1/fotoJocy.png" alt="Foto de perfil de " width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Jocelyn Damaly Almerco Rohas</b></p>
+      <p>
+        Soy estudiante de Ingeniería de Software y actualmente curso el 5to ciclo. En mi tiempo libre me gusta tocar ukelele, leer libros, resolver sudoku, escuchar música y ver series.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="assets/Chapter-1/fotoFabs.jpg" alt="Foto de perfil de Fabiola" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Saldaña Ayala, Fabiola del Rocio</b></p>
+      <p>
+        Soy estudiante de la carrera de Ingeniería de Software, actualmente me encuentro en el quinto ciclo. Me gusta viajar, aprender nuevos idiomas, leer y me interesa aprender más acerca de nuevas tecnologías.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="assets/Chapter-1/fotocam.png" alt="Foto de perfil de Camila" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Sánchez Ríos, Camila Cristina</b></p>
+      <p>
+        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el setimo ciclo. Me gusta escuchar música y leer en los ratos libres y aprender más sobre la carrera.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="assets/Chapter-1/fotomafer.jpg" alt="Foto de perfil de Mafer" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Peña Riofrio, Maria Fernanda</b></p>
+      <p>
+        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el sexto ciclo. En mismo tiempos libres me gusta leer sobre temas diversos y ver películas.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="assets/Chapter-1/fotoHenry.jpg" alt="Foto de perfil de Henry" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Esteban Román, Henry Kalet</b></p>
+      <p>
+      Soy estudiante de la carrera de Ingeniería de Software. Actualmente me encunetro en 5to ciclo y me gusta mucho escuchar música y pasear.
+      </p>
+    </td>
+  </tr>
+</table>
+<br>
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+
+- **Who (¿Quiénes?)**<br>
+Emprendedores, startups y pequeñas/medianas empresas con bodegas físicas que almacenan productos de distintos rubros como ropa, calzado, electrodomésticos, ferretería o alimentos. 
+
+- **What (¿Qué sucede?)**<br>
+A medida que sus negocios escalan, la gestión manual del inventario con hojas de cálculo o registros físicos se vuelve ineficiente, generando pérdidas, errores, quiebres de stock, sobrecompras y desorden logístico.
+
+- **When (¿Cuándo ocurre?)**<br>
+En el momento en que el negocio empieza a crecer, aumentar su variedad de productos o abrir múltiples canales de venta, como tiendas físicas y plataformas online.
+
+- **Where (¿Dónde ocurre?)**<br>
+En bodegas físicas propias, espacios alquilados o incluso en el hogar del emprendedor, especialmente en etapas tempranas o de expansión del negocio.
+
+- **Why (¿Por qué es un problema?)**<br>
+La falta de un sistema centralizado y en tiempo real impide tomar decisiones estratégicas basadas en datos. Esto afecta la planificación de compras, genera pérdidas económicas, y daña la experiencia del cliente final.
+
+-**How (¿Cómo lo solucionan hoy?)**<br>
+Mediante herramientas manuales como hojas de Excel, inventarios escritos o software no especializado, que resultan limitados, propensos a errores y poco escalables.
+
+-**How much (¿Cuánto cuesta no resolverlo?)**<br>
+El costo se traduce en pérdidas económicas significativas por productos no vendidos, errores de stock, tiempo invertido en tareas manuales y menor competitividad frente a negocios más organizados.
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+El propósito de StockWise es proporcionar una plataforma web intuitiva y accesible para que pequeñas y medianas empresas, startups y bodegas especializadas puedan gestionar su inventario de forma eficiente, digitalizada y sin complicaciones técnicas ni altos costos.
+
+El problema se encuentra en que muchos de estos negocios aún dependen de métodos manuales como hojas de cálculo, cuadernos físicos o herramientas no especializadas para registrar y controlar su stock. Esto genera errores frecuentes, pérdidas de productos, compras innecesarias, falta de trazabilidad y escasa visibilidad sobre la operación logística.
+
+Hemos observado que esta situación impacta negativamente en la productividad del negocio, la satisfacción del cliente y la capacidad de tomar decisiones basadas en datos. A medida que estos negocios escalan, el desorden operativo se vuelve insostenible, provocando sobrecostos y afectando su crecimiento.
+
+¿Cómo podríamos diseñar una plataforma de gestión de inventarios que sea lo suficientemente simple, funcional y adaptable para cubrir las necesidades reales de estos negocios en expansión, facilitando el control del inventario, reduciendo errores y mejorando la toma de decisiones, con métricas que midan eficiencia operativa, precisión del stock y satisfacción del usuario?
+
+
 #### 1.2.2.2. Lean UX Assumptions
+Business Assumptions:
+
+1.Creemos que los negocios emergentes necesitan digitalizar su gestión de inventarios.
+
+2.Estas necesidades se pueden satisfacer con una plataforma web intuitiva, escalable y accesible.
+
+3.Nuestros clientes iniciales serán emprendedores y start ups con bodegas especializadas.
+
+4.El valor más importante que un cliente quiere de nuestros servicios es control y visibilidad de su inventario.
+
+5.El cliente también va a obtener alertas inteligentes, reportes automáticos y una experiencia intuitiva.
+
+6.Vamos a obtener la mayoría de los clientes mediante publicidad en línea  y asociaciones con comunidades de emprendedores.
+
+7.Vamos a obtener ingresos mediante un modelo freemium con upgrade a planes premium.
+
+8.Nuestra competencia en el mercado serán herramientas genéricas como Excel, Google Sheets y ERPs complejos.
+
+9.Vamos a tener ventaja frente a nuestra competencia debido a nuestra simplicidad, enfoque en pymes, y especialización en inventarios.
+
+10.El mayor riesgo del servicio es la baja adopción o la percepción de que es complejo o costoso.
+
+11.Lo resolveremos realizando pruebas con usuarios reales, iteraciones constantes y una estrategia clara de onboarding.
+
+**User Assumptions:**</br>
+¿Quién es el usuario? Dueños de negocios, encargados de bodegas o logística en pymes/startups.
+
+¿Qué problemas tiene nuestro producto que busca resolver? Falta de control de stock, errores manuales, sobrecostos, quiebres de stock.
+
+¿Qué características son importantes? Registro de productos, historial de movimientos, alertas, reportes, roles y permisos.
+
+¿Dónde encaja nuestro producto en su vida/trabajo? En la gestión diaria del inventario, decisiones de compra, y control de logística.
+
+¿Cuándo y cómo es usado nuestro producto? A diario, desde computadoras o móviles, al inicio y cierre de turnos, y durante reposiciones.
+
+¿Cómo debe verse y comportarse? Simple, rápida, intuitiva, con interfaz limpia, adaptable a cualquier dispositivo.
+
+**Feature Assumptions:**
+
+Creemos que la aplicación debe contar con una interfaz de usuario intuitiva y responsiva que permitirá a los encargados de almacén, emprendedores y administradores adoptarla sin dificultad, reduciendo la curva de aprendizaje.
+
+Creemos que la plataforma debe proporcionar notificaciones y alertas personalizables (como stock bajo o fechas próximas de vencimiento) que mantendrán a los usuarios informados de manera oportuna para evitar errores logísticos y quiebres de stock.
+
+Creemos que el sistema debe incluir herramientas de generación de reportes y gráficos que permitan visualizar fácilmente información clave del inventario (productos más rotados, niveles de stock, tendencias de ventas), ayudando a los usuarios a tomar decisiones informadas.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+Creemos que los usuarios valorarán las alertas inteligentes.</br> sabremos que es cierto. 
+</br>cuando recibamos al menos un 80% de los usuarios, un  feedback positivo y alta frecuencia de uso en esta funcionalidad.
+
+Creemos que los usuarios encontrarán valiosos los reportes visuales.</br> sabremos que es cierto .
+</br>cuando observemos mínimamente un 20% mayor retención y uso del módulo de reportes.
+
+Creemos que ofrecer una versión gratuita con funcionalidades limitadas incentivará la adopción inicial.</br>
+ sabremos que es cierto.</br>
+  cuando el número de registros y usuarios activos supere nuestras métricas objetivo durante el primer mes.
+
+Creemos que implementar alertas inteligentes por stock bajo y fechas de vencimiento reducirá los quiebres de stock.</br>
+Sabremos que tenemos razón </br>
+Cuando comparemos el número de productos con quiebre antes y después de la activación de alertas por parte del usuario.
+
 #### 1.2.2.4. Lean UX Canvas
+
+ <img src="assets/Chapter-1/Lean Ux canvas.png" alt="Lean Ux canvas" width="800px">
+<a href="https://app.mural.co/t/5tociclo9997/m/5tociclo9997/1744307557604/0864191a887d015814c90d39ec59b42d1980e4e2?sender=u0c816fe38ad2a13bddb77838" target="_blank" style="color: sky blue; text-decoration: underline;">
+  Enlace para acceder al Lean Ux
+
+  
+</a>
+
+<p><em>Imagen (N°1). Elaboración propia. Realizado en UXPressia</a></em></p>
+
+
 ## 1.3. Segmentos objetivo
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+**Aspectos demográficos:**
+
+- Sexo: Femenino, Masculino
+- Edades: 28 a 50 años
+- Nivel socioeconómico: Clases B y C
+- Aspectos geográficos:
+- Nacionalidad: Peruana
+- Zona geográfica: Urbana
+- Departamento: Lima Metropolitana y otras ciudades con fuerte actividad comercial
+
+**Aspectos psicográficos:**
+
+- Dirigen negocios mayoristas o minoristas que gestionan inventario con productos variados en tallas, colores, fechas de vencimiento o dimensiones técnicas.
+- Enfrentan desafíos como alta rotación de productos, pérdidas por desorden o falta de trazabilidad y decisiones poco informadas de compra.
+- Buscan soluciones para profesionalizar su operación, evitar errores y mantener el control del stock.
+- Valoran herramientas tecnológicas, que les permite ordenar su inventario, recibir alertas según el tipo de producto y tomar decisiones basadas en reportes visuales y detallados
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas** 
+
+**Aspectos demográficos:**
+
+- Sexo: Masculino
+- Edades: 20 a 30 años
+- Nivel socioeconómico: Clases B y C
+- Aspectos geográficos:
+- Nacionalidad: Peruana
+- Zona geográfica: Urbana
+- Departamento: Lima Metropolitana y otras ciudades con fuerte actividad comercial
+
+**Aspectos psicográficos:**
+
+- Están en una etapa de crecimiento empresarial y buscan escalar su operación de manera eficiente.
+- Tienen una mentalidad emprendedora y están dispuestos a invertir en herramientas que optimicen su logística.
+- Reconocen que el desorden en su inventario afecta su productividad y atención al cliente.
+- Valoran las soluciones tecnológicas que profesionalicen su negocio y les permitan competir a mayor escala.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
