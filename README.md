@@ -687,7 +687,27 @@ generalmente se trata de "main" o "master".
 ## 5.2. Landing Page, Services & Applications Implementation
 En esta sección se explica y evidencia el proceso de implementación, pruebas, documentación y despliegue del Landing Page, Web Services y Frontend Web Applications.
 ### 5.2.1. Sprint 1
+En este apartado se presenta un resumen del progreso obtenido durante el Sprint 1, dedicado a la construcción de la Landing Page. Incluye los logros en diseño, programación y features desarrollados, junto con la gestión del equipo: comunicación, herramientas y planificación. También se puede observar el Sprint backlog, evidencias del trabajo y documentación de servicios.
 #### 5.2.1.1. Sprint Planning 1
+En el Sprint Planning 1, se muestran evidencias de la planeación y creación del landing page, incluyendo avances del proyecto como colaboración en equipo que se registran en GitHub.
+
+| Sprint # | 1 |
+|---------|-------|
+| **Sprint Planning Background** |      |
+| Date | 17/04/2025|
+| Time | 8:30 pm |
+|Location | Modalidad remota |
+|Prepared By | Henry Esteban|
+|Attendees (to planning meeting)| Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban|
+|Sprint 0 Review Summary | Para esta entrega no hay un Sprint anterior por ende no hay un resumen del Sprint|
+|Sprint 0 Retrospective Summary | Para esta entrega no hay un Sprint anterior por ende no hay un resumen del Sprint|
+|**Sprint Goal & User Stories** | |
+|Sprint Goal 1 |En este sprint se tiene como objetivo, realizar la landing page con HTML y CSS. Anticipadamente, en otras previas reuniones se coordinó en equipo, el contenido y diseño de la landing page,el cual se realizó en Figma. Una vez realizado el sprint, la landing debe estar desplegada en GitHub Pages para que los usuarios puedan acceder a través del link a está misma. |
+|Sprint Velocity 1 |18 |
+|Sum of Story Points |18 |
+
+
+
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 #### 5.2.1.3. Sprint Backlog n.
