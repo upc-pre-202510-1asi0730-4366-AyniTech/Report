@@ -215,17 +215,38 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       proporcionar liderazgo en <br>
       forma conjunta.</b></td>
       <td>
-        <p><b>name </b></p>
-        <p><b>TB1:</b></p>
-        <p>..</p>
+<p><b>Henry Kalet Esteban Roman</b></p>
+        <p><b>TB1:</b>Asumí un rol activo<br>
+        de liderazgo dentro del equipo,<br>
+        tomando la iniciativa con el<br>
+         apartado de Antecedentes y<br>
+        Problemática, así comoen la <br>
+        definición de los segmentos.<br>
+        objetivo Esto permitió al<br>
+        grupo tener una base para el<br> 
+        enfoque del proyecto. También<br>
+        lideré la elaboración del<br>
+        To-be Scenario Mapping<br>
+        y participé activamente con<br>
+        user stories y el diseño de<br>
+        wireframesy mockups, <br>
+        promoviendo una visión común<br>
+        del producto final.</p>
+        <p></p>
         <p><b>TP1:</b></p>
         <p>,..</p>
         <p><b>TB2:</b></p>
         <p>.</p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
-        <p><b>TB1:</b></p>
+       <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
+         <p>TB1: Colaboré con el desarrollo del<br> 
+         needfinding para el cual tuve que<br>
+         coordinar con mi grupo para definir <br>
+         bien a nuestros user personas y sus<br>
+         necesidades. También apoyé en el<br> 
+         diseño del c4 y en el apartado<br>
+         Software Object-Oriented Design</p>
         <p></p>
         <p><b>TP1:</b></p>
         <p></p>
@@ -235,7 +256,11 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p>.</p>
         <p><b>Camila Sanchez Rios</b></p>
         <p><b>TB1:</b></p>
-        <p>Me encargue de crear la organización y los repositorios en el github. Colabore con Capítulo IV: Product Design (Landing y Web), Capitulo III: User Stories, Capitulo II: Entrevistas</p>
+        <p>Me encargue de crear la organización<br>
+        y los repositorios en el github. Colabore<br>
+        con Capítulo IV: Product Design (Landing<br>
+        y Web), Capitulo III: User Stories,<br>
+        Capitulo II: Entrevistas<br></p>
         <p><b>TP1:</b></p>
         <p>.</p>
         <p><b>TB2:</b></p>
@@ -280,18 +305,31 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 inclusivo, estable metas, planifica tareas <br>
 y cumple objetivos.</b></td>
       <td>
-        <p><b>name</b></p>
-        <p><b>TB1:</b></p>
-        <p>..</p>
+        <p><b>Henry Kalet Esteban Román</b></p>
+        <p><b>TB1:</b>Fomenté un entorno<br>
+        colaborativo al integrar los aportes<br>
+        de mis compañeros durante la edición<br>
+        y análisis de entrevistas. Coordiné<br>
+        con el equipo para definir a nuestros<br>
+        user personas dentro del needfinding<br>
+        asegurando que todas las voces fueran<br>
+        consideradas. Además, apoyé en el<br>
+        apartado Software Object-Oriented<br>
+        Design, cumpliendo con los objetivos<br>
+        establecidos en los plazos definidos.<br></p>
+        <p></p>
         <p><b>TP1:</b></p>
         <p>..</p>
         <p><b>TB2:</b></p>
         <p>..</p>
         <p><b>TF:</b></p>
         <p>..</p>
-        <p><b>name</b></p>
-        <p><b>TB1:</b></p>
-        <p>..</p>
+        <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
+         <p>TB1: Coordiné con mis compañeros<br> 
+         para el desarrollo del needfinding<br>
+         y para todos el apartado de  Software <br> 
+         Object-Oriented Design<br></p>
+        <p></p>
         <p><b>TP1:</b></p>
         <p>..</p>
         <p><b>TB2:</b></p>
@@ -300,7 +338,11 @@ y cumple objetivos.</b></td>
         <p>.</p>
         <p><b>Camila Sanchez Rios</b></p>
         <p><b>TB1:</b></p>
-        <p>Me encargue de crear la organización y los repositorios en el github. Colabore con Capítulo IV: Product Design (Landing y Web), Capitulo III: User Stories, Capitulo II: Entrevistas</p>
+        <p>Me encargue de crear la organización<br>
+        y los repositorios en el github. Colabore<br>
+        con Capítulo IV: Product Design (Landing<br>
+        y Web), Capitulo III: User Stories,<br>
+         Capitulo II: Entrevistas<br></p>
         <p><b>TP1:</b></p>
         <p>..</p>
         <p><b>TB2:</b></p>
