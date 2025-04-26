@@ -1449,6 +1449,19 @@ En el Diagrama de Contenedores (C4 Nivel 2) de StockWise representamos la arquit
 <br>
 
 ### 4.6.3. Software Architecture Components Diagrams.
+
+<center> <img src="assets/Chapter-4/Structurizr/Component1.png" style="width: 500px;"/> </center>
+<br>
+
+<center> <img src="assets/Chapter-4/Structurizr/Component2.png" style="width: 500px;"/> </center>
+<br>
+
+<center> <img src="assets/Chapter-4/Structurizr/Component3.png" style="width: 500px;"/> </center>
+<br>
+
+<center> <img src="assets/Chapter-4/Structurizr/Component4.png" style="width: 500px;"/> </center>
+<br>
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 <center> <img src="assets/Chapter-4/diagramadeclases.png" style="width: 800px;"/> </center>
