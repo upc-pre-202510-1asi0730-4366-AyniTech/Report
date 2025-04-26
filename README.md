@@ -226,8 +226,14 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p></p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
-        <p><b>TB1:</b></p>
+        <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
+        <p>TB1: Colaboré con el desarrollo del<br> 
+        needfinding para el cual tuve que<br>
+        coordinar con mi grupo para definir <br>
+        bien a nuestros user personas y sus<br>
+        necesidades. También apoyé en el<br> 
+        diseño del c4 y en el apartado<br>
+        Software Object-Oriented Design</p>
         <p></p>
         <p><b>TP1:</b></p>
         <p>.</p>
