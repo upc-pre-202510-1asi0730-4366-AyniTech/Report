@@ -279,9 +279,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p></p>
         <p><b>TF:</b></p>
         <p></p>
-        <p><b>name</b></p>
+        <p><b>Jocelyn Damaly Almerco Rojas</b></p>
         <p><b>TB1:</b></p>
-        <p></p>
+        <p>Me encargué de la elaboración de los diagramas C4, apoyé en el registro de entrevistas y también colaboré en el desarrollo de wireframes y mockups.</p>
         <p><b>TP1:</b></p>
         <p></p>
         <p><b>TB2:</b></p>
@@ -362,9 +362,9 @@ y cumple objetivos.</b></td>
         <p>...</p>
         <p><b>TF:</b></p>
         <p>...</p>
-        <p><b>name</b></p>
+        <p><b>Jocelyn Damaly Almerco Rojas</b></p>
         <p><b>TB1:</b></p>
-        <p>...</p>
+        <p>Estuve atento a las reuniones y me encargué de registrar mi entrevista a tiempo. Además, participé en las reuniones de coordinación y evaluación de las user stories, con el objetivo de elaborar los wireframes y mockups."</p>
         <p><b>TP1:</b></p>
         <p>...</p>
         <p><b>TB2:</b></p>
