@@ -628,6 +628,50 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 </table>
 
 ### 2.2.3. Análisis de entrevistas
+<h2>Análisis del segmento de bodegas especializadas por rubro</h2>
+
+<p>
+En este segmento, los entrevistados muestran una tendencia a gestionar el inventario de forma manual, utilizando herramientas como cuadernos, calculadoras o simplemente observación visual. 
+</p>
+
+<p>
+Por ejemplo, <strong>Milagros Almerco</strong> reconoce que lleva el control de su bodega anotando manualmente las ventas y compras, lo cual le genera dificultades para mantener un inventario claro. Menciona que se le dificulta encontrar productos específicos y ha tenido pérdidas por no controlar adecuadamente las fechas de vencimiento. Le gustaría tener un sistema que le brinde alertas de productos próximos a vencer, cambios de precio y reportes automáticos en tiempo real.
+</p>
+
+<p>
+En el caso de <strong>Kerry Baquerrizo</strong>, quien trabaja en la bodega familiar, destaca la necesidad de contar con una herramienta que le permita gestionar, alertar y registrar sus productos. Se muestra especialmente preocupada por productos perecibles como las frutas, que suelen deteriorarse por falta de control en el abastecimiento y baja demanda estacional. Resalta el deseo de contar con una plataforma que optimice el proceso logístico y de stock.
+</p>
+
+<p>
+Por su parte, <strong>Juan Carlos Ramírez</strong>, un emprendedor de 49 años, aún depende de facturas y boletas físicas, aunque se encuentra en proceso de transición hacia un sistema digital apoyado en un POS con escáner de código de barras. La revisión del stock se hace de manera visual y la gestión de ventas se da por WhatsApp. Su motivación para digitalizar es mejorar la eficiencia operativa y ahorrar tiempo.
+</p>
+
+<p>
+En resumen, todos los entrevistados coinciden en la necesidad de implementar herramientas tecnológicas que les ayuden a mejorar el control del inventario, recibir alertas sobre productos críticos y facilitar la organización general del negocio. Se evidencia una apertura al cambio tecnológico, aunque actualmente muchos aún operan con métodos tradicionales.
+</p>
+
+<h2>Análisis del segmento de startups y emprendedores en expansión con necesidades logísticas</h2>
+
+<p>
+Este segmento se caracteriza por emprendedores que, si bien han adoptado ciertas herramientas básicas como Excel, enfrentan dificultades para escalar su sistema de gestión de inventarios debido a la falta de integración, automatización o facilidad de uso de las plataformas actuales.
+</p>
+
+<p>
+<strong>Octavio</strong>, quien comercializa productos ecológicos para el hogar, gestiona su inventario a través de Google Sheets. Sin embargo, expresa que esta herramienta se queda corta, ya que no se sincroniza con sus canales de venta. Ha evaluado el uso de plataformas de gestión, pero le preocupa la curva de aprendizaje. Señala que si va a pagar por un sistema, espera que sea intuitivo y fácil de usar, para justificar la inversión.
+</p>
+
+<p>
+<strong>Elvis Aranga Meza</strong>, de 31 años, administra una bodega en Santiago de Surco. Su gestión se basa en el control visual y registros manuales de ventas totales. Reconoce limitaciones para proyectar inventario, controlar mermas y actualizar precios, lo cual le ha ocasionado pérdidas por vencimientos y robos. Considera que una plataforma digital podría mejorar la eficiencia operativa, permitir la delegación de tareas y reducir errores humanos, aportando mayor libertad en la gestión.
+</p>
+
+<p>
+Por otro lado, <strong>Alexander Miranda</strong>, quien se dedica a la venta de productos textiles, registra su inventario manualmente. Indica que este proceso es agotador y le consume horas. Usa Excel para controlar ingresos y luego compara con boletas para llevar un conteo. Está interesado en automatizar sus procesos y considera implementar tecnologías para modernizar su gestión de inventario.
+</p>
+
+<p>
+En conjunto, estos emprendedores muestran disposición a adoptar herramientas tecnológicas, pero enfrentan barreras relacionadas a la complejidad de uso, falta de sincronización con otros procesos comerciales y la necesidad de una solución simple y adaptada a sus necesidades logísticas específicas.
+</p>
+
 ## 2.3. Needfinding
 
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
