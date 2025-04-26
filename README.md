@@ -226,8 +226,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p></p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
-        <p><b>TB1:</b></p>
+        <p><b>Henry Kalet Esteban Roman</b></p>
+        <p><b>TB1:</b>Asumí un rol activo de liderazgo dentro del equipo, tomando la iniciativa en el desarrollo del apartado de Antecedentes y Problemática, así como en la definición de los segmentos objetivo. Esto permitió al grupo tener una base clara para el enfoque del proyecto. También lideré la elaboración del To-be Scenario Mapping y participé activamente en la definición de user stories y el diseño de wireframes y mockups, promoviendo una visión compartida del producto final.</p>
         <p></p>
         <p><b>TP1:</b></p>
         <p>.</p>
