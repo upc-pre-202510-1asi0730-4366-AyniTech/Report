@@ -788,9 +788,19 @@ Para la entrega del Sprint 1, se desplegó el landing page de forma completa. Pa
 2. Entrando a link se puede correctamente la landing page de stock wise
 ![sw deployment2](assets/Chapter-5/deploymnet_evidence2_sprint.png)
 
-
-
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+| Alumno | Actividad |
+| ------ | --------- |
+|Jocelyn Damaly Almerco Rojas|Implementación de las sección Testimonios-Clientes|
+|Sanchez Rios, Camila Cristina|Implementación de la sección header y sección hero-section|
+|Henry Kalet Esteban Roman|Implementación de la sección footer|
+|Maria Fernanda Peña Riofrio|Implementación de la sección beneficios-características y llamado-acción-final|
+|Fabiola Del Rocio Saldaña Ayala|Implementación de la sección planes-precios|
+
+**Commits del landing page**
+![commits landing](assets/Chapter-5/insights1_sprint1.png)
+
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 ### 5.3.2. Registro de Entrevistas.
