@@ -1579,6 +1579,9 @@ Enlace para acceder al Miro
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
+
+El Domain-Driven Design (DDD) busca que el software refleje fielmente nuestro producto StockWise, mediante un lenguaje compartido y la separación del dominio en contextos bien delimitados. Se utilizarán patrones estratégicos y tácticos para guiar tanto el diseño del modelo como la arquitectura del sistema.
+
 ### 4.6.1. Software Architecture Context Diagram.
 ### 4.6.2. Software Architecture Container Diagrams.
 ### 4.6.3. Software Architecture Components Diagrams.
