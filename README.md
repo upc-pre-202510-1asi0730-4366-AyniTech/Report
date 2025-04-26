@@ -830,6 +830,33 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 ### 4.4.2. Web Applications Mock-ups.
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
+
+<h2>Web Application Prototyping</h2>
+
+<p>
+El apartado de Web Application Prototyping muestra el primer acercamiento visual e interactivo al diseño de la plataforma web. A través del uso de herramientas de prototipado, se crean representaciones dinámicas que permiten simular la navegación, disposición de módulos y flujos de interacción del usuario antes de pasar a la fase de desarrollo.
+</p>
+
+<p>
+Durante este proceso, se estructuran pantallas clave como el login, panel de control, gestión de productos, movimientos de stock, generación de reportes y alertas de inventario. El objetivo es anticipar posibles mejoras de usabilidad y validar la propuesta funcional con los usuarios finales.
+</p>
+
+<p>
+El prototipo también permite identificar ajustes necesarios en la experiencia de usuario (UX) y verificar que los requisitos funcionales definidos en las User Stories se reflejen correctamente en las interfaces propuestas.
+</p>
+
+<p>
+A continuación, se presenta el enlace para visualizar el video de navegación del prototipo interactivo:
+</p>
+
+<p>
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EXKfruhspmVBidF6TSup3wQBhyHtNR2_ePztNA5OyxQ2XQ?e=mjWxUU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" 
+   target="_blank" style="color: #2c3e50; font-weight: bold; text-decoration: underline;">
+   Ver video del prototipo interactivo
+</a>
+</p>
+
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
 ### 4.6.2. Software Architecture Container Diagrams.
