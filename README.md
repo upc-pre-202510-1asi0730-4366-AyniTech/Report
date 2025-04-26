@@ -727,6 +727,26 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
 ![trello](assets/Chapter-5/Trello_stockwise_sprint1.png)
 
+|Sprint # | 1 |  |  |  |  |  |  |
+|----|----|----- |---- |---- |---- |---- | ---|
+|User Story |  |Work-Item /Task  |  |  |  |  |  |
+|Id|Title|Id |Title |Description|Estimation(Hours) |Assigned To| Status (To-do / InProcess / ToReview / Done)|
+|US01|Sección Header|T1|Interacción de la barra de navegación |Añadir funcionalidades a la barra de navegaciones |0.5h|Camila Sanchez |Done|
+|US01|Sección Header|T2|Diseño responsive en la barra de navegación |Implementar diseño responsive a la barra de navegación |1h |Camila Sanchez |Done|
+|US01|Sección Header|T3|Función sticky en la barra de navegación |Aplicar la funcionalidad de que la barra de navegación se desplace por toda la landing |0.5h |Camila Sanchez |Done|
+|US02|Sección Hero|T4|Mostrar Hero Section |Implementar un hero section |1h |Camila Sanchez |Done|
+|US02|Sección Hero|T5|Diseño responsive en el hero section |Implementar un diseño responsivo a la sección hero |0.5h|Camila Sanchez |Done|
+|US03|Sección beneficios-características|T6|Mostrar beneficios-características |Añadir cuadros de texto sobre la características del servicio |1h |Maria Fernanda Peña |Done|
+|US03|Sección beneficios-características|T7|Diseño responsive en la sección beneficios-características |Implementar un diseño responsivo en la sección beneficios-características |0.5h |Maria Fernanda Peña |Done|
+|US04|Sección Planes y precios|T8|Mostrar Planes |Añadir los planes establecidos y sus descripciones con precios |1.5h |Fabiola Saldaña |Done|
+|US04|Sección Planes y precios|T9|Diseño responsive en la sección planes y precios |Aplicar un diseño responsivo en la sección planes y precios |0.5h|Fabiola Saldaña |Done|
+|US05|Sección Testimonios clientes|T10|Mostrar testimonios de clientes |Añadir los testimonios de clientes |1h |Jocelyn Almerco |Done|
+|US05|Sección Testimonios clientes|T11|Diseño responsive en la sección testimonio|Aplicar un diseño responsivo en la sección testimonios-clientes |0.5h |Jocelyn Almerco |Done|
+|US06|Sección llamado acción final|T12|Mostrar el button call to action|Añadir enlace al botón call to action a la aplicación web |0.5h |Maria Fernanda Peña |Done|
+|US07|Sección Footer|T13|Mostrar Footer|Implementar la sección Footer |0.5h|Henry Esteban |Done|
+|US07|Sección Footer|T14|Diseño responsive en la sección footer|Aplicar un diseño responsivo en la sección footer |0.5h |Henry Esteban |Done|
+
+
 
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
