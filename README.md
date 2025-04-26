@@ -663,7 +663,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/personal/u202313773_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313773%5Fupc%5Fedu%5Fpe%2FDocuments%2FAPPS%20WEB%20Entrevistas%2FSegmento%201%20%2D%20Milagros%20Almerco%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edc94b62e%2D1e74%2D40a3%2D95b6%2Df2d0a4409236">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -671,7 +671,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 6:58
+        05:24 -11:12
     </td>
   </tr>
 </table>
@@ -699,7 +699,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210973_upc_edu_pe/EVFkpIPNJJNAmdHkKcstbtEBWupkv7DWIEhjeeZ35zq4fQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=If9s44">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -707,7 +707,42 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 5:58
+        11:12 - 17:11
+    </td>
+  </tr>
+</table>
+<br>
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Kerry Baquerrizo</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>21</td>
+    <th>Distrito</th>
+    <td>San Luis</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/Seg1-Kerry.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Kerry Baquerrizo tiene 21 años y trabaja en la bodega de sus padres. A lo largo de la entrevista menciona la falta de un sistema para poder organizar mejor su inventario y manejo de stock, teniendo como un ejemplo las frutas, siendo agotador para ella estar yendo al mercado para abastacer las frutas ya que se malogran muy rápido por la temporada o los clientes simplemente  no compran la cantidad suficiente que los vendedores esperan que compren, por lo que se deteriora y pierden ganancias. También menciona la importancia de poder adquirir una herramienta que pueda gestionar, alertar y registrar sus productos, pues considera que podrían mejorar enormemente su manera de organizar sus productos en su tienda.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 5:24
     </td>
   </tr>
 </table>
@@ -737,7 +772,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/ETPQr9I6u29Err2BinQ0Zr8Bu1EkhHaYdA8rEER-XxKDbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AKIgP2">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -745,7 +780,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 3:00
+        20:45 - 23:50
     </td>
   </tr>
 </table>
@@ -772,7 +807,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210973_upc_edu_pe/EbpC_u5BZVNDhNTo7pHv2_UBe-4e_XgetugcdwDvEFOUJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0mociM">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -780,7 +815,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 3:34
+        17:11 - 20:45
     </td>
   </tr>
 </table>
@@ -806,7 +841,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/personal/u202313773_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313773%5Fupc%5Fedu%5Fpe%2FDocuments%2FAPPS%20WEB%20Entrevistas%2FSegmento%202%20%2D%20Entrevista%20a%20Octavio%20Chavarria%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb711aed2%2Db633%2D4749%2Db08a%2Da30a92f34105&mode=View">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -814,12 +849,56 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 3:11
+        23:50 - 27:02
     </td>
   </tr>
 </table>
 
 ### 2.2.3. Análisis de entrevistas
+<h2>Análisis del segmento de bodegas especializadas por rubro</h2>
+
+<p>
+En este segmento, los entrevistados muestran una tendencia a gestionar el inventario de forma manual, utilizando herramientas como cuadernos, calculadoras o simplemente observación visual. 
+</p>
+
+<p>
+Por ejemplo, <strong>Milagros Almerco</strong> reconoce que lleva el control de su bodega anotando manualmente las ventas y compras, lo cual le genera dificultades para mantener un inventario claro. Menciona que se le dificulta encontrar productos específicos y ha tenido pérdidas por no controlar adecuadamente las fechas de vencimiento. Le gustaría tener un sistema que le brinde alertas de productos próximos a vencer, cambios de precio y reportes automáticos en tiempo real.
+</p>
+
+<p>
+En el caso de <strong>Kerry Baquerrizo</strong>, quien trabaja en la bodega familiar, destaca la necesidad de contar con una herramienta que le permita gestionar, alertar y registrar sus productos. Se muestra especialmente preocupada por productos perecibles como las frutas, que suelen deteriorarse por falta de control en el abastecimiento y baja demanda estacional. Resalta el deseo de contar con una plataforma que optimice el proceso logístico y de stock.
+</p>
+
+<p>
+Por su parte, <strong>Juan Carlos Ramírez</strong>, un emprendedor de 49 años, aún depende de facturas y boletas físicas, aunque se encuentra en proceso de transición hacia un sistema digital apoyado en un POS con escáner de código de barras. La revisión del stock se hace de manera visual y la gestión de ventas se da por WhatsApp. Su motivación para digitalizar es mejorar la eficiencia operativa y ahorrar tiempo.
+</p>
+
+<p>
+En resumen, todos los entrevistados coinciden en la necesidad de implementar herramientas tecnológicas que les ayuden a mejorar el control del inventario, recibir alertas sobre productos críticos y facilitar la organización general del negocio. Se evidencia una apertura al cambio tecnológico, aunque actualmente muchos aún operan con métodos tradicionales.
+</p>
+
+<h2>Análisis del segmento de startups y emprendedores en expansión con necesidades logísticas</h2>
+
+<p>
+Este segmento se caracteriza por emprendedores que, si bien han adoptado ciertas herramientas básicas como Excel, enfrentan dificultades para escalar su sistema de gestión de inventarios debido a la falta de integración, automatización o facilidad de uso de las plataformas actuales.
+</p>
+
+<p>
+<strong>Octavio</strong>, quien comercializa productos ecológicos para el hogar, gestiona su inventario a través de Google Sheets. Sin embargo, expresa que esta herramienta se queda corta, ya que no se sincroniza con sus canales de venta. Ha evaluado el uso de plataformas de gestión, pero le preocupa la curva de aprendizaje. Señala que si va a pagar por un sistema, espera que sea intuitivo y fácil de usar, para justificar la inversión.
+</p>
+
+<p>
+<strong>Elvis Aranga Meza</strong>, de 31 años, administra una bodega en Santiago de Surco. Su gestión se basa en el control visual y registros manuales de ventas totales. Reconoce limitaciones para proyectar inventario, controlar mermas y actualizar precios, lo cual le ha ocasionado pérdidas por vencimientos y robos. Considera que una plataforma digital podría mejorar la eficiencia operativa, permitir la delegación de tareas y reducir errores humanos, aportando mayor libertad en la gestión.
+</p>
+
+<p>
+Por otro lado, <strong>Alexander Miranda</strong>, quien se dedica a la venta de productos textiles, registra su inventario manualmente. Indica que este proceso es agotador y le consume horas. Usa Excel para controlar ingresos y luego compara con boletas para llevar un conteo. Está interesado en automatizar sus procesos y considera implementar tecnologías para modernizar su gestión de inventario.
+</p>
+
+<p>
+En conjunto, estos emprendedores muestran disposición a adoptar herramientas tecnológicas, pero enfrentan barreras relacionadas a la complejidad de uso, falta de sincronización con otros procesos comerciales y la necesidad de una solución simple y adaptada a sus necesidades logísticas específicas.
+</p>
+
 ## 2.3. Needfinding
 
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
@@ -828,14 +907,15 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 ### 2.3.1. User Personas
 
 **Segmento 1: Bodegas especializadas por rubro**
-<img src="assets/Chapter-2/segmento1.png" alt="User persona - segmento 1" width="800"/>
+<img src="assets/Chapter-2/segmento1.png" alt="User persona - segmento 1" width="600"/>
 
 *Imagen (N°2). Elaboración propia. Realizado en UXPressia*
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
-<img src="assets/Chapter-2/nuevosegmento2.png" alt="User persona - segmento 2" width="800"/>
+<img src="assets/Chapter-2/nuevosegmento2.png" alt="User persona - segmento 2" width="600"/>
 
 *Imagen (N°3). Elaboración propia. Realizado en UXPressia*
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
@@ -874,8 +954,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 | Actualizar listas de precios, catálogos o colecciones                                 | Media          | Media            |
 | Registrar ventas y organizar información contable o administrativa                    | Media          | Alta             |
 | Aprender herramientas nuevas para mejorar su operativa (apps, control, automatización)| Media          | Alta             |
-<br> <!-- Esto agrega espacio visual en algunas plataformas -->
-<br> 
 ### 2.3.3. User Journey Mapping
 
 **Segmento 1: Bodegas especializadas por rubro**
