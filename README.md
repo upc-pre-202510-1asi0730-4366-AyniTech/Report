@@ -1438,29 +1438,66 @@ A continuación, se presenta el enlace para visualizar el video de navegación d
 
 En el Diagrama de Contexto (C4 Nivel 1) representamos a StockWise como un único sistema ("Inventory Management Platform") y sus interacciones con los actores y sistemas externos. StockWise permite a los usuarios —empleados, emprendedores y administradores— gestionar inventarios, controlar stock, configurar parámetros del sistema y analizar ventas. Además, se integra con Gmail para el envío de alertas por correo electrónico y con Firebase Auth para la autenticación de usuarios.
 
+**Context Diagram**
+
 <center> <img src="assets/Chapter-4/Structurizr/ContextDiagramStockWise.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°73). Elaboración propia. Realizado en Structurizr*
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
 En el Diagrama de Contenedores (C4 Nivel 2) de StockWise representamos la arquitectura interna del sistema, mostrando cómo se organiza en aplicaciones de usuario, un backend RESTful API y diferentes contextos de negocio especializados. Los usuarios interactúan a través de una Mobile App, Web App y Landing Page, que se comunican con el backend. A su vez, el backend gestiona el dominio mediante Bounded Contexts separados (Product, Report, Inventory y User & Security), todos persistiendo datos en una base de datos central y conectándose a sistemas externos como Gmail y Firebase Auth para notificaciones y autenticación.
 
+
+**Container Diagram**
+
 <center> <img src="assets/Chapter-4/Structurizr/ContainerDiagramStockWise.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°74). Elaboración propia. Realizado en Structurizr*
+
+
 ### 4.6.3. Software Architecture Components Diagrams.
 
-<center> <img src="assets/Chapter-4/Structurizr/Component1.png" style="width: 500px;"/> </center>
-<br>
+A nivel de C4 Model — Nivel 3 (Component View), se describen los principales componentes internos de cada contexto del sistema StockWise. Cada uno de estos diagramas detalla cómo se organizan los controladores, servicios, repositorios y entidades dentro de sus respectivos bounded contexts, permitiendo visualizar la arquitectura interna y las responsabilidades de cada parte del sistema.
+
+**Product Management Context:**
 
 <center> <img src="assets/Chapter-4/Structurizr/Component2.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°75). Elaboración propia. Realizado en Structurizr*
+
+El Product Management Context gestiona los productos y combos (kits) disponibles en el inventario. ProductController y KitController manejan las solicitudes HTTP relacionadas a productos y kits respectivamente, delegando a ProductService y KitService la validación y coordinación de las operaciones. ProductRepository y KitRepository se encargan de persistir las entidades Product y Kit, así como sus asociaciones mediante KitItem.
+
+
+**Report Context:**
+
 <center> <img src="assets/Chapter-4/Structurizr/Component3.png" style="width: 500px;"/> </center>
 <br>
 
+*Imagen (N°76). Elaboración propia. Realizado en Structurizr*
+
+El Report Context organiza la generación de reportes en StockWise. ReportController maneja solicitudes de creación, listado y exportación de reportes, delegando en ReportService la orquestación de estos procesos. ReportService consulta y persiste los reportes a través de ReportRepository, y utiliza el componente Exporter para exportar los datos en formato PDF o Excel. Statistics se encarga del cálculo de métricas agregadas para los reportes.
+
+**Inventory Context:**
+
+<center> <img src="assets/Chapter-4/Structurizr/Component1.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°77). Elaboración propia. Realizado en Structurizr*
+
+El Inventory Context maneja el control de inventarios, historial de movimientos, devoluciones, precios y alertas de bajo stock. El InventoryController expone los endpoints de inventario, delegando la lógica a InventoryService, que gestiona operaciones sobre el stock y alerta a través de AlertService cuando se detecta bajo inventario. La persistencia de datos se realiza mediante InventoryRepository, interactuando con la entidad Inventory y la base de datos principal. Las alertas de bajo stock se envían vía Gmail.
+
+**User and Security Context**
+
 <center> <img src="assets/Chapter-4/Structurizr/Component4.png" style="width: 500px;"/> </center>
 <br>
+
+*Imagen (N°78). Elaboración propia. Realizado en Structurizr*
+
+El User and Security Context se encarga de la gestión de usuarios, roles, permisos y la autenticación. UserController expone endpoints para operaciones CRUD de usuarios y orquesta la autenticación. SecurityService valida operaciones de seguridad, apoyándose en SecurityRepository para acceder a los datos de usuarios y permisos. Permits contiene las definiciones específicas de permisos. La autenticación se realiza mediante integración con Firebase Auth API.
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
