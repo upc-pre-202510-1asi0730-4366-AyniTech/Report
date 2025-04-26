@@ -800,7 +800,6 @@ Para la entrega del Sprint 1, se desplegó el landing page de forma completa. Pa
 **Commits del landing page**
 ![commits landing](assets/Chapter-5/insights1_sprint1.png)
 
-
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 ### 5.3.2. Registro de Entrevistas.
@@ -812,4 +811,9 @@ Para la entrega del Sprint 1, se desplegó el landing page de forma completa. Pa
 ## Conclusiones y recomendaciones.
 # Video About-the-Team.
 # Bibliografía
+1. Dux Software. (2025, 9 abril). *Dux Software: El Sistema de Gestión para tu Negocio.* https://www.duxsoftware.com.ar/
+2. Mecalux. (s. f.). *Store fulfillment.* Mecalux.pe. https://www.mecalux.pe/software/store-fulfillment
+3. SoftDoIt. (s. f.). *▷Vendus: agiliza la gestión de tu punto de venta.* https://www.softwaredoit.es/vendus/vendus.html
+
+
 # Anexos
