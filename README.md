@@ -436,7 +436,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/personal/u202313773_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313773%5Fupc%5Fedu%5Fpe%2FDocuments%2FAPPS%20WEB%20Entrevistas%2FSegmento%201%20%2D%20Milagros%20Almerco%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edc94b62e%2D1e74%2D40a3%2D95b6%2Df2d0a4409236">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -444,7 +444,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 6:58
+        05:24 -11:12
     </td>
   </tr>
 </table>
@@ -472,7 +472,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210973_upc_edu_pe/EVFkpIPNJJNAmdHkKcstbtEBWupkv7DWIEhjeeZ35zq4fQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=If9s44">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -480,7 +480,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 5:58
+        11:12 - 17:11
     </td>
   </tr>
 </table>
@@ -507,7 +507,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/EdvU6q7-tklGlINzJ3SsyyUB0igfJW09hNHBKEtfB670VQ?e=MpVczY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -545,7 +545,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/ETPQr9I6u29Err2BinQ0Zr8Bu1EkhHaYdA8rEER-XxKDbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AKIgP2">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -553,7 +553,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 3:00
+        20:45 - 23:50
     </td>
   </tr>
 </table>
@@ -580,7 +580,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210973_upc_edu_pe/EbpC_u5BZVNDhNTo7pHv2_UBe-4e_XgetugcdwDvEFOUJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0mociM">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -588,7 +588,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 3:34
+        17:11 - 20:45
     </td>
   </tr>
 </table>
@@ -614,7 +614,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/personal/u202313773_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313773%5Fupc%5Fedu%5Fpe%2FDocuments%2FAPPS%20WEB%20Entrevistas%2FSegmento%202%20%2D%20Entrevista%20a%20Octavio%20Chavarria%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb711aed2%2Db633%2D4749%2Db08a%2Da30a92f34105&mode=View">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -622,7 +622,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 3:11
+        23:50 - 27:02
     </td>
   </tr>
 </table>
