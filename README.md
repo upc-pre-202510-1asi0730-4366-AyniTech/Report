@@ -746,10 +746,21 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 |US07|Sección Footer|T13|Mostrar Footer|Implementar la sección Footer |0.5h|Henry Esteban |Done|
 |US07|Sección Footer|T14|Diseño responsive en la sección footer|Aplicar un diseño responsivo en la sección footer |0.5h |Henry Esteban |Done|
 
-
-
-
 #### 5.2.1.4. Development Evidence for Sprint Review.
+|Repository|Branch| Commit Id| Commit Message | Commit Message Body | Commited on (Date)|
+|----|----|----|----|----|----|
+|upc-pre-202510-1asi0730-4366-AyniTech/Landing-Page|feature/Beneficios-Características |6b36a6919a2e91c77ff3baff566fd60e043c1395|Primer commit con README|Primer commit con README|16/04/2025 |
+| |feature/Beneficios-Características |3f32cf3d2d04b57948f74499f6bcc0c9524c3446|feat: beneficios-caracteristicas|feat: beneficios-caracteristicas|19/04/2025|
+| |feature/Footer|4c5ca5c622581ac3cee863d0e4219ac287e231df|Footer Landing page|Footer Landing page |17/04/2025|
+| |feature/Footer|235e77f6d3b97ccb4b7e0340502f7c3ed1c367e8|Corrección|Corrección|17/04/2025|
+| |feature/Footer|ea09d7b9f1ffca7b8d28a5a478a9ce146dcf78ed|Corrección footer implementación de html y css|Corrección footer implementación de html y css|17/04/2025|
+| |feature/Header|046034c41d59af333c0d1b15f06bf8829586fe7d|feat:Header|feat:Header|16/04/2025|
+| |feature/Hero-Section|fe076a40ec497b89907b1a5f0e812c04ad439d2b|feat: hero - section|feat: hero - section|16/04/2025|
+| |feature/Llamado-Accion-Final|89ca26e0e4498cd8dbd986ca117b416fe3571c74|feat: llamado acción|feat: llamado acción|19/04/2025|
+| |feature/Planes-Precios|36379aacd31c276220ea903783afa86f6c5aac67|Precios landing|Precios landing|19/04/2025|
+| |feature/Testimonios-Clientes|5cf271c1711d25c79dd6700098e4b40e56089162|feat: Primera versión del código - Testimonios clientes|feat: Primera versión del código - Testimonios clientes|18/04/2025|
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
