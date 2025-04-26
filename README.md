@@ -188,14 +188,9 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
+- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -286,14 +281,9 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
+- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -378,14 +368,9 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
+- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -800,20 +785,12 @@ Para la entrega del Sprint 1, se desplegó el landing page de forma completa. Pa
 **Commits del landing page**
 ![commits landing](assets/Chapter-5/insights1_sprint1.png)
 
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
-### 5.3.2. Registro de Entrevistas.
-### 5.3.3. Evaluaciones según heurísticas.
-
-## 5.4. Video About-the-Product.
-
 # Conclusiones
 ## Conclusiones y recomendaciones.
 
 # Conclusiones 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una plataforma de alto valor, adaptable y preparada para el crecimiento continuo.
 
-# Video About-the-Team.
 # Bibliografía
 1. Dux Software. (2025, 9 abril). *Dux Software: El Sistema de Gestión para tu Negocio.* https://www.duxsoftware.com.ar/
 2. Mecalux. (s. f.). *Store fulfillment.* Mecalux.pe. https://www.mecalux.pe/software/store-fulfillment
@@ -821,3 +798,6 @@ El desarrollo de las funcionalidades propuestas para StockWise responde a las ne
 
 
 # Anexos
+**Video exposición:** [Acceder al video de exposición](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202313773_upc_edu_pe/EqhFMC87TlFMvlVc0wcPAeQBE8BXdNH1AMkYj5IQpp2erg?e=1hti0f)
+
+**Repositorio:** [AyniTech (GitHub)](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech)
