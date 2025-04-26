@@ -636,17 +636,21 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 ### 2.3.1. User Personas
 
 **Segmento 1: Bodegas especializadas por rubro**
-<img src="assets/Chapter-2/segmento1.png" alt="User persona - segmento 1" width="800"/>
+<img src="assets/Chapter-2/segmento1.png" alt="User persona - segmento 1" width="600"/>
 
 *Imagen (N°2). Elaboración propia. Realizado en UXPressia*
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
-<img src="assets/Chapter-2/nuevosegmento2.png" alt="User persona - segmento 2" width="800"/>
+<img src="assets/Chapter-2/nuevosegmento2.png" alt="User persona - segmento 2" width="600"/>
 
 *Imagen (N°3). Elaboración propia. Realizado en UXPressia*
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
-
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 ### 2.3.2. User Task Matrix
 
 **Segmento 1: Bodegas especializadas por rubro**
@@ -682,8 +686,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 | Actualizar listas de precios, catálogos o colecciones                                 | Media          | Media            |
 | Registrar ventas y organizar información contable o administrativa                    | Media          | Alta             |
 | Aprender herramientas nuevas para mejorar su operativa (apps, control, automatización)| Media          | Alta             |
-<br> <!-- Esto agrega espacio visual en algunas plataformas -->
-<br> 
 ### 2.3.3. User Journey Mapping
 
 **Segmento 1: Bodegas especializadas por rubro**
