@@ -760,8 +760,18 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 | |feature/Planes-Precios|36379aacd31c276220ea903783afa86f6c5aac67|Precios landing|Precios landing|19/04/2025|
 | |feature/Testimonios-Clientes|5cf271c1711d25c79dd6700098e4b40e56089162|feat: Primera versión del código - Testimonios clientes|feat: Primera versión del código - Testimonios clientes|18/04/2025|
 
-
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+En este Sprint se realizó nuestra landing page utilizando HTML y CSS con su respectivo despliegue en GitHub Pages. En esta sección se muestran los diferentes apartados que se han implementado en el trabajo:
+
+- Sección beneficios y características
+![beneficios](assets/Chapter-5/beneficios-caracteristicas_sprint1.png)
+
+- Sección Planes y precios
+![planes](assets/Chapter-5/planes_sprint1.png)
+
+- Seccion Testimonios Clientes
+![testimonios](assets/Chapter-5/nosotros_sprint1.png)
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
