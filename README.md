@@ -92,6 +92,13 @@
 # Project Report Collaboration Insights
 [Link de repositorio del reporte:](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Report): https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Report
 
+- Imágen de las Contribuciones del equipo: 
+
+**TB1:**
+
+<img src="assets/Chapter-1/tb1.png" alt="Contribucion TB1" width="900"/>
+<img src="assets/Chapter-1/comintb1.png" alt="Contribucion TB1" width="900"/>
+
 # Contenido
 [Student Outcome](#student-outcome)
 
@@ -226,9 +233,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p></p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
+        <p><b>Camila Sanchez Rios</b></p>
         <p><b>TB1:</b></p>
-        <p></p>
+        <p>Me encargue de crear la organización y los repositorios en el github. Colabore con Capítulo IV: Product Design (Landing y Web), Capitulo III: User Stories, Capitulo II: Entrevistas</p>
         <p><b>TP1:</b></p>
         <p>.</p>
         <p><b>TB2:</b></p>
@@ -291,9 +298,9 @@ y cumple objetivos.</b></td>
         <p>...</p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
+        <p><b>Camila Sanchez Rios</b></p>
         <p><b>TB1:</b></p>
-        <p>..</p>
+        <p>Me encargue de crear la organización y los repositorios en el github. Colabore con Capítulo IV: Product Design (Landing y Web), Capitulo III: User Stories, Capitulo II: Entrevistas</p>
         <p><b>TP1:</b></p>
         <p>..</p>
         <p><b>TB2:</b></p>
