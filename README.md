@@ -773,7 +773,23 @@ En este Sprint se realizó nuestra landing page utilizando HTML y CSS con su res
 ![testimonios](assets/Chapter-5/nosotros_sprint1.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+Y aque este sprint fue el primero y solamente se desarrolló la landing page, por lo que no se evidencia el empleo de web service
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+Para la entrega del Sprint 1, se desplegó el landing page de forma completa. Para esto se siguió un proceso que es el siguiente:
+- **Git:** ya que se utiliza como sistema de control de versiones, facilitando la colaboración efectiva entre los integrantes del equipo
+- **GitFlow:** Se implementó como metodología, creando diferentes ramas por capítulo, ya que realizando esto el trabajo tuvo una mejor gestión  generando un flujo continuo en el avance del proyecto.
+- **GitHub:** Se usó  como plataforma base para el trabajo colaborativo, donde se puede gestionar y almacenar todas las versiones del proyecto.
+- **GitHub Pages**: Se empleó para publicar la landing page de forma eficiente, permitiendo que la aplicación quede accesible al público mediante un repositorio GitHub. En este caso nuestra compañera de equipo Camila Sanchez llevó a cabo eres proceso
+
+1. Si nos vamos al github, vemos en la parte marcada con roja el link de nuestra landing page
+![sw deployment1](assets/Chapter-5/deploymnet_evidence1_sprint1.png)
+
+2. Entrando a link se puede correctamente la landing page de stock wise
+![sw deployment2](assets/Chapter-5/deploymnet_evidence2_sprint.png)
+
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
