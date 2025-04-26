@@ -1561,35 +1561,1173 @@ Enlace para acceder al Miro
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
+Un "style guideline" o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software, o cualquier otro tipo de trabajo creativo. A continuación, se otorga especificación a los parámetros implementados en la estructura del proyecto:
+
 ### 4.1.1. General Style Guidelines
+
+**Branding**
+
+StockWise es una marca pensada para ofrecer confianza, cercanía y eficiencia a pequeñas y medianas empresas, especialmente bodegas de barrio y emprendimientos. El branding refleja accesibilidad, modernidad y calidez. El enfoque está en facilitar la transformación digital de la gestión de inventarios con una interfaz clara, amigable y funcional.
+
+**Logotipo**
+
+El logo combina una bodega estilizada con colores cálidos y un código de barras, representando tanto la esencia física del negocio como la modernización a través de tecnología.
+
+- La palabra "Stock" en rojo (#BC162A) resalta la acción y lo esencial del inventario.
+- La palabra "Wise" en marrón oscuro (#302325) sugiere inteligencia y fiabilidad.
+
+El código de barras integrado representa la gestión estructurada y la automatización del stock.
+
+<center> <img src="assets/Chapter-4/logo.jpeg" style="width: 250px;"/> </center>
+<br>
+
+**Tono de comunicación** 
+
+Nos comunicamos como lo haría un buen amigo del barrio, claro, sin complicaciones, y con buena onda.  Queremos transmitir una sensación de seguridad y eficiencia, mientras mantenemos una comunicación cercana y amigable.
+
+**Lenguaje (Language):**
+
+Usamos términos fáciles de entender: “productos”, “alertas”, “entradas/salidas”, “usuarios”. Evitamos jerga técnica innecesaria o anglicismos si no son esenciales.
+
+**Colores**
+
+La paleta de colores de StockWise ha sido cuidadosamente seleccionada para transmitir profesionalismo, confianza y accesibilidad.
+
+- #F5E1A4 (Fondo cálido claro): 	Fondo general de la app o materiales 
+- #BC162A (Rojo intenso): Este tono vibrante servirá para destacar llamadas a la acción (CTA), botones y elementos interactivos. Representa dinamismo y urgencia, incentivando a los usuarios a actuar.
+- #EE7F27 (Naranja vibrante): íconos o llamados a la acción secundarios
+- #302325 (Marrón oscuro / gris cálido): texto general, íconos y texto principal
+- #D9D593 (Gris suave): Elementos secundarios, bordes, fondos suaves
+
+<center> <img src="assets/Chapter-4/color.jpeg" style="width: 250px;"/> </center>
+<br>
+
+**Tipografía**
+
+La elección tipográfica para StockWise es un componente esencial que complementa la identidad visual de la marca. Se han seleccionado dos familias tipográficas que juntas ofrecen versatilidad y coherencia, asegurando que la comunicación sea clara y efectiva en todos los medios.
+
+Escala:
+
+- Base: 16px
+- Tipografía: Nunito e Inter 
+- Interlineado: 1.1
+- Weights: Bold - Medium - Regular - Light
+
+<center> <img src="assets/Chapter-4/tipografia.png" style="width: 250px;"/> </center>
+<br>
+
 ### 4.1.2. Web Style Guidelines
+
+La guía de estilo de un sitio web es un documento detallado que se basa en el diseño y la marca del sitio. Su propósito es crear una guía de estilo mucho más completa que abarca el uso de elementos en varios contextos, incluyendo medios impresos y otros medios. Es importante destacar que un sistema de diseño no siempre equivale a una guía de estilo.
+
+**Footers y Headers**
+
+- Header limpio y fijo, con fondo color #F5E1A4 o blanco. Incluye logo a la izquierda, navegación principal al centro/derecha, botón de login o “Empezar” en rojo #BC162A.
+
+- Footer informativo, con fondo #302325 y texto claro en blanco o gris suave.
+
+   - Secciones: Información de la empresa, enlaces rápidos, redes sociales (íconos minimalistas), soporte.
+   - Tipografía en Inter Regular para facilitar lectura.
+
+**Responsividad**
+
+La web debe estar optimizada para múltiples dispositivos, desde móviles hasta pantallas de escritorio grandes.
+
+- Diseño mobile-first, adaptable desde 320px hasta pantallas de escritorio grandes (>1440px).
+- Componentes escalables: tarjetas, inputs y botones con padding amplio y bordes redondeados
+
+**Imágenes y Multimedia:**
+
+Las imágenes deben ser de alta calidad y alinearse con el tono visual de TaskLinker.
+
+- Imágenes de Cabecera
+- Imágenes en Contenido
+
+**Botones y Llamadas a la Acción (CTAs):**
+
+Los botones deben ser claramente distinguibles y usar colores de la paleta para indicar su función.
+
+- Botones principales:
+  - Color: Rojo #BC162A (hover más oscuro)
+  - Texto blanco en Nunito Bold
+
+- Botones secundarios:
+  - Fondo blanco, borde #EE7F27, texto naranja o negro
+  - Redondeados, con sombra suave para dar profundidad
+
+- CTAs visibles en las páginas clave: "Agregar Producto", "Ver Reporte", "Crear Alerta".
+
+**Encabezados y Jerarquía de Contenido:**
+
+Mantén una jerarquía clara para los diferentes niveles de encabezados (H1, H2, H3) para guiar al usuario a través del contenido.
+
+- H1 – Nunito ExtraBold 36–48px – Titulares principales (ej. "Gestión inteligente para tu inventario")
+- H2 – Nunito Bold 28–36px – Subtítulos o secciones
+- H3 – Inter SemiBold 20–24px – Títulos menores o cards
+- Texto general – Inter Regular 16px – Lectura clara, gris oscuro o marrón (#302325)
+- Labels, tablas o formularios – Inter Medium 14px
+
+<center> <img src="assets/Chapter-4/tipo.png" style="width: 250px;"/> </center>
+<br>
+
+**Fuentes**
+
+- Nunito: Branding, títulos, botones, elementos destacados
+- Inter: Cuerpo de texto, formularios, menús, información secundaria
+
+**Tono de voz & Microcopy**
+- Familiar, claro, y directo
+- Habla como si estuvieras ayudando a un amigo con su bodega
+  - “¡Todo está bajo control!”
+
+❌ Evitar lenguaje técnico o confuso.
+
+✅ Preferir lenguaje humano: “producto agotado” en vez de “stock = 0”.
+
 ## 4.2. Information Architecture
+La arquitectura de la información, también conocida como Information Architecture (IA), implica la organización de la información de manera clara y lógica, de modo que los usuarios puedan comprender su ubicación, lo que han descubierto, qué pueden esperar y qué está disponible a su alrededor. Esto tiene como objetivo permitir a los usuarios encontrar con facilidad lo que están buscando, y a los clientes, comprender las capacidades de la plataforma. Además, la arquitectura de la información posibilita la incorporación de nuevas funciones y la expansión del producto sin generar una estructura compleja o de difícil comprensión (Rosenfeld, Morville & Arango 2015).
 ### 4.2.1. Organization Systems.
+La interfaz se divide en módulos bien definidos, accesibles desde un panel de navegación estructurado jerárquicamente. Estos módulos incluyen: Inicio, Home, Inventario y Configuración. Cada sección agrupa funciones específicas según su propósito, permitiendo que las tareas clave estén siempre al alcance del usuario.
+
+Por ejemplo:
+
+- En **Home**, los usuarios pueden crear kits o combos de productos, generar alertas por bajo stock, gestionar proveedores, revisar el historial de movimientos y acceder a estadísticas claves como los productos más vendidos o el ticket promedio.
+
+- El módulo de **Inventario** ofrece un entorno completo para registrar nuevos productos, gestionar precios, unidades, ubicaciones físicas (estanterías), etiquetas, notas internas, devoluciones y caducidades, así como personalizar columnas para facilitar la visualización.
+
+- En **Configuración**, se pueden gestionar los roles de usuario (Administrador o Empleado), permisos según el plan activo, y actualizar perfiles a través de un asistente guiado.
+
+La interfaz adapta su contenido según el tipo de usuario:
+
+- **Administradores** tienen acceso completo a la configuración del sistema y la gestión general.
+
+- **Empleados** acceden a funciones operativas esenciales, sin comprometer la seguridad ni integridad de la información.
+
+La disposición lógica de las herramientas, acompañada de una navegación consistente, etiquetas claras y una estructura jerárquica coherente, garantiza que tanto nuevos usuarios como operadores frecuentes puedan comprender rápidamente el flujo de trabajo y realizar sus tareas con eficiencia.
+
 ### 4.2.2. Labeling Systems.
+En StockWise ha sido diseñado para mejorar la organización, búsqueda y clasificación de productos dentro del inventario, facilitando la gestión y toma de decisiones por parte de los usuarios.
+
+| Elemento de Navegación  | Descripción     |
+|----------------------------|-----------------------|
+| Sistema de Etiquetas         | Permite asignar múltiples etiquetas a productos para mejorar la organización, búsqueda y clasificación dentro del inventario.                   |
+| Creación de Etiquetas        | Los usuarios pueden crear nuevas etiquetas o seleccionar etiquetas ya existentes mediante autocompletado en el formulario del producto.         |
+| Visualización de Etiquetas   | Las etiquetas se muestran como chips de colores junto al nombre del producto, permitiendo una identificación rápida y visual.                   |
+| Filtro por Etiquetas         | En la vista de inventario se puede filtrar por una o varias etiquetas, facilitando la segmentación de productos.                              |
+| Permisos por Rol             | Administradores pueden crear/editar/eliminar etiquetas globales. Empleados pueden aplicar etiquetas existentes o proponer nuevas.              |
+| Sugerencia de Etiquetas      | El sistema sugiere etiquetas ya existentes mientras se escriben nuevas, para evitar duplicados y mantener consistencia.                        |
+| Accesibilidad y Estilo       | Las etiquetas tienen colores accesibles y tipografía legible, respetando la paleta y el diseño UI de StockWise.                                |
+| Aplicación en Reportes       | Las etiquetas también pueden utilizarse como criterio para generar reportes filtrados de productos e inventario.                               |
+
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+**SEO Tags**
+
+SEO (Search Engine Optimization) Tags son elementos de HTML que ayudan a los motores de búsqueda a entender el contenido y la estructura de una página web. Estos tags influyen en cómo los motores de búsqueda indexan y clasifican tu sitio en los resultados de búsqueda. 
+
+**Algunos ejemplos importantes de SEO Tags incluyen:**
+
+**Title Tag:**
+
+Es el título de la página web que aparece en la pestaña del navegador y como el título del enlace en los resultados de búsqueda. Importancia: Es crucial porque es uno de los factores más influyentes en el ranking de la página. Debe ser relevante, contener palabras clave, y tener una longitud de entre 50 y 60 caracteres. 
+
+*Ejemplo:* 
+``` html
+<title>Compra Ropa de Moda Online - Tienda XYZ</title>
+``` 
+
+**Header Tags (H1, H2, H3, etc.):** 
+
+Son etiquetas utilizadas para definir los encabezados y subencabezados dentro del contenido de la página. El H1 es el encabezado principal y es el más importante en términos de SEO. Importancia: Ayudan a organizar el contenido y permiten a los motores de búsqueda comprender la jerarquía y el tema principal de la página. 
+
+*Ejemplo:*
+```html
+<h1>Las Mejores Ofertas en Ropa de Moda</h1>
+```
+
+**Alt Tags:**
+
+Son atributos utilizados en imágenes para describir su contenido. Aunque los usuarios no pueden ver este texto directamente, los motores de búsqueda lo utilizan para entender el contenido de la imagen. Importancia: Mejoran la accesibilidad y también son importantes para el SEO, especialmente en la búsqueda de imágenes.
+
+**Meta Tags**
+
+Los Meta Tags son fragmentos de texto que describen el contenido de la página; no aparecen en la página misma, pero se encuentran en el código HTML de la página. Los motores de búsqueda y los navegadores utilizan estos tags para obtener información adicional sobre la página. Algunos de los Meta Tags más relevantes para SEO son:
+
+**Meta Description Tag:**
+
+Proporciona un resumen breve del contenido de la página. Aunque no afecta directamente al ranking de búsqueda, es importante porque aparece en los resultados de búsqueda bajo el título de la página. Importancia: Una meta descripción atractiva puede aumentar la tasa de clics (CTR) desde los motores de búsqueda. 
+
+Originalmente, se utilizaba para listar palabras clave relevantes para la página. Sin embargo, hoy en día, la mayoría de los motores de búsqueda ya no utilizan este tag para el ranking. Importancia: Es menos relevante en la actualidad, pero puede ser utilizado por algunos motores de búsqueda secundarios. 
+
+**Meta Robots Tag:**
+
+Indica a los motores de búsqueda cómo deben indexar o seguir los enlaces en la página. Importancia: Se utiliza para controlar la indexación de la página. Por ejemplo, si no quieres que una página específica sea indexada, puedes usar este tag. 
+
+*Ejemplo:*
+```
+ Viewport Tag
+```
+ Especifica cómo se ajustará la página a la pantalla del dispositivo (especialmente importante para dispositivos móviles). 
+ 
+ Importancia: Crucial para la optimización móvil, ya que garantiza que el sitio web se visualice correctamente en dispositivos de diferentes tamaños.
+
 ### 4.2.4. Searching Systems.
+Un Searching Systems, también conocido como sistema de búsqueda o motor de búsqueda, es una aplicación automática diseñada para buscar y recuperar información almacenada en una base de datos o en internet. Su principal objetivo es encontrar y mostrar resultados relevantes que coincidan con las palabras clave o términos de búsqueda ingresados por el usuario.
+
 ### 4.2.5. Navigation Systems.
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+El prototipado de la landing page cuenta diversas secciones:
+
+- Header: Incluye botones para facilitar la navegación
+- Hero Section: Con un botón CTA principal, un título y una imagen.
+- Sección de Beneficios / Características: mostrara un resumen de 3 beneficios que ofrece la app
+- Planes / Precios: Trendra 2 planes con su referente título y lista de características y contara con un botón CTA secundario por cada plan.
+- Testimonios: Consta de un título y subtítulo, así como de unos testimonios de usuarios de cada segmento, lo que aumenta la confianza en los potenciales clientes.
+- Llamado a la acción final (CTA grande) : Tiene un título y subtítulo, un boton CTA grande para "Crear cuenta gratis"
+- Footer: Sección que da fin a la landing page, cuenta con las redes sociales de la plataforma.
+
+**Wireframe Desktop**
+<center> <img src="assets/Chapter-4/Wireframe-Desktop.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°13). Elaboración propia. Realizado en Figma*
+
+**Wireframe Mobile**
+
+En la versión mobile el navbar se reemplaza por un menu desplegable.
+
+<center> <img src="assets/Chapter-4/Wireframe - Mobile.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°14). Elaboración propia. Realizado en Figma*
+
 ### 4.3.2. Landing Page Mock-up.
+El prototipado de la landing page cuenta diversas secciones:
+
+- Header: Incluye botones para facilitar la navegación
+- Hero Section: Con un botón CTA principal, un título y una imagen.
+- Sección de Beneficios / Características: mostrara un resumen de 3 beneficios que ofrece la app
+- Planes / Precios: Trendra 2 planes con su referente título y lista de características y contara con un botón CTA secundario por cada plan.
+- Testimonios: Consta de un título y subtítulo, así como de unos testimonios de usuarios de cada segmento, lo que aumenta la confianza en los potenciales clientes.
+- Llamado a la acción final (CTA grande) : Tiene un título y subtítulo, un boton CTA grande para "Crear cuenta gratis"
+- Footer: Sección que da fin a la landing page, cuenta con las redes sociales de la plataforma.
+
+**Mock-up Desktop**
+<center> <img src="assets/Chapter-4/Mockup-Desktop.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°15). Elaboración propia. Realizado en Figma*
+
+**Mock-up Mobile**
+
+En la versión mobile el navbar se reemplaza por un menu desplegable.
+
+<center> <img src="assets/Chapter-4/Mockup - Mobile.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°16). Elaboración propia. Realizado en Figma*
+
 ## 4.4. Web Applications UX/UI Design.
+El diseño UX/UI para aplicaciones web se centra en crear interfaces intuitivas y experiencias de usuario fluidas que maximicen la satisfacción y eficiencia al interactuar con una plataforma. Para el diseño de los wireframes en StockWise, se aplicaron principios heurísticos de usabilidad reconocidos por Jakob Nielsen, garantizando que la experiencia del usuario sea intuitiva, eficiente y centrada en sus necesidades dentro del entorno de gestión de inventario.
+
+1. Visibilidad del estado del sistema
+Los usuarios siempre sabrán en qué parte del sistema se encuentran y qué acciones están ocurriendo, gracias a indicadores claros como barras de progreso, breadcrumbs, notificaciones de estado, y confirmaciones visuales al ejecutar tareas clave como agregar productos o generar reportes.
+
+2. Coincidencia entre el sistema y el mundo real
+La terminología, iconografía y flujo de interacción se alinean con el lenguaje y procesos habituales en la gestión de inventarios. Por ejemplo, los módulos se nombran como “Entradas”, “Salidas”, “Kardex” o “Reportes”, usando símbolos familiares y metáforas visuales reconocibles.
+
+3. Control y libertad del usuario
+StockWise permite deshacer o rehacer acciones, navegar entre módulos sin pérdida de datos, y salir de operaciones sin consecuencias no deseadas. Esto otorga al usuario flexibilidad y sensación de control durante su experiencia.
+
+4. Consistencia y estándares
+La interfaz mantiene una consistencia visual y funcional en todos los módulos. Se siguen patrones comunes de UI/UX y estándares reconocidos en sistemas de gestión, facilitando el aprendizaje y reduciendo la carga cognitiva del usuario.
+
+5. Prevención de errores
+Se han implementado validaciones en formularios, confirmaciones antes de acciones críticas (como eliminaciones), y restricciones visuales que ayudan a evitar errores frecuentes como duplicación de registros o selecciones erróneas.
+
+6. Reconocimiento en lugar de recuerdo
+Los usuarios no necesitan memorizar pasos. Menús contextuales, accesos directos visibles y formularios autocompletados permiten una interacción basada en reconocimiento.
+
+7. Flexibilidad y eficiencia de uso
+StockWise permite configurar accesos rápidos, personalizar vistas y generar reportes filtrados, adaptándose tanto a usuarios principiantes como avanzados. Esto mejora la productividad y acelera tareas repetitivas.
+
+8. Diseño estético y minimalista
+La interfaz prioriza la funcionalidad sin sacrificar el diseño. Usamos una estética limpia con jerarquía visual clara, apoyada en una paleta de colores corporativa armoniosa y tipografía legible (Nunito e Inter), evitando la sobrecarga informativa.
+
+9. Ayuda y documentación
+La plataforma incluye accesos rápidos a tutoriales, guías interactivas y secciones de ayuda contextual. Esto asegura que los usuarios siempre tengan soporte disponible, especialmente durante la adopción inicial del sistema.
+
 ### 4.4.1. Web Applications Wireframes.
+Los wireframes ayudan a los diseñadores y desarrolladores a planificar la arquitectura y la funcionalidad de la aplicación, permitiendo visualizar cómo los usuarios interactuarán con ella. Son esenciales en las primeras etapas de desarrollo, ya que facilitan la comunicación de ideas, la identificación de problemas potenciales y la alineación de todos los involucrados en el proyecto antes de pasar al diseño detallado y la programación.
+
+**Iniciar sesión**
+
+La siguiente imagen evidencia el wireframe de la sección de “inicio de sesión” desde la vista desktop web browser. En ella, los usuarios deberán ingresar las credenciales necesarias para poder acceder a la aplicación, siempre y cuando posean con una cuenta previamente creada.
+
+<center> <img src="assets/Chapter-4/Iniciosesion.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°17). Elaboración propia. Realizado en Figma*
+
+**Crear cuenta**
+
+La siguiente imagen presenta la sección de “registro de usuario”, a través de la cual los administradores podrán remitir a la aplicación la información necesaria para crear una cuenta.
+
+<center> <img src="assets/Chapter-4/Registro.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°18). Elaboración propia. Realizado en Figma*
+
+**Elegir plan de pago**
+
+La siguiente imagen presenta la sección “Elegir plan de pago”, la cual despliega las categorías de planes disponibles en la plataforma. Los tres planes están diseñados para adaptarse a las necesidades de los administradores de tienda acorde a sus necesidades.
+
+<center> <img src="assets/Chapter-4/Seleccionar Plan.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°19). Elaboración propia. Realizado en Figma*
+
+**Pasarela de pagos**
+
+La siguiente imagen corresponde a la sección “Pasarela de pagos” donde los usuarios son dirigidas a un formulario para seleccionar y registrar su método de pago. Una vez que el proceso de pago es completado exitosamente, se notifica al usuario con un mensaje confirmando el vinculo de su tarjeta con la plataforma. Del mismo modo, si el usuario desea retirar su información o actualizar lo podra hacer a travéz de su perfil.
+
+<center> <img src="assets/Chapter-4/Pago.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°20). Elaboración propia. Realizado en Figma*
+
+**Mi perfil**
+
+La sección titulada “Mi perfil” solicita al usuario que complete información en dos categorías para registrar sus datos. Adicionalmente, la categoría "cambiar cuenta" ofrece la opción de permitir al usuario cambiar de cuenta a una de empleador y utilizar las herramientas de este por la plataforma. Tambien, tiene libertad de cambiar el plan si es necesario. 
+
+*Perfil Administrador*
+
+En este perfil, el usuario puede ver a la derecha sus herramientas correpondientes a su cuenta.
+<center> <img src="assets/Chapter-4/Perfil.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°21). Elaboración propia. Realizado en Figma*
+
+**Panel de control (Dashboard)**
+Esta pantalla representa el panel de control principal del sistema StockWise. Su objetivo es proporcionar al usuario una vista general del estado del inventario y acceso rápido a funciones clave. Entre sus elementos principales se encuentran:
+
+- **Resumen de información:**
+   - **Total de Productos:** número total de ítems registrados.
+   - **Fecha del Último Proveedor:** muestra la última fecha de ingreso de productos (por proveedor).
+   - **Próximos a Caducar:** productos con fecha de vencimiento próxima, indicando la fecha y el stock restante.
+
+- **Accesos rápidos:**
+  - **Historial de Movimientos:** seguimiento de entradas y salidas del inventario.
+  - **Inventario:** acceso directo a la lista completa de productos.
+
+- **Botones de acción:**
+  - **Agregar Productos:** para registrar nuevos productos en el sistema.
+  - **Kits de Productos:** permite combinar productos individuales en un kit.
+  - **Devolución de Productos:** facilita el registro de productos devueltos por proveedores o clientes.
+
+<center> <img src="assets/Chapter-4/Dashboard.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°22). Elaboración propia. Realizado en Figma*
+
+**Combinación de Productos en Kits**
+
+Esta sección está dedicada a la funcionalidad de crear kits de productos, una herramienta útil para negocios que venden combos o paquetes predefinidos. Las características principales incluyen:
+
+- **Buscador de productos:** permite al usuario localizar rápidamente productos por nombre.
+- **Listado de productos existentes:**
+  - Muestra el nombre, precio y stock disponible de cada producto.
+  - Incluye un botón de acción en cada fila para añadir productos al kit.
+- **Botón “Seleccionar para kit”:** una vez seleccionados los productos deseados, el usuario puede avanzar para crear el kit final.
+
+Esta funcionalidad mejora la gestión del stock agrupado y permite optimizar estrategias de venta, como combos promocionales o paquetes de temporada.
+
+<center> <img src="assets/Chapter-4/Kit Productos.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°23). Elaboración propia. Realizado en Figma*
+
+**Agregar Producto**
+
+Esta pantalla permite visualizar todos los productos actualmente registrados en el inventario, con acceso rápido para editar o ver más detalles. Las funcionalidades clave incluyen:
+
+- Tarjetas de producto con información relevante:
+  - Nombre del producto (ej. Galleta).
+  - Categoría/etiqueta (ej. Golosina).
+  - Stock disponible.
+- Botón “+ Detalle” para ver información adicional o editar.
+ - Botón “+”: permite agregar un nuevo producto desde cero
+ - Buscador de productos y opción de filtro por categoría o stock.
+
+<center> <img src="assets/Chapter-4/Agregar Producto.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°24). Elaboración propia. Realizado en Figma*
+
+**Registro de Nuevo Producto**
+
+Pantalla que aparece al presionar el botón “+”, diseñada para agregar un nuevo producto al sistema. Incluye los siguientes campos:
+
+- Nombre del producto.
+- Etiquetas/Categorías (por ejemplo: Golosina, Bebida).
+- Precio de compra y de venta.
+- Cantidad inicial del producto.
+- Número de lote y fecha de caducidad.
+- Notas adicionales, si se desea registrar observaciones específicas.
+
+Una vez completado el formulario, se debe presionar "Guardar" para registrar el nuevo ítem.
+
+<center> <img src="assets/Chapter-4/NuevoProducto.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°25). Elaboración propia. Realizado en Figma*
+
+*Edición Rápida de Producto*
+
+Este modal aparece al hacer clic en “+ Detalle” sobre cualquier tarjeta de producto en la pantalla principal. Permite realizar modificaciones rápidas sobre un producto específico:
+
+- Editar etiquetas.
+- Actualizar cantidad.
+- Modificar fecha de caducidad.
+- Agregar notas.
+
+Incluye botones para “Duplicar” (crear una copia rápida del producto) y “Eliminar” (quitar del sistema).
+
+<center> <img src="assets/Chapter-4/EditarProducto.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°26). Elaboración propia. Realizado en Figma*
+
+**Historial de Movimientos**
+
+Esta vista permite al usuario consultar todos los movimientos registrados en el sistema, ya sea por producto individual, por categoría o mediante cálculo del ticket promedio.
+
+- **Filtros disponibles:**
+  - Tipo de gestión: Producto, Categoría o Stock Promedio.
+  - Rango de fecha: permite buscar registros por fechas específicas.
+- **Resultados organizados en tarjetas que muestran:**
+  - Producto o categoría
+  - Fecha del movimiento
+  - Precio unitario (si aplica)
+  - Cantidad gestionada
+  - Total del movimiento
+
+- **También cuenta con botones para:**
+  - Editar un registro
+  - Eliminar un registro (con confirmación previa).
+
+<center> <img src="assets/Chapter-4/Historial.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°27). Elaboración propia. Realizado en Figma*
+
+*Confirmación de Eliminación*
+
+Al presionar el botón de eliminar, se despliega una ventana emergente de confirmación que advierte al usuario antes de borrar un registro del historial.
+
+<center> <img src="assets/Chapter-4/Historial1.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°28). Elaboración propia. Realizado en Figma*
+
+**Ticket Promedio**     
+
+Al seleccionar “Stock Promedio” como tipo de gestión, se habilita el acceso al cálculo de Ticket Promedio, que estima el valor promedio de venta por unidad en un rango de fechas. Este recurso permite realizar un análisis financiero rápido sobre el comportamiento de productos específicos.
+
+Campos del formulario:
+- Rango de fecha.
+- Producto a analizar.
+- Cantidad de ventas.
+- Precio total de ventas.
+- Resultado del ticket promedio (calculado automáticamente).
+
+Botones:
+- Crear: Guarda el registro del ticket.
+- Cancelar: Cierra el modal sin guardar.
+
+<center> <img src="assets/Chapter-4/Tikect  Promedio.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°29). Elaboración propia. Realizado en Figma*
+
+**Pantalla principal de Inventario por Lote**
+
+Esta pantalla permite la visualización y gestión del inventario agrupado por lote de entrada.
+- Filtros en la parte superior: 
+  - Búsqueda por Producto
+  - Proveedor 
+  - Fecha de ingreso 
+  - Cantidad 
+  - Precio
+- Lista de productos ingresados por lote: 
+  - Proveedor
+  - Producto
+  - Fecha de entrada 
+  - Cantidad por unidad 
+  - Precio por unidad 
+  - Unidad de medida
+- Botón rojo “Generar Nuevo Lote” ubicado a la derecha, que permite agregar un nuevo registro.
+
+<center> <img src="assets/Chapter-4/Inventario - lote.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°30). Elaboración propia. Realizado en Figma*
+
+*Pantalla de Comentarios del Lote* 
+
+Este modal aparece al hacer clic en el icono de "Comentarios", permite dejar notas asociadas a un producto, útiles para incidencias, condiciones especiales del lote o instrucciones de seguimiento.
+
+- Campos de entrada para seleccionar el Lote y el Producto.
+- Área para ingresar el comentario del usuario.
+- Botones:
+  -  “Guardar” (acción de confirmar)
+  -  “Cancelar” (descartar el comentario)
+
+<center> <img src="assets/Chapter-4/Inventariolote-comen.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°31). Elaboración propia. Realizado en Figma*
+
+*Pantalla de Exportación*
+
+Permite obtener un respaldo o trabajar fuera del sistema con los datos del inventario. Al dar click, saldra una ventana emergente con el ícono de exportación. Mostrara un texto  “¿Deseas exportar en excel?” y botones de acción: “Volver” y “Continuar”. 
+
+<center> <img src="assets/Chapter-4/Inventario - lote - exportación.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°32). Elaboración propia. Realizado en Figma*
+
+**Pantalla de Inventario por Producto**
+
+Visualización clara de todos los productos del inventario, con opción de filtrar por condiciones específicas, lo cual optimiza el control individualizado del stock.
+
+- **Filtros:** 
+  - Categoría 
+  - Productos 
+  - Rango de Fecha  
+  - Stock Mínimo.
+- **Tabla:**
+  - Categoría  
+  - Producto 
+  - Fecha de entrada 
+  - Cantidad 
+  - Precio 
+  - Stock mínimo  
+  - Unidad de medida.
+- **Botón:** “Generar Nuevo Lote”.
+
+<center> <img src="assets/Chapter-4/Inventario - producto.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°33). Elaboración propia. Realizado en Figma*
+
+*Edición de Registro*
+
+Facilita la actualización de datos en tiempo real, permitiendo mantener el inventario siempre actualizado y preciso.
+
+Elementos mostrados:
+- Formulario editable con campos: Categoría, Producto, Cantidad por unidad, Precio por unidad, Unidad de medida.
+- Botones de acción: “Crear” (confirmar edición) y “Cancelar”.
+
+<center> <img src="assets/Chapter-4/Inventario - producto - editar registro.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°34). Elaboración propia. Realizado en Figma*
+
+**Pantalla Principal de Alerta Stock**
+
+Esta pantalla vindra una visión de todas las alertas activas y gestionar su estado.
+
+Componentes funcionales:
+- **Buscador de alertas:** Permite filtrar por texto para encontrar alertas específicas.
+- **Listado de alertas** con información clave:
+  - Categoría de alerta (Ej.: Stock Mínimo, Stock Máximo, Pronto a vencer)
+  - Categoría de producto
+  - Nombre del producto
+  - Fecha de alerta
+- **Botones de acción** al lado derecho:
+  - Menú de opciones (ícono de tres puntos) para más acciones.
+  - Ícono de papelera para eliminar la alerta.
+
+<center> <img src="assets/Chapter-4/Alerta Stock.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°35). Elaboración propia. Realizado en Figma*
+
+*Detalles de Alerta*
+
+ Ofrece una opción rápida para revisar a fondo cada alerta, ya sea por condiciones especiales o requerimientos de seguimiento.
+
+ <center> <img src="assets/Chapter-4/Más detalles.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°36). Elaboración propia. Realizado en Figma*
+
+*Eliminar Alerta*
+
+Confirmar si se desea eliminar una alerta del sistema.  
+
+ <center> <img src="assets/Chapter-4/Eliminar Alerta.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°37). Elaboración propia. Realizado en Figma*
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+Los Web Applications Wireflow Diagrams son una combinación de wireframes y flujos de usuario (user flows) que ilustran no solo la estructura y disposición de las páginas de una aplicación web, sino también cómo los usuarios navegarán entre ellas. Estos diagramas proporcionan una visión detallada del recorrido del usuario, mostrando las interacciones clave y las transiciones de una página a otra dentro de la aplicación.
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar". A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico. Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma. Del mismo modo, si el usuario desea retirar su información o actualizar lo podrá hacer a través de su perfil. Finalmente hacer clic en el botón "Aceptar".
+
+<center> <img src="assets/Chapter-4/user registrar.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°38). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña, luego hace clic en el botón "Log In". Después, se le redirige al panel de perfil, donde podrá editar su información personal y acceder a las herramientas según su perfil "Administrador" o "Empleado".
+
+<center> <img src="assets/Chapter-4/user iniciar sesion.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°39). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Navegar por el dashboard**
+
+<center> <img src="assets/Chapter-4/user home.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°40). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Inventario (Producto/Lote)**
+
+<center> <img src="assets/Chapter-4/user inventario .png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°41). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+<center> <img src="assets/Chapter-4/agregar producto1.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°42). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Historial de Movimientos**
+
+<center> <img src="assets/Chapter-4/user historial.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°43). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Alerta de Stock**
+
+<center> <img src="assets/Chapter-4/user alerta.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°44). Elaboración propia. Realizado en Lucidchart*
+
 ### 4.4.2. Web Applications Mock-ups.
+
+**Iniciar sesión**
+<center> <img src="assets/Chapter-4/inicio.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°45). Elaboración propia. Realizado en Figma*
+
+**Crear cuenta**
+<center> <img src="assets/Chapter-4/Registro1.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°46). Elaboración propia. Realizado en Figma*
+
+**Elegir plan de pago**
+<center> <img src="assets/Chapter-4/Plan.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°47). Elaboración propia. Realizado en Figma*
+
+**Pasarela de pagos**
+<center> <img src="assets/Chapter-4/Pago1.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°48). Elaboración propia. Realizado en Figma*
+
+**Mi perfil**
+
+*Perfil Administrador*
+<center> <img src="assets/Chapter-4/Perfil1.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°49). Elaboración propia. Realizado en Figma*
+
+**Panel de control (Dashboard)**
+<center> <img src="assets/Chapter-4/Dashboard1.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°50). Elaboración propia. Realizado en Figma*
+
+**Combinación de Productos en Kits**
+<center> <img src="assets/Chapter-4/Kit.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°51). Elaboración propia. Realizado en Figma*
+
+**Agregar Producto**
+<center> <img src="assets/Chapter-4/AG.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°52). Elaboración propia. Realizado en Figma*
+
+**Registro de Nuevo Producto**
+<center> <img src="assets/Chapter-4/EP.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°53). Elaboración propia. Realizado en Figma*
+
+*Edición Rápida de Producto*
+<center> <img src="assets/Chapter-4/EPP.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°54). Elaboración propia. Realizado en Figma*
+
+**Historial de Movimientos**
+<center> <img src="assets/Chapter-4/H.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°55). Elaboración propia. Realizado en Figma*
+
+*Confirmación de Eliminación*
+<center> <img src="assets/Chapter-4/EliminarBoton.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°56). Elaboración propia. Realizado en Figma*
+
+**Ticket Promedio**
+<center> <img src="assets/Chapter-4/ticket.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°57). Elaboración propia. Realizado en Figma*
+
+**Pantalla principal de Inventario por Lote**
+<center> <img src="assets/Chapter-4/IL.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°58). Elaboración propia. Realizado en Figma*
+
+*Pantalla de Comentarios del Lote* 
+<center> <img src="assets/Chapter-4/ILC.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°59). Elaboración propia. Realizado en Figma*
+
+*Pantalla de Exportación*
+<center> <img src="assets/Chapter-4/ILE.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°60). Elaboración propia. Realizado en Figma*
+
+**Pantalla de Inventario por Producto**
+<center> <img src="assets/Chapter-4/IP.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°61). Elaboración propia. Realizado en Figma*
+
+*Edición de Registro*
+<center> <img src="assets/Chapter-4/IPE.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°62). Elaboración propia. Realizado en Figma*
+
+**Pantalla Principal de Alerta Stock**
+<center> <img src="assets/Chapter-4/AS.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°63). Elaboración propia. Realizado en Figma*
+
+*Detalles de Alerta*
+<center> <img src="assets/Chapter-4/AD.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°64). Elaboración propia. Realizado en Figma*
+
+*Eliminar Alerta*
+<center> <img src="assets/Chapter-4/EA.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°65). Elaboración propia. Realizado en Figma*
+
 ### 4.4.3. Web Applications User Flow Diagrams.
+**User Goal: Registrar**
+<center> <img src="assets/Chapter-4/user registro.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°66). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Iniciar sesión**
+<center> <img src="assets/Chapter-4/user inicio.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°67). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Navegar por el dashboard**
+<center> <img src="assets/Chapter-4/home2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°68). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Inventario (Producto/Lote)**
+<center> <img src="assets/Chapter-4/IPL.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°69). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+<center> <img src="assets/Chapter-4/AG2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°70). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Historial de Movimientos**
+<center> <img src="assets/Chapter-4/H2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°71). Elaboración propia. Realizado en Lucidchart*
+
+**User Goal: Alerta de Stock**
+<center> <img src="assets/Chapter-4/AS2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°72). Elaboración propia. Realizado en Lucidchart*
+
 ## 4.5. Web Applications Prototyping.
+
+<h2>Web Application Prototyping</h2>
+
+<p>
+El apartado de Web Application Prototyping muestra el primer acercamiento visual e interactivo al diseño de la plataforma web. A través del uso de herramientas de prototipado, se crean representaciones dinámicas que permiten simular la navegación, disposición de módulos y flujos de interacción del usuario antes de pasar a la fase de desarrollo.
+</p>
+
+<p>
+Durante este proceso, se estructuran pantallas clave como el login, panel de control, gestión de productos, movimientos de stock, generación de reportes y alertas de inventario. El objetivo es anticipar posibles mejoras de usabilidad y validar la propuesta funcional con los usuarios finales.
+</p>
+
+<p>
+El prototipo también permite identificar ajustes necesarios en la experiencia de usuario (UX) y verificar que los requisitos funcionales definidos en las User Stories se reflejen correctamente en las interfaces propuestas.
+</p>
+
+<p>
+A continuación, se presenta el enlace para visualizar el video de navegación del prototipo interactivo:
+</p>
+
+<p>
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EXKfruhspmVBidF6TSup3wQBhyHtNR2_ePztNA5OyxQ2XQ?e=mjWxUU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" 
+   target="_blank" style="color: #2c3e50; font-weight: bold; text-decoration: underline;">
+   Ver video del prototipo interactivo
+</a>
+</p>
+
 ## 4.6. Domain-Driven Software Architecture.
 
 El Domain-Driven Design (DDD) busca que el software refleje fielmente nuestro producto StockWise, mediante un lenguaje compartido y la separación del dominio en contextos bien delimitados. Se utilizarán patrones estratégicos y tácticos para guiar tanto el diseño del modelo como la arquitectura del sistema.
 
 ### 4.6.1. Software Architecture Context Diagram.
+
+En el Diagrama de Contexto (C4 Nivel 1) representamos a StockWise como un único sistema ("Inventory Management Platform") y sus interacciones con los actores y sistemas externos. StockWise permite a los usuarios —empleados, emprendedores y administradores— gestionar inventarios, controlar stock, configurar parámetros del sistema y analizar ventas. Además, se integra con Gmail para el envío de alertas por correo electrónico y con Firebase Auth para la autenticación de usuarios.
+
+**Context Diagram**
+
+<center> <img src="assets/Chapter-4/Structurizr/ContextDiagramStockWise.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°73). Elaboración propia. Realizado en Structurizr*
+
 ### 4.6.2. Software Architecture Container Diagrams.
+
+En el Diagrama de Contenedores (C4 Nivel 2) de StockWise representamos la arquitectura interna del sistema, mostrando cómo se organiza en aplicaciones de usuario, un backend RESTful API y diferentes contextos de negocio especializados. Los usuarios interactúan a través de una Mobile App, Web App y Landing Page, que se comunican con el backend. A su vez, el backend gestiona el dominio mediante Bounded Contexts separados (Product, Report, Inventory y User & Security), todos persistiendo datos en una base de datos central y conectándose a sistemas externos como Gmail y Firebase Auth para notificaciones y autenticación.
+
+
+**Container Diagram**
+
+<center> <img src="assets/Chapter-4/Structurizr/ContainerDiagramStockWise.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°74). Elaboración propia. Realizado en Structurizr*
+
+
 ### 4.6.3. Software Architecture Components Diagrams.
+
+A nivel de C4 Model — Nivel 3 (Component View), se describen los principales componentes internos de cada contexto del sistema StockWise. Cada uno de estos diagramas detalla cómo se organizan los controladores, servicios, repositorios y entidades dentro de sus respectivos bounded contexts, permitiendo visualizar la arquitectura interna y las responsabilidades de cada parte del sistema.
+
+**Product Management Context:**
+
+<center> <img src="assets/Chapter-4/Structurizr/Component2.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°75). Elaboración propia. Realizado en Structurizr*
+
+El Product Management Context gestiona los productos y combos (kits) disponibles en el inventario. ProductController y KitController manejan las solicitudes HTTP relacionadas a productos y kits respectivamente, delegando a ProductService y KitService la validación y coordinación de las operaciones. ProductRepository y KitRepository se encargan de persistir las entidades Product y Kit, así como sus asociaciones mediante KitItem.
+
+
+**Report Context:**
+
+<center> <img src="assets/Chapter-4/Structurizr/Component3.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°76). Elaboración propia. Realizado en Structurizr*
+
+El Report Context organiza la generación de reportes en StockWise. ReportController maneja solicitudes de creación, listado y exportación de reportes, delegando en ReportService la orquestación de estos procesos. ReportService consulta y persiste los reportes a través de ReportRepository, y utiliza el componente Exporter para exportar los datos en formato PDF o Excel. Statistics se encarga del cálculo de métricas agregadas para los reportes.
+
+**Inventory Context:**
+
+<center> <img src="assets/Chapter-4/Structurizr/Component1.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°77). Elaboración propia. Realizado en Structurizr*
+
+El Inventory Context maneja el control de inventarios, historial de movimientos, devoluciones, precios y alertas de bajo stock. El InventoryController expone los endpoints de inventario, delegando la lógica a InventoryService, que gestiona operaciones sobre el stock y alerta a través de AlertService cuando se detecta bajo inventario. La persistencia de datos se realiza mediante InventoryRepository, interactuando con la entidad Inventory y la base de datos principal. Las alertas de bajo stock se envían vía Gmail.
+
+**User and Security Context**
+
+<center> <img src="assets/Chapter-4/Structurizr/Component4.png" style="width: 500px;"/> </center>
+<br>
+
+*Imagen (N°78). Elaboración propia. Realizado en Structurizr*
+
+El User and Security Context se encarga de la gestión de usuarios, roles, permisos y la autenticación. UserController expone endpoints para operaciones CRUD de usuarios y orquesta la autenticación. SecurityService valida operaciones de seguridad, apoyándose en SecurityRepository para acceder a los datos de usuarios y permisos. Permits contiene las definiciones específicas de permisos. La autenticación se realiza mediante integración con Firebase Auth API.
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+<center> <img src="assets/Chapter-4/diagramadeclases.png" style="width: 800px;"/> </center>
+
+
 ### 4.7.2. Class Dictionary.
+<body>
+
+<h2>Product Management Context</h2>
+
+<h3>Clase Product</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador único del producto</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre comercial del producto</td></tr>
+    <tr><td>description</td><td>String</td><td>Descripción detallada del producto</td></tr>
+    <tr><td>purchasePrice</td><td>double</td><td>Precio de compra al proveedor</td></tr>
+    <tr><td>salePrice</td><td>double</td><td>Precio de venta al cliente</td></tr>
+    <tr><td>internalNotes</td><td>String</td><td>Comentarios internos para gestión</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Category</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la categoría</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre de la categoría</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase UnitOfMeasure</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la unidad</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre de la unidad (ej. kilogramo)</td></tr>
+    <tr><td>abbreviation</td><td>String</td><td>Abreviatura (ej. kg, L)</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Tag</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la etiqueta</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre de la etiqueta</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Combo (Kit)</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador del combo</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre descriptivo del kit</td></tr>
+    <tr><td>items</td><td>List<ComboItem></td><td>Elementos que componen el combo</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase ComboItem (KitItem)</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador del ítem en el kit</td></tr>
+    <tr><td>quantity</td><td>int</td><td>Cantidad de ese producto en el combo</td></tr>
+    <tr><td>product</td><td>Product</td><td>Referencia al producto incluido</td></tr>
+  </tbody>
+</table>
+
+<h3>Interfaces</h3>
+<ul>
+  <li><b>IProductService:</b> define operaciones de negocio sobre Productos.</li>
+  <li><b>IComboService:</b> define la lógica para armar o modificar combos.</li>
+  <li><b>IProductRepository / IComboRepository:</b> abstracción para acceso a datos.</li>
+</ul>
+
+<hr>
+
+<h2>Inventory Context</h2>
+
+<h3>Clase StockItem</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de stock</td></tr>
+    <tr><td>currentQuantity</td><td>int</td><td>Cantidad disponible actual</td></tr>
+    <tr><td>minimumQuantity</td><td>int</td><td>Nivel mínimo para alerta</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Movement</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del movimiento</td></tr>
+    <tr><td>date</td><td>DateTime</td><td>Fecha y hora del movimiento</td></tr>
+    <tr><td>type</td><td>String</td><td>Tipo: IN, OUT o RETURN</td></tr>
+    <tr><td>quantity</td><td>int</td><td>Cantidad movida</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Batch</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Código de lote</td></tr>
+    <tr><td>manufactureDate</td><td>Date</td><td>Fecha de fabricación</td></tr>
+    <tr><td>expiryDate</td><td>Date</td><td>Fecha de vencimiento</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Provider</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del proveedor</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre o razón social</td></tr>
+    <tr><td>joinDate</td><td>Date</td><td>Fecha de alta en el sistema</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase ExpirationAlert</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la alerta</td></tr>
+    <tr><td>date</td><td>Date</td><td>Fecha de expiración detectada</td></tr>
+    <tr><td>batch</td><td>Batch</td><td>Lote afectado</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase StockAlert</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la alerta</td></tr>
+    <tr><td>message</td><td>String</td><td>Mensaje descriptivo</td></tr>
+  </tbody>
+</table>
+
+<h3>Interfaces</h3>
+<ul>
+  <li><b>IInventoryService:</b> orquesta registros y consultas de stock y movimientos.</li>
+  <li><b>IStockRepository / IMovementRepository:</b> abstracción para persistencia.</li>
+</ul>
+
+<hr>
+
+<h2>Report Context</h2>
+
+<h3>Clase Report</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador del reporte</td></tr>
+    <tr><td>date</td><td>Date</td><td>Fecha de generación</td></tr>
+    <tr><td>type</td><td>String</td><td>Tipo de reporte (stock, histórico, ventas)</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase ReportExporter</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Método</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>exportToExcel(data)</td><td>Genera un archivo Excel con los datos recibidos</td></tr>
+    <tr><td>exportToPDF(data)</td><td>Genera un documento PDF con los datos recibidos</td></tr>
+  </tbody>
+</table>
+
+<h3>Interfaces</h3>
+<ul>
+  <li><b>IReportService:</b> define métodos para obtener estadísticas y consolidar datos.</li>
+  <li><b>IReportRepository:</b> abstrae la lectura de datos históricos para los reportes.</li>
+</ul>
+
+<hr>
+
+<h2>Security Context</h2>
+
+<h3>Clase User</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>ID único del usuario</td></tr>
+    <tr><td>username</td><td>String</td><td>Nombre de usuario para login</td></tr>
+    <tr><td>email</td><td>String</td><td>Correo electrónico</td></tr>
+    <tr><td>role</td><td>Role</td><td>Rol asignado</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Role</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>ID del rol</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre descriptivo</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Permission</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>ID del permiso</td></tr>
+    <tr><td>name</td><td>String</td><td>Descripción de la acción permitida</td></tr>
+  </tbody>
+</table>
+
+<h3>Interfaces</h3>
+<ul>
+  <li><b>ISecurityService:</b> coordina la creación de usuarios y asignación de roles/permissions.</li>
+  <li><b>IUserRepository / IRoleRepository / IPermissionRepository:</b> abstracción de la capa de datos.</li>
+</ul>
+
+</body>
+
+
+
 ## 4.8. Database Design.
+
+
+
 ### 4.8.1. Database Diagram.
+<center> <img src="assets/Chapter-4/diagrama bd.png" style="width: 800px;"/> </center>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
