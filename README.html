@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="centercourse-projectcenter"><center>COURSE PROJECT</center></h1>
+<p align="center">
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
+    <strong>Ingeniería de Software - 2025-1</strong><br>
+    <strong>Aplicaciones Web - 4366</strong><br>
+    <strong>Profesor: Alex Humberto Sánchez Ponce</strong><br>
+    <br><strong>Informe del Trabajo Final</strong>
+</p>
+</p>
+<p align="center">
+    <strong>Startup: AyniTech</strong><br>
+    <strong>Producto:  </strong>
+</p>
+<div style="text-align:center;">
+    <h3>Team Members:</h3>
+    <table align="center">
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Code</th>
+        </tr>
+        <tr>
+            <td>Jocelyn Damaly Almerco Rojas</td>
+            <td>U20221g068</td>
+        </tr>
+        <tr>
+            <td>Sanchez Rios, Camila Cristina</td>
+            <td>U202210973</td>
+        </tr>
+        <tr>
+            <td>Henry Kalet Esteban Roman</td>
+            <td>U202310210</td>
+        </tr>
+        <tr>
+            <td>Maria Fernanda Peña Riofrio</td>
+            <td>U202113279</td>
+        </tr>
+        <tr>
+            <td>Fabiola Del Rocio Saldaña Ayala</td>
+            <td>U202313773</td>
+        </tr>
+    </table>
+</div>
+<p align="center">
+    <strong>Abril, 2025</strong>
+</p>
+<br>
+<h1 align="center">Registro de versiones del Informe</h1>
+</br>
+<table>
+        <thead>
+            <tr>
+                <th>Versión</th>
+                <th>Fecha</th>
+                <th>Autor</th>
+                <th>Descripción de modificaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>TB1</th>
+                <td>07/04/2025</td>
+                <td>
+                    <ul>
+          <li>..</li>
+          <li>Camila Sanchez</li>
+          <li>..</li>
+          <li>..</li>
+                    <ul>
+           </td>
+      <td>            
+             <ul>
+          <li>Capítulo I: Introducción</li>
+          <li>Capítulo II: Requirements Elicitation & Analysis</li>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo IV: Product Design</li>
+          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul>
+      </td>
+  </tr>
+</tbody>
+</table>
+<h1 id="project-report-collaboration-insights">Project Report Collaboration Insights</h1>
+<p><a href="https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Report">Link de repositorio del reporte:</a>: https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Report</p>
+<h1 id="contenido">Contenido</h1>
+<p><a href="#student-outcome">Student Outcome</a></p>
+<p><a href="#cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</a></p>
+<ul>
+<li><a href="#11-startup-profile">1.1. Startup Profile</a>
+<ul>
+<li><a href="#111-descripci%C3%B3n-de-la-startup">1.1.1. Descripción de la Startup</a></li>
+<li><a href="#112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</a></li>
+</ul>
+</li>
+<li><a href="#12-solution-profile">1.2. Solution Profile</a>
+<ul>
+<li><a href="#121-antecedentes-y-problem%C3%A1tica">1.2.1 Antecedentes y problemática</a></li>
+<li><a href="#122-lean-ux-process">1.2.2 Lean UX Process</a>
+<ul>
+<li><a href="#1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</a></li>
+<li><a href="#1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</a></li>
+<li><a href="#1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</a></li>
+<li><a href="#1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#13-segmentos-objetivo">1.3. Segmentos objetivo</a></li>
+</ul>
+<p><a href="#cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</a></p>
+<ul>
+<li><a href="#course-project">COURSE PROJECT</a></li>
+<li><a href="#project-report-collaboration-insights">Project Report Collaboration Insights</a></li>
+<li><a href="#contenido">Contenido</a></li>
+<li><a href="#student-outcome">Student Outcome</a></li>
+<li><a href="#cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</a>
+<ul>
+<li><a href="#11-startup-profile">1.1. Startup Profile</a>
+<ul>
+<li><a href="#111-descripci%C3%B3n-de-la-startup">1.1.1. Descripción de la Startup</a></li>
+<li><a href="#112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</a></li>
+</ul>
+</li>
+<li><a href="#12-solution-profile">1.2. Solution Profile</a>
+<ul>
+<li><a href="#121-antecedentes-y-problem%C3%A1tica">1.2.1 Antecedentes y problemática</a></li>
+<li><a href="#122-lean-ux-process">1.2.2 Lean UX Process</a>
+<ul>
+<li><a href="#1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</a></li>
+<li><a href="#1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</a></li>
+<li><a href="#1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</a></li>
+<li><a href="#1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#13-segmentos-objetivo">1.3. Segmentos objetivo</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</a>
+<ul>
+<li><a href="#21-competidores">2.1. Competidores</a>
+<ul>
+<li><a href="#211-an%C3%A1lisis-competitivo">2.1.1. Análisis competitivo</a></li>
+<li><a href="#212-estrategias-y-t%C3%A1cticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</a></li>
+</ul>
+</li>
+<li><a href="#22-entrevistas">2.2. Entrevistas</a>
+<ul>
+<li><a href="#221-dise%C3%B1o-de-entrevistas">2.2.1. Diseño de entrevistas</a></li>
+<li><a href="#222-registro-de-entrevistas">2.2.2. Registro de entrevistas</a></li>
+<li><a href="#223-an%C3%A1lisis-de-entrevistas">2.2.3. Análisis de entrevistas</a></li>
+</ul>
+</li>
+<li><a href="#23-needfinding">2.3. Needfinding</a>
+<ul>
+<li><a href="#231-user-personas">2.3.1. User Personas</a></li>
+<li><a href="#232-user-task-matrix">2.3.2. User Task Matrix</a></li>
+<li><a href="#233-user-journey-mapping">2.3.3. User Journey Mapping</a></li>
+<li><a href="#234-empathy-mapping">2.3.4. Empathy Mapping</a></li>
+<li><a href="#235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping</a></li>
+</ul>
+</li>
+<li><a href="#24-ubiquitous-language">2.4. Ubiquitous Language</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification</a>
+<ul>
+<li><a href="#31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping</a></li>
+<li><a href="#32-user-stories">3.2. User Stories</a></li>
+<li><a href="#33-impact-mapping">3.3. Impact Mapping</a></li>
+<li><a href="#34-product-backlog">3.4. Product Backlog</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</a>
+<ul>
+<li><a href="#41-style-guidelines">4.1. Style Guidelines</a>
+<ul>
+<li><a href="#411-general-style-guidelines">4.1.1. General Style Guidelines</a></li>
+<li><a href="#412-web-style-guidelines">4.1.2. Web Style Guidelines</a></li>
+</ul>
+</li>
+<li><a href="#42-information-architecture">4.2. Information Architecture</a>
+<ul>
+<li><a href="#421-organization-systems">4.2.1. Organization Systems.</a></li>
+<li><a href="#422-labeling-systems">4.2.2. Labeling Systems.</a></li>
+<li><a href="#423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</a></li>
+<li><a href="#424-searching-systems">4.2.4. Searching Systems.</a></li>
+<li><a href="#425-navigation-systems">4.2.5. Navigation Systems.</a></li>
+</ul>
+</li>
+<li><a href="#43-landing-page-ui-design">4.3. Landing Page UI Design.</a>
+<ul>
+<li><a href="#431-landing-page-wireframe">4.3.1. Landing Page Wireframe.</a></li>
+<li><a href="#432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</a></li>
+</ul>
+</li>
+<li><a href="#44-web-applications-uxui-design">4.4. Web Applications UX/UI Design.</a>
+<ul>
+<li><a href="#441-web-applications-wireframes">4.4.1. Web Applications Wireframes.</a></li>
+<li><a href="#442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</a></li>
+<li><a href="#442-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</a></li>
+<li><a href="#443-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</a></li>
+</ul>
+</li>
+<li><a href="#45-web-applications-prototyping">4.5. Web Applications Prototyping.</a></li>
+<li><a href="#46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture.</a>
+<ul>
+<li><a href="#461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram.</a></li>
+<li><a href="#462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams.</a></li>
+<li><a href="#463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams.</a></li>
+</ul>
+</li>
+<li><a href="#47-software-object-oriented-design">4.7. Software Object-Oriented Design.</a>
+<ul>
+<li><a href="#471-class-diagrams">4.7.1. Class Diagrams.</a></li>
+<li><a href="#472-class-dictionary">4.7.2. Class Dictionary.</a></li>
+</ul>
+</li>
+<li><a href="#48-database-design">4.8. Database Design.</a>
+<ul>
+<li><a href="#481-database-diagram">4.8.1. Database Diagram.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation &amp; Deployment</a>
+<ul>
+<li><a href="#51-software-configuration-management">5.1. Software Configuration Management.</a>
+<ul>
+<li><a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a></li>
+<li><a href="#512-source-code-management">5.1.2. Source Code Management.</a></li>
+<li><a href="#513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide &amp; Conventions.</a></li>
+<li><a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</a></li>
+</ul>
+</li>
+<li><a href="#52-landing-page-services--applications-implementation">5.2. Landing Page, Services &amp; Applications Implementation</a>
+<ul>
+<li><a href="#521-sprint-1">5.2.1. Sprint 1</a>
+<ul>
+<li><a href="#5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</a></li>
+<li><a href="#5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators.</a></li>
+<li><a href="#5213-sprint-backlog-n">5.2.1.3. Sprint Backlog n.</a></li>
+<li><a href="#5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review.</a></li>
+<li><a href="#5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</a></li>
+<li><a href="#5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</a></li>
+<li><a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</a></li>
+<li><a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#53-validation-interviews">5.3. Validation Interviews.</a>
+<ul>
+<li><a href="#531-dise%C3%B1o-de-entrevistas">5.3.1. Diseño de Entrevistas.</a></li>
+<li><a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</a></li>
+<li><a href="#533-evaluaciones-seg%C3%BAn-heur%C3%ADsticas">5.3.3. Evaluaciones según heurísticas.</a></li>
+</ul>
+</li>
+<li><a href="#54-video-about-the-product">5.4. Video About-the-Product.</a></li>
+</ul>
+</li>
+<li><a href="#conclusiones">Conclusiones</a>
+<ul>
+<li><a href="#conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</a></li>
+</ul>
+</li>
+<li><a href="#video-about-the-team">Video About-the-Team.</a></li>
+<li><a href="#bibliograf%C3%ADa">Bibliografía</a></li>
+<li><a href="#anexos">Anexos</a></li>
+</ul>
+<p><a href="#cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification</a></p>
+<ul>
+<li><a href="#31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping</a></li>
+<li><a href="#32-user-stories">3.2. User Stories</a></li>
+<li><a href="#33-impact-mapping">3.3. Impact Mapping</a></li>
+<li><a href="#34-product-backlog">3.4. Product Backlog</a></li>
+</ul>
+<p><a href="#cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</a></p>
+<ul>
+<li><a href="#course-project">COURSE PROJECT</a></li>
+<li><a href="#project-report-collaboration-insights">Project Report Collaboration Insights</a></li>
+<li><a href="#contenido">Contenido</a></li>
+<li><a href="#student-outcome">Student Outcome</a></li>
+<li><a href="#cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</a>
+<ul>
+<li><a href="#11-startup-profile">1.1. Startup Profile</a>
+<ul>
+<li><a href="#111-descripci%C3%B3n-de-la-startup">1.1.1. Descripción de la Startup</a></li>
+<li><a href="#112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</a></li>
+</ul>
+</li>
+<li><a href="#12-solution-profile">1.2. Solution Profile</a>
+<ul>
+<li><a href="#121-antecedentes-y-problem%C3%A1tica">1.2.1 Antecedentes y problemática</a></li>
+<li><a href="#122-lean-ux-process">1.2.2 Lean UX Process</a>
+<ul>
+<li><a href="#1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</a></li>
+<li><a href="#1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</a></li>
+<li><a href="#1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</a></li>
+<li><a href="#1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#13-segmentos-objetivo">1.3. Segmentos objetivo</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</a>
+<ul>
+<li><a href="#21-competidores">2.1. Competidores</a>
+<ul>
+<li><a href="#211-an%C3%A1lisis-competitivo">2.1.1. Análisis competitivo</a></li>
+<li><a href="#212-estrategias-y-t%C3%A1cticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</a></li>
+</ul>
+</li>
+<li><a href="#22-entrevistas">2.2. Entrevistas</a>
+<ul>
+<li><a href="#221-dise%C3%B1o-de-entrevistas">2.2.1. Diseño de entrevistas</a></li>
+<li><a href="#222-registro-de-entrevistas">2.2.2. Registro de entrevistas</a></li>
+<li><a href="#223-an%C3%A1lisis-de-entrevistas">2.2.3. Análisis de entrevistas</a></li>
+</ul>
+</li>
+<li><a href="#23-needfinding">2.3. Needfinding</a>
+<ul>
+<li><a href="#231-user-personas">2.3.1. User Personas</a></li>
+<li><a href="#232-user-task-matrix">2.3.2. User Task Matrix</a></li>
+<li><a href="#233-user-journey-mapping">2.3.3. User Journey Mapping</a></li>
+<li><a href="#234-empathy-mapping">2.3.4. Empathy Mapping</a></li>
+<li><a href="#235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping</a></li>
+</ul>
+</li>
+<li><a href="#24-ubiquitous-language">2.4. Ubiquitous Language</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification</a>
+<ul>
+<li><a href="#31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping</a></li>
+<li><a href="#32-user-stories">3.2. User Stories</a></li>
+<li><a href="#33-impact-mapping">3.3. Impact Mapping</a></li>
+<li><a href="#34-product-backlog">3.4. Product Backlog</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</a>
+<ul>
+<li><a href="#41-style-guidelines">4.1. Style Guidelines</a>
+<ul>
+<li><a href="#411-general-style-guidelines">4.1.1. General Style Guidelines</a></li>
+<li><a href="#412-web-style-guidelines">4.1.2. Web Style Guidelines</a></li>
+</ul>
+</li>
+<li><a href="#42-information-architecture">4.2. Information Architecture</a>
+<ul>
+<li><a href="#421-organization-systems">4.2.1. Organization Systems.</a></li>
+<li><a href="#422-labeling-systems">4.2.2. Labeling Systems.</a></li>
+<li><a href="#423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</a></li>
+<li><a href="#424-searching-systems">4.2.4. Searching Systems.</a></li>
+<li><a href="#425-navigation-systems">4.2.5. Navigation Systems.</a></li>
+</ul>
+</li>
+<li><a href="#43-landing-page-ui-design">4.3. Landing Page UI Design.</a>
+<ul>
+<li><a href="#431-landing-page-wireframe">4.3.1. Landing Page Wireframe.</a></li>
+<li><a href="#432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</a></li>
+</ul>
+</li>
+<li><a href="#44-web-applications-uxui-design">4.4. Web Applications UX/UI Design.</a>
+<ul>
+<li><a href="#441-web-applications-wireframes">4.4.1. Web Applications Wireframes.</a></li>
+<li><a href="#442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</a></li>
+<li><a href="#442-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</a></li>
+<li><a href="#443-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</a></li>
+</ul>
+</li>
+<li><a href="#45-web-applications-prototyping">4.5. Web Applications Prototyping.</a></li>
+<li><a href="#46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture.</a>
+<ul>
+<li><a href="#461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram.</a></li>
+<li><a href="#462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams.</a></li>
+<li><a href="#463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams.</a></li>
+</ul>
+</li>
+<li><a href="#47-software-object-oriented-design">4.7. Software Object-Oriented Design.</a>
+<ul>
+<li><a href="#471-class-diagrams">4.7.1. Class Diagrams.</a></li>
+<li><a href="#472-class-dictionary">4.7.2. Class Dictionary.</a></li>
+</ul>
+</li>
+<li><a href="#48-database-design">4.8. Database Design.</a>
+<ul>
+<li><a href="#481-database-diagram">4.8.1. Database Diagram.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation &amp; Deployment</a>
+<ul>
+<li><a href="#51-software-configuration-management">5.1. Software Configuration Management.</a>
+<ul>
+<li><a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a></li>
+<li><a href="#512-source-code-management">5.1.2. Source Code Management.</a></li>
+<li><a href="#513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide &amp; Conventions.</a></li>
+<li><a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</a></li>
+</ul>
+</li>
+<li><a href="#52-landing-page-services--applications-implementation">5.2. Landing Page, Services &amp; Applications Implementation</a>
+<ul>
+<li><a href="#521-sprint-1">5.2.1. Sprint 1</a>
+<ul>
+<li><a href="#5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</a></li>
+<li><a href="#5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators.</a></li>
+<li><a href="#5213-sprint-backlog-n">5.2.1.3. Sprint Backlog n.</a></li>
+<li><a href="#5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review.</a></li>
+<li><a href="#5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</a></li>
+<li><a href="#5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</a></li>
+<li><a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</a></li>
+<li><a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#53-validation-interviews">5.3. Validation Interviews.</a>
+<ul>
+<li><a href="#531-dise%C3%B1o-de-entrevistas">5.3.1. Diseño de Entrevistas.</a></li>
+<li><a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</a></li>
+<li><a href="#533-evaluaciones-seg%C3%BAn-heur%C3%ADsticas">5.3.3. Evaluaciones según heurísticas.</a></li>
+</ul>
+</li>
+<li><a href="#54-video-about-the-product">5.4. Video About-the-Product.</a></li>
+</ul>
+</li>
+<li><a href="#conclusiones">Conclusiones</a>
+<ul>
+<li><a href="#conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</a></li>
+</ul>
+</li>
+<li><a href="#video-about-the-team">Video About-the-Team.</a></li>
+<li><a href="#bibliograf%C3%ADa">Bibliografía</a></li>
+<li><a href="#anexos">Anexos</a></li>
+</ul>
+<p><a href="#cap%C3%ADtulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation &amp; Deployment</a></p>
+<ul>
+<li><a href="#course-project">COURSE PROJECT</a></li>
+<li><a href="#project-report-collaboration-insights">Project Report Collaboration Insights</a></li>
+<li><a href="#contenido">Contenido</a></li>
+<li><a href="#student-outcome">Student Outcome</a></li>
+<li><a href="#cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</a>
+<ul>
+<li><a href="#11-startup-profile">1.1. Startup Profile</a>
+<ul>
+<li><a href="#111-descripci%C3%B3n-de-la-startup">1.1.1. Descripción de la Startup</a></li>
+<li><a href="#112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</a></li>
+</ul>
+</li>
+<li><a href="#12-solution-profile">1.2. Solution Profile</a>
+<ul>
+<li><a href="#121-antecedentes-y-problem%C3%A1tica">1.2.1 Antecedentes y problemática</a></li>
+<li><a href="#122-lean-ux-process">1.2.2 Lean UX Process</a>
+<ul>
+<li><a href="#1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</a></li>
+<li><a href="#1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</a></li>
+<li><a href="#1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</a></li>
+<li><a href="#1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#13-segmentos-objetivo">1.3. Segmentos objetivo</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</a>
+<ul>
+<li><a href="#21-competidores">2.1. Competidores</a>
+<ul>
+<li><a href="#211-an%C3%A1lisis-competitivo">2.1.1. Análisis competitivo</a></li>
+<li><a href="#212-estrategias-y-t%C3%A1cticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</a></li>
+</ul>
+</li>
+<li><a href="#22-entrevistas">2.2. Entrevistas</a>
+<ul>
+<li><a href="#221-dise%C3%B1o-de-entrevistas">2.2.1. Diseño de entrevistas</a></li>
+<li><a href="#222-registro-de-entrevistas">2.2.2. Registro de entrevistas</a></li>
+<li><a href="#223-an%C3%A1lisis-de-entrevistas">2.2.3. Análisis de entrevistas</a></li>
+</ul>
+</li>
+<li><a href="#23-needfinding">2.3. Needfinding</a>
+<ul>
+<li><a href="#231-user-personas">2.3.1. User Personas</a></li>
+<li><a href="#232-user-task-matrix">2.3.2. User Task Matrix</a></li>
+<li><a href="#233-user-journey-mapping">2.3.3. User Journey Mapping</a></li>
+<li><a href="#234-empathy-mapping">2.3.4. Empathy Mapping</a></li>
+<li><a href="#235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping</a></li>
+</ul>
+</li>
+<li><a href="#24-ubiquitous-language">2.4. Ubiquitous Language</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification</a>
+<ul>
+<li><a href="#31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping</a></li>
+<li><a href="#32-user-stories">3.2. User Stories</a></li>
+<li><a href="#33-impact-mapping">3.3. Impact Mapping</a></li>
+<li><a href="#34-product-backlog">3.4. Product Backlog</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</a>
+<ul>
+<li><a href="#41-style-guidelines">4.1. Style Guidelines</a>
+<ul>
+<li><a href="#411-general-style-guidelines">4.1.1. General Style Guidelines</a></li>
+<li><a href="#412-web-style-guidelines">4.1.2. Web Style Guidelines</a></li>
+</ul>
+</li>
+<li><a href="#42-information-architecture">4.2. Information Architecture</a>
+<ul>
+<li><a href="#421-organization-systems">4.2.1. Organization Systems.</a></li>
+<li><a href="#422-labeling-systems">4.2.2. Labeling Systems.</a></li>
+<li><a href="#423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</a></li>
+<li><a href="#424-searching-systems">4.2.4. Searching Systems.</a></li>
+<li><a href="#425-navigation-systems">4.2.5. Navigation Systems.</a></li>
+</ul>
+</li>
+<li><a href="#43-landing-page-ui-design">4.3. Landing Page UI Design.</a>
+<ul>
+<li><a href="#431-landing-page-wireframe">4.3.1. Landing Page Wireframe.</a></li>
+<li><a href="#432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</a></li>
+</ul>
+</li>
+<li><a href="#44-web-applications-uxui-design">4.4. Web Applications UX/UI Design.</a>
+<ul>
+<li><a href="#441-web-applications-wireframes">4.4.1. Web Applications Wireframes.</a></li>
+<li><a href="#442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</a></li>
+<li><a href="#442-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</a></li>
+<li><a href="#443-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</a></li>
+</ul>
+</li>
+<li><a href="#45-web-applications-prototyping">4.5. Web Applications Prototyping.</a></li>
+<li><a href="#46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture.</a>
+<ul>
+<li><a href="#461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram.</a></li>
+<li><a href="#462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams.</a></li>
+<li><a href="#463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams.</a></li>
+</ul>
+</li>
+<li><a href="#47-software-object-oriented-design">4.7. Software Object-Oriented Design.</a>
+<ul>
+<li><a href="#471-class-diagrams">4.7.1. Class Diagrams.</a></li>
+<li><a href="#472-class-dictionary">4.7.2. Class Dictionary.</a></li>
+</ul>
+</li>
+<li><a href="#48-database-design">4.8. Database Design.</a>
+<ul>
+<li><a href="#481-database-diagram">4.8.1. Database Diagram.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation &amp; Deployment</a>
+<ul>
+<li><a href="#51-software-configuration-management">5.1. Software Configuration Management.</a>
+<ul>
+<li><a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a></li>
+<li><a href="#512-source-code-management">5.1.2. Source Code Management.</a></li>
+<li><a href="#513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide &amp; Conventions.</a></li>
+<li><a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</a></li>
+</ul>
+</li>
+<li><a href="#52-landing-page-services--applications-implementation">5.2. Landing Page, Services &amp; Applications Implementation</a>
+<ul>
+<li><a href="#521-sprint-1">5.2.1. Sprint 1</a>
+<ul>
+<li><a href="#5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</a></li>
+<li><a href="#5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators.</a></li>
+<li><a href="#5213-sprint-backlog-n">5.2.1.3. Sprint Backlog n.</a></li>
+<li><a href="#5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review.</a></li>
+<li><a href="#5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</a></li>
+<li><a href="#5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</a></li>
+<li><a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</a></li>
+<li><a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#53-validation-interviews">5.3. Validation Interviews.</a>
+<ul>
+<li><a href="#531-dise%C3%B1o-de-entrevistas">5.3.1. Diseño de Entrevistas.</a></li>
+<li><a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</a></li>
+<li><a href="#533-evaluaciones-seg%C3%BAn-heur%C3%ADsticas">5.3.3. Evaluaciones según heurísticas.</a></li>
+</ul>
+</li>
+<li><a href="#54-video-about-the-product">5.4. Video About-the-Product.</a></li>
+</ul>
+</li>
+<li><a href="#conclusiones">Conclusiones</a>
+<ul>
+<li><a href="#conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</a></li>
+</ul>
+</li>
+<li><a href="#video-about-the-team">Video About-the-Team.</a></li>
+<li><a href="#bibliograf%C3%ADa">Bibliografía</a></li>
+<li><a href="#anexos">Anexos</a></li>
+</ul>
+<p><a href="#conclusiones">Conclusiones</a></p>
+<ul>
+<li><a href="#conclusiones-y-recomendaciones">Conclusiones y recomendaciones</a></li>
+<li><a href="#video-about-the-team">Video About-the-Team</a></li>
+</ul>
+<p><a href="#bibliograf%C3%ADa">Bibliografía</a></p>
+<p><a href="#anexos">Anexos</a></p>
+<h1 id="student-outcome">Student Outcome</h1>
+<p>ABET – EAC - Student Outcome 5</p>
+<p>Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.</p>
+<table>
+  <tr>
+    <td><b>Criterio específico</b></td>
+    <td><b>Acciones realizadas</b></td>
+    <td><b>Conclusiones</b></td>
+  </tr>
+    </thead>
+  <tbody>
+    <tr>
+      <td><b>Comunica oralmente con
+efectividad a diferentes rangos
+de audiencia.</b></td>
+      <td>
+        <p><b>name  </b></p>
+        <p><b>TB1:</b></p>
+        <p>..</p>
+        <p><b>TP1:</b></p>
+        <p>,..</p>
+        <p><b>TB2:</b></p>
+        <p>.</p>
+        <p><b>TF:</b></p>
+        <p>.</p>
+        <p><b>name</b></p>
+       <p><b>TB1:</b></p>
+        <p></p>
+        <p><b>TP1:</b></p>
+        <p></p>
+        <p><b>TB2:</b></p>
+        <p></p>
+        <p><b>TF:</b></p>
+        <p>.</p>
+        <p><b>name</b></p>
+        <p><b>TB1:</b></p>
+        <p>     
+        </p>
+        <p><b>TP1:</b></p>
+        <p>.</p>
+        <p><b>TB2:</b></p>
+        <p></p>
+        <p><b>TF:</b></p>
+        <p>.</p>
+        <p><b></b></p>
+       <p><b>TB1:</b></p>
+        <p></p>
+        <p><b>TP1:</b></p>
+        <p></p>
+        <p><b>TB2:</b></p>
+        <p></p>
+        <p><b>TF:</b></p>
+        <p></p>
+      </td>
+      <td>
+        <p><strong>TB1:</strong></p>
+        <p></p>
+        <p><strong>TP1:</strong></p>
+        <p>.</p>
+        <p><strong>TB2:</strong></p>
+        <p></p>
+        <p><strong>TF:</strong></p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td>Comunica por escrito con
+efectividad a diferentes rangos
+de audiencia.</td>
+      <td>
+        <p><b>name  </b></p>
+        <p><b>TB1:</b></p>
+        <p>..</p>
+        <p><b>TP1:</b></p>
+        <p>..</p>
+        <p><b>TB2:</b></p>
+        <p>..</p>
+        <p><b>TF:</b></p>
+        <p>..</p>
+        <p><b>name</b></p>
+       <p><b>TB1:</b></p>
+        <p>..</p>
+        <p><b>TP1:</b></p>
+        <p>..</p>
+        <p><b>TB2:</b></p>
+        <p>...</p>
+        <p><b>TF:</b></p>
+        <p>.</p>
+        <p><b>name</b></p>
+        <p><b>TB1:</b></p>
+        <p>..
+        </p>
+        <p><b>TP1:</b></p>
+        <p>..</p>
+        <p><b>TB2:</b></p>
+        <p>...</p>
+        <p><b>TF:</b></p>
+        <p>.</p>
+        <p><b>name</b></p>
+       <p><b>TB1:</b></p>
+        <p>...</p>
+        <p><b>TP1:</b></p>
+        <p>...</p>
+        <p><b>TB2:</b></p>
+        <p>...</p>
+        <p><b>TF:</b></p>
+        <p>...</p>
+      </td>
+       <td>
+        <p><strong>TB1:</strong></p>
+        <p>..</p>
+        <p><strong>TP1:</strong></p>
+        <p>...</p>
+        <p><strong>TB2:</strong></p>
+        <p>..</p>
+        <p><strong>TF:</strong></p>
+        <p>...</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h1 id="cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</h1>
+<h2 id="11-startup-profile">1.1. Startup Profile</h2>
+<h3 id="111-descripci%C3%B3n-de-la-startup">1.1.1. Descripción de la Startup</h3>
+<h3 id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</h3>
+<h2 id="12-solution-profile">1.2. Solution Profile</h2>
+<h3 id="121-antecedentes-y-problem%C3%A1tica">1.2.1 Antecedentes y problemática</h3>
+<h3 id="122-lean-ux-process">1.2.2 Lean UX Process</h3>
+<h4 id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</h4>
+<h4 id="1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</h4>
+<h4 id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</h4>
+<h4 id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</h4>
+<h2 id="13-segmentos-objetivo">1.3. Segmentos objetivo</h2>
+<h1 id="cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</h1>
+<h2 id="21-competidores">2.1. Competidores</h2>
+<h3 id="211-an%C3%A1lisis-competitivo">2.1.1. Análisis competitivo</h3>
+<h3 id="212-estrategias-y-t%C3%A1cticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</h3>
+<h2 id="22-entrevistas">2.2. Entrevistas</h2>
+<h3 id="221-dise%C3%B1o-de-entrevistas">2.2.1. Diseño de entrevistas</h3>
+<h3 id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas</h3>
+<h3 id="223-an%C3%A1lisis-de-entrevistas">2.2.3. Análisis de entrevistas</h3>
+<h2 id="23-needfinding">2.3. Needfinding</h2>
+<h3 id="231-user-personas">2.3.1. User Personas</h3>
+<h3 id="232-user-task-matrix">2.3.2. User Task Matrix</h3>
+<h3 id="233-user-journey-mapping">2.3.3. User Journey Mapping</h3>
+<h3 id="234-empathy-mapping">2.3.4. Empathy Mapping</h3>
+<h3 id="235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping</h3>
+<h2 id="24-ubiquitous-language">2.4. Ubiquitous Language</h2>
+<h1 id="cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification</h1>
+<h2 id="31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping</h2>
+<h2 id="32-user-stories">3.2. User Stories</h2>
+<h2 id="33-impact-mapping">3.3. Impact Mapping</h2>
+<h2 id="34-product-backlog">3.4. Product Backlog</h2>
+<h1 id="cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</h1>
+<h2 id="41-style-guidelines">4.1. Style Guidelines</h2>
+<h3 id="411-general-style-guidelines">4.1.1. General Style Guidelines</h3>
+<h3 id="412-web-style-guidelines">4.1.2. Web Style Guidelines</h3>
+<h2 id="42-information-architecture">4.2. Information Architecture</h2>
+<h3 id="421-organization-systems">4.2.1. Organization Systems.</h3>
+<h3 id="422-labeling-systems">4.2.2. Labeling Systems.</h3>
+<h3 id="423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</h3>
+<h3 id="424-searching-systems">4.2.4. Searching Systems.</h3>
+<h3 id="425-navigation-systems">4.2.5. Navigation Systems.</h3>
+<h2 id="43-landing-page-ui-design">4.3. Landing Page UI Design.</h2>
+<h3 id="431-landing-page-wireframe">4.3.1. Landing Page Wireframe.</h3>
+<h3 id="432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</h3>
+<h2 id="44-web-applications-uxui-design">4.4. Web Applications UX/UI Design.</h2>
+<h3 id="441-web-applications-wireframes">4.4.1. Web Applications Wireframes.</h3>
+<h3 id="442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</h3>
+<h3 id="442-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</h3>
+<h3 id="443-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</h3>
+<h2 id="45-web-applications-prototyping">4.5. Web Applications Prototyping.</h2>
+<h2 id="46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture.</h2>
+<h3 id="461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram.</h3>
+<h3 id="462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams.</h3>
+<h3 id="463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams.</h3>
+<h2 id="47-software-object-oriented-design">4.7. Software Object-Oriented Design.</h2>
+<h3 id="471-class-diagrams">4.7.1. Class Diagrams.</h3>
+<h3 id="472-class-dictionary">4.7.2. Class Dictionary.</h3>
+<h2 id="48-database-design">4.8. Database Design.</h2>
+<h3 id="481-database-diagram">4.8.1. Database Diagram.</h3>
+<h1 id="cap%C3%ADtulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation &amp; Deployment</h1>
+<h2 id="51-software-configuration-management">5.1. Software Configuration Management.</h2>
+<h3 id="511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</h3>
+<p>En la siguiente sección se describe la ruta de referencia de cada uno de los productos de software para que cualquier miembro del equipo pueda desarrollar cada punto del trabajo.</p>
+<ul>
+<li><strong>UXPressia:</strong> Plataforma colaborativa que nos permitirá crear user personas e integrados con los múltiples mapas para evaluar sus prioridades.</li>
+<li><strong>Figma:</strong> Herramienta colaborativa que nos permitirá desarrollar wireframes y mockups.</li>
+<li><strong>Miro:</strong> Es una plataforma en línea que facilita la colaboración en tiempo real mediante pizarras digitales. Proporciona herramientas para crear diagramas, mapas mentales, flujos de trabajo y otros tipos de representaciones visuales. En</li>
+<li><strong>LucidChart:</strong> Aplicación web destinada a la elaboración de Wireflows, Users Flows y diagramas de clases.</li>
+<li><strong>HTML:</strong> Es el lenguaje de marcado que se utiliza para estructurar y organizar el contenido de una página web.</li>
+<li><strong>CSS:</strong> Es el lenguaje de estilos que se utiliza para controlar la apariencia visual de la página.</li>
+</ul>
+<p><strong>Software Deployment</strong></p>
+<ul>
+<li><strong>Git:</strong> Es una herramienta de control de versiones que nos permitirá rastrear cambios, colaborar de manera eficiente y mantener un historial detallado de las modificaciones en el código.</li>
+<li><strong>Software Documentation and Project Management GitHub:</strong> Como plataforma de alojamiento, facilitará la colaboración en equipo, la gestión de ramas y la integración continua</li>
+</ul>
+<h3 id="512-source-code-management">5.1.2. Source Code Management.</h3>
+<p>El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como Workflow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page, Web Services y Frontend Web Applications.</p>
+<ul>
+<li><a href="https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Landing-Page"><strong>Repositorio Landing Page:</strong></a>  https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Landing-Page</li>
+<li><a href="https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Web-Services"><strong>Repositorio Web Services:</strong></a> https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Web-Services</li>
+<li><a href="https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications"><strong>Repositorio Frontend Web Applications:</strong></a> https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications</li>
+</ul>
+<p><strong>GitFlow</strong></p>
+<p>Estructura de branches (Ramas):</p>
+<p><strong>1. Master branch (Rama principal):</strong> Esta rama será considerada como la principal para la aplicación, y contendrá versiones estables y finales del desarrollo. Solo se permitirán cambios que hayan sido previamente probados y verificados en otras ramas de prueba.</p>
+<p><strong>2. Develop branch (Rama de desarrollo):</strong> El propósito de esta rama es llevar a cabo los avances del proyecto en equipo y de mantener los archivos centrales del desarrollo continuo.</p>
+<p><strong>3. Feature branches (Ramas de funcionalidad):</strong> Cada funcionalidad desarrollada por el equipo o separada del enfoque actual del desarrollo tendrá su propia rama. Una vez que una funcionalidad esté completamente trabajada, se fusionará con la rama de desarrollo del proyecto. Las convenciones para nombrar las ramas de funcionalidad seguirán un patrón descriptivo y único, por ejemplo, &quot;feature/nombre-de-la-funcionalidad&quot;.</p>
+<p><strong>4. Release branches (Ramas de lanzamiento):</strong> Estas ramas se utilizarán para mantener una instancia de la rama develop
+que esté próxima a ser incluida en la rama principal. Se seguirá el sistema de versionamiento semántico (Semantic
+Versioning) para nombrar las Releases.</p>
+<p><strong>Versionamiento Semántico:</strong> Para nombrar las Releases, se aplicará el sistema de versionamiento semántico (Semantic
+Versioning 2.0.0).</p>
+<p><strong>Convenciones de Commits:</strong> Para los mensajes de los commits realizados, se utilizará la especificación Conventional Commits basada en Angular Commit Guidelines. La estructura a seguir será la siguiente:</p>
+<pre class="hljs"><code><div>git commit -m <span class="hljs-string">"&lt;type&gt;[optional scope]:&lt;title&gt;"</span> -m<span class="hljs-string">"&lt;description&gt;"</span>
+</div></code></pre>
+<h3 id="513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide &amp; Conventions.</h3>
+<p><strong>HTML:</strong> Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las siguientes:</p>
+<ol>
+<li>Cerrar todos los elementos HTML. Por ejemplo:</li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Esto es un párrafo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div></code></pre>
+<ol start="2">
+<li>
+<p>A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad.</p>
+</li>
+<li>
+<p>Utilizar comillas en caso de que los atributos contengan espacios entre sí.</p>
+</li>
+<li>
+<p>Procurar especificar el texto alt y las dimensiones width y height de las imágenes, ya que de esta manera se facilitará la disponibilidad del contenido. Por ejemplo:</p>
+</li>
+</ol>
+<pre class="hljs"><code><div> <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"abc.img"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"image name"</span>
+<span class="hljs-attr">style</span>=<span class="hljs-string">"width:128px;height:128px"</span>&gt;</span>
+</div></code></pre>
+<p><strong>CSS:</strong> Entre las prácticas empleadas se mencionan:</p>
+<ol>
+<li>
+<p>Los nombres de las clases deben de ser breves y autodescriptivos.</p>
+</li>
+<li>
+<p>Separar los nombres de las clases y ID con un guión. Por ejemplo:</p>
+</li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-selector-id">#video-id</span> <span class="hljs-selector-class">.hero-shadow</span>
+</div></code></pre>
+<ol start="3">
+<li>
+<p>Evitar especificar la unidad de medida luego de usar el valor 0.</p>
+</li>
+<li>
+<p>Separar las declaraciones y selectores en nuevas líneas para agilizar la legibilidad.</p>
+</li>
+</ol>
+<h3 id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</h3>
+<p><strong>Landing Page</strong></p>
+<p>Para poder desplegar la Landing Page resulta necesario contar con una serie de requisitos, entre ellos, es necesario contar con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:</p>
+<ol>
+<li>
+<p>Crear un repositorio para alojar el Landing Page.</p>
+</li>
+<li>
+<p>Asegurarse de que los archivos sigan las nomenclaturas &quot;index.html&quot;, para el contenido de la landing page; &quot;style.css&quot; para los estilos. Se tendra una carpeta &quot;assets&quot; y dentro estaran las carpetas &quot;img&quot;.</p>
+</li>
+<li>
+<p>Cargar los archivos al repositorio mediante un commit.</p>
+</li>
+<li>
+<p>Dirigirse a Settings &gt; Pages y seleccionar la branch correspondiente dentro de la cual se encuentra el proyecto,
+generalmente se trata de &quot;main&quot; o &quot;master&quot;.</p>
+</li>
+<li>
+<p>Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page desplegado.</p>
+</li>
+</ol>
+<h2 id="52-landing-page-services--applications-implementation">5.2. Landing Page, Services &amp; Applications Implementation</h2>
+<p>En esta sección se explica y evidencia el proceso de implementación, pruebas, documentación y despliegue del Landing Page, Web Services y Frontend Web Applications.</p>
+<h3 id="521-sprint-1">5.2.1. Sprint 1</h3>
+<p>En este apartado se presenta un resumen del progreso obtenido durante el Sprint 1, dedicado a la construcción de la Landing Page. Incluye los logros en diseño, programación y features desarrollados, junto con la gestión del equipo: comunicación, herramientas y planificación. También se puede observar el Sprint backlog, evidencias del trabajo y documentación de servicios.</p>
+<h4 id="5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</h4>
+<p>En el Sprint Planning 1, se muestran evidencias de la planeación y creación del landing page, incluyendo avances del proyecto como colaboración en equipo que se registran en GitHub.</p>
+<table>
+<thead>
+<tr>
+<th>Sprint #</th>
+<th>1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sprint Planning Background</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Date</td>
+<td>17/04/2025</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>8:30 pm</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Modalidad remota</td>
+</tr>
+<tr>
+<td>Prepared By</td>
+<td>Henry Esteban</td>
+</tr>
+<tr>
+<td>Attendees (to planning meeting)</td>
+<td>Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban</td>
+</tr>
+<tr>
+<td>Sprint 0 Review Summary</td>
+<td>Para esta entrega no hay un Sprint anterior por ende no hay un resumen del Sprint</td>
+</tr>
+<tr>
+<td>Sprint 0 Retrospective Summary</td>
+<td>Para esta entrega no hay un Sprint anterior por ende no hay un resumen del Sprint</td>
+</tr>
+<tr>
+<td><strong>Sprint Goal &amp; User Stories</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Sprint Goal 1</td>
+<td>En este sprint se tiene como objetivo, realizar la landing page con HTML y CSS. Anticipadamente, en otras previas reuniones se coordinó en equipo, el contenido y diseño de la landing page,el cual se realizó en Figma. Una vez realizado el sprint, la landing debe estar desplegada en GitHub Pages para que los usuarios puedan acceder a través del link a está misma.</td>
+</tr>
+<tr>
+<td>Sprint Velocity 1</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Sum of Story Points</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+<h4 id="5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators.</h4>
+<p>Para lograr una distribución eficiente del trabajo y mayor claridad en las responsabilidades, se identificaron 4 áreas claves: Diseño UX/UI, Landing Page, Deploy y Documentation, La asignación se basó en experiencia y carga equilibrada. La tabla detalla los roles por área, leader (L) y collaborator(C):</p>
+<table>
+<thead>
+<tr>
+<th>Team Member</th>
+<th>GitHub Username</th>
+<th>Diseño UX/UI</th>
+<th>Landing Page</th>
+<th>Deploy</th>
+<th>Documentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Almerco Rojas, Jocelyn Damaly</td>
+<td>JocyDam</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Saldaña Ayala, Fabiola del Rocio</td>
+<td>fabs-in-space</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Sánchez Ríos, Camila Cristina</td>
+<td>C4m174</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Peña Riofrio, Maria Fernanda</td>
+<td>mariafep</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Esteban Román, Henry Kalet</td>
+<td>Kalet123-commit</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+</tr>
+</tbody>
+</table>
+<h4 id="5213-sprint-backlog-n">5.2.1.3. Sprint Backlog n.</h4>
+<p>En esta parte mostramos las tareas que se realizaron en este sprint.</p>
+<p><strong>Link del Trello:</strong>
+<a href="https://trello.com/b/GaGqplFO">Trello</a></p>
+<p><strong>Vista del Sprint Backlog en Trello:</strong></p>
+<p><img src="assets/Chapter-5/Trello_stockwise_sprint1.png" alt="trello"></p>
+<table>
+<thead>
+<tr>
+<th>Sprint #</th>
+<th>1</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>User Story</td>
+<td></td>
+<td>Work-Item /Task</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Id</td>
+<td>Title</td>
+<td>Id</td>
+<td>Title</td>
+<td>Description</td>
+<td>Estimation(Hours)</td>
+<td>Assigned To</td>
+<td>Status (To-do / InProcess / ToReview / Done)</td>
+</tr>
+<tr>
+<td>US01</td>
+<td>Sección Header</td>
+<td>T1</td>
+<td>Interacción de la barra de navegación</td>
+<td>Añadir funcionalidades a la barra de navegaciones</td>
+<td>0.5h</td>
+<td>Camila Sanchez</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US01</td>
+<td>Sección Header</td>
+<td>T2</td>
+<td>Diseño responsive en la barra de navegación</td>
+<td>Implementar diseño responsive a la barra de navegación</td>
+<td>1h</td>
+<td>Camila Sanchez</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US01</td>
+<td>Sección Header</td>
+<td>T3</td>
+<td>Función sticky en la barra de navegación</td>
+<td>Aplicar la funcionalidad de que la barra de navegación se desplace por toda la landing</td>
+<td>0.5h</td>
+<td>Camila Sanchez</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US02</td>
+<td>Sección Hero</td>
+<td>T4</td>
+<td>Mostrar Hero Section</td>
+<td>Implementar un hero section</td>
+<td>1h</td>
+<td>Camila Sanchez</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US02</td>
+<td>Sección Hero</td>
+<td>T5</td>
+<td>Diseño responsive en el hero section</td>
+<td>Implementar un diseño responsivo a la sección hero</td>
+<td>0.5h</td>
+<td>Camila Sanchez</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US03</td>
+<td>Sección beneficios-características</td>
+<td>T6</td>
+<td>Mostrar beneficios-características</td>
+<td>Añadir cuadros de texto sobre la características del servicio</td>
+<td>1h</td>
+<td>Maria Fernanda Peña</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US03</td>
+<td>Sección beneficios-características</td>
+<td>T7</td>
+<td>Diseño responsive en la sección beneficios-características</td>
+<td>Implementar un diseño responsivo en la sección beneficios-características</td>
+<td>0.5h</td>
+<td>Maria Fernanda Peña</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US04</td>
+<td>Sección Planes y precios</td>
+<td>T8</td>
+<td>Mostrar Planes</td>
+<td>Añadir los planes establecidos y sus descripciones con precios</td>
+<td>1.5h</td>
+<td>Fabiola Saldaña</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US04</td>
+<td>Sección Planes y precios</td>
+<td>T9</td>
+<td>Diseño responsive en la sección planes y precios</td>
+<td>Aplicar un diseño responsivo en la sección planes y precios</td>
+<td>0.5h</td>
+<td>Fabiola Saldaña</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US05</td>
+<td>Sección Testimonios clientes</td>
+<td>T10</td>
+<td>Mostrar testimonios de clientes</td>
+<td>Añadir los testimonios de clientes</td>
+<td>1h</td>
+<td>Jocelyn Almerco</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US05</td>
+<td>Sección Testimonios clientes</td>
+<td>T11</td>
+<td>Diseño responsive en la sección testimonio</td>
+<td>Aplicar un diseño responsivo en la sección testimonios-clientes</td>
+<td>0.5h</td>
+<td>Jocelyn Almerco</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US06</td>
+<td>Sección llamado acción final</td>
+<td>T12</td>
+<td>Mostrar el button call to action</td>
+<td>Añadir enlace al botón call to action a la aplicación web</td>
+<td>0.5h</td>
+<td>Maria Fernanda Peña</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US07</td>
+<td>Sección Footer</td>
+<td>T13</td>
+<td>Mostrar Footer</td>
+<td>Implementar la sección Footer</td>
+<td>0.5h</td>
+<td>Henry Esteban</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US07</td>
+<td>Sección Footer</td>
+<td>T14</td>
+<td>Diseño responsive en la sección footer</td>
+<td>Aplicar un diseño responsivo en la sección footer</td>
+<td>0.5h</td>
+<td>Henry Esteban</td>
+<td>Done</td>
+</tr>
+</tbody>
+</table>
+<h4 id="5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review.</h4>
+<table>
+<thead>
+<tr>
+<th>Repository</th>
+<th>Branch</th>
+<th>Commit Id</th>
+<th>Commit Message</th>
+<th>Commit Message Body</th>
+<th>Commited on (Date)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>upc-pre-202510-1asi0730-4366-AyniTech/Landing-Page</td>
+<td>feature/Beneficios-Características</td>
+<td>6b36a6919a2e91c77ff3baff566fd60e043c1395</td>
+<td>Primer commit con README</td>
+<td>Primer commit con README</td>
+<td>16/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Beneficios-Características</td>
+<td>3f32cf3d2d04b57948f74499f6bcc0c9524c3446</td>
+<td>feat: beneficios-caracteristicas</td>
+<td>feat: beneficios-caracteristicas</td>
+<td>19/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Footer</td>
+<td>4c5ca5c622581ac3cee863d0e4219ac287e231df</td>
+<td>Footer Landing page</td>
+<td>Footer Landing page</td>
+<td>17/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Footer</td>
+<td>235e77f6d3b97ccb4b7e0340502f7c3ed1c367e8</td>
+<td>Corrección</td>
+<td>Corrección</td>
+<td>17/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Footer</td>
+<td>ea09d7b9f1ffca7b8d28a5a478a9ce146dcf78ed</td>
+<td>Corrección footer implementación de html y css</td>
+<td>Corrección footer implementación de html y css</td>
+<td>17/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Header</td>
+<td>046034c41d59af333c0d1b15f06bf8829586fe7d</td>
+<td>feat:Header</td>
+<td>feat:Header</td>
+<td>16/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Hero-Section</td>
+<td>fe076a40ec497b89907b1a5f0e812c04ad439d2b</td>
+<td>feat: hero - section</td>
+<td>feat: hero - section</td>
+<td>16/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Llamado-Accion-Final</td>
+<td>89ca26e0e4498cd8dbd986ca117b416fe3571c74</td>
+<td>feat: llamado acción</td>
+<td>feat: llamado acción</td>
+<td>19/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Planes-Precios</td>
+<td>36379aacd31c276220ea903783afa86f6c5aac67</td>
+<td>Precios landing</td>
+<td>Precios landing</td>
+<td>19/04/2025</td>
+</tr>
+<tr>
+<td></td>
+<td>feature/Testimonios-Clientes</td>
+<td>5cf271c1711d25c79dd6700098e4b40e56089162</td>
+<td>feat: Primera versión del código - Testimonios clientes</td>
+<td>feat: Primera versión del código - Testimonios clientes</td>
+<td>18/04/2025</td>
+</tr>
+</tbody>
+</table>
+<h4 id="5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</h4>
+<p>En este Sprint se realizó nuestra landing page utilizando HTML y CSS con su respectivo despliegue en GitHub Pages. En esta sección se muestran los diferentes apartados que se han implementado en el trabajo:</p>
+<ul>
+<li>
+<p>Sección beneficios y características
+<img src="assets/Chapter-5/beneficios-caracteristicas_sprint1.png" alt="beneficios"></p>
+</li>
+<li>
+<p>Sección Planes y precios
+<img src="assets/Chapter-5/planes_sprint1.png" alt="planes"></p>
+</li>
+<li>
+<p>Seccion Testimonios Clientes
+<img src="assets/Chapter-5/nosotros_sprint1.png" alt="testimonios"></p>
+</li>
+</ul>
+<h4 id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</h4>
+<p>Y aque este sprint fue el primero y solamente se desarrolló la landing page, por lo que no se evidencia el empleo de web service</p>
+<h4 id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</h4>
+<p>Para la entrega del Sprint 1, se desplegó el landing page de forma completa. Para esto se siguió un proceso que es el siguiente:</p>
+<ul>
+<li><strong>Git:</strong> ya que se utiliza como sistema de control de versiones, facilitando la colaboración efectiva entre los integrantes del equipo</li>
+<li><strong>GitFlow:</strong> Se implementó como metodología, creando diferentes ramas por capítulo, ya que realizando esto el trabajo tuvo una mejor gestión  generando un flujo continuo en el avance del proyecto.</li>
+<li><strong>GitHub:</strong> Se usó  como plataforma base para el trabajo colaborativo, donde se puede gestionar y almacenar todas las versiones del proyecto.</li>
+<li><strong>GitHub Pages</strong>: Se empleó para publicar la landing page de forma eficiente, permitiendo que la aplicación quede accesible al público mediante un repositorio GitHub. En este caso nuestra compañera de equipo Camila Sanchez llevó a cabo eres proceso</li>
+</ul>
+<ol>
+<li>
+<p>Si nos vamos al github, vemos en la parte marcada con roja el link de nuestra landing page
+<img src="assets/Chapter-5/deploymnet_evidence1_sprint1.png" alt="sw deployment1"></p>
+</li>
+<li>
+<p>Entrando a link se puede correctamente la landing page de stock wise
+<img src="assets/Chapter-5/deploymnet_evidence2_sprint.png" alt="sw deployment2"></p>
+</li>
+</ol>
+<h4 id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</h4>
+<table>
+<thead>
+<tr>
+<th>Alumno</th>
+<th>Actividad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jocelyn Damaly Almerco Rojas</td>
+<td>Implementación de las sección Testimonios-Clientes</td>
+</tr>
+<tr>
+<td>Sanchez Rios, Camila Cristina</td>
+<td>Implementación de la sección header y sección hero-section</td>
+</tr>
+<tr>
+<td>Henry Kalet Esteban Roman</td>
+<td>Implementación de la sección footer</td>
+</tr>
+<tr>
+<td>Maria Fernanda Peña Riofrio</td>
+<td>Implementación de la sección beneficios-características y llamado-acción-final</td>
+</tr>
+<tr>
+<td>Fabiola Del Rocio Saldaña Ayala</td>
+<td>Implementación de la sección planes-precios</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Commits del landing page</strong>
+<img src="assets/Chapter-5/insights1_sprint1.png" alt="commits landing"></p>
+<h2 id="53-validation-interviews">5.3. Validation Interviews.</h2>
+<h3 id="531-dise%C3%B1o-de-entrevistas">5.3.1. Diseño de Entrevistas.</h3>
+<h3 id="532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</h3>
+<h3 id="533-evaluaciones-seg%C3%BAn-heur%C3%ADsticas">5.3.3. Evaluaciones según heurísticas.</h3>
+<h2 id="54-video-about-the-product">5.4. Video About-the-Product.</h2>
+<h1 id="conclusiones">Conclusiones</h1>
+<h2 id="conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</h2>
+<h1 id="video-about-the-team">Video About-the-Team.</h1>
+<h1 id="bibliograf%C3%ADa">Bibliografía</h1>
+<ol>
+<li>Dux Software. (2025, 9 abril). <em>Dux Software: El Sistema de Gestión para tu Negocio.</em> https://www.duxsoftware.com.ar/</li>
+<li>Mecalux. (s. f.). <em>Store fulfillment.</em> Mecalux.pe. https://www.mecalux.pe/software/store-fulfillment</li>
+<li>SoftDoIt. (s. f.). <em>▷Vendus: agiliza la gestión de tu punto de venta.</em> https://www.softwaredoit.es/vendus/vendus.html</li>
+</ol>
+<h1 id="anexos">Anexos</h1>
+
+</body>
+</html>

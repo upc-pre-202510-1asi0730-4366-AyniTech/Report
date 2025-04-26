@@ -226,8 +226,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p></p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
-        <p><b>TB1:</b></p>
+        <p><b>Henry Kalet Esteban Román</b></p>
+        <p><b>TB1:</b>
+        Asumí el desarrollo del apartado de Antecedentes y Problemática, así como en la definición de los segmentos objetivo. Esto permitió al grupo tener una base clara para el enfoque del proyecto. También lideré la elaboración del To-be Scenario Mapping y participé activamente en la definición de user stories y el diseño de wireframes y mockups, promoviendo una visión compartida del producto final.</p>
         <p></p>
         <p><b>TP1:</b></p>
         <p>.</p>
@@ -291,8 +292,8 @@ y cumple objetivos.</b></td>
         <p>...</p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
-        <p><b>TB1:</b></p>
+        <p><b>Henry Kalet Esteban Román</b></p>
+        <p><b>TB1:</b>Fomenté un entorno colaborativo al integrar los aportes de mis compañeros durante la edición y análisis de entrevistas. Coordiné con el equipo para definir a nuestros user personas dentro del proceso de needfinding, asegurando que todas las voces fueran consideradas. Además, apoyé en la planificación de tareas del diseño C4 y del apartado Software Object-Oriented Design, cumpliendo con los objetivos establecidos en los plazos definidos.</p>
         <p>..</p>
         <p><b>TP1:</b></p>
         <p>..</p>
