@@ -1660,7 +1660,11 @@ A continuación, se presenta el enlace para visualizar el video de navegación d
 
 
 ## 4.8. Database Design.
+
+
+
 ### 4.8.1. Database Diagram.
+<center> <img src="assets/Chapter-4/diagrama bd.png" style="width: 800px;"/> </center>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
