@@ -1435,13 +1435,19 @@ A continuación, se presenta el enlace para visualizar el video de navegación d
 
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
+
 En el Diagrama de Contexto (C4 Nivel 1) representamos a StockWise como un único sistema ("Inventory Management Platform") y sus interacciones con los actores y sistemas externos. StockWise permite a los usuarios —empleados, emprendedores y administradores— gestionar inventarios, controlar stock, configurar parámetros del sistema y analizar ventas. Además, se integra con Gmail para el envío de alertas por correo electrónico y con Firebase Auth para la autenticación de usuarios.
 
 <center> <img src="assets/Chapter-4/Structurizr/ContextDiagramStockWise.png" style="width: 500px;"/> </center>
 <br>
 
-
 ### 4.6.2. Software Architecture Container Diagrams.
+
+En el Diagrama de Contenedores (C4 Nivel 2) de StockWise representamos la arquitectura interna del sistema, mostrando cómo se organiza en aplicaciones de usuario, un backend RESTful API y diferentes contextos de negocio especializados. Los usuarios interactúan a través de una Mobile App, Web App y Landing Page, que se comunican con el backend. A su vez, el backend gestiona el dominio mediante Bounded Contexts separados (Product, Report, Inventory y User & Security), todos persistiendo datos en una base de datos central y conectándose a sistemas externos como Gmail y Firebase Auth para notificaciones y autenticación.
+
+<center> <img src="assets/Chapter-4/Structurizr/ContainerDiagramStockWise.png" style="width: 500px;"/> </center>
+<br>
+
 ### 4.6.3. Software Architecture Components Diagrams.
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
