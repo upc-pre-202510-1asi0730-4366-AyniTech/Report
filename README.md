@@ -1439,171 +1439,222 @@ A continuación, se presenta el enlace para visualizar el video de navegación d
 ### 4.6.3. Software Architecture Components Diagrams.
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
-### 4.7.2. Class Dictionary.
+<center> <img src="assets/Chapter-4/diagramadeclases.png" style="width: 800px;"/> </center>
 
-<body><h2>Clase Ubicación</h2>
+
+### 4.7.2. Class Dictionary.
+<body>
+
+<h2>Product Management Context</h2>
+
+<h3>Clase Product</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
     <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
   </thead>
   <tbody>
-    <tr><td>id</td><td>String</td><td>Identificador de la ubicación</td></tr>
-    <tr><td>fechaIngreso</td><td>Date</td><td>Fecha en que se ubicó</td></tr>
-    <tr><td>descripcion</td><td>String</td><td>Condiciones físicas del almacenamiento</td></tr>
+    <tr><td>id</td><td>String</td><td>Identificador único del producto</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre comercial del producto</td></tr>
+    <tr><td>description</td><td>String</td><td>Descripción detallada del producto</td></tr>
+    <tr><td>purchasePrice</td><td>double</td><td>Precio de compra al proveedor</td></tr>
+    <tr><td>salePrice</td><td>double</td><td>Precio de venta al cliente</td></tr>
+    <tr><td>internalNotes</td><td>String</td><td>Comentarios internos para gestión</td></tr>
   </tbody>
 </table>
 
-<h2>Clase Categoría</h2>
+<h3>Clase Category</h3>
 <table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
-  </thead>
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
     <tr><td>id</td><td>String</td><td>Identificador de la categoría</td></tr>
-    <tr><td>nombre</td><td>String</td><td>Nombre de la categoría</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre de la categoría</td></tr>
   </tbody>
 </table>
 
-<h2>Clase VentaProducto</h2>
-<table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>id</td><td>int</td><td>ID de la venta</td></tr>
-    <tr><td>cantidad</td><td>int</td><td>Cantidad de productos vendidos</td></tr>
-  </tbody>
-</table>
-
-<h2>Clase Transacción</h2>
-<table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>id</td><td>int</td><td>Identificador de la transacción</td></tr>
-    <tr><td>precioTotal</td><td>double</td><td>Precio total de la transacción</td></tr>
-    <tr><td>fecha</td><td>Date</td><td>Fecha de la transacción</td></tr>
-    <tr><td>lista</td><td>Producto</td><td>Lista de productos incluidos</td></tr>
-  </tbody>
-</table>
-</body>
-<body><h2>Clase Producto</h2>
+<h3>Clase UnitOfMeasure</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
-    <tr><td>id</td><td>String</td><td>Identificador del producto</td></tr>
-    <tr><td>nombre</td><td>String</td><td>Nombre del producto</td></tr>
-    <tr><td>descripcion</td><td>String</td><td>Descripción del producto</td></tr>
-    <tr><td>precioCompra</td><td>double</td><td>Precio de compra del producto</td></tr>
-    <tr><td>precioVenta</td><td>double</td><td>Precio de venta del producto</td></tr>
-    <tr><td>notasInternas</td><td>String</td><td>Comentarios internos</td></tr>
+    <tr><td>id</td><td>String</td><td>Identificador de la unidad</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre de la unidad (ej. kilogramo)</td></tr>
+    <tr><td>abbreviation</td><td>String</td><td>Abreviatura (ej. kg, L)</td></tr>
   </tbody>
 </table>
 
-<h2>Clase StockProducto</h2>
+<h3>Clase Tag</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
-    <tr><td>stockMinimo</td><td>int</td><td>Cantidad mínima permitida</td></tr>
-    <tr><td>stockActual</td><td>int</td><td>Cantidad actual disponible</td></tr>
+    <tr><td>id</td><td>String</td><td>Identificador de la etiqueta</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre de la etiqueta</td></tr>
   </tbody>
 </table>
 
-<h2>Clase Kit</h2>
+<h3>Clase Combo (Kit)</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
-    <tr><td>id</td><td>int</td><td>Identificador del kit</td></tr>
-    <tr><td>nombre</td><td>String</td><td>Nombre del kit</td></tr>
-    <tr><td>items</td><td>list</td><td>Lista de productos incluidos</td></tr>
+    <tr><td>id</td><td>int</td><td>Identificador del combo</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre descriptivo del kit</td></tr>
+    <tr><td>items</td><td>List<ComboItem></td><td>Elementos que componen el combo</td></tr>
   </tbody>
 </table>
 
-<h2>Clase KitItem</h2>
+<h3>Clase ComboItem (KitItem)</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
-    <tr><td>id</td><td>int</td><td>Identificador del ítem del kit</td></tr>
-    <tr><td>cantidad</td><td>int</td><td>Cantidad del producto en el kit</td></tr>
-    <tr><td>producto</td><td>Producto</td><td>Producto incluido</td></tr>
+    <tr><td>id</td><td>int</td><td>Identificador del ítem en el kit</td></tr>
+    <tr><td>quantity</td><td>int</td><td>Cantidad de ese producto en el combo</td></tr>
+    <tr><td>product</td><td>Product</td><td>Referencia al producto incluido</td></tr>
   </tbody>
 </table>
 
-<h2>Clase Movimiento</h2>
+<h3>Interfaces</h3>
+<ul>
+  <li><b>IProductService:</b> define operaciones de negocio sobre Productos.</li>
+  <li><b>IComboService:</b> define la lógica para armar o modificar combos.</li>
+  <li><b>IProductRepository / IComboRepository:</b> abstracción para acceso a datos.</li>
+</ul>
+
+<hr>
+
+<h2>Inventory Context</h2>
+
+<h3>Clase StockItem</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
-    <tr><td>id</td><td>int</td><td>Identificador del movimiento</td></tr>
-    <tr><td>fechaIngreso</td><td>date</td><td>Fecha del movimiento</td></tr>
-    <tr><td>descripcion</td><td>String</td><td>Descripción del movimiento</td></tr>
-    <tr><td>direccion</td><td>String</td><td>Dirección (entrada/salida)</td></tr>
+    <tr><td>id</td><td>String</td><td>Identificador de stock</td></tr>
+    <tr><td>currentQuantity</td><td>int</td><td>Cantidad disponible actual</td></tr>
+    <tr><td>minimumQuantity</td><td>int</td><td>Nivel mínimo para alerta</td></tr>
   </tbody>
 </table>
 
-<h2>Clase Usuario</h2>
+<h3>Clase Movement</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
-    <tr><td>id</td><td>int</td><td>ID del usuario</td></tr>
-    <tr><td>nombre</td><td>String</td><td>Nombre del usuario</td></tr>
-    <tr><td>correo</td><td>String</td><td>Correo electrónico</td></tr>
-    <tr><td>rol</td><td>String</td><td>Rol del usuario</td></tr>
-    <tr><td>contraseña</td><td>String</td><td>Contraseña del usuario</td></tr>
+    <tr><td>id</td><td>String</td><td>Identificador del movimiento</td></tr>
+    <tr><td>date</td><td>DateTime</td><td>Fecha y hora del movimiento</td></tr>
+    <tr><td>type</td><td>String</td><td>Tipo: IN, OUT o RETURN</td></tr>
+    <tr><td>quantity</td><td>int</td><td>Cantidad movida</td></tr>
   </tbody>
 </table>
 
-<h2>Clase Rol</h2>
+<h3>Clase Batch</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Código de lote</td></tr>
+    <tr><td>manufactureDate</td><td>Date</td><td>Fecha de fabricación</td></tr>
+    <tr><td>expiryDate</td><td>Date</td><td>Fecha de vencimiento</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Provider</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del proveedor</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre o razón social</td></tr>
+    <tr><td>joinDate</td><td>Date</td><td>Fecha de alta en el sistema</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase ExpirationAlert</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la alerta</td></tr>
+    <tr><td>date</td><td>Date</td><td>Fecha de expiración detectada</td></tr>
+    <tr><td>batch</td><td>Batch</td><td>Lote afectado</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase StockAlert</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la alerta</td></tr>
+    <tr><td>message</td><td>String</td><td>Mensaje descriptivo</td></tr>
+  </tbody>
+</table>
+
+<h3>Interfaces</h3>
+<ul>
+  <li><b>IInventoryService:</b> orquesta registros y consultas de stock y movimientos.</li>
+  <li><b>IStockRepository / IMovementRepository:</b> abstracción para persistencia.</li>
+</ul>
+
+<hr>
+
+<h2>Report Context</h2>
+
+<h3>Clase Report</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>Identificador del reporte</td></tr>
+    <tr><td>date</td><td>Date</td><td>Fecha de generación</td></tr>
+    <tr><td>type</td><td>String</td><td>Tipo de reporte (stock, histórico, ventas)</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase ReportExporter</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Método</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>exportToExcel(data)</td><td>Genera un archivo Excel con los datos recibidos</td></tr>
+    <tr><td>exportToPDF(data)</td><td>Genera un documento PDF con los datos recibidos</td></tr>
+  </tbody>
+</table>
+
+<h3>Interfaces</h3>
+<ul>
+  <li><b>IReportService:</b> define métodos para obtener estadísticas y consolidar datos.</li>
+  <li><b>IReportRepository:</b> abstrae la lectura de datos históricos para los reportes.</li>
+</ul>
+
+<hr>
+
+<h2>Security Context</h2>
+
+<h3>Clase User</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
+  <tbody>
+    <tr><td>id</td><td>int</td><td>ID único del usuario</td></tr>
+    <tr><td>username</td><td>String</td><td>Nombre de usuario para login</td></tr>
+    <tr><td>email</td><td>String</td><td>Correo electrónico</td></tr>
+    <tr><td>role</td><td>Role</td><td>Rol asignado</td></tr>
+  </tbody>
+</table>
+
+<h3>Clase Role</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
     <tr><td>id</td><td>int</td><td>ID del rol</td></tr>
-    <tr><td>nombre</td><td>String</td><td>Nombre del rol</td></tr>
-    <tr><td>permisos</td><td>List</td><td>Permisos asociados al rol</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre descriptivo</td></tr>
   </tbody>
 </table>
 
-<h2>Clase AlertaVencimiento</h2>
+<h3>Clase Permission</h3>
 <table border="1" cellspacing="0" cellpadding="8">
   <thead><tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr></thead>
   <tbody>
-    <tr><td>id</td><td>int</td><td>Identificador de la alerta</td></tr>
-    <tr><td>fecha</td><td>Date</td><td>Fecha de vencimiento del producto</td></tr>
-    <tr><td>lote</td><td>Lote</td><td>Lote vinculado a la alerta</td></tr>
-  </tbody>
-</table>
-<h2>Clase AlertaStock</h2>
-<table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr>
-      <th>Atributo</th>
-      <th>Tipo</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>id</td><td>String</td><td>Identificador de la alerta</td></tr>
-    <tr><td>productId</td><td>String</td><td>ID del producto asociado</td></tr>
-    <tr><td>tipoAlerta</td><td>String</td><td>Tipo de alerta (bajo stock, vencimiento, etc.)</td></tr>
-    <tr><td>mensaje</td><td>String</td><td>Mensaje descriptivo de la alerta</td></tr>
+    <tr><td>id</td><td>int</td><td>ID del permiso</td></tr>
+    <tr><td>name</td><td>String</td><td>Descripción de la acción permitida</td></tr>
   </tbody>
 </table>
 
-<h2>Clase ReporteInventario</h2>
-<table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr>
-      <th>Atributo</th>
-      <th>Tipo</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>id</td><td>String</td><td>Identificador del reporte generado</td></tr>
-    <tr><td>fechaGeneracion</td><td>String</td><td>Fecha en que se generó el reporte</td></tr>
-    <tr><td>tipo</td><td>String</td><td>Tipo de reporte (completo, por fechas, filtrado)</td></tr>
-  </tbody>
-</table>
+<h3>Interfaces</h3>
+<ul>
+  <li><b>ISecurityService:</b> coordina la creación de usuarios y asignación de roles/permissions.</li>
+  <li><b>IUserRepository / IRoleRepository / IPermissionRepository:</b> abstracción de la capa de datos.</li>
+</ul>
+
 </body>
 
 
