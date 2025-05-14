@@ -645,6 +645,8 @@ Cuando comparemos el número de productos con quiebre antes y después de la act
 - Reconocen que el desorden en su inventario afecta su productividad y atención al cliente.
 - Valoran las soluciones tecnológicas que profesionalicen su negocio y les permitan competir a mayor escala.
 
+Además de definir los segmentos por criterios psicográficos, hemos incorporado datos demográficos concretos para fundamentar mejor la selección de segmentos y mejorar las estrategias de mercado hacia los usuarios reales de nuestra app.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
