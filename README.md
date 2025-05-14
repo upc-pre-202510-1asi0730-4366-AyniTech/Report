@@ -1136,6 +1136,8 @@ Enlace para acceder al Miro
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 ## 3.2. User Stories
 
+En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave de StockWise. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros. 
+
 ### Technical Stories
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
