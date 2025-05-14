@@ -43,6 +43,10 @@
             <td>Fabiola Del Rocio Saldaña Ayala</td>
             <td>U202313773</td>
         </tr>
+        <tr>
+            <td>Sebastian Alonso Bustinza Muñoz</td>
+            <td>U202123362</td>
+        </tr>
     </table>
 </div>
 
@@ -73,6 +77,7 @@
                       <li>Maria Fernanda Peña</li>
                       <li>Fabiola Del Rocio Saldaña Ayala</li>
                       <li>Henry Kalet Esteban Roman</li>
+                      <li>Sebastian Alonso Bustinza Muñoz</li>
                     <ul>
            </td>
       <td>            
@@ -283,6 +288,15 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p></p>
         <p><b>TF:</b></p>
         <p></p>
+        <p><b>Sebastian Alonso Bustinza Muñoz</b></p>
+        <p><b>TB1:</b></p>
+        <p>...</p>
+        <p><b>TP1:</b></p>
+        <p>...</p>
+        <p><b>TB2:</b></p>
+        <p>...</p>
+        <p><b>TF:</b></p>
+        <p>...</p>
       </td>
       <td>
         <p><strong>TB1:</strong> Nosotros demostramos un liderazgo<br>
@@ -369,6 +383,15 @@ y cumple objetivos.</b></td>
         de coordinación y evaluación de las user<br>
         stories, con el objetivo de elaborar los<br>
         wireframes y mockups."</p>
+        <p><b>TP1:</b></p>
+        <p>...</p>
+        <p><b>TB2:</b></p>
+        <p>...</p>
+        <p><b>TF:</b></p>
+        <p>...</p>
+        <p><b>Sebastian Alonso Bustinza Muñoz</b></p>
+        <p><b>TB1:</b></p>
+        <p>...</p>
         <p><b>TP1:</b></p>
         <p>...</p>
         <p><b>TB2:</b></p>
@@ -462,6 +485,17 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
       <p><b>Esteban Román, Henry Kalet</b></p>
       <p>
       Soy estudiante de la carrera de Ingeniería de Software. Actualmente me encunetro en 5to ciclo y me gusta mucho escuchar música y pasear.
+      </p>
+    </td>
+  </tr>
+    <tr>
+    <th>
+      <img src="assets/Chapter-1/fotoSebastian.jpg" alt="Foto de perfil de Sebastian" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Bustinza Muñoz, Sebastian Alonso</b></p>
+      <p>
+      Mi nombre es Sebastian Alonso Bustinza Muñoz, tengo 23 años, estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas, elegí la carrera porque cuando era niño me encantaba la idea de viajar a otro mundo, me gustaría especializarme en Realidad Virtual.
       </p>
     </td>
   </tr>
