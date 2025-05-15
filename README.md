@@ -875,6 +875,30 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 | |feature/stock-alert|42e08cef |Update stock alert | Sebastian|15/05/2025 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
+
+**Iniciar sesión**
+![Evidence](assets/Chapter-5/ini.png) 
+**Crear cuenta**
+![Evidence](assets/Chapter-5/reg.png) 
+**Mi perfil**
+*Perfil Administrador*
+**Panel de control (Dashboard)**
+**Combinación de Productos en Kits**
+
+
+**Historial de Movimientos**
+
+ 
+**Pantalla principal de Inventario por Lote**
+*Pantalla de Comentarios del Lote* 
+*Pantalla de Exportación*
+**Pantalla de Inventario por Producto**
+*Edición de Registro*
+**Pantalla Principal de Alerta Stock**
+*Detalles de Alerta*
+*Eliminar Alerta*
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
