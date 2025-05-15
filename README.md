@@ -910,6 +910,17 @@ Para realizar el despliegue del Frontend se realizaron lo siguientes pasos:
 - 1: Hacer merges de las ramas feature en la rama develop y finalmente merge en la rama main
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
+| Alumno | Actividad |
+| ------ | --------- |
+|Jocelyn Damaly Almerco Rojas|Implementación de Historial de moviemienos|
+|Sanchez Rios, Camila Cristina|Implementación de Inicio de sesión, registro y perfil del usuario|
+|Henry Kalet Esteban Roman|Implementación de Inventario|
+|Maria Fernanda Peña Riofrio|Implementación de Kits de productos|
+|Fabiola Del Rocio Saldaña Ayala|Implementación de Dashboard|
+|Sebastian Alonso Bustinza Muñoz|Implementación de Alerta Stock |
+
+**Commits del Frontend**
+![commits Front](assets/Chapter-5/Insights_sprint2.png)
 
 
 # Conclusiones
