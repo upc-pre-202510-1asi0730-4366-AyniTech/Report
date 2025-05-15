@@ -838,7 +838,7 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 
 **Vista del Sprint Backlog en Trello:**
 
-![trello](assets/Chapter-5/Trello_stockwise_sprint1.png)
+![trello](assets/Chapter-5/Trello_Sprint2.png)
 
 |Sprint # | 2 |  |  |  |  |  |  |
 |----|----|----- |---- |---- |---- |---- | ---|
