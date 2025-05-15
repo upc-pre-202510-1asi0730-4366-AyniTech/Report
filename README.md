@@ -237,7 +237,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TF:</b></p>
         <p>.</p>
        <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
-         <p>TB1: Colaboré con el desarrollo del<br> 
+         <p><b>TB1:</b> Colaboré con el desarrollo del<br> 
          needfinding para el cual tuve que<br>
          coordinar con mi grupo para definir <br>
          bien a nuestros user personas y sus<br>
@@ -245,7 +245,10 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
          diseño del c4 y en el apartado<br>
          Software Object-Oriented Design</p>
         <p></p>
-        <p><b>TP1:</b></p>
+        <p><b>TP1:</b>Colaboré con el desarrollo de<br> 
+         las pantallas como el dashboard y el<br>
+         perfil de usuario. También ayudé para<br>
+         unir el código.</p>
         <p></p>
         <p><b>TB2:</b></p>
         <p></p>
@@ -300,13 +303,17 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       </td>
       <td>
         <p><strong>TB1:</strong> Nosotros demostramos un liderazgo<br>
-     compartido y una colaboración efectiva, <br>
-     estableciendo objetivos claros, <br>
-     planificando tareas de manera<br>
-      organizada y cumpliendo los <br>
-      entregables en los plazos establecidos.</p>
-        <p><strong>TP1:</strong></p>
-        <p>.</p>
+        compartido y una colaboración efectiva, <br>
+        estableciendo objetivos claros, <br>
+        planificando tareas de manera<br>
+        organizada y cumpliendo los <br>
+        entregables en los plazos establecidos.</p>
+        <p><strong>TP1:</strong> Seguimos demostrando liderazgo, </p>
+        compromiso y solidaridad con<br>
+        nuestros compañeros cuando tienen<br>
+        dificultades durante el desarrollo<br>
+       de esta entrega.
+                <p>.</p>
         <p><strong>TB2:</strong></p>
         <p></p>
         <p><strong>TF:</strong></p>
@@ -338,12 +345,15 @@ y cumple objetivos.</b></td>
         <p><b>TF:</b></p>
         <p>..</p>
         <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
-         <p>TB1: Coordiné con mis compañeros<br> 
+         <p><b>TB1:</b> Coordiné con mis compañeros<br> 
          para el desarrollo del needfinding<br>
          y para todos el apartado de  Software <br> 
          Object-Oriented Design<br></p>
         <p></p>
-        <p><b>TP1:</b></p>
+        <p><b>TP1:</b>Coordiné con mis compañeros<br> 
+         para la distribución de pantallas<br>
+         en base a los bounded contexts y <br>
+         en el desarrollo de las pantallas.<br></p>
         <p>..</p>
         <p><b>TB2:</b></p>
         <p>...</p>
@@ -400,13 +410,14 @@ y cumple objetivos.</b></td>
         <p>...</p>
       </td>
        <td>
-        <p><strong>TB1:</strong> Nosotros creamos un entorno colaborativo e <br>
+        <p><strong>TB1:</strong> Nosotros creamos un entorno colaborativo e<br>
         inclusivo, establecimos metas claras,<br>
          planificamos las tareas de manera <br>
          eficiente y cumplimos todos los<br>
           objetivos dentro de los plazos acordados.<br></p>
-        <p><strong>TP1:</strong></p>
-        <p>...</p>
+        <p><strong>TP1:</strong> Hemos creamos un entorno colaborativo y<br>
+        unido donde todos hemos colaborado y<br>
+        hemos cumplido con las metas propuestas.<br></p>
         <p><strong>TB2:</strong></p>
         <p>..</p>
         <p><strong>TF:</strong></p>
