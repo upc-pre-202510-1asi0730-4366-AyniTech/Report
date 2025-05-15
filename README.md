@@ -899,12 +899,16 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 **Pantalla de Inventario por Producto**
 *Edición de Registro*
 **Pantalla Principal de Alerta Stock**
-*Detalles de Alerta*
-*Eliminar Alerta*
+![Evidence](assets/Chapter-5/aler.jpg)
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+No se implementaron servicios en este sprint 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Para realizar el despliegue del Frontend se realizaron lo siguientes pasos:
+
+- 1: Hacer merges de las ramas feature en la rama develop y finalmente merge en la rama main
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 
