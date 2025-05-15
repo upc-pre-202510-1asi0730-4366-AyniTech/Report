@@ -854,6 +854,26 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 |US20|Crear kits o combos de productos|T08|Pantalla de Kits|Implementar un diseño intuitivo para el usuario|2h |Maria Fernanda Peña |Done|
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+| |feature/inventory|3706a28a |feature:add functional buttonns | kalet123-commit|15/05/2025 |
+| |feature/kit-products|0eaec782 |feat: add kits-products components and include in App.vue | mariafep|15/05/2025 |
+| |feature/kit-products|4765c520 |feat: add i18n and router modified kit component and main.js | mariafep|15/05/2025 |
+| |feature/kit-products|955d7e7f |feat: add bounded context style, entity and services | mariafep|15/05/2025 |
+| |feature/kit-products|9e61ed75 |feat: fix entity | mariafep|15/05/2025 |
+| |feature/product-management|207f8daa |feat/avances dashboard| Fabs|14/05/2025 |
+| |feature/product-management|6515fefc |avances dashboard2 | Fabs|14/05/2025 |
+| |feature/product-management|1defb863ac2773df |feature: new branch | Fabs|14/05/2025 |
+| |feature/stock-alert|6b841ec3 |Add feature/stock-alert | Sebastian|15/05/2025 |
+| |feature/stock-alert|42e08cef |Update stock alert | Sebastian|15/05/2025 |
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
