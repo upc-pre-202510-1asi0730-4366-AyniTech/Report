@@ -881,8 +881,12 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 **Crear cuenta**
 ![Evidence](assets/Chapter-5/reg.png) 
 **Mi perfil**
+
 *Perfil Administrador*
+![Evidence](assets/Chapter-5/per.png)
+
 **Panel de control (Dashboard)**
+![Evidence](assets/Chapter-5/home.png)
 **Combinación de Productos en Kits**
 
 
