@@ -888,7 +888,7 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 **Panel de control (Dashboard)**
 ![Evidence](assets/Chapter-5/home.png)
 **Combinación de Productos en Kits**
-
+![Evidence](assets/Chapter-5/kit.jpg)
 
 **Historial de Movimientos**
 
