@@ -725,19 +725,19 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Añadir etiqueta correctamente</strong><br>
-        - <strong>Dado que</strong> el usuario está en el formulario de “Nuevo producto”<br>
-        - <strong>Cuando</strong> escribe una o varias etiquetas personalizadas<br>
-        - <strong>Y</strong> hace clic en “Guardar”<br>
-        - <strong>Entonces</strong> las etiquetas se registran con el producto<br>
-        - <strong>Y</strong> son visibles en el detalle del producto<br><br>
+        <strong>Dado que</strong> el usuario está en el formulario de “Nuevo producto”<br>
+        <strong>Cuando</strong> escribe una o varias etiquetas personalizadas<br>
+        <strong>Y</strong> hace clic en “Guardar”<br>
+        <strong>Entonces</strong> las etiquetas se registran con el producto<br>
+        <strong>Y</strong> son visibles en el detalle del producto<br><br>
         <strong>Escenario 02: Usar etiquetas existentes</strong><br>
-        - <strong>Dado que</strong> el usuario comienza a escribir una etiqueta<br>
-        - <strong>Cuando</strong> ya existe una similar en el sistema<br>
-        - <strong>Entonces</strong> el sistema sugiere etiquetas existentes para evitar duplicados<br><br>
+        <strong>Dado que</strong> el usuario comienza a escribir una etiqueta<br>
+        <strong>Cuando</strong> ya existe una similar en el sistema<br>
+        <strong>Entonces</strong> el sistema sugiere etiquetas existentes para evitar duplicados<br><br>
         <strong>Escenario 03: Filtrar por etiquetas</strong><br>
-        - <strong>Dado que</strong> el usuario está en el módulo de inventario<br>
-        - <strong>Cuando</strong> selecciona una etiqueta desde el filtro<br>
-        - <strong>Entonces</strong> se muestran solo los productos que contienen esa etiqueta
+        <strong>Dado que</strong> el usuario está en el módulo de inventario<br>
+        <strong>Cuando</strong> selecciona una etiqueta desde el filtro<br>
+        <strong>Entonces</strong> se muestran solo los productos que contienen esa etiqueta
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -751,14 +751,14 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Ver productos más vendidos en un periodo</strong><br>
-        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        - <strong>Cuando</strong> selecciona un rango de fechas<br>
-        - <strong>Entonces</strong> el sistema muestra un ranking de productos más vendidos<br>
-        - <strong>Y</strong> permite ordenarlos por unidades o ingresos<br><br>
+        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        <strong>Cuando</strong> selecciona un rango de fechas<br>
+        <strong>Entonces</strong> el sistema muestra un ranking de productos más vendidos<br>
+        <strong>Y</strong> permite ordenarlos por unidades o ingresos<br><br>
         <strong>Escenario 02: Exportar reporte de productos más vendidos</strong><br>
-        - <strong>Dado que</strong> el usuario ya visualiza el listado<br>
-        - <strong>Cuando</strong> hace clic en “Exportar”<br>
-        - <strong>Entonces</strong> el sistema genera un archivo PDF o Excel con el ranking
+        <strong>Dado que</strong> el usuario ya visualiza el listado<br>
+        <strong>Cuando</strong> hace clic en “Exportar”<br>
+        <strong>Entonces</strong> el sistema genera un archivo PDF o Excel con el ranking
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -772,13 +772,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Ver categorías más vendidas</strong><br>
-        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        - <strong>Cuando</strong> selecciona un rango de fechas<br>
-        - <strong>Entonces</strong> se muestra un gráfico con la participación de cada categoría en las ventas<br><br>
+        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        <strong>Cuando</strong> selecciona un rango de fechas<br>
+        <strong>Entonces</strong> se muestra un gráfico con la participación de cada categoría en las ventas<br><br>
         <strong>Escenario 02: Ver detalle de productos por categoría</strong><br>
-        - <strong>Dado que</strong> el usuario visualiza las categorías más vendidas<br>
-        - <strong>Cuando</strong> hace clic sobre una categoría<br>
-        - <strong>Entonces</strong> se muestra una lista con los productos que la componen y sus respectivas ventas
+        <strong>Dado que</strong> el usuario visualiza las categorías más vendidas<br>
+        <strong>Cuando</strong> hace clic sobre una categoría<br>
+        <strong>Entonces</strong> se muestra una lista con los productos que la componen y sus respectivas ventas
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -792,13 +792,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Visualizar ticket promedio</strong><br>
-        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        - <strong>Cuando</strong> selecciona un rango de fechas<br>
-        - <strong>Entonces</strong> se muestra el ticket promedio, el total de ingresos y número de ventas<br><br>
+        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        <strong>Cuando</strong> selecciona un rango de fechas<br>
+        <strong>Entonces</strong> se muestra el ticket promedio, el total de ingresos y número de ventas<br><br>
         <strong>Escenario 02: Comparar ticket con periodo anterior</strong><br>
-        - <strong>Dado que</strong> el usuario ve el ticket promedio actual<br>
-        - <strong>Cuando</strong> habilita la opción de comparación<br>
-        - <strong>Entonces</strong> el sistema muestra la variación respecto al periodo anterior
+        <strong>Dado que</strong> el usuario ve el ticket promedio actual<br>
+        <strong>Cuando</strong> habilita la opción de comparación<br>
+        <strong>Entonces</strong> el sistema muestra la variación respecto al periodo anterior
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -812,14 +812,14 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Visualizar stock promedio</strong><br>
-        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        - <strong>Cuando</strong> seleccionan un producto o categoría y un rango de fechas<br>
-        - <strong>Entonces</strong> se muestra el promedio de stock disponible en ese periodo<br><br>
+        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        <strong>Cuando</strong> seleccionan un producto o categoría y un rango de fechas<br>
+        <strong>Entonces</strong> se muestra el promedio de stock disponible en ese periodo<br><br>
         <strong>Escenario 02: Detectar stock por fuera del rango óptimo</strong><br>
-        - <strong>Dado que</strong> el usuario ve el reporte de stock promedio<br>
-        - <strong>Cuando</strong> el valor está por debajo o por encima del stock ideal<br>
-        - <strong>Entonces</strong> el sistema resalta los productos con riesgo de quiebre o sobrestock<br>
-        - Y puede mostrar sugerencias de acción (reposición, liquidación, etc.)
+        <strong>Dado que</strong> el usuario ve el reporte de stock promedio<br>
+        <strong>Cuando</strong> el valor está por debajo o por encima del stock ideal<br>
+        <strong>Entonces</strong> el sistema resalta los productos con riesgo de quiebre o sobrestock<br>
+        Y puede mostrar sugerencias de acción (reposición, liquidación, etc.)
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -833,13 +833,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Generar reporte completo</strong><br>
-        - <strong>Dado que</strong> el usuario accede al módulo de reportes<br>
-        - <strong>Cuando</strong> selecciona parámetros como fecha, información solicitada, categorías o stock mínimo<br>
-        - <strong>Entonces</strong> el sistema genera un reporte con esa información<br><br>
+        <strong>Dado que</strong> el usuario accede al módulo de reportes<br>
+        <strong>Cuando</strong> selecciona parámetros como fecha, información solicitada, categorías o stock mínimo<br>
+        <strong>Entonces</strong> el sistema genera un reporte con esa información<br><br>
         <strong>Escenario 02: Exportar reporte</strong><br>
-        - <strong>Dado que</strong> el usuario visualiza el reporte generado<br>
-        - <strong>Cuando</strong> hace clic en “Exportar”<br>
-        - <strong>Entonces</strong> el sistema descarga el reporte en formato PDF o Excel
+        <strong>Dado que</strong> el usuario visualiza el reporte generado<br>
+        <strong>Cuando</strong> hace clic en “Exportar”<br>
+        <strong>Entonces</strong> el sistema descarga el reporte en formato PDF o Excel
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -853,13 +853,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Visualizar productos próximos a caducar</strong><br>
-        - <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
-        - <strong>Cuando</strong> filtra por fecha de caducidad próxima<br>
-        - <strong>Entonces</strong> el sistema muestra una lista con los productos que caducan pronto<br><br>
+        <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
+        <strong>Cuando</strong> filtra por fecha de caducidad próxima<br>
+        <strong>Entonces</strong> el sistema muestra una lista con los productos que caducan pronto<br><br>
         <strong>Escenario 02: Alerta de productos caducados</strong><br>
-        - <strong>Dado que</strong> un producto está caducado<br>
-        - <strong>Cuando</strong> el usuario accede al inventario<br>
-        - <strong>Entonces</strong> el sistema muestra una alerta visual destacando esos productos
+        <strong>Dado que</strong> un producto está caducado<br>
+        <strong>Cuando</strong> el usuario accede al inventario<br>
+        <strong>Entonces</strong> el sistema muestra una alerta visual destacando esos productos
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -873,15 +873,15 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Registro de devolución válida</strong><br>
-        - <strong>Dado que</strong> un producto fue devuelto por un cliente<br>
-        - <strong>Cuando</strong> el usuario ingresa la cantidad devuelta y la razón<br>
-        - <strong>Y</strong> confirma el registro<br>
-        - <strong>Entonces</strong> el sistema incrementa el stock del producto<br>
-        - <strong>Y</strong> guarda el movimiento de devolución<br><br>
+        <strong>Dado que</strong> un producto fue devuelto por un cliente<br>
+        <strong>Cuando</strong> el usuario ingresa la cantidad devuelta y la razón<br>
+        <strong>Y</strong> confirma el registro<br>
+        <strong>Entonces</strong> el sistema incrementa el stock del producto<br>
+        <strong>Y</strong> guarda el movimiento de devolución<br><br>
         <strong>Escenario 02: Devolución con cantidad inválida</strong><br>
-        - <strong>Dado que</strong> el usuario intenta registrar una devolución con cantidad negativa o mayor a la vendida<br>
-        - <strong>Cuando</strong> hace clic en “Guardar”<br>
-        - <strong>Entonces</strong> el sistema muestra un mensaje de error y no registra la devolución
+        <strong>Dado que</strong> el usuario intenta registrar una devolución con cantidad negativa o mayor a la vendida<br>
+        <strong>Cuando</strong> hace clic en “Guardar”<br>
+        <strong>Entonces</strong> el sistema muestra un mensaje de error y no registra la devolución
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -895,13 +895,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Crear nuevo rol con permisos específicos</strong><br>
-        - <strong>Dado que</strong> el administrador accede a la sección de configuración de usuarios<br>
-        - <strong>Cuando</strong> crea un nuevo rol y asigna permisos detallados<br>
-        - <strong>Entonces</strong> el rol se guarda y puede ser asignado a usuarios<br><br>
+        <strong>Dado que</strong> el administrador accede a la sección de configuración de usuarios<br>
+        <strong>Cuando</strong> crea un nuevo rol y asigna permisos detallados<br>
+        <strong>Entonces</strong> el rol se guarda y puede ser asignado a usuarios<br><br>
         <strong>Escenario 02: Asignar rol a usuario</strong><br>
-        - <strong>Dado que</strong> el administrador selecciona un usuario existente<br>
-        - <strong>Cuando</strong> asigna un rol específico<br>
-        - <strong>Entonces</strong> el sistema muestra los permisos correspondientes al rol asignado
+        <strong>Dado que</strong> el administrador selecciona un usuario existente<br>
+        <strong>Cuando</strong> asigna un rol específico<br>
+        <strong>Entonces</strong> el sistema muestra los permisos correspondientes al rol asignado
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -915,15 +915,15 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Registro exitoso de proveedor</strong><br>
-        - <strong>Dado que</strong> el usuario está en el formulario de “Nuevo proveedor”<br>
-        - <strong>Cuando</strong> completa correctamente todos los campos obligatorios<br>
-        - <strong>Y</strong> hace clic en “Guardar”<br>
-        - <strong>Entonces</strong> el proveedor se registra en la base de datos<br>
-        - <strong>Y</strong> aparece en la lista de proveedores<br><br>
+        <strong>Dado que</strong> el usuario está en el formulario de “Nuevo proveedor”<br>
+        <strong>Cuando</strong> completa correctamente todos los campos obligatorios<br>
+        <strong>Y</strong> hace clic en “Guardar”<br>
+        <strong>Entonces</strong> el proveedor se registra en la base de datos<br>
+        <strong>Y</strong> aparece en la lista de proveedores<br><br>
         <strong>Escenario 02: Edición de datos de proveedor</strong><br>
-        - <strong>Dado que</strong> el usuario selecciona un proveedor existente<br>
-        - <strong>Cuando</strong> modifica la información y guarda los cambios<br>
-        - <strong>Entonces</strong> el sistema actualiza los datos del proveedor
+        <strong>Dado que</strong> el usuario selecciona un proveedor existente<br>
+        <strong>Cuando</strong> modifica la información y guarda los cambios<br>
+        <strong>Entonces</strong> el sistema actualiza los datos del proveedor
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -937,57 +937,57 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Registro de lote con múltiples productos</strong><br>
-        - <strong>Dado que</strong> el usuario accede al formulario de “Nuevo lote”<br>
-        - <strong>Cuando</strong> añade varios productos con fecha de ingreso, proveedor y condiciones<br>
-        - <strong>Entonces</strong> el sistema guarda el lote completo<br>
-        - <strong>Y</strong> vincula los productos con ese lote<br><br>
+        <strong>Dado que</strong> el usuario accede al formulario de “Nuevo lote”<br>
+        <strong>Cuando</strong> añade varios productos con fecha de ingreso, proveedor y condiciones<br>
+        <strong>Entonces</strong> el sistema guarda el lote completo<br>
+        <strong>Y</strong> vincula los productos con ese lote<br><br>
         <strong>Escenario 02: Visualizar lote registrado</strong><br>
-        - <strong>Dado que</strong> el usuario visualiza la lista de productos<br>
-        - <strong>Cuando</strong> selecciona “Ver lote”<br>
-        - <strong>Entonces</strong> se muestra la información común de ese grupo de productos
+        <strong>Dado que</strong> el usuario visualiza la lista de productos<br>
+        <strong>Cuando</strong> selecciona “Ver lote”<br>
+        <strong>Entonces</strong> se muestra la información común de ese grupo de productos
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-  <td>US18</td>
-    <td>Visualizar historial de stock</td>
-    <td>
-      <strong>Como</strong> usuario<br>
-      <strong>quiero</strong> ver el historial de stock de un producto,<br>
-      <strong>para</strong> analizar su comportamiento en el tiempo y tomar mejores decisiones de compra.
-    </td>
-    <td>
-      <strong>Escenario 01: Visualizar historial por producto</strong><br>
-      - <strong>Dado que</strong> el usuario accede a la ficha de un producto<br>
-      - <strong>Cuando</strong> selecciona la opción 'Ver historial'<br>
-      - <strong>Entonces</strong> se muestra una gráfica con las variaciones de stock a lo largo del tiempo<br><br>
-      <strong>Escenario 02: Filtro por periodo</strong><br>
-      - <strong>Dado que</strong> el usuario visualiza el historial de stock<br>
-      - <strong>Cuando</strong> aplica un filtro por rango de fechas<br>
-      - <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos del periodo seleccionado
-    </td>
-    <td>EP01 - Gestión de Inventario</td>
-  </tr>
-  <tr>
-    <td>US19</td>
-    <td>Configurar alertas de stock mínimo</td>
-    <td>
-      <strong>Como</strong> usuario<br>
-      <strong>quiero</strong> configurar alertas cuando un producto alcance su stock mínimo,<br>
-      <strong>para</strong> poder reabastecerme a tiempo.
-    </td>
-    <td>
-      <strong>Escenario 01: Configurar stock mínimo</strong><br>
-      - <strong>Dado que</strong> el usuario accede a la configuración de productos<br>
-      - <strong>Cuando</strong> establece un valor de stock mínimo por producto<br>
-      - <strong>Entonces</strong> el sistema guarda ese valor y lo considera para alertas<br><br>
-      <strong>Escenario 02: Alerta de bajo stock</strong><br>
-      - <strong>Dado que</strong> un producto llega o baja del stock mínimo configurado<br>
-      - <strong>Cuando</strong> el usuario accede al panel principal o al módulo de inventario<br>
-      - <strong>Entonces</strong> se muestra una alerta visual indicando que se debe reponer el producto
-    </td>
-    <td>EP01 - Gestión de Inventario</td>
-  </tr>
+    <td>US18</td>
+      <td>Visualizar historial de stock</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> ver el historial de stock de un producto,<br>
+        <strong>para</strong> analizar su comportamiento en el tiempo y tomar mejores decisiones de compra.
+      </td>
+      <td>
+        <strong>Escenario 01: Visualizar historial por producto</strong><br>
+        <strong>Dado que</strong> el usuario accede a la ficha de un producto<br>
+        <strong>Cuando</strong> selecciona la opción 'Ver historial'<br>
+        <strong>Entonces</strong> se muestra una gráfica con las variaciones de stock a lo largo del tiempo<br><br>
+        <strong>Escenario 02: Filtro por periodo</strong><br>
+        <strong>Dado que</strong> el usuario visualiza el historial de stock<br>
+        <strong>Cuando</strong> aplica un filtro por rango de fechas<br>
+        <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos del periodo seleccionado
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Configurar alertas de stock mínimo</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> configurar alertas cuando un producto alcance su stock mínimo,<br>
+        <strong>para</strong> poder reabastecerme a tiempo.
+      </td>
+      <td>
+        <strong>Escenario 01: Configurar stock mínimo</strong><br>
+        <strong>Dado que</strong> el usuario accede a la configuración de productos<br>
+        <strong>Cuando</strong> establece un valor de stock mínimo por producto<br>
+        <strong>Entonces</strong> el sistema guarda ese valor y lo considera para alertas<br><br>
+        <strong>Escenario 02: Alerta de bajo stock</strong><br>
+        <strong>Dado que</strong> un producto llega o baja del stock mínimo configurado<br>
+        <strong>Cuando</strong> el usuario accede al panel principal o al módulo de inventario<br>
+        <strong>Entonces</strong> se muestra una alerta visual indicando que se debe reponer el producto
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
+    </tr>
     <tr>
       <td>US20</td>
       <td>Añadir etiquetas a productos</td>
@@ -998,13 +998,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Etiquetado desde el formulario del producto</strong><br>
-        - <strong>Dado que</strong> el usuario está registrando o editando un producto<br>
-        - <strong>Cuando</strong> escribe nuevas etiquetas o selecciona existentes<br>
-        - <strong>Entonces</strong> las etiquetas se asocian al producto guardado<br><br>
+        <strong>Dado que</strong> el usuario está registrando o editando un producto<br>
+        <strong>Cuando</strong> escribe nuevas etiquetas o selecciona existentes<br>
+        <strong>Entonces</strong> las etiquetas se asocian al producto guardado<br><br>
         <strong>Escenario 02: Buscar productos por etiqueta</strong><br>
-        - <strong>Dado que</strong> el usuario está en el módulo de búsqueda o lista de productos<br>
-        - <strong>Cuando</strong> ingresa el nombre de una etiqueta en el buscador<br>
-        - <strong>Entonces</strong> se filtran los productos asociados a dicha etiqueta
+        <strong>Dado que</strong> el usuario está en el módulo de búsqueda o lista de productos<br>
+        <strong>Cuando</strong> ingresa el nombre de una etiqueta en el buscador<br>
+        <strong>Entonces</strong> se filtran los productos asociados a dicha etiqueta
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -1018,13 +1018,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Búsqueda por nombre</strong><br>
-        - <strong>Dado que</strong> el usuario accede al buscador<br>
-        - <strong>Cuando</strong> ingresa parte del nombre del producto<br>
-        - <strong>Entonces</strong> se muestran resultados coincidentes en tiempo real<br><br>
+        <strong>Dado que</strong> el usuario accede al buscador<br>
+        <strong>Cuando</strong> ingresa parte del nombre del producto<br>
+        <strong>Entonces</strong> se muestran resultados coincidentes en tiempo real<br><br>
         <strong>Escenario 02: Búsqueda por categoría</strong><br>
-        - <strong>Dado que</strong> el usuario está en el buscador<br>
-        - <strong>Cuando</strong> selecciona una categoría del filtro<br>
-        - <strong>Entonces</strong> se muestran solo productos de esa categoría
+        <strong>Dado que</strong> el usuario está en el buscador<br>
+        <strong>Cuando</strong> selecciona una categoría del filtro<br>
+        <strong>Entonces</strong> se muestran solo productos de esa categoría
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -1038,13 +1038,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Activar alertas automáticas</strong><br>
-        - <strong>Dado que</strong> el usuario accede a configuración de alertas<br>
-        - <strong>Cuando</strong> activa la opción de alerta por caducidad<br>
-        - <strong>Entonces</strong> el sistema enviará notificaciones cuando haya productos vencidos<br><br>
+        <strong>Dado que</strong> el usuario accede a configuración de alertas<br>
+        <strong>Cuando</strong> activa la opción de alerta por caducidad<br>
+        <strong>Entonces</strong> el sistema enviará notificaciones cuando haya productos vencidos<br><br>
         <strong>Escenario 02: Visualización de productos vencidos</strong><br>
-        - <strong>Dado que</strong> hay productos caducados en el inventario<br>
-        - <strong>Cuando</strong> el usuario accede al sistema<br>
-        - <strong>Entonces</strong> se muestra un panel o lista resaltando estos productos
+        <strong>Dado que</strong> hay productos caducados en el inventario<br>
+        <strong>Cuando</strong> el usuario accede al sistema<br>
+        <strong>Entonces</strong> se muestra un panel o lista resaltando estos productos
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -1058,13 +1058,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Ingreso individual de producto</strong><br>
-        - <strong>Dado que</strong> el usuario accede al formulario de ingreso<br>
-        - <strong>Cuando</strong> registra los datos del producto y la cantidad recibida<br>
-        - <strong>Entonces</strong> el sistema actualiza el stock del producto<br><br>
+        <strong>Dado que</strong> el usuario accede al formulario de ingreso<br>
+        <strong>Cuando</strong> registra los datos del producto y la cantidad recibida<br>
+        <strong>Entonces</strong> el sistema actualiza el stock del producto<br><br>
         <strong>Escenario 02: Ingreso masivo por archivo</strong><br>
-        - <strong>Dado que</strong> el usuario cuenta con un archivo de productos<br>
-        - <strong>Cuando</strong> carga el archivo en el sistema<br>
-        - <strong>Entonces</strong> se actualiza el inventario con los productos del archivo
+        <strong>Dado que</strong> el usuario cuenta con un archivo de productos<br>
+        <strong>Cuando</strong> carga el archivo en el sistema<br>
+        <strong>Entonces</strong> se actualiza el inventario con los productos del archivo
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -1078,13 +1078,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Visualización del resumen por categoría</strong><br>
-        - <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
-        - <strong>Cuando</strong> selecciona 'Resumen por categoría'<br>
-        - <strong>Entonces</strong> se muestra una tabla con cada categoría, cantidad total de productos y stock promedio<br><br>
+        <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
+        <strong>Cuando</strong> selecciona 'Resumen por categoría'<br>
+        <strong>Entonces</strong> se muestra una tabla con cada categoría, cantidad total de productos y stock promedio<br><br>
         <strong>Escenario 02: Acceso al detalle desde resumen</strong><br>
-        - <strong>Dado que</strong> el usuario está visualizando el resumen por categoría<br>
-        - <strong>Cuando</strong> hace clic en una categoría<br>
-        - <strong>Entonces</strong> se despliega la lista de productos que la conforman
+        <strong>Dado que</strong> el usuario está visualizando el resumen por categoría<br>
+        <strong>Cuando</strong> hace clic en una categoría<br>
+        <strong>Entonces</strong> se despliega la lista de productos que la conforman
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
@@ -1098,13 +1098,13 @@ Enlace para acceder al Miro
       </td>
       <td>
         <strong>Escenario 01: Comparación de periodos seleccionados</strong><br>
-        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        - <strong>Cuando</strong> selecciona dos periodos a comparar<br>
-        - <strong>Entonces</strong> se muestra una gráfica con la diferencia de ventas<br><br>
+        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        <strong>Cuando</strong> selecciona dos periodos a comparar<br>
+        <strong>Entonces</strong> se muestra una gráfica con la diferencia de ventas<br><br>
         <strong>Escenario 02: Comparación por categoría o producto</strong><br>
-        - <strong>Dado que</strong> el usuario está visualizando la comparación general<br>
-        - <strong>Cuando</strong> filtra por categoría o producto específico<br>
-        - <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos seleccionados
+        <strong>Dado que</strong> el usuario está visualizando la comparación general<br>
+        <strong>Cuando</strong> filtra por categoría o producto específico<br>
+        <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos seleccionados
       </td>
       <td>EP01 - Gestión de Inventario</td>
     </tr>
