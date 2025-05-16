@@ -293,7 +293,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         y a definir estrategías frente a<br>
         competidores.
         </p>
-        <p><b>TP1:</b></p>
+        <p><b>TP1:</b>Colaboré con el desarrollo de<br> 
+         una pantalla como el Kits de productos.<br>
+        </p>
         <p></p>
         <p><b>TB2:</b></p>
         <p></p>
@@ -399,8 +401,10 @@ y cumple objetivos.</b></td>
         el ubiquitous language y ayudé a <br> 
         distribuir tareas dentro del equipo  <br> 
         </p>
-        <p><b>TP1:</b></p>
-        <p>...</p>
+        <p><b>TP1:</b>Coordiné con mis compañeros<br> 
+         sobre la distribución de pantallas<br>
+         creando un entorno colaborativo<br>
+         entre todos.<br></p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
