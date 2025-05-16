@@ -77,15 +77,35 @@
                       <li>Maria Fernanda Peña</li>
                       <li>Fabiola Del Rocio Saldaña Ayala</li>
                       <li>Henry Kalet Esteban Roman</li>
-                      <li>Sebastian Alonso Bustinza Muñoz</li>
                     <ul>
            </td>
-      <td>            
+                         <td>            
              <ul>
           <li>Capítulo I: Introducción</li>
           <li>Capítulo II: Requirements Elicitation & Analysis</li>
           <li>Capítulo III: Requirements Specification</li>
           <li>Capítulo IV: Product Design</li>
+          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul>
+      </td>
+                        <tr>
+                <th>TP1</th>
+                <td>15/05/2025</td>
+                <td>
+                    <ul>
+                      <li>Jocelyn Damaly Almerco Rojas</li>
+                      <li>Camila Sanchez</li>
+                      <li>Maria Fernanda Peña</li>
+                      <li>Fabiola Del Rocio Saldaña Ayala</li>
+                      <li>Henry Kalet Esteban Roman</li>
+                      <li>Sebastian Alonso Bustinza Muñoz</li>
+                    <ul>
+           </td>
+      <td>            
+             <ul>
+          <li>Capítulo V: Sprint 2 Web Application - Frontend</li>
+          <li>Mejoras continuas</li>
           <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
           <li>Avance de Conclusiones, Bibliografía y Anexos</li>
         </ul>
