@@ -248,7 +248,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
   <tbody>
     <tr>
       <td><b>Trabaja en equipo para <br>
-      proporcionar liderazgo en <br>
+      proporcionar liderazgo en <br> 
       forma conjunta.</b></td>
       <td>
 <p><b>Henry Kalet Esteban Roman</b></p>
@@ -348,7 +348,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         de entrevistas y también colaboré en el<br>
         desarrollo de wireframes y mockups.<br></p>
         <p><b>TP1:</b></p>
-        <p></p>
+        <p>Durante el proyecto, trabajé en equipo implementando la vista de history, donde hice dos cartas para el stock y el otro para el producto. Además ayudé en los user stories. Además colaboré con el ppt y en el informe grupal.</p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
@@ -480,7 +480,7 @@ y cumple objetivos.</b></td>
         stories, con el objetivo de elaborar los<br>
         wireframes y mockups."</p>
         <p><b>TP1:</b></p>
-        <p>...</p>
+        <p>Contribuí creando la pantalla de historial, aplicando el orden adecuado de las carpetas y también colaborando en la redacción del informe grupal.</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
