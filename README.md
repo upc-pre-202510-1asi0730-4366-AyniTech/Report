@@ -615,7 +615,7 @@ Enlace para acceder al Miro
         <strong>Y</strong> hace clic a “Guardar”<br>
         <strong>Entonces</strong> el sistema muestra un mensaje de error en los campos que se deben corregir<br>
       </td>
-      <td>US01</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US02</td>
@@ -633,7 +633,7 @@ Enlace para acceder al Miro
         <strong>Entonces</strong> el sistema le muestra los errores<br>
         <strong>Y</strong> no se guardan los cambios
       </td>
-      <td>EP01</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US03</td>
@@ -651,7 +651,7 @@ Enlace para acceder al Miro
         <strong>Entonces</strong> el sistema le muestra un mensaje de error<br>
         <strong>Y</strong> no permite registrar la salida
         </td>
-      <td>EP01</td>
+      <td>2</td>
     </tr>
    <tr>
     <td>US04</td>
@@ -671,7 +671,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> no hay datos previos<br>
         <strong>Entonces</strong> el sistema muestra un mensaje indicando que no hay movimientos registrados
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>US05</td>
@@ -693,7 +693,7 @@ Enlace para acceder al Miro
         <strong>Y</strong> define un nuevo valor de stock mínimo<br>
         <strong>Entonces</strong> el sistema guarda la alerta y la activa con el nuevo valor
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>3</td>
     </tr>
     <tr>
     <td>US06</td>
@@ -713,7 +713,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> presione “Buscar”<br>
         <strong>Entonces</strong> el sistema le muestra un mensaje “No se encontraron los resultados”
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US07</td>
@@ -739,7 +739,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> selecciona una etiqueta desde el filtro<br>
         <strong>Entonces</strong> se muestran solo los productos que contienen esa etiqueta
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US08</td>
@@ -760,7 +760,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> hace clic en “Exportar”<br>
         <strong>Entonces</strong> el sistema genera un archivo PDF o Excel con el ranking
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>US09</td>
@@ -780,7 +780,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> hace clic sobre una categoría<br>
         <strong>Entonces</strong> se muestra una lista con los productos que la componen y sus respectivas ventas
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>2</td>
     </tr>
     <tr>
     <td>US10</td>
@@ -800,7 +800,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> habilita la opción de comparación<br>
         <strong>Entonces</strong> el sistema muestra la variación respecto al periodo anterior
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>US11</td>
@@ -821,7 +821,7 @@ Enlace para acceder al Miro
         <strong>Entonces</strong> el sistema resalta los productos con riesgo de quiebre o sobrestock<br>
         Y puede mostrar sugerencias de acción (reposición, liquidación, etc.)
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>US12</td>
@@ -841,7 +841,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> hace clic en “Exportar”<br>
         <strong>Entonces</strong> el sistema descarga el reporte en formato PDF o Excel
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US13</td>
@@ -861,7 +861,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> el usuario accede al inventario<br>
         <strong>Entonces</strong> el sistema muestra una alerta visual destacando esos productos
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US14</td>
@@ -883,7 +883,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> hace clic en “Guardar”<br>
         <strong>Entonces</strong> el sistema muestra un mensaje de error y no registra la devolución
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US15</td>
@@ -903,7 +903,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> asigna un rol específico<br>
         <strong>Entonces</strong> el sistema muestra los permisos correspondientes al rol asignado
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>4</td>
     </tr>
     <tr>
       <td>US16</td>
@@ -925,7 +925,7 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> modifica la información y guarda los cambios<br>
         <strong>Entonces</strong> el sistema actualiza los datos del proveedor
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>US17</td>
@@ -946,27 +946,27 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> selecciona “Ver lote”<br>
         <strong>Entonces</strong> se muestra la información común de ese grupo de productos
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>1</td>
     </tr>
     <tr>
     <td>US18</td>
-      <td>Visualizar historial de stock</td>
+      <td>Registrar precios de compra y venta por producto</td>
       <td>
         <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> ver el historial de stock de un producto,<br>
-        <strong>para</strong> analizar su comportamiento en el tiempo y tomar mejores decisiones de compra.
+        <strong>quiero</strong> egistrar precios de compra y venta para cada producto,<br>
+        <strong>para</strong> calcular márgenes de ganancia y planificar mejor mis precios.
       </td>
       <td>
-        <strong>Escenario 01: Visualizar historial por producto</strong><br>
-        <strong>Dado que</strong> el usuario accede a la ficha de un producto<br>
-        <strong>Cuando</strong> selecciona la opción 'Ver historial'<br>
-        <strong>Entonces</strong> se muestra una gráfica con las variaciones de stock a lo largo del tiempo<br><br>
-        <strong>Escenario 02: Filtro por periodo</strong><br>
-        <strong>Dado que</strong> el usuario visualiza el historial de stock<br>
-        <strong>Cuando</strong> aplica un filtro por rango de fechas<br>
-        <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos del periodo seleccionado
+        <strong>Escenario 01: Guardar precios correctamente</strong><br>
+        <strong>Dado que</strong>que el usuario edita un producto<br>
+        <strong>Cuando</strong> ingresa su precio de compra y su precio de venta<br>
+        <strong>Entonces</strong> el sistema guarda esos valores asociados al producto<br><br>
+        <strong>Escenario 02: Mostrar márgenes Dado</strong><br>
+        <strong>Dado que</strong> que un producto tiene ambos precios registrados<br>
+        <strong>Cuando</strong> el usuario accede a su ficha<br>
+        <strong>Entonces</strong> el sistema muestra el margen en porcentaje y valor monetario
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US19</td>
@@ -986,47 +986,69 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> el usuario accede al panel principal o al módulo de inventario<br>
         <strong>Entonces</strong> se muestra una alerta visual indicando que se debe reponer el producto
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>US20</td>
-      <td>Añadir etiquetas a productos</td>
+      <td>Crear kits o combos de productos</td>
       <td>
         <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> añadir etiquetas personalizadas a los productos,<br>
-        <strong>para</strong> facilitar su clasificación y búsqueda dentro del inventario.
+        <strong>quiero</strong> agrupar productos en kits o combos,<br>
+        <strong>para</strong> vender o mover varias unidades como un solo paquete.
       </td>
       <td>
-        <strong>Escenario 01: Etiquetado desde el formulario del producto</strong><br>
-        <strong>Dado que</strong> el usuario está registrando o editando un producto<br>
-        <strong>Cuando</strong> escribe nuevas etiquetas o selecciona existentes<br>
-        <strong>Entonces</strong> las etiquetas se asocian al producto guardado<br><br>
-        <strong>Escenario 02: Buscar productos por etiqueta</strong><br>
-        <strong>Dado que</strong> el usuario está en el módulo de búsqueda o lista de productos<br>
-        <strong>Cuando</strong> ingresa el nombre de una etiqueta en el buscador<br>
-        <strong>Entonces</strong> se filtran los productos asociados a dicha etiqueta
+        <strong>Escenario 01: Crear kit nuevo</strong><br>
+        <strong>Dado que</strong> que el usuario está en la sección de productos<br>
+        <strong>Cuando</strong> selecciona varios productos y define un nombre para el combo<br>
+        <strong>Entonces</strong>  el sistema crea el kit con stock dependiente de sus componentes<br><br>
+        <strong>Escenario 02: Movimiento de kit</strong><br>
+        <strong>Dado que</strong>  que el usuario registra una salida con un kits<br>
+        <strong>Entonces</strong> el sistema descuenta las unidades correspondientes de cada producto incluido en el kit
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>4</td>
     </tr>
     <tr>
       <td>US21</td>
-      <td>Buscar productos en inventario</td>
+      <td>Agregar ubicación o estantería del producto</td>
       <td>
         <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> buscar productos en el inventario por nombre o categoría,<br>
-        <strong>para</strong> encontrarlos de forma rápida y eficiente.
+        <strong>quiero</strong> registrar la ubicación o estantería donde se encuentra cada producto,<br>
+        <strong>para</strong> facilitar su localización dentro de la bodega.
       </td>
       <td>
-        <strong>Escenario 01: Búsqueda por nombre</strong><br>
-        <strong>Dado que</strong> el usuario accede al buscador<br>
-        <strong>Cuando</strong> ingresa parte del nombre del producto<br>
-        <strong>Entonces</strong> se muestran resultados coincidentes en tiempo real<br><br>
-        <strong>Escenario 02: Búsqueda por categoría</strong><br>
-        <strong>Dado que</strong> el usuario está en el buscador<br>
-        <strong>Cuando</strong> selecciona una categoría del filtro<br>
-        <strong>Entonces</strong> se muestran solo productos de esa categoría
+        <strong>Escenario 01: Asignar ubicación durante el registro</strong><br>
+        - <strong>Dado que</strong> el usuario está creando o editando un producto<br>
+        - <strong>Cuando</strong> completa el campo “ubicación física” o “estante”<br>
+        - <strong>Entonces</strong> el sistema guarda ese dato<br><br>
+        <strong>Escenario 02: Buscar productos por ubicación</strong><br>
+        - <strong>Dado que</strong> el usuario está en el inventario<br>
+        - <strong>Cuando</strong> aplica el filtro por ubicación<br>
+        - <strong>Entonces</strong> el sistema muestra sólo los productos que se encuentran en esa área
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>US22</td>
+      <td>Personalizar columnas en el inventario</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> personalizar la vista de mi inventario (columnas visibles),<br>
+        <strong>para</strong> enfocarme en la información que necesito según el tipo de producto que manejo.
+      </td>
+      <td>
+        <strong>Escenario 01: Seleccionar columnas visibles</strong><br>
+        - <strong>Dado que</strong> el usuario accede al inventario<br>
+        - <strong>Cuando</strong> hace clic en “Opciones de visualización” y marca o desmarca columnas como “proveedor”, “stock mínimo” o “ubicación”<br>
+        - <strong>Y</strong> confirma su selección<br>
+        - <strong>Entonces</strong> el sistema actualiza la vista<br>
+        - <strong>Y</strong> solo muestra las columnas elegidas por el usuario<br><br>
+        <strong>Escenario 02: Guardar vista personalizada por sesión</strong><br>
+        - <strong>Dado que</strong> el usuario modificó las columnas visibles<br>
+        - <strong>Cuando</strong> vuelve a ingresar al módulo de inventario<br>
+        - <strong>Entonces</strong> el sistema recuerda su configuración anterior<br>
+        - <strong>Y</strong> carga la vista personalizada sin que tenga que modificarla cada vez
+      </td>
+      <td>1</td>
     </tr>
     <tr>
       <td>US22</td>
@@ -1046,70 +1068,75 @@ Enlace para acceder al Miro
         <strong>Cuando</strong> el usuario accede al sistema<br>
         <strong>Entonces</strong> se muestra un panel o lista resaltando estos productos
       </td>
-      <td>EP01 - Gestión de Inventario</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>US23</td>
-      <td>Registrar ingreso de productos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> registrar el ingreso de productos al inventario,<br>
-        <strong>para</strong> mantener actualizado el stock disponible.
-      </td>
-      <td>
-        <strong>Escenario 01: Ingreso individual de producto</strong><br>
-        <strong>Dado que</strong> el usuario accede al formulario de ingreso<br>
-        <strong>Cuando</strong> registra los datos del producto y la cantidad recibida<br>
-        <strong>Entonces</strong> el sistema actualiza el stock del producto<br><br>
-        <strong>Escenario 02: Ingreso masivo por archivo</strong><br>
-        <strong>Dado que</strong> el usuario cuenta con un archivo de productos<br>
-        <strong>Cuando</strong> carga el archivo en el sistema<br>
-        <strong>Entonces</strong> se actualiza el inventario con los productos del archivo
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US24</td>
-      <td>Visualizar resumen de stock por categoría</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> ver un resumen del stock agrupado por categoría,<br>
-        <strong>para</strong> conocer el estado general del inventario de forma ordenada.
-      </td>
-      <td>
-        <strong>Escenario 01: Visualización del resumen por categoría</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
-        <strong>Cuando</strong> selecciona 'Resumen por categoría'<br>
-        <strong>Entonces</strong> se muestra una tabla con cada categoría, cantidad total de productos y stock promedio<br><br>
-        <strong>Escenario 02: Acceso al detalle desde resumen</strong><br>
-        <strong>Dado que</strong> el usuario está visualizando el resumen por categoría<br>
-        <strong>Cuando</strong> hace clic en una categoría<br>
-        <strong>Entonces</strong> se despliega la lista de productos que la conforman
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US25</td>
-      <td>Comparar ventas entre periodos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> comparar las ventas entre dos periodos,<br>
-        <strong>para</strong> identificar tendencias y evaluar el impacto de promociones.
-      </td>
-      <td>
-        <strong>Escenario 01: Comparación de periodos seleccionados</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        <strong>Cuando</strong> selecciona dos periodos a comparar<br>
-        <strong>Entonces</strong> se muestra una gráfica con la diferencia de ventas<br><br>
-        <strong>Escenario 02: Comparación por categoría o producto</strong><br>
-        <strong>Dado que</strong> el usuario está visualizando la comparación general<br>
-        <strong>Cuando</strong> filtra por categoría o producto específico<br>
-        <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos seleccionados
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-  </tbody>
-</table>
+  <td>US23</td>
+  <td>Duplicar ficha de producto</td>
+  <td>
+    <strong>Como</strong> usuario<br>
+    <strong>quiero</strong> duplicar un producto ya registrado,<br>
+    <strong>para</strong> crear rápidamente variantes similares sin tener que escribir toda la información desde cero.
+  </td>
+  <td>
+    <strong>Escenario 01: Duplicación básica exitosa</strong><br>
+    - <strong>Dado que</strong> el usuario está viendo la ficha de un producto<br>
+    - <strong>Cuando</strong> hace clic en “Duplicar”<br>
+    - <strong>Y</strong> modifica solo los campos que varían (ej. talla, color)<br>
+    - <strong>Entonces</strong> el sistema crea un nuevo producto con los mismos atributos del original<br>
+    - <strong>Y</strong> lo agrega al inventario<br><br>
+    <strong>Escenario 02: Advertencia por duplicado exacto</strong><br>
+    - <strong>Dado que</strong> el usuario copia un producto sin modificar ningún dato<br>
+    - <strong>Cuando</strong> intenta guardar<br>
+    - <strong>Entonces</strong> el sistema muestra una alerta de que ya existe un producto igual<br>
+    - <strong>Y</strong> no permite registrar duplicados exactos
+  </td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>US24</td>
+  <td>Añadir notas internas a productos</td>
+  <td>
+    <strong>Como</strong> usuario<br>
+    <strong>quiero</strong> poder dejar comentarios internos en los productos,<br>
+    <strong>para</strong> registrar incidencias, recomendaciones o condiciones especiales sin que sean visibles al cliente.
+  </td>
+  <td>
+    <strong>Escenario 01: Guardar comentario interno</strong><br>
+    - <strong>Dado que</strong> el usuario accede al detalle del producto<br>
+    - <strong>Cuando</strong> escribe una nota en el campo de “comentarios internos”<br>
+    - <strong>Y</strong> hace clic en “Guardar”<br>
+    - <strong>Entonces</strong> el comentario queda registrado solo para uso interno<br>
+    - <strong>Y</strong> no se muestra en reportes ni al cliente<br><br>
+    <strong>Escenario 02: Editar o eliminar comentarios previos</strong><br>
+    - <strong>Dado que</strong> un producto ya tiene comentarios<br>
+    - <strong>Cuando</strong> el usuario entra a la ficha y edita o borra el texto<br>
+    - <strong>Entonces</strong> el sistema actualiza el contenido correctamente<br>
+    - <strong>Y</strong> guarda la nueva versión
+  </td>
+  <td>4</td>
+<tr>
+  <td>US25</td>
+  <td>Ver inventario por estantería o ubicación</td>
+  <td>
+    <strong>Como</strong> usuario<br>
+    <strong>quiero</strong> ver mi inventario agrupado por estantería o ubicación física,<br>
+    <strong>para</strong> facilitar la reposición y los conteos físicos por zonas.
+  </td>
+  <td>
+    <strong>Escenario 01: Visualizar agrupado por ubicación</strong><br>
+    - <strong>Dado que</strong> el usuario ha asignado ubicaciones a sus productos<br>
+    - <strong>Cuando</strong> aplica el filtro “Ver por ubicación”<br>
+    - <strong>Entonces</strong> el sistema muestra los productos agrupados por zona, estante o área<br>
+    - <strong>Y</strong> permite navegar fácilmente por cada grupo<br><br>
+    <strong>Escenario 02: Exportar por zona</strong><br>
+    - <strong>Dado que</strong> el usuario tiene agrupado su inventario por ubicación<br>
+    - <strong>Cuando</strong> hace clic en “Exportar por zona”<br>
+    - <strong>Entonces</strong> el sistema genera un archivo Excel o PDF con los productos separados por estantería<br>
+    - <strong>Y</strong> permite imprimirlo para uso físico
+  </td>
+  <td>4</td>
+</tr>
 
 
 ### Technical Stories
