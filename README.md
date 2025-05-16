@@ -912,7 +912,18 @@ No se implementaron servicios en este sprint
 Para realizar el despliegue del Frontend se realizaron lo siguientes pasos:
 
 - 1: Hacer merges de las ramas feature en la rama develop y finalmente merge en la rama main
+![Deployment](assets/Chapter-5/dev.png)
 
+- 2: Ir a Netlify, seleccionar Add new site, seguidamente seleccionar Import an existing project
+  ![Deployment](assets/Chapter-5/dev2.png)
+
+- 3: Seleccionar el repositorio del Frontend
+  ![Deployment](assets/Chapter-5/dev3.png)
+
+- 4: Ingresar un nombre disponible para la página del frontend y seleccionar la rama main
+   ![Deployment](assets/Chapter-5/dev4.png)
+
+Link Fronted: https://aynitech.netlify.app/dashboard 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 | Alumno | Actividad |
 | ------ | --------- |
