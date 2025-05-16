@@ -891,13 +891,17 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 ![Evidence](assets/Chapter-5/kit.jpg)
 
 **Historial de Movimientos**
-
- 
+![Evidence](assets/Chapter-5/hi.png)
+ *Confirmación de Eliminación*
+ ![Evidence](assets/Chapter-5/elihi.png)
+**Ticket Promedio**   
+![Evidence](assets/Chapter-5/edihi.png)
 **Pantalla principal de Inventario por Lote**
-*Pantalla de Comentarios del Lote* 
-*Pantalla de Exportación*
+![Evidence](assets/Chapter-5/inl.png)
 **Pantalla de Inventario por Producto**
+![Evidence](assets/Chapter-5/in.png)
 *Edición de Registro*
+![Evidence](assets/Chapter-5/inp.png)
 **Pantalla Principal de Alerta Stock**
 ![Evidence](assets/Chapter-5/aler.jpg)
 
