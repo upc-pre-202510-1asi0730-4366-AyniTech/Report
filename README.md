@@ -260,7 +260,28 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         promoviendo una visión común<br>
         del producto final.</p>
         <p></p>
-        <p><b>TP1:</b></p>
+        <p><b>TP1:</b>Durante el Sprint 2
+        , demostré<br>
+         liderazgo
+         <br> compartido<br>
+         dentro del equipo al participar <br>
+         activamente en la toma de<br>
+          decisiones clave relacionadas con <br>
+          el diseño e implementación de la <br>funcionalidad de inventario. Coordiné con mis <br>
+          compañeros la asignación de<br>
+           tareas según las <br>
+          fortalezas individuales,<br>
+           promoví espacios de <br>
+          retroalimentación técnica y me <br>
+          aseguré de que <br>
+          todos los miembros comprendieran <br>
+          el objetivo común.<br>
+           Esta colaboración no solo fortaleció <br>
+           la cohesión del equipo,<br>
+            sino que también<br>
+             permitió avanzar<br>
+             de manera eficiente en la construcción <br>
+             de una solución técnica <br>funcional.</p>
         <p>,..</p>
         <p><b>TB2:</b></p>
         <p>.</p>
@@ -370,7 +391,29 @@ y cumple objetivos.</b></td>
         Design, cumpliendo con los objetivos<br>
         establecidos en los plazos definidos.<br></p>
         <p></p>
-        <p><b>TP1:</b></p>
+        <p><b>TP1:</b>Para el desarrollo<br>
+         de la funcionalidad de inventario<br>
+         , contribuí a la creación de un <br>
+         entorno inclusivo donde todas las<br>
+          ideas fueron consideradas y<br>
+           discutidas abiertamente. Propusimos<br>
+            metas claras para el sprint, <br>
+            como completar el diseño de<br>
+             interfaz del módulo,<br>
+              implementar el backend<br>
+               de registro de lotes y<br>
+             realizar pruebas funcionales.<br>
+              A través de herramientas<br>
+               de planificación como el <br>
+               backlog priorizado y<br>
+                reuniones de revisión, <br>
+                logramos cumplir con los<br>
+                 objetivos establecidos, <br>
+                 garantizando que el <br>
+                 módulo de inventario <br>
+                 funcione correctamente<br>
+                  y se integre con el sistema<br>
+                   general de manera efectiva.</p>
         <p>..</p>
         <p><b>TB2:</b></p>
         <p>..</p>
