@@ -1169,7 +1169,464 @@ Enlace para acceder al Miro
 *Imagen (N°11). Elaboración propia. Realizado en LucidChart*
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
-## 3.2. User Stories
+## 3.2. User Stories 
+
+### User Stories
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>Título</th>
+      <th>Descripción técnica</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Registra producto nuevo</td>
+      <td>Como usuario, quiero registrar un nuevo producto en mi inventario, para tener un control detallado de su existencia desde el comienzo.</td>
+      <td>
+       <strong>Escenario 01:Registro exitoso de producto</strong><br>
+        <strong>Dado</strong> que el usuario está en el formulario de “Nuevo producto”,<br>
+        <strong>Cuando</strong> completa correctamente todos los campos obligatorios<br>
+        <strong>Y</strong> le da clic a “Guardar”<br>
+        <strong>Entonces</strong> el producto se registra en la base<br>
+        <strong>Y</strong> aparece en el inventario<br>
+        <strong>Escenario 02: Interno de registro en campos vacíos</strong><br>
+        <strong>Dado</strong> que el usuario está en el formulario de “Nuevo producto”<br>
+        <strong>Cuando</strong> completa correctamente todos los campos obligatorios<br>
+        <strong>Cuando</strong> dejas campos obligatorios vacíos<br>
+        <strong>Y</strong> hace clic a “Guardar”<br>
+        <strong>Entonces</strong> el sistema muestra un mensaje de error en los campos que se deben corregir<br>
+      </td>
+      <td>US01</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Editar información de producto</td>
+      <td><strong>Como</strong> usuario, <strong>quiero</strong> editar la información de un producto registrado, <strong>para</strong> corregir o actualizar datos.</td>
+      <td>
+        <strong>Escenario 01: Edición con éxito</strong><br>
+        <strong>Dado que</strong> el usuario ya tiene un producto en el inventario<br>
+        <strong>Cuando</strong> modifica campos de información del producto<br>
+        <strong>Y</strong> le da clic a “Guardar”<br>
+        <strong>Entonces</strong> el sistema guarda los cambios<br><br>
+        <strong>Escenario 02: Edición con datos inválidos</strong><br>
+        <strong>Dado que</strong> el usuario está editando información de un producto<br>
+        <strong>Cuando</strong> ingrese datos inválidos<br>
+        <strong>Entonces</strong> el sistema le muestra los errores<br>
+        <strong>Y</strong> no se guardan los cambios
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Registrar salida de producto</td>
+      <td><strong>Como</strong> usuario, <strong>quiero</strong> registrar la salida de productos del inventario, <strong>para</strong> mantener actualizado el stock en tiempo real.</td>
+      <td>
+        <strong>Escenario 01: Registro válido de salida de stock</strong><br>
+        <strong>Dado que</strong> un producto tiene suficiente stock disponible<br>
+        <strong>Cuando</strong> el usuario ingresa una cantidad válida de salida<br>
+        <strong>Entonces</strong> el sistema descuenta esa cantidad del stock total<br>
+        <strong>Y</strong> guarda el movimiento<br><br>
+        <strong>Escenario 02: Intento de salida mayor al stock disponible</strong><br>
+        <strong>Dado que</strong> un producto tiene un stock exacto<br>
+        <strong>Cuando</strong> el usuario ingresa una cantidad mayor al stock actual<br>
+        <strong>Entonces</strong> el sistema le muestra un mensaje de error<br>
+        <strong>Y</strong> no permite registrar la salida
+        </td>
+      <td>EP01</td>
+    </tr>
+   <tr>
+    <td>US04</td>
+      <td>Ver historial de movimientos</td>
+      <td>
+        <strong>Como</strong> usuario,<br>
+        <strong>quiero</strong> ver el historial de entrada y salida de mis productos,<br>
+        <strong>para</strong> rastrear los cambios y movimientos en el inventario.
+      </td>
+      <td>
+        <strong>Escenario 01: Visualización del historial completo</strong><br>
+        <strong>Dado que</strong> el usuario está en la sección historial de un producto<br>
+        <strong>Cuando</strong> este producto tiene movimientos registrados<br>
+        <strong>Entonces</strong> el sistema muestra una lista con toda la información del producto<br><br>
+        <strong>Escenario 02: Producto sin historial de movimientos</strong><br>
+        <strong>Dado que</strong> el usuario accede al historial de un producto nuevo o sin registro<br>
+        <strong>Cuando</strong> no hay datos previos<br>
+        <strong>Entonces</strong> el sistema muestra un mensaje indicando que no hay movimientos registrados
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Generar alertas por bajo stock</td>
+      <td>
+        <strong>Como</strong> usuario,<br>
+        <strong>quiero</strong> recibir alertas cuando un producto está debajo del stock mínimo,<br>
+        <strong>para</strong> re-abastecerse a tiempo.
+      </td>
+      <td>
+        <strong>Escenario 01: Activación automática de alerta por stock bajo</strong><br>
+        <strong>Dado que</strong> un producto tiene un límite mínimo configurado<br>
+        <strong>Cuando</strong> su stock baja por debajo del mínimo<br>
+        <strong>Entonces</strong> el sistema genera una alerta visual<br>
+        <strong>Y</strong> notifica al usuario<br><br>
+        <strong>Escenario 02: Personalización de la alerta</strong><br>
+        <strong>Dado que</strong> el usuario desea configurar alertas específicas<br>
+        <strong>Cuando</strong> accede a la edición del producto<br>
+        <strong>Y</strong> define un nuevo valor de stock mínimo<br>
+        <strong>Entonces</strong> el sistema guarda la alerta y la activa con el nuevo valor
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
+    </tr>
+    <tr>
+    <td>US06</td>
+      <td>Buscar productos en inventarios</td>
+      <td>
+        <strong>Como</strong> usuario,<br>
+        <strong>quiero</strong> buscar productos en el inventario por nombre o categoría,<br>
+        <strong>para</strong> encontrarlo de manera rápida y fácil.
+      </td>
+      <td>
+        <strong>Escenario 01: Búsqueda por nombre o código</strong><br>
+        <strong>Dado que</strong> el usuario está en la sección “Inventario”<br>
+        <strong>Cuando</strong> ingresa el nombre o código de un producto en el buscador<br>
+        <strong>Entonces</strong> se muestran los productos que coinciden con los términos de búsqueda<br><br>
+        <strong>Escenario 02: Búsqueda sin coincidencias</strong><br>
+        <strong>Dado que</strong> el usuario realiza una búsqueda con término no registrado<br>
+        <strong>Cuando</strong> presione “Buscar”<br>
+        <strong>Entonces</strong> el sistema le muestra un mensaje “No se encontraron los resultados”
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Añadir etiquetas para productos</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> poder clasificar los productos mediante etiquetas<br>
+        <strong>para</strong> organizar el stock y agilizar búsquedas.
+      </td>
+      <td>
+        <strong>Escenario 01: Añadir etiqueta correctamente</strong><br>
+        - <strong>Dado que</strong> el usuario está en el formulario de “Nuevo producto”<br>
+        - <strong>Cuando</strong> escribe una o varias etiquetas personalizadas<br>
+        - <strong>Y</strong> hace clic en “Guardar”<br>
+        - <strong>Entonces</strong> las etiquetas se registran con el producto<br>
+        - <strong>Y</strong> son visibles en el detalle del producto<br><br>
+        <strong>Escenario 02: Usar etiquetas existentes</strong><br>
+        - <strong>Dado que</strong> el usuario comienza a escribir una etiqueta<br>
+        - <strong>Cuando</strong> ya existe una similar en el sistema<br>
+        - <strong>Entonces</strong> el sistema sugiere etiquetas existentes para evitar duplicados<br><br>
+        <strong>Escenario 03: Filtrar por etiquetas</strong><br>
+        - <strong>Dado que</strong> el usuario está en el módulo de inventario<br>
+        - <strong>Cuando</strong> selecciona una etiqueta desde el filtro<br>
+        - <strong>Entonces</strong> se muestran solo los productos que contienen esa etiqueta
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Estadística de productos más vendidos</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> ver un listado con los productos más vendidos durante un periodo de tiempo,<br>
+        <strong>para</strong> poder identificar qué modelos tienen mayor demanda y así planificar mejor.
+      </td>
+      <td>
+        <strong>Escenario 01: Ver productos más vendidos en un periodo</strong><br>
+        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        - <strong>Cuando</strong> selecciona un rango de fechas<br>
+        - <strong>Entonces</strong> el sistema muestra un ranking de productos más vendidos<br>
+        - <strong>Y</strong> permite ordenarlos por unidades o ingresos<br><br>
+        <strong>Escenario 02: Exportar reporte de productos más vendidos</strong><br>
+        - <strong>Dado que</strong> el usuario ya visualiza el listado<br>
+        - <strong>Cuando</strong> hace clic en “Exportar”<br>
+        - <strong>Entonces</strong> el sistema genera un archivo PDF o Excel con el ranking
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Estadística de categoría más vendida</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> visualizar qué categorías o líneas de productos son las que más se venden,<br>
+        <strong>para</strong> saber cuál promocionar o reducir del catálogo.
+      </td>
+      <td>
+        <strong>Escenario 01: Ver categorías más vendidas</strong><br>
+        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        - <strong>Cuando</strong> selecciona un rango de fechas<br>
+        - <strong>Entonces</strong> se muestra un gráfico con la participación de cada categoría en las ventas<br><br>
+        <strong>Escenario 02: Ver detalle de productos por categoría</strong><br>
+        - <strong>Dado que</strong> el usuario visualiza las categorías más vendidas<br>
+        - <strong>Cuando</strong> hace clic sobre una categoría<br>
+        - <strong>Entonces</strong> se muestra una lista con los productos que la componen y sus respectivas ventas
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
+    </tr>
+    <tr>
+      <td>TUS10</td>
+      <td>Generar reportes PDF</td>
+      <td>Como desarrollador, quiero generar reportes PDF del inventario, para facilitar su exportación y respaldo.</td>
+      <td>
+        <strong>Escenario 1: Reporte completo</strong><br>
+        Dado que presiono "Exportar",<br>
+        Cuando genero un PDF,<br>
+        Entonces el archivo incluye todos los productos y sus cantidades.<br><br>
+        <strong>Escenario 2: Reporte filtrado</strong><br>
+        Dado que aplico un filtro por fecha o categoría,<br>
+        Cuando exporto el reporte,<br>
+        Entonces solo se incluyen los productos filtrados.
+      </td>
+      <td>US10</td>
+    </tr>
+    <tr>
+      <td>TUS11</td>
+      <td>Login de usuarios</td>
+      <td>Como desarrollador, quiero implementar el login de usuarios, para que accedan de forma segura al sistema.</td>
+      <td>
+        <strong>Escenario 1: Login exitoso</strong><br>
+        Dado que el usuario ingresa credenciales válidas,<br>
+        Cuando hace clic en “Iniciar sesión”,<br>
+        Entonces accede al sistema.<br><br>
+        <strong>Escenario 2: Credenciales inválidas</strong><br>
+        Dado que las credenciales son incorrectas,<br>
+        Cuando intenta ingresar,<br>
+        Entonces el sistema muestra un mensaje de error.
+      </td>
+      <td>US11</td>
+    </tr>
+    <tr>
+      <td>TUS12</td>
+      <td>Registro de usuarios</td>
+      <td>Como desarrollador, quiero permitir el registro de nuevos usuarios, para que puedan acceder al sistema.</td>
+      <td>
+        <strong>Escenario 1: Registro válido</strong><br>
+        Dado que el formulario está completo,<br>
+        Cuando se envía,<br>
+        Entonces se crea un nuevo usuario.<br><br>
+        <strong>Escenario 2: Campos incompletos</strong><br>
+        Dado que falta información,<br>
+        Cuando se intenta registrar,<br>
+        Entonces se muestra un mensaje de error.
+      </td>
+      <td>US12</td>
+    </tr>
+    <tr>
+      <td>TUS13</td>
+      <td>Gestión de roles</td>
+      <td>Como desarrollador, quiero asignar roles a los usuarios, para controlar sus permisos en el sistema.</td>
+      <td>
+        <strong>Escenario 1: Asignación de rol</strong><br>
+        Dado que soy administrador,<br>
+        Cuando selecciono un usuario,<br>
+        Entonces puedo asignarle un rol.<br><br>
+        <strong>Escenario 2: Acceso restringido</strong><br>
+        Dado que un usuario tiene rol básico,<br>
+        Cuando intenta acceder al panel de administración,<br>
+        Entonces se deniega el acceso.
+      </td>
+      <td>US13</td>
+    </tr>
+    <tr>
+      <td>TUS14</td>
+      <td>Auditoría de acciones</td>
+      <td>Como desarrollador, quiero registrar las acciones importantes, para tener trazabilidad de lo que ocurre en el sistema.</td>
+      <td>
+        <strong>Escenario 1: Registro automático</strong><br>
+        Dado que un usuario crea o edita un producto,<br>
+        Cuando se guarda la acción,<br>
+        Entonces se genera un log en el historial de auditoría.<br><br>
+        <strong>Escenario 2: Revisión de auditoría</strong><br>
+        Dado que soy un auditor,<br>
+        Cuando ingreso al módulo de auditoría,<br>
+        Entonces puedo ver todas las acciones con fecha y usuario.
+      </td>
+      <td>US14</td>
+    </tr>
+    <tr>
+      <td>TUS15</td>
+      <td>Gestión de categorías</td>
+      <td>Como desarrollador, quiero crear, editar y eliminar categorías, para organizar los productos eficientemente.</td>
+      <td>
+        <strong>Escenario 1: Crear categoría</strong><br>
+        Dado que ingreso un nombre de categoría,<br>
+        Cuando presiono guardar,<br>
+        Entonces la nueva categoría se almacena.<br><br>
+        <strong>Escenario 2: Evitar duplicados</strong><br>
+        Dado que ya existe una categoría con ese nombre,<br>
+        Cuando intento crearla de nuevo,<br>
+        Entonces el sistema muestra un error.
+      </td>
+      <td>US15</td>
+    </tr>
+    <tr>
+      <td>TUS16</td>
+      <td>Filtrar productos por categoría</td>
+      <td>Como desarrollador, quiero filtrar productos por categoría, para facilitar la búsqueda específica.</td>
+      <td>
+        <strong>Escenario 1: Filtrado correcto</strong><br>
+        Dado que selecciono una categoría,<br>
+        Cuando se actualiza la lista,<br>
+        Entonces solo se muestran productos de esa categoría.<br><br>
+        <strong>Escenario 2: Categoría sin productos</strong><br>
+        Dado que no hay productos en la categoría,<br>
+        Cuando la selecciono,<br>
+        Entonces el sistema muestra un mensaje indicando que no hay resultados.
+      </td>
+      <td>US16</td>
+    </tr>
+    <tr>
+      <td>TUS17</td>
+      <td>Control de caducidad</td>
+      <td>Como desarrollador, quiero controlar la fecha de caducidad de productos, para evitar ventas de productos vencidos.</td>
+      <td>
+        <strong>Escenario 1: Alerta de vencimiento próximo</strong><br>
+        Dado que un producto vencerá en menos de 30 días,<br>
+        Cuando accedo a su información,<br>
+        Entonces el sistema muestra una alerta.<br><br>
+        <strong>Escenario 2: Producto vencido</strong><br>
+        Dado que la fecha de hoy es posterior a la de caducidad,<br>
+        Cuando consulto el inventario,<br>
+        Entonces el sistema indica que el producto está vencido.
+      </td>
+      <td>US17</td>
+    </tr>
+    <tr>
+      <td>TUS18</td>
+      <td>Reportes por rango de fechas</td>
+      <td>Como desarrollador, quiero generar reportes filtrados por fechas, para análisis temporales del inventario.</td>
+      <td>
+        <strong>Escenario 1: Filtro de fechas válido</strong><br>
+        Dado que ingreso un rango válido,<br>
+        Cuando genero el reporte,<br>
+        Entonces se incluyen solo los movimientos dentro de ese rango.<br><br>
+        <strong>Escenario 2: Rango vacío</strong><br>
+        Dado que el rango no contiene movimientos,<br>
+        Cuando genero el reporte,<br>
+        Entonces el sistema indica que no hay datos disponibles.
+      </td>
+      <td>US18</td>
+    </tr>
+    <tr>
+      <td>TUS19</td>
+      <td>Dashboard de indicadores</td>
+      <td>Como desarrollador, quiero crear un dashboard con KPIs, para mostrar métricas clave del inventario.</td>
+      <td>
+        <strong>Escenario 1: Visualización de métricas</strong><br>
+        Dado que accedo al dashboard,<br>
+        Cuando se cargan los datos,<br>
+        Entonces veo indicadores como stock total, productos con stock bajo, productos vencidos.<br><br>
+        <strong>Escenario 2: Indicadores actualizados</strong><br>
+        Dado que cambia el inventario,<br>
+        Cuando recargo el dashboard,<br>
+        Entonces los datos reflejan la situación actual.
+      </td>
+      <td>US19</td>
+    </tr>
+    <tr>
+      <td>TUS20</td>
+      <td>Exportar a Excel</td>
+      <td>Como desarrollador, quiero exportar el inventario a Excel, para facilitar el análisis externo de los datos.</td>
+      <td>
+        <strong>Escenario 1: Exportación completa</strong><br>
+        Dado que presiono el botón “Exportar a Excel”,<br>
+        Cuando el sistema genera el archivo,<br>
+        Entonces contiene todos los productos y detalles.<br><br>
+        <strong>Escenario 2: Exportación filtrada</strong><br>
+        Dado que aplico un filtro,<br>
+        Cuando exporto,<br>
+        Entonces solo se exportan los datos visibles.
+      </td>
+      <td>US20</td>
+    </tr>
+    <tr>
+      <td>TUS21</td>
+      <td>Backup automático</td>
+      <td>Como desarrollador, quiero implementar backups automáticos, para proteger la información del inventario.</td>
+      <td>
+        <strong>Escenario 1: Backup diario</strong><br>
+        Dado que el sistema está configurado,<br>
+        Cuando llega la hora programada,<br>
+        Entonces se genera un archivo de respaldo.<br><br>
+        <strong>Escenario 2: Restauración de backup</strong><br>
+        Dado que tengo un backup,<br>
+        Cuando lo restauro,<br>
+        Entonces el sistema recupera los datos correctamente.
+      </td>
+      <td>US21</td>
+    </tr>
+    <tr>
+      <td>TUS22</td>
+      <td>Notificaciones por email</td>
+      <td>Como desarrollador, quiero enviar correos automáticos por alertas, para informar a los usuarios de eventos importantes.</td>
+      <td>
+        <strong>Escenario 1: Stock crítico</strong><br>
+        Dado que el stock de un producto es crítico,<br>
+        Cuando se detecta esta situación,<br>
+        Entonces se envía un correo al responsable.<br><br>
+        <strong>Escenario 2: Producto vencido</strong><br>
+        Dado que un producto ha caducado,<br>
+        Cuando ocurre,<br>
+        Entonces se notifica por email.
+      </td>
+      <td>US22</td>
+    </tr>
+    <tr>
+      <td>TUS23</td>
+      <td>Soporte para código de barras</td>
+      <td>Como desarrollador, quiero permitir escaneo de códigos de barras, para agilizar la búsqueda y registro de productos.</td>
+      <td>
+        <strong>Escenario 1: Escaneo exitoso</strong><br>
+        Dado que escaneo un producto con lector,<br>
+        Cuando se detecta el código,<br>
+        Entonces el sistema carga automáticamente el producto.<br><br>
+        <strong>Escenario 2: Código no registrado</strong><br>
+        Dado que el código no existe,<br>
+        Cuando lo escaneo,<br>
+        Entonces se muestra un mensaje de error.
+      </td>
+      <td>US23</td>
+    </tr>
+    <tr>
+      <td>TUS24</td>
+      <td>Interfaz responsiva</td>
+      <td>Como desarrollador, quiero que la interfaz sea responsiva, para que funcione en dispositivos móviles y de escritorio.</td>
+      <td>
+        <strong>Escenario 1: Visualización en móvil</strong><br>
+        Dado que accedo desde un celular,<br>
+        Cuando ingreso al sistema,<br>
+        Entonces se adapta correctamente al tamaño de pantalla.<br><br>
+        <strong>Escenario 2: Navegación fluida</strong><br>
+        Dado que uso el sistema en tablet,<br>
+        Cuando navego entre módulos,<br>
+        Entonces la experiencia es fluida y sin errores visuales.
+      </td>
+      <td>US24</td>
+    </tr>
+    <tr>
+      <td>TUS25</td>
+      <td>Accesibilidad</td>
+      <td>Como desarrollador, quiero que el sistema cumpla estándares de accesibilidad, para que sea usable por personas con discapacidades.</td>
+      <td>
+        <strong>Escenario 1: Compatibilidad con lectores de pantalla</strong><br>
+        Dado que uso un lector de pantalla,<br>
+        Cuando navego por la app,<br>
+        Entonces los elementos son anunciados correctamente.<br><br>
+        <strong>Escenario 2: Teclado como único medio</strong><br>
+        Dado que no uso mouse,<br>
+        Cuando navego solo con el teclado,<br>
+        Entonces puedo acceder a todas las funciones.
+      </td>
+      <td>US25</td>
+    </tr>
+  </tbody>
+</table>
+
 
 En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave de StockWise. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros. 
 
