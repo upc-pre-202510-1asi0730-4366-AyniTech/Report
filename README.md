@@ -317,7 +317,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p>...</p>
         <p><b>TP1:</b></p>
-        <p>...</p>
+        <p>Durante el proyecto, trabajé en equipo implementando la vista de Stock Alert y aplicando mejoras continuas para optimizar su funcionamiento. También colaboré activamente en la elaboración del informe grupal, aportando ideas y apoyando la coordinación de tareas.</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
@@ -427,7 +427,7 @@ y cumple objetivos.</b></td>
         <p><b>TB1:</b></p>
         <p>...</p>
         <p><b>TP1:</b></p>
-        <p>...</p>
+        <p>Contribuí activamente creando la vista de Stock Alert, aplicando mejoras continuas y colaborando en la redacción del informe grupal. Estas acciones me permitieron fomentar un entorno colaborativo e inclusivo, ayudando a definir metas claras, planificar tareas en conjunto.</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
