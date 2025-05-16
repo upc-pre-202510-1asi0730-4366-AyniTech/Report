@@ -217,6 +217,15 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones-1)
@@ -3073,6 +3082,132 @@ Para la entrega del Sprint 1, se desplegó el landing page de forma completa. Pa
 
 **Commits del landing page**
 ![commits landing](assets/Chapter-5/insights1_sprint1.png)
+
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
+| Sprint # | 2 |
+|---------|-------|
+| **Sprint Planning Background** |      |
+| Date | 14/05/2025|
+| Time | 5:30 pm |
+|Location | Modalidad remota |
+|Prepared By | Camila Sanchez|
+|Attendees (to planning meeting)| Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban|
+|Sprint 0 Review Summary | Se logro completar la landing page|
+|Sprint 0 Retrospective Summary | Se tuvo que manejar mejor los tiempos para evitar inconvenientes en la entrega|
+|**Sprint Goal & User Stories** | |
+|Sprint Goal 1 |Realizar una primera version del Frontend.|
+|Sprint Velocity 1 |15 |
+|Sum of Story Points |20 |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de StockWise utilizando JavaScript, Vue. CSS y HTML. El enfoque se centró en desarrollar funcionalidades clave en varias páginas. Además, el equipo se enfocó en las historias de usuario relacionadas con este desarrollo, asegurando que cada nueva característica no solo fuera funcional, sino también alineada con las necesidades de los usuarios. Se utilizó Trello para organizar y distribuir las tareas, permitiendo que cada integrante del equipo se especializara en áreas que se correspondían con sus competencias, lo que facilitó un avance eficiente y coordinado hacia el objetivo del sprint.
+
+#### 5.2.2.3. Sprint Backlog 2.
+**Link del Trello:** 
+[Trello](https://trello.com/b/GaGqplFO)
+
+**Vista del Sprint Backlog en Trello:**
+
+![trello](assets/Chapter-5/Trello_Sprint2.png)
+
+|Sprint # | 2 |  |  |  |  |  |  |
+|----|----|----- |---- |---- |---- |---- | ---|
+|User Story |  |Work-Item /Task  |  |  |  |  |  |
+|Id|Title|Id |Title |Description|Estimation(Hours) |Assigned To| Status (To-do / InProcess / ToReview / Done)|
+|US01|Iniciar Sesion|T1|Formulario de registro |Login del Usuario con ambos metodos (Google o registro)  |2h|Camila Sanchez |Done|
+|US01|Registro|T2|Formulario de registro |Mostrar y redirigir al formulario de registro para nuevos usuarios desde la landing page.|3h |Camila Sanchez |Done|
+|US15|Configurar roles y permisos de usuario |T3|Perfil de Usuario |Recolectar datos personales basicos y control de ajusted |2h |Fabiola Saldaña |Done|
+|US01|Home|T4|Dashboard |Creacion de la pantalla de Inicio donde navegara por la pagina web |3h |Fabiola Saldaña |Done|
+|US20|Generar alertas por bajo stock|T5| Pantalla de Notificaciones |Implementar historial de alertas de stock |2h|Sebastian |Done|
+|US04|Ver historial de movimientos|T6| Pantalla de Historial |Implementar un diseño intuitivo para el usuario|2h |Jocelyn Almerco |Done|
+|US06|Buscar productos en inventarios|T07|Pantalla de Inventario (Producto o lote)|Implementar un diseño intuitivo para el usuario|2h |Henry Esteban |Done|
+|US20|Crear kits o combos de productos|T08|Pantalla de Kits|Implementar un diseño intuitivo para el usuario|2h |Maria Fernanda Peña |Done|
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+| |feature/inventory|3706a28a |feature:add functional buttonns | kalet123-commit|15/05/2025 |
+| |feature/kit-products|0eaec782 |feat: add kits-products components and include in App.vue | mariafep|15/05/2025 |
+| |feature/kit-products|4765c520 |feat: add i18n and router modified kit component and main.js | mariafep|15/05/2025 |
+| |feature/kit-products|955d7e7f |feat: add bounded context style, entity and services | mariafep|15/05/2025 |
+| |feature/kit-products|9e61ed75 |feat: fix entity | mariafep|15/05/2025 |
+| |feature/product-management|207f8daa |feat/avances dashboard| Fabs|14/05/2025 |
+| |feature/product-management|6515fefc |avances dashboard2 | Fabs|14/05/2025 |
+| |feature/product-management|1defb863ac2773df |feature: new branch | Fabs|14/05/2025 |
+| |feature/stock-alert|6b841ec3 |Add feature/stock-alert | Sebastian|15/05/2025 |
+| |feature/stock-alert|42e08cef |Update stock alert | Sebastian|15/05/2025 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+**Iniciar sesión**
+![Evidence](assets/Chapter-5/ini.png) 
+**Crear cuenta**
+![Evidence](assets/Chapter-5/reg.png) 
+**Mi perfil**
+
+*Perfil Administrador*
+![Evidence](assets/Chapter-5/per.png)
+
+**Panel de control (Dashboard)**
+![Evidence](assets/Chapter-5/home.png)
+**Combinación de Productos en Kits**
+![Evidence](assets/Chapter-5/kit.jpg)
+
+**Historial de Movimientos**
+![Evidence](assets/Chapter-5/hi.png)
+ *Confirmación de Eliminación*
+ ![Evidence](assets/Chapter-5/elihi.png)
+**Ticket Promedio**   
+![Evidence](assets/Chapter-5/edihi.png)
+**Pantalla principal de Inventario por Lote**
+![Evidence](assets/Chapter-5/inl.png)
+**Pantalla de Inventario por Producto**
+![Evidence](assets/Chapter-5/in.png)
+*Edición de Registro*
+![Evidence](assets/Chapter-5/inp.png)
+**Pantalla Principal de Alerta Stock**
+![Evidence](assets/Chapter-5/aler.jpg)
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+No se implementaron servicios en este sprint 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Para realizar el despliegue del Frontend se realizaron lo siguientes pasos:
+
+- 1: Hacer merges de las ramas feature en la rama develop y finalmente merge en la rama main
+![Deployment](assets/Chapter-5/dev.png)
+
+- 2: Ir a Netlify, seleccionar Add new site, seguidamente seleccionar Import an existing project
+  ![Deployment](assets/Chapter-5/dev2.png)
+
+- 3: Seleccionar el repositorio del Frontend
+  ![Deployment](assets/Chapter-5/dev3.png)
+
+- 4: Ingresar un nombre disponible para la página del frontend y seleccionar la rama main
+   ![Deployment](assets/Chapter-5/dev4.png)
+
+Link Fronted: https://aynitech.netlify.app/dashboard 
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+| Alumno | Actividad |
+| ------ | --------- |
+|Jocelyn Damaly Almerco Rojas|Implementación de Historial de moviemienos|
+|Sanchez Rios, Camila Cristina|Implementación de Inicio de sesión, registro y perfil del usuario|
+|Henry Kalet Esteban Roman|Implementación de Inventario|
+|Maria Fernanda Peña Riofrio|Implementación de Kits de productos|
+|Fabiola Del Rocio Saldaña Ayala|Implementación de Dashboard|
+|Sebastian Alonso Bustinza Muñoz|Implementación de Alerta Stock |
+
+**Commits del Frontend**
+![commits Front](assets/Chapter-5/Insights_sprint2.png)
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
