@@ -282,7 +282,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         y Web), Capitulo III: User Stories,<br>
         Capitulo II: Entrevistas<br></p>
         <p><b>TP1:</b></p>
-        <p>.</p>
+        <p>Aporte con la creacion del repositorio y los archivos para esta entrega, colabore con la rama iam que abarca el Registro e Iniciar Sesion del usuario, ayude a desplegar la pagina web una vez unido y con las actualizaciones del capitulo 5</p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
@@ -389,7 +389,7 @@ y cumple objetivos.</b></td>
         y Web), Capitulo III: User Stories,<br>
          Capitulo II: Entrevistas<br></p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>Aporte con la creacion del repositorio y los archivos para esta entrega, colabore con la rama iam que abarca el Registro e Iniciar Sesion del usuario, ayude a desplegar la pagina web una vez unido y con las actualizaciones del capitulo 5</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
