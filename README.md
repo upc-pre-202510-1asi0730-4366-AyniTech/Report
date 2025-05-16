@@ -783,260 +783,330 @@ Enlace para acceder al Miro
       <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS10</td>
-      <td>Generar reportes PDF</td>
-      <td>Como desarrollador, quiero generar reportes PDF del inventario, para facilitar su exportación y respaldo.</td>
+    <td>US10</td>
+      <td>Ticket promedio</td>
       <td>
-        <strong>Escenario 1: Reporte completo</strong><br>
-        Dado que presiono "Exportar",<br>
-        Cuando genero un PDF,<br>
-        Entonces el archivo incluye todos los productos y sus cantidades.<br><br>
-        <strong>Escenario 2: Reporte filtrado</strong><br>
-        Dado que aplico un filtro por fecha o categoría,<br>
-        Cuando exporto el reporte,<br>
-        Entonces solo se incluyen los productos filtrados.
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> conocer el ticket promedio de mis ventas<br>
+        <strong>para</strong> entender cuánto gasta en promedio cada cliente y evaluar la efectividad de los precios.
       </td>
-      <td>US10</td>
+      <td>
+        <strong>Escenario 01: Visualizar ticket promedio</strong><br>
+        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        - <strong>Cuando</strong> selecciona un rango de fechas<br>
+        - <strong>Entonces</strong> se muestra el ticket promedio, el total de ingresos y número de ventas<br><br>
+        <strong>Escenario 02: Comparar ticket con periodo anterior</strong><br>
+        - <strong>Dado que</strong> el usuario ve el ticket promedio actual<br>
+        - <strong>Cuando</strong> habilita la opción de comparación<br>
+        - <strong>Entonces</strong> el sistema muestra la variación respecto al periodo anterior
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS11</td>
-      <td>Login de usuarios</td>
-      <td>Como desarrollador, quiero implementar el login de usuarios, para que accedan de forma segura al sistema.</td>
-      <td>
-        <strong>Escenario 1: Login exitoso</strong><br>
-        Dado que el usuario ingresa credenciales válidas,<br>
-        Cuando hace clic en “Iniciar sesión”,<br>
-        Entonces accede al sistema.<br><br>
-        <strong>Escenario 2: Credenciales inválidas</strong><br>
-        Dado que las credenciales son incorrectas,<br>
-        Cuando intenta ingresar,<br>
-        Entonces el sistema muestra un mensaje de error.
-      </td>
       <td>US11</td>
+      <td>Estadística de stock promedio</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> visualizar el promedio de stock disponible<br>
+        <strong>para</strong> identificar si mantengo niveles óptimos de inventario y evitar tanto quiebres como exceso de stock.
+      </td>
+      <td>
+        <strong>Escenario 01: Visualizar stock promedio</strong><br>
+        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        - <strong>Cuando</strong> seleccionan un producto o categoría y un rango de fechas<br>
+        - <strong>Entonces</strong> se muestra el promedio de stock disponible en ese periodo<br><br>
+        <strong>Escenario 02: Detectar stock por fuera del rango óptimo</strong><br>
+        - <strong>Dado que</strong> el usuario ve el reporte de stock promedio<br>
+        - <strong>Cuando</strong> el valor está por debajo o por encima del stock ideal<br>
+        - <strong>Entonces</strong> el sistema resalta los productos con riesgo de quiebre o sobrestock<br>
+        - Y puede mostrar sugerencias de acción (reposición, liquidación, etc.)
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS12</td>
-      <td>Registro de usuarios</td>
-      <td>Como desarrollador, quiero permitir el registro de nuevos usuarios, para que puedan acceder al sistema.</td>
-      <td>
-        <strong>Escenario 1: Registro válido</strong><br>
-        Dado que el formulario está completo,<br>
-        Cuando se envía,<br>
-        Entonces se crea un nuevo usuario.<br><br>
-        <strong>Escenario 2: Campos incompletos</strong><br>
-        Dado que falta información,<br>
-        Cuando se intenta registrar,<br>
-        Entonces se muestra un mensaje de error.
-      </td>
       <td>US12</td>
+      <td>Generar reportes de inventario</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> generar reportes detallados del inventario,<br>
+        <strong>para</strong> analizar el estado general y tomar decisiones informadas.
+      </td>
+      <td>
+        <strong>Escenario 01: Generar reporte completo</strong><br>
+        - <strong>Dado que</strong> el usuario accede al módulo de reportes<br>
+        - <strong>Cuando</strong> selecciona parámetros como fecha, información solicitada, categorías o stock mínimo<br>
+        - <strong>Entonces</strong> el sistema genera un reporte con esa información<br><br>
+        <strong>Escenario 02: Exportar reporte</strong><br>
+        - <strong>Dado que</strong> el usuario visualiza el reporte generado<br>
+        - <strong>Cuando</strong> hace clic en “Exportar”<br>
+        - <strong>Entonces</strong> el sistema descarga el reporte en formato PDF o Excel
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS13</td>
-      <td>Gestión de roles</td>
-      <td>Como desarrollador, quiero asignar roles a los usuarios, para controlar sus permisos en el sistema.</td>
-      <td>
-        <strong>Escenario 1: Asignación de rol</strong><br>
-        Dado que soy administrador,<br>
-        Cuando selecciono un usuario,<br>
-        Entonces puedo asignarle un rol.<br><br>
-        <strong>Escenario 2: Acceso restringido</strong><br>
-        Dado que un usuario tiene rol básico,<br>
-        Cuando intenta acceder al panel de administración,<br>
-        Entonces se deniega el acceso.
-      </td>
       <td>US13</td>
+      <td>Controlar productos caducados</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> identificar productos próximos a caducar o ya caducados,<br>
+        <strong>para</strong> evitar pérdidas y mantener la calidad del inventario.
+      </td>
+      <td>
+        <strong>Escenario 01: Visualizar productos próximos a caducar</strong><br>
+        - <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
+        - <strong>Cuando</strong> filtra por fecha de caducidad próxima<br>
+        - <strong>Entonces</strong> el sistema muestra una lista con los productos que caducan pronto<br><br>
+        <strong>Escenario 02: Alerta de productos caducados</strong><br>
+        - <strong>Dado que</strong> un producto está caducado<br>
+        - <strong>Cuando</strong> el usuario accede al inventario<br>
+        - <strong>Entonces</strong> el sistema muestra una alerta visual destacando esos productos
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS14</td>
-      <td>Auditoría de acciones</td>
-      <td>Como desarrollador, quiero registrar las acciones importantes, para tener trazabilidad de lo que ocurre en el sistema.</td>
-      <td>
-        <strong>Escenario 1: Registro automático</strong><br>
-        Dado que un usuario crea o edita un producto,<br>
-        Cuando se guarda la acción,<br>
-        Entonces se genera un log en el historial de auditoría.<br><br>
-        <strong>Escenario 2: Revisión de auditoría</strong><br>
-        Dado que soy un auditor,<br>
-        Cuando ingreso al módulo de auditoría,<br>
-        Entonces puedo ver todas las acciones con fecha y usuario.
-      </td>
       <td>US14</td>
+      <td>Registrar devolución de productos</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> registrar devoluciones de productos al inventario,<br>
+        <strong>para</strong> mantener el stock actualizado y controlar incidencias.
+      </td>
+      <td>
+        <strong>Escenario 01: Registro de devolución válida</strong><br>
+        - <strong>Dado que</strong> un producto fue devuelto por un cliente<br>
+        - <strong>Cuando</strong> el usuario ingresa la cantidad devuelta y la razón<br>
+        - <strong>Y</strong> confirma el registro<br>
+        - <strong>Entonces</strong> el sistema incrementa el stock del producto<br>
+        - <strong>Y</strong> guarda el movimiento de devolución<br><br>
+        <strong>Escenario 02: Devolución con cantidad inválida</strong><br>
+        - <strong>Dado que</strong> el usuario intenta registrar una devolución con cantidad negativa o mayor a la vendida<br>
+        - <strong>Cuando</strong> hace clic en “Guardar”<br>
+        - <strong>Entonces</strong> el sistema muestra un mensaje de error y no registra la devolución
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS15</td>
-      <td>Gestión de categorías</td>
-      <td>Como desarrollador, quiero crear, editar y eliminar categorías, para organizar los productos eficientemente.</td>
-      <td>
-        <strong>Escenario 1: Crear categoría</strong><br>
-        Dado que ingreso un nombre de categoría,<br>
-        Cuando presiono guardar,<br>
-        Entonces la nueva categoría se almacena.<br><br>
-        <strong>Escenario 2: Evitar duplicados</strong><br>
-        Dado que ya existe una categoría con ese nombre,<br>
-        Cuando intento crearla de nuevo,<br>
-        Entonces el sistema muestra un error.
-      </td>
       <td>US15</td>
+      <td>Configurar roles y permisos de usuario</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> definir roles y permisos<br>
+        <strong>para</strong> los usuarios del sistema,
+      </td>
+      <td>
+        <strong>Escenario 01: Crear nuevo rol con permisos específicos</strong><br>
+        - <strong>Dado que</strong> el administrador accede a la sección de configuración de usuarios<br>
+        - <strong>Cuando</strong> crea un nuevo rol y asigna permisos detallados<br>
+        - <strong>Entonces</strong> el rol se guarda y puede ser asignado a usuarios<br><br>
+        <strong>Escenario 02: Asignar rol a usuario</strong><br>
+        - <strong>Dado que</strong> el administrador selecciona un usuario existente<br>
+        - <strong>Cuando</strong> asigna un rol específico<br>
+        - <strong>Entonces</strong> el sistema muestra los permisos correspondientes al rol asignado
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS16</td>
-      <td>Filtrar productos por categoría</td>
-      <td>Como desarrollador, quiero filtrar productos por categoría, para facilitar la búsqueda específica.</td>
-      <td>
-        <strong>Escenario 1: Filtrado correcto</strong><br>
-        Dado que selecciono una categoría,<br>
-        Cuando se actualiza la lista,<br>
-        Entonces solo se muestran productos de esa categoría.<br><br>
-        <strong>Escenario 2: Categoría sin productos</strong><br>
-        Dado que no hay productos en la categoría,<br>
-        Cuando la selecciono,<br>
-        Entonces el sistema muestra un mensaje indicando que no hay resultados.
-      </td>
       <td>US16</td>
+      <td>Gestionar proveedores</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> registrar y gestionar la información de proveedores,<br>
+        <strong>para</strong> mantener un control actualizado de los contactos y facilitar la reposición de productos.
+      </td>
+      <td>
+        <strong>Escenario 01: Registro exitoso de proveedor</strong><br>
+        - <strong>Dado que</strong> el usuario está en el formulario de “Nuevo proveedor”<br>
+        - <strong>Cuando</strong> completa correctamente todos los campos obligatorios<br>
+        - <strong>Y</strong> hace clic en “Guardar”<br>
+        - <strong>Entonces</strong> el proveedor se registra en la base de datos<br>
+        - <strong>Y</strong> aparece en la lista de proveedores<br><br>
+        <strong>Escenario 02: Edición de datos de proveedor</strong><br>
+        - <strong>Dado que</strong> el usuario selecciona un proveedor existente<br>
+        - <strong>Cuando</strong> modifica la información y guarda los cambios<br>
+        - <strong>Entonces</strong> el sistema actualiza los datos del proveedor
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS17</td>
-      <td>Control de caducidad</td>
-      <td>Como desarrollador, quiero controlar la fecha de caducidad de productos, para evitar ventas de productos vencidos.</td>
-      <td>
-        <strong>Escenario 1: Alerta de vencimiento próximo</strong><br>
-        Dado que un producto vencerá en menos de 30 días,<br>
-        Cuando accedo a su información,<br>
-        Entonces el sistema muestra una alerta.<br><br>
-        <strong>Escenario 2: Producto vencido</strong><br>
-        Dado que la fecha de hoy es posterior a la de caducidad,<br>
-        Cuando consulto el inventario,<br>
-        Entonces el sistema indica que el producto está vencido.
-      </td>
       <td>US17</td>
+      <td>Registrar lote de productos</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> registrar productos por lote,<br>
+        <strong>para</strong> controlar el ingreso masivo con un mismo proveedor, fecha y condiciones.
+      </td>
+      <td>
+        <strong>Escenario 01: Registro de lote con múltiples productos</strong><br>
+        - <strong>Dado que</strong> el usuario accede al formulario de “Nuevo lote”<br>
+        - <strong>Cuando</strong> añade varios productos con fecha de ingreso, proveedor y condiciones<br>
+        - <strong>Entonces</strong> el sistema guarda el lote completo<br>
+        - <strong>Y</strong> vincula los productos con ese lote<br><br>
+        <strong>Escenario 02: Visualizar lote registrado</strong><br>
+        - <strong>Dado que</strong> el usuario visualiza la lista de productos<br>
+        - <strong>Cuando</strong> selecciona “Ver lote”<br>
+        - <strong>Entonces</strong> se muestra la información común de ese grupo de productos
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS18</td>
-      <td>Reportes por rango de fechas</td>
-      <td>Como desarrollador, quiero generar reportes filtrados por fechas, para análisis temporales del inventario.</td>
-      <td>
-        <strong>Escenario 1: Filtro de fechas válido</strong><br>
-        Dado que ingreso un rango válido,<br>
-        Cuando genero el reporte,<br>
-        Entonces se incluyen solo los movimientos dentro de ese rango.<br><br>
-        <strong>Escenario 2: Rango vacío</strong><br>
-        Dado que el rango no contiene movimientos,<br>
-        Cuando genero el reporte,<br>
-        Entonces el sistema indica que no hay datos disponibles.
-      </td>
-      <td>US18</td>
-    </tr>
+  <td>US18</td>
+    <td>Visualizar historial de stock</td>
+    <td>
+      <strong>Como</strong> usuario<br>
+      <strong>quiero</strong> ver el historial de stock de un producto,<br>
+      <strong>para</strong> analizar su comportamiento en el tiempo y tomar mejores decisiones de compra.
+    </td>
+    <td>
+      <strong>Escenario 01: Visualizar historial por producto</strong><br>
+      - <strong>Dado que</strong> el usuario accede a la ficha de un producto<br>
+      - <strong>Cuando</strong> selecciona la opción 'Ver historial'<br>
+      - <strong>Entonces</strong> se muestra una gráfica con las variaciones de stock a lo largo del tiempo<br><br>
+      <strong>Escenario 02: Filtro por periodo</strong><br>
+      - <strong>Dado que</strong> el usuario visualiza el historial de stock<br>
+      - <strong>Cuando</strong> aplica un filtro por rango de fechas<br>
+      - <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos del periodo seleccionado
+    </td>
+    <td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Configurar alertas de stock mínimo</td>
+    <td>
+      <strong>Como</strong> usuario<br>
+      <strong>quiero</strong> configurar alertas cuando un producto alcance su stock mínimo,<br>
+      <strong>para</strong> poder reabastecerme a tiempo.
+    </td>
+    <td>
+      <strong>Escenario 01: Configurar stock mínimo</strong><br>
+      - <strong>Dado que</strong> el usuario accede a la configuración de productos<br>
+      - <strong>Cuando</strong> establece un valor de stock mínimo por producto<br>
+      - <strong>Entonces</strong> el sistema guarda ese valor y lo considera para alertas<br><br>
+      <strong>Escenario 02: Alerta de bajo stock</strong><br>
+      - <strong>Dado que</strong> un producto llega o baja del stock mínimo configurado<br>
+      - <strong>Cuando</strong> el usuario accede al panel principal o al módulo de inventario<br>
+      - <strong>Entonces</strong> se muestra una alerta visual indicando que se debe reponer el producto
+    </td>
+    <td>EP01 - Gestión de Inventario</td>
+  </tr>
     <tr>
-      <td>TUS19</td>
-      <td>Dashboard de indicadores</td>
-      <td>Como desarrollador, quiero crear un dashboard con KPIs, para mostrar métricas clave del inventario.</td>
-      <td>
-        <strong>Escenario 1: Visualización de métricas</strong><br>
-        Dado que accedo al dashboard,<br>
-        Cuando se cargan los datos,<br>
-        Entonces veo indicadores como stock total, productos con stock bajo, productos vencidos.<br><br>
-        <strong>Escenario 2: Indicadores actualizados</strong><br>
-        Dado que cambia el inventario,<br>
-        Cuando recargo el dashboard,<br>
-        Entonces los datos reflejan la situación actual.
-      </td>
-      <td>US19</td>
-    </tr>
-    <tr>
-      <td>TUS20</td>
-      <td>Exportar a Excel</td>
-      <td>Como desarrollador, quiero exportar el inventario a Excel, para facilitar el análisis externo de los datos.</td>
-      <td>
-        <strong>Escenario 1: Exportación completa</strong><br>
-        Dado que presiono el botón “Exportar a Excel”,<br>
-        Cuando el sistema genera el archivo,<br>
-        Entonces contiene todos los productos y detalles.<br><br>
-        <strong>Escenario 2: Exportación filtrada</strong><br>
-        Dado que aplico un filtro,<br>
-        Cuando exporto,<br>
-        Entonces solo se exportan los datos visibles.
-      </td>
       <td>US20</td>
+      <td>Añadir etiquetas a productos</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> añadir etiquetas personalizadas a los productos,<br>
+        <strong>para</strong> facilitar su clasificación y búsqueda dentro del inventario.
+      </td>
+      <td>
+        <strong>Escenario 01: Etiquetado desde el formulario del producto</strong><br>
+        - <strong>Dado que</strong> el usuario está registrando o editando un producto<br>
+        - <strong>Cuando</strong> escribe nuevas etiquetas o selecciona existentes<br>
+        - <strong>Entonces</strong> las etiquetas se asocian al producto guardado<br><br>
+        <strong>Escenario 02: Buscar productos por etiqueta</strong><br>
+        - <strong>Dado que</strong> el usuario está en el módulo de búsqueda o lista de productos<br>
+        - <strong>Cuando</strong> ingresa el nombre de una etiqueta en el buscador<br>
+        - <strong>Entonces</strong> se filtran los productos asociados a dicha etiqueta
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS21</td>
-      <td>Backup automático</td>
-      <td>Como desarrollador, quiero implementar backups automáticos, para proteger la información del inventario.</td>
-      <td>
-        <strong>Escenario 1: Backup diario</strong><br>
-        Dado que el sistema está configurado,<br>
-        Cuando llega la hora programada,<br>
-        Entonces se genera un archivo de respaldo.<br><br>
-        <strong>Escenario 2: Restauración de backup</strong><br>
-        Dado que tengo un backup,<br>
-        Cuando lo restauro,<br>
-        Entonces el sistema recupera los datos correctamente.
-      </td>
       <td>US21</td>
+      <td>Buscar productos en inventario</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> buscar productos en el inventario por nombre o categoría,<br>
+        <strong>para</strong> encontrarlos de forma rápida y eficiente.
+      </td>
+      <td>
+        <strong>Escenario 01: Búsqueda por nombre</strong><br>
+        - <strong>Dado que</strong> el usuario accede al buscador<br>
+        - <strong>Cuando</strong> ingresa parte del nombre del producto<br>
+        - <strong>Entonces</strong> se muestran resultados coincidentes en tiempo real<br><br>
+        <strong>Escenario 02: Búsqueda por categoría</strong><br>
+        - <strong>Dado que</strong> el usuario está en el buscador<br>
+        - <strong>Cuando</strong> selecciona una categoría del filtro<br>
+        - <strong>Entonces</strong> se muestran solo productos de esa categoría
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS22</td>
-      <td>Notificaciones por email</td>
-      <td>Como desarrollador, quiero enviar correos automáticos por alertas, para informar a los usuarios de eventos importantes.</td>
-      <td>
-        <strong>Escenario 1: Stock crítico</strong><br>
-        Dado que el stock de un producto es crítico,<br>
-        Cuando se detecta esta situación,<br>
-        Entonces se envía un correo al responsable.<br><br>
-        <strong>Escenario 2: Producto vencido</strong><br>
-        Dado que un producto ha caducado,<br>
-        Cuando ocurre,<br>
-        Entonces se notifica por email.
-      </td>
       <td>US22</td>
+      <td>Generar alertas por productos caducados</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> recibir alertas automáticas de productos caducados,<br>
+        <strong>para</strong> poder retirarlos del inventario a tiempo.
+      </td>
+      <td>
+        <strong>Escenario 01: Activar alertas automáticas</strong><br>
+        - <strong>Dado que</strong> el usuario accede a configuración de alertas<br>
+        - <strong>Cuando</strong> activa la opción de alerta por caducidad<br>
+        - <strong>Entonces</strong> el sistema enviará notificaciones cuando haya productos vencidos<br><br>
+        <strong>Escenario 02: Visualización de productos vencidos</strong><br>
+        - <strong>Dado que</strong> hay productos caducados en el inventario<br>
+        - <strong>Cuando</strong> el usuario accede al sistema<br>
+        - <strong>Entonces</strong> se muestra un panel o lista resaltando estos productos
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS23</td>
-      <td>Soporte para código de barras</td>
-      <td>Como desarrollador, quiero permitir escaneo de códigos de barras, para agilizar la búsqueda y registro de productos.</td>
-      <td>
-        <strong>Escenario 1: Escaneo exitoso</strong><br>
-        Dado que escaneo un producto con lector,<br>
-        Cuando se detecta el código,<br>
-        Entonces el sistema carga automáticamente el producto.<br><br>
-        <strong>Escenario 2: Código no registrado</strong><br>
-        Dado que el código no existe,<br>
-        Cuando lo escaneo,<br>
-        Entonces se muestra un mensaje de error.
-      </td>
       <td>US23</td>
+      <td>Registrar ingreso de productos</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> registrar el ingreso de productos al inventario,<br>
+        <strong>para</strong> mantener actualizado el stock disponible.
+      </td>
+      <td>
+        <strong>Escenario 01: Ingreso individual de producto</strong><br>
+        - <strong>Dado que</strong> el usuario accede al formulario de ingreso<br>
+        - <strong>Cuando</strong> registra los datos del producto y la cantidad recibida<br>
+        - <strong>Entonces</strong> el sistema actualiza el stock del producto<br><br>
+        <strong>Escenario 02: Ingreso masivo por archivo</strong><br>
+        - <strong>Dado que</strong> el usuario cuenta con un archivo de productos<br>
+        - <strong>Cuando</strong> carga el archivo en el sistema<br>
+        - <strong>Entonces</strong> se actualiza el inventario con los productos del archivo
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS24</td>
-      <td>Interfaz responsiva</td>
-      <td>Como desarrollador, quiero que la interfaz sea responsiva, para que funcione en dispositivos móviles y de escritorio.</td>
-      <td>
-        <strong>Escenario 1: Visualización en móvil</strong><br>
-        Dado que accedo desde un celular,<br>
-        Cuando ingreso al sistema,<br>
-        Entonces se adapta correctamente al tamaño de pantalla.<br><br>
-        <strong>Escenario 2: Navegación fluida</strong><br>
-        Dado que uso el sistema en tablet,<br>
-        Cuando navego entre módulos,<br>
-        Entonces la experiencia es fluida y sin errores visuales.
-      </td>
       <td>US24</td>
+      <td>Visualizar resumen de stock por categoría</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> ver un resumen del stock agrupado por categoría,<br>
+        <strong>para</strong> conocer el estado general del inventario de forma ordenada.
+      </td>
+      <td>
+        <strong>Escenario 01: Visualización del resumen por categoría</strong><br>
+        - <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
+        - <strong>Cuando</strong> selecciona 'Resumen por categoría'<br>
+        - <strong>Entonces</strong> se muestra una tabla con cada categoría, cantidad total de productos y stock promedio<br><br>
+        <strong>Escenario 02: Acceso al detalle desde resumen</strong><br>
+        - <strong>Dado que</strong> el usuario está visualizando el resumen por categoría<br>
+        - <strong>Cuando</strong> hace clic en una categoría<br>
+        - <strong>Entonces</strong> se despliega la lista de productos que la conforman
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
     <tr>
-      <td>TUS25</td>
-      <td>Accesibilidad</td>
-      <td>Como desarrollador, quiero que el sistema cumpla estándares de accesibilidad, para que sea usable por personas con discapacidades.</td>
-      <td>
-        <strong>Escenario 1: Compatibilidad con lectores de pantalla</strong><br>
-        Dado que uso un lector de pantalla,<br>
-        Cuando navego por la app,<br>
-        Entonces los elementos son anunciados correctamente.<br><br>
-        <strong>Escenario 2: Teclado como único medio</strong><br>
-        Dado que no uso mouse,<br>
-        Cuando navego solo con el teclado,<br>
-        Entonces puedo acceder a todas las funciones.
-      </td>
       <td>US25</td>
+      <td>Comparar ventas entre periodos</td>
+      <td>
+        <strong>Como</strong> usuario<br>
+        <strong>quiero</strong> comparar las ventas entre dos periodos,<br>
+        <strong>para</strong> identificar tendencias y evaluar el impacto de promociones.
+      </td>
+      <td>
+        <strong>Escenario 01: Comparación de periodos seleccionados</strong><br>
+        - <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
+        - <strong>Cuando</strong> selecciona dos periodos a comparar<br>
+        - <strong>Entonces</strong> se muestra una gráfica con la diferencia de ventas<br><br>
+        <strong>Escenario 02: Comparación por categoría o producto</strong><br>
+        - <strong>Dado que</strong> el usuario está visualizando la comparación general<br>
+        - <strong>Cuando</strong> filtra por categoría o producto específico<br>
+        - <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos seleccionados
+      </td>
+      <td>EP01 - Gestión de Inventario</td>
     </tr>
   </tbody>
 </table>
