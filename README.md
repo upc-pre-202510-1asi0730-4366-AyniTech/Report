@@ -927,7 +927,7 @@ Link Fronted: https://aynitech.netlify.app/dashboard
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 | Alumno | Actividad |
 | ------ | --------- |
-|Jocelyn Damaly Almerco Rojas|Implementación de Historial de moviemienos|
+|Jocelyn Damaly Almerco Rojas|Implementación de Historial de movimientos|
 |Sanchez Rios, Camila Cristina|Implementación de Inicio de sesión, registro y perfil del usuario|
 |Henry Kalet Esteban Roman|Implementación de Inventario|
 |Maria Fernanda Peña Riofrio|Implementación de Kits de productos|
@@ -936,6 +936,226 @@ Link Fronted: https://aynitech.netlify.app/dashboard
 
 **Commits del Frontend**
 ![commits Front](assets/Chapter-5/Insights_sprint2.png)
+
+## 5.3. Validation Interviews
+### 5.3.1 Diseño de Entrevistas
+
+**Segmento #1: Bodegas especializadas por rubro**
+
+**Presentación del entrevistado**
+* ¿Cuál es tu nombre?
+* ¿Qué edad tienes?
+* ¿Desde cuándo gestionas esta bodega?
+* ¿Cuál es el rubro principal de tu bodega?
+
+Interactúa el usuario con la landing page y la versión web de nuestra plataforma para gestión de inventarios.
+
+**Landing page**
+
+Acciones clave dentro del sistema
+
+Navegación interactivo por la interfaz web
+
+**User Goal: Navegar por el Dashboard**
+
+El usuario inicia sesión desde la Landing Page.
+
+Ingresa a la vista principal del Dashboard.
+
+Visualiza el total de productos registrados y la fecha del último proveedor.
+
+Visualiza un resumen de productos próximos a caducar con su respectiva fecha y stock disponible.
+
+Accede a botones de acción rápida como “Historial”, “Inventario”, “Añadir Productos”, “Kits” y “Devolución de productos”.
+
+**User Goal: Inventario (Producto / Lote)**
+
+Ingresa a la sección de Inventario.
+
+Revisa el listado de productos presionando el botón "por producto".
+
+Filtra los productos por categoría, nombre del producto, fecha o stock mínimo.
+
+Consulta el listado con información clave: fecha de entrada, cantidad por unidad, precio, stock mínimo y unidad de medida.
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+Pulsa el botón "Agregar Producto".
+
+Rellena los campos solicitados para registrar uno nuevo.
+
+Pulsa el botón "Crear Kit".
+
+Combina productos existentes para crear un kit nuevo.
+
+
+El usuario pulsa el botón “Añadir Productos” desde el Dashboard.
+
+Visualiza una galería de productos existentes y accede a opciones para editarlos o duplicarlos.
+
+Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre, etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
+
+Desde el menú principal, también accede a la opción “Kits”.
+
+En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
+
+**User Goal: Historial de Movimientos**
+
+Navega a la sección de Historial.
+
+Visualiza entradas y salidas de productos.
+
+Filtra movimientos por fecha, producto o lote.
+
+El usuario accede a la sección de Historial desde el panel principal.
+
+Filtra los registros por tipo de gestión, categoría, stock promedio y fecha.
+
+Visualiza los movimientos realizados, incluyendo datos como nombre del producto, fecha de consulta, precio unitario, cantidad y total.
+
+Consulta métricas como el stock promedio, estado del producto y stock ideal.
+
+Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
+
+**User Goal: Alerta de Stock**
+
+El usuario accede a la sección de Alertas desde el menú superior.
+
+Consulta una lista de productos que presentan alertas por stock mínimo o por cercanía a su fecha de vencimiento.
+
+Visualiza detalles como categoría de alerta, tipo de producto, nombre y fecha de alerta.
+
+Puede ingresar a una vista de detalles, generar reportes o confirmar acciones desde botones individuales por producto.
+
+También puede eliminar una alerta específica luego de una confirmación emergente.
+
+
+
+**Preguntas principales:**
+* ¿Te resultó fácil encontrar cómo agregar un producto?
+* ¿Qué tal fue el proceso para registrar el stock por producto y por lote?
+* ¿Te resultó claro el apartado de “Próximos a caducar”? ¿Te pareció útil?
+* ¿Probaste la sección de kits? ¿Te resultó útil combinar productos?
+* ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
+
+**Evaluación general de la landing y navegación**
+* ¿Qué te pareció el diseño general de la landing page?
+* ¿Te pareció intuitivo el panel de inicio de la web?
+* ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+
+**Valoración de experiencia**
+* Del 1 al 10, ¿qué tan útil te pareció la app para tu bodega?
+* ¿Qué funcionalidad te pareció más valiosa?
+* ¿Qué función le agregarías sí o sí?
+* ¿Recomendarías esta plataforma a otros dueños de bodegas? ¿Por qué?
+
+**Segmento #2: Startups y emprendedores con necesidades logísticas**
+
+**Presentación del entrevistado**
+* ¿Cuál es tu nombre?
+* ¿Qué edad tienes?
+* ¿Qué tipo de producto vendes o almacenas?
+* ¿Tienes local físico, almacén propio o trabajas con terceros?
+
+Interactúa el usuario con la landing page y la versión web de nuestra plataforma para gestión gestionar stock, registrar compras y generar reportes.
+
+**Landing page**
+
+Acciones clave dentro del sistema
+
+Navegación interactivo por la interfaz web
+
+**User Goal: Navegar por el Dashboard**
+
+El usuario inicia sesión desde la Landing Page.
+
+Ingresa a la vista principal del Dashboard.
+
+Visualiza el total de productos registrados y la fecha del último proveedor.
+
+Visualiza un resumen de productos próximos a caducar con su respectiva fecha y stock disponible.
+
+Accede a botones de acción rápida como “Historial”, “Inventario”, “Añadir Productos”, “Kits” y “Devolución de productos”.
+
+**User Goal: Inventario (Lote)**
+
+Accede a la sección de Inventario por lote.
+
+Filtra los lotes por nombre del producto, proveedor, fecha de entrada, cantidad o precio.
+
+Consulta el listado con información detallada como proveedor, producto, fecha, cantidad por unidad, precio y unidad de medida.
+
+Gestiona las acciones disponibles para cada lote desde la columna correspondiente.
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+Pulsa el botón "Agregar Producto".
+
+Rellena los campos solicitados para registrar uno nuevo.
+
+Pulsa el botón "Crear Kit".
+
+Combina productos existentes para crear un kit nuevo.
+
+
+El usuario pulsa el botón “Añadir Productos” desde el Dashboard.
+
+Visualiza una galería de productos existentes y accede a opciones para editarlos o duplicarlos.
+
+Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre, etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
+
+Desde el menú principal, también accede a la opción “Kits”.
+
+En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
+
+**User Goal: Historial de Movimientos**
+
+Navega a la sección de Historial.
+
+Visualiza entradas y salidas de productos.
+
+Filtra movimientos por fecha, producto o lote.
+
+El usuario accede a la sección de Historial desde el panel principal.
+
+Filtra los registros por tipo de gestión, categoría, stock promedio y fecha.
+
+Visualiza los movimientos realizados, incluyendo datos como nombre del producto, fecha de consulta, precio unitario, cantidad y total.
+
+Consulta métricas como el stock promedio, estado del producto y stock ideal.
+
+Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
+
+**User Goal: Alerta de Stock**
+
+El usuario accede a la sección de Alertas desde el menú superior.
+
+Consulta una lista de productos que presentan alertas por stock mínimo o por cercanía a su fecha de vencimiento.
+
+Visualiza detalles como categoría de alerta, tipo de producto, nombre y fecha de alerta.
+
+Puede ingresar a una vista de detalles, generar reportes o confirmar acciones desde botones individuales por producto.
+
+También puede eliminar una alerta específica luego de una confirmación emergente.
+
+**Preguntas principales:**
+* ¿Qué opinas de las alertas de stock mínimo/máximo y vencimiento? ¿Son suficientes?
+* ¿La sección de historial de movimientos te pareció útil para revisar tus registros?
+* ¿Te resultó útil la opción de devolución de productos?
+* ¿Los reportes del historial son útiles para tomar decisiones?
+* ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
+
+**Evaluación de la landing page**
+* ¿Qué te pareció el diseño general de la landing page?
+* ¿Te pareció intuitivo el panel de inicio de la web?
+* ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+
+**Valoración de experiencia**
+* Del 1 al 10, ¿qué tan útil te pareció la app para tu bodega?
+* ¿Qué funcionalidad te pareció más valiosa?
+* ¿Qué función le agregarías sí o sí?
+* ¿Recomendarías esta plataforma a otros emprendedores? ¿Por qué?
+
 
 
 # Conclusiones
