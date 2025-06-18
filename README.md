@@ -1037,10 +1037,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 * ¿Te resultó claro el apartado de “Próximos a caducar”? ¿Te pareció útil?
 * ¿Probaste la sección de kits? ¿Te resultó útil combinar productos?
 * ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
-
-**Evaluación general de la landing y navegación**
 * ¿Qué te pareció el diseño general de la landing page?
-* ¿Te pareció intuitivo el panel de inicio de la web?
 * ¿Tuviste alguna dificultad visual o técnica durante la navegación?
 
 **Valoración de experiencia**
@@ -1144,10 +1141,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 * ¿Te resultó útil la opción de devolución de productos?
 * ¿Los reportes del historial son útiles para tomar decisiones?
 * ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
-
-**Evaluación de la landing page**
 * ¿Qué te pareció el diseño general de la landing page?
-* ¿Te pareció intuitivo el panel de inicio de la web?
 * ¿Tuviste alguna dificultad visual o técnica durante la navegación?
 
 **Valoración de experiencia**
