@@ -1156,6 +1156,224 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 * ¿Qué función le agregarías sí o sí?
 * ¿Recomendarías esta plataforma a otros emprendedores? ¿Por qué?
 
+### 5.3.2 Registro de Entrevistas
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Milagros Almerco</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        05:24 -11:12
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Elvis Aranga Mesa</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>31</td>
+    <th>Distrito</th>
+    <td>Santiago de Surco</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        11:12 - 17:11
+    </td>
+  </tr>
+</table>
+<br>
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Kerry Baquerrizo</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>21</td>
+    <th>Distrito</th>
+    <td>San Luis</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 5:24
+    </td>
+  </tr>
+</table>
+<br>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>4</td>
+    <th>Nombre</th>
+    <td>Alexander Miranda</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>Villa el Salvador</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        20:45 - 23:50
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>5</td>
+    <th>Nombre</th>
+    <td>Juan Carlos Ramírez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>49</td>
+    <th>Distrito</th>
+    <td>Surquillo</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        17:11 - 20:45
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>6</td>
+    <th>Nombre</th>
+    <td>Octavio</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>23</td>
+    <th>Distrito</th>
+    <td>Jesus Maria</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ...</td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        23:50 - 27:02
+    </td>
+  </tr>
+</table>
+
+
 
 
 # Conclusiones
