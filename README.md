@@ -1629,6 +1629,194 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   </tr>
 </table>
 
+## 5.3.3. Evaluaciones según heurísticas.
+
+### Web Application a evaluar:
+#### StockWise
+**Meta:** El propósito general de la evaluación es encontrar problemas de usabilidad existentes en la aplicación web StockWise, basándose en la retroalimentación de usuarios reales de los segmentos objetivos (bodegas y emprendimientos).
+
+**Cómo:** Los hallazgos se llevarán a cabo utilizando la Lista Heurística de Nielsen como marco de referencia, interpretando los comentarios y dificultades expresadas por los entrevistados.
+
+### Tareas a evaluar
+Este documento describe las **tareas clave a evaluar** en la aplicación web StockWise, orientada a dueños de bodegas y emprendedores. Las tareas están clasificadas por funcionalidades principales y por objetivos del usuario para asegurar una evaluación integral del sistema.
+
+---
+
+### Tareas a evaluar según User Goals
+
+#### 1. Registro e Inicio de Sesión
+- Proceso de registro para un nuevo usuario.
+- Inicio de sesión con credenciales existentes.
+- Cambio de idioma (Internacionalización) en la Landing Page y la aplicación.
+
+#### 2. Navegación por el Dashboard
+- Visualización del resumen de estado (total de productos, etc.).
+- Revisión del apartado "Próximos a caducar".
+- Acceso a las diferentes funcionalidades desde los botones principales.
+
+#### 3. Gestión de Inventario
+- Añadir un nuevo producto al inventario.
+- Registrar stock diferenciando por "producto" y por "lote".
+- Añadir etiquetas a los productos.
+
+#### 4. Creación de Kits/Combos
+- Seleccionar productos existentes para crear un kit.
+- Visualizar los kits creados.
+
+#### 5. Historial de Movimientos
+- Visualizar el historial de entradas y salidas de productos.
+- Editar un registro existente en el historial.
+- Exportar la información del historial.
+
+#### 6. Alertas de Stock
+- Visualizar las alertas generadas por bajo stock o productos por vencer.
+
+---
+
+### Consideraciones de Evaluación
+Cada tarea debe evaluarse considerando:
+- **Funcionalidad:** Cumple correctamente con su objetivo.
+- **Usabilidad:** Interfaz clara, intuitiva y consistente.
+- **Validación:** Manejo adecuado de errores y validaciones.
+- **Flexibilidad:** Adaptabilidad a diferentes tipos de negocios y usuarios.
+
+---
+
+### Evaluación de Desktop Landing Page
+Este documento presenta los hallazgos identificados en la evaluación heurística de la **Landing Page** de la aplicación web StockWise. Se utiliza una escala de severidad para clasificar los errores según su impacto en la experiencia de usuario.
+
+---
+
+### Escala de Severidad
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+### Problemas Identificados - Landing Page
+
+| #  | Problema                                                                                                                                           | Escala de Severidad | Heurística / Principio Violado                          |
+|----|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|----------------------------------------------------------|
+| 1  | La información sobre los planes de suscripción podría ser más específica, detallando las funcionalidades incluidas en cada uno.                    | 2                    | Usability: Visibilidad del estado del sistema            |
+| 2  | Los botones de acción como “Iniciar sesión” o “Empieza gratis” podrían tener una retroalimentación visual más clara al interactuar.                 | 1                    | Usability: Visibilidad del estado del sistema            |
+| 3  | La sección "Nosotros" se enfoca en testimonios, pero podría incluir información sobre la misión y visión de AyniTech para generar más confianza.    | 2                    | Usability: Coincidencia entre el sistema y el mundo real |
+| 4  | Aunque existe un switch de idioma, la funcionalidad de internacionalización podría ser más prominente o explicada para usuarios que la necesiten.  | 2                    | Usability: Flexibilidad y eficiencia de uso              |
+| 5  | El diseño es claro, pero algunos usuarios podrían percibirlo como un poco genérico y podría no comunicar la propuesta de valor única de StockWise. | 1                    | Usability: Diseño estético y minimalista                 |
+
+---
+
+### PROBLEMA #01: La información de los planes es poco específica
+**Escala de severidad:** 2
+**Principio violado:** Usability – Visibilidad del estado del sistema
+
+**Descripción del problema:**
+Aunque se presentan diferentes planes (gratuito, emprendedor, negocio), los usuarios no tienen suficiente información para diferenciar claramente qué funcionalidades o límites obtiene con cada uno. Esto dificulta la toma de decisiones informadas para seleccionar el plan que mejor se adapte a sus necesidades.
+
+**Recomendacion:**
+Reestructurar la sección de planes para incluir una tabla comparativa o una lista detallada (bullet points) que especifique claramente las características, límites (ej. número de productos, usuarios) y beneficios de cada nivel de suscripción.
+
+---
+
+### PROBLEMA #02: Retroalimentación visual de botones interactivos
+**Escala de severidad:** 1
+**Principio violado:** Usability – Visibilidad del estado del sistema
+
+**Descripción del problema:**
+Los botones principales de llamado a la acción ("Empieza gratis") funcionan correctamente, pero carecen de una retroalimentación visual inmediata y notoria al pasar el cursor sobre ellos o al hacer clic (ej. cambio de color sutil, efecto de sombra). Esto es un detalle menor pero que contribuye a una experiencia de usuario más pulida.
+
+**Recomendacion:**
+Añadir efectos `:hover` y `:active` más pronunciados a los botones interactivos principales para que el usuario reciba una confirmación visual instantánea de que el elemento es clickeable y que el sistema ha registrado su acción.
+
+---
+
+### Web Application: Evaluación Heurística
+
+### Problemas Identificados
+
+| #  | Problema                                                                                                            | Escala de Severidad | Heurística / Principio Violado                          |
+|----|---------------------------------------------------------------------------------------------------------------------|---------------------|---------------------------------------------------------|
+| 1  | Confusión inicial entre los conceptos de "stock por producto" y "registro por lote".                               | 2                   | Usability – Coincidencia entre el sistema y el mundo real |
+| 2  | La interfaz del dashboard se percibe como sobrecargada y los colores resultan muy intensos para algunos usuarios.   | 2                   | Usability – Estética y diseño minimalista               |
+| 3  | Falta de flexibilidad para tipos de negocio no perecederos (ej. textiles).                                          | 3                   | Usability – Flexibilidad y eficiencia de uso            |
+| 4  | El formato del archivo Excel exportado desde el historial es poco amigable y difícil de leer.                        | 2                   | Usability – Diseño estético y minimalista               |
+| 5  | Funcionalidad de "Añadir etiquetas" incompleta, ya que las etiquetas guardadas no son visibles posteriormente.        | 3                   | Usability – Visibilidad del estado del sistema          |
+| 6  | Ausencia de funcionalidades clave sugeridas por los usuarios, como registro de ventas o gestión de créditos.        | 3                   | Usability – Coincidencia entre el sistema y el mundo real|
+
+---
+
+### PROBLEMA #01: Confusión inicial entre los conceptos de "stock por producto" y "registro por lote"
+**Escala de severidad:** 2
+**Principio violado:** Usability – Coincidencia entre el sistema y el mundo real
+
+**Descripción del problema:**
+La entrevistada Milagros Almerco mencionó: *"al inicio me tomó un momento de entender cómo se maneja el registro por lote, pero una vez que lo entendí fue rápido"*. Esto indica que la terminología o el flujo para diferenciar ambos tipos de registro no es inmediatamente intuitivo para un nuevo usuario, generando una fricción inicial.
+
+**Recomendacion:**
+Mejorar la claridad en la interfaz. Se podría añadir un pequeño ícono de información `(i)` con un `tooltip` que explique brevemente la diferencia, o refinar el etiquetado de los botones y secciones para que el propósito de cada uno sea más explícito sin necesidad de prueba y error.
+
+---
+
+### PROBLEMA #02: La interfaz del dashboard se percibe como sobrecargada y los colores muy intensos
+**Escala de severidad:** 2
+**Principio violado:** Usability – Estética y diseño minimalista
+
+**Descripción del problema:**
+El entrevistado Luis Alejo comentó: *"siento que el inicio esto está como que un poco sobrecargado, tal vez de botones o un poco de información"* y sobre el aspecto visual: *"podrían ser un poco los colores para mi gusto, ya que los siento algo fuertes"*. Esto sugiere que la densidad de información y la paleta de colores pueden generar una carga cognitiva innecesaria.
+
+**Recomendacion:**
+Revisar el diseño del dashboard para mejorar la jerarquía visual. Utilizar más espacio en blanco para separar las secciones, agrupar los botones de acción de manera más lógica y considerar ajustar la saturación de la paleta de colores para que sea más agradable a la vista durante un uso prolongado.
+
+---
+
+### PROBLEMA #03: Falta de flexibilidad para tipos de negocio no perecederos (ej. textiles)
+**Escala de severidad:** 3
+**Principio violado:** Usability – Flexibilidad y eficiencia de uso
+
+**Descripción del problema:**
+Usuarios como Alexander Miranda y Maria Paula (del rubro textil) señalaron una limitación importante. Alexander dijo: *"si yo quiero añadir unas medias no tendría que haber una fecha de caducidad, porque como tal no tiene una fecha de caducidad"*. La aplicación obliga a usar campos como "fecha de caducidad" que no son aplicables a todos los negocios, limitando su utilidad.
+
+**Recomendacion:**
+Modificar el formulario de "Añadir producto" para que campos como "Fecha de caducidad" sean opcionales. Se podría incluso permitir a los usuarios configurar qué campos son relevantes para su tipo de negocio, ofreciendo una experiencia mucho más flexible y personalizada.
+
+---
+
+### PROBLEMA #04: El formato del archivo Excel exportado desde el historial es poco amigable
+**Escala de severidad:** 2
+**Principio violado:** Usability – Diseño estético y minimalista
+
+**Descripción del problema:**
+Alexander Miranda, al probar la función de exportar, indicó que el reporte resultante podría ser *"un poco más amigable para saber, o sea, para tener una vista más agradable visualmente"*. Un reporte difícil de leer pierde gran parte de su utilidad.
+
+**Recomendacion:**
+Rediseñar la plantilla de exportación de Excel. Asegurar que los datos se presenten en una tabla bien estructurada, con encabezados claros, formato de celdas adecuado (ej. fechas, moneda) y quizás un resumen simple al inicio. El objetivo es que el reporte sea legible y útil desde el momento en que se abre.
+
+---
+
+### PROBLEMA #05: Funcionalidad de "Añadir etiquetas" incompleta
+**Escala de severidad:** 3
+**Principio violado:** Usability – Visibilidad del estado del sistema
+
+**Descripción del problema:**
+El entrevistado Alexander Miranda notó que tras añadir una etiqueta, esta no se visualizaba: *"me gustaría también que aparezca la etiqueta que ha añadido o K para también tener la opción a futuro para editar"*. Si el sistema no muestra el resultado de una acción del usuario, la funcionalidad se percibe como rota o incompleta.
+
+**Recomendacion:**
+Asegurar que, una vez que el usuario guarde una etiqueta para un producto, esta se muestre inmediatamente en la vista de detalles del producto. Además, estas etiquetas deben ser editables o eliminables, proporcionando un ciclo de interacción completo.
+
+---
+
+### PROBLEMA #06: Ausencia de funcionalidades clave para la gestión completa del negocio
+**Escala de severidad:** 3
+**Principio violado:** Usability – Coincidencia entre el sistema y el mundo real
+
+**Descripción del problema:**
+Varios usuarios solicitaron funcionalidades que consideran esenciales. Milagros sugirió *"un sistema para registrar pagos pendientes de proveedores o créditos de los clientes"*. Alexander fue más allá, pidiendo poder *"registrar productos vendidos y que a partir de los productos vendidos también se reste en mi inventario"*. La ausencia de un módulo de ventas que se integre con el inventario es una omisión importante.
+
+**Recomendacion:**
+Priorizar para futuros sprints el desarrollo de un módulo de "Ventas". Esta funcionalidad permitiría a los usuarios registrar las salidas de productos de manera más realista, actualizando automáticamente el stock. Esto cerraría el ciclo de gestión de inventario y alinearía la aplicación mucho más con las operaciones diarias de sus negocios. Adicionalmente, se puede evaluar un módulo simple de "Cuentas por pagar/cobrar".
 
 
 ## 5.4.	Video About-the-Product
