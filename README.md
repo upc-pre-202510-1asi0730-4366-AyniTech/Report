@@ -1161,6 +1161,67 @@ En este punto abarcaremos las funcionalidades y la evidencia de que pudimos comp
 | |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
 | |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
 
+#### 5.2.3.4. Execution Evidence for Sprint Review
+
+
+**LANDING PAGE**
+
+Nueva funcionalidad Multilenguaje:
+
+<th>Captura 1: <img src="assets/Chapter-5/En1.png" 
+
+<th>Captura 2: <img src="assets/Chapter-5/En2.png" 
+
+<th>Captura 3: <img src="assets/Chapter-5/En3.png" 
+
+<th>Captura 4: <img src="assets/Chapter-5/En4.png" 
+
+<th>Captura 5: <img src="assets/Chapter-5/En5.png" 
+
+**WEB SERVICE**
+
+En este sprint, logramos como tercera fase de nuestro producto final, desarrollar la API hecha con Java en Spring Boot.
+
+Muestra de nuestra API hecha con Spring Boot:
+
+<th>Captura del back 1: <img src="assets/Chapter-5/Back1.png" 
+
+
+<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
+
+
+<th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
+A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
+
+Repositorio del backend en GitHub: 
+https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
+
+
+<b>Bounded context: Products:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
+------------------------------------------------------
+
+<b>Bounded context: Inventaries:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Alert Stock:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
 
