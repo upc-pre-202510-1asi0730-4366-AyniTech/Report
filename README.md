@@ -1003,7 +1003,7 @@ Además, el equipo se enfocó en las historias de usuario relacionadas con este 
 |Sánchez Ríos, Camila Cristina| C4m174 | C | C | C | L | C |
 |Peña Riofrio, Maria Fernanda| mariafep | C | C | C | C | L |
 |Esteban Román, Henry Kalet| Kalet12-commit | C | L | C | C | C |
-|Bustinza Muñoz, Sebastian Alonso | | C | C | C | C | L |
+|Bustinza Muñoz, Sebastian Alonso | Sebastianbustianza809 | C | C | C | C | L |
 #### 5.2.3.3. Sprint Backlog 3.
 Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte del back end de la aplicación web y completar las funcionalidades del front end.
 #### 5.2.3.4. Development Evidence for Sprint Review
