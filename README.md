@@ -209,9 +209,8 @@
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -323,9 +322,8 @@
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -431,9 +429,8 @@
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -1651,15 +1648,15 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>Villa el Salvador</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/entrevista_alex.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        ...
+         Alexander Miranda Vivanco, encargado de la venta de textiles, compartió su experiencia utilizando la aplicación para la gestión de emprendimienntos, destacando la facilidad de uso tanto para el historial de productos como el apartado de creación de un producto. Consideró que el diseño visual era adecuado y sencillo, aunque sugirió complementar ciertas funcionalidades y hacerlo más intuitivo. En especial el diseño del excel exportado. Opinó que la visualización de fechas de vencimiento y la organización de productos por lote fueron las funcionalidades más valiosas de la aplicación.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="---">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/EYijLd_IDRlAoVIRmB0haHQB_BFtGINS912uRbLgy1pacg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ImTGHo">
         Ver grabación
       </a>
     </td>
@@ -1667,7 +1664,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        20:45 - 23:50
+        17:42 - 23:07
     </td>
   </tr>
 </table>
@@ -1745,8 +1742,8 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 
 
 
-# Conclusiones
-## Conclusiones y recomendaciones.
+## 5.4.	Video About-the-Product
+
 
 # Conclusiones 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una plataforma de alto valor, adaptable y preparada para el crecimiento continuo.
