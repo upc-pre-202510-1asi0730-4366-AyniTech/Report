@@ -110,6 +110,30 @@
           <li>Avance de Conclusiones, Bibliografía y Anexos</li>
         </ul>
       </td>
+      </td>
+                        <tr>
+                <th>TB2</th>
+                <td>21/06/2025</td>
+                <td>
+                    <ul>
+                      <li>Jocelyn Damaly Almerco Rojas</li>
+                      <li>Camila Sanchez</li>
+                      <li>Maria Fernanda Peña</li>
+                      <li>Fabiola Del Rocio Saldaña Ayala</li>
+                      <li>Henry Kalet Esteban Roman</li>
+                      <li>Sebastian Alonso Bustinza Muñoz</li>
+                    <ul>
+           </td>
+      <td>            
+             <ul>
+          <li>Capítulo V: Sprint 3 Web Application - Web Service</li>
+          <li>Mejoras continuas landing y frontend</li>
+          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.3.8</li>
+          <li>Validation interviews hasta el punto 5.3.3</li>
+          <li>Video About the Product and Team</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul>
+      </td>
   </tr>
 </tbody>
 </table>
@@ -168,6 +192,7 @@
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
+    - [User Stories](#user-stories)
     - [Technical Stories](#technical-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
     - [Segmento Objetivo 1: Bodegas especializadas por rubro](#segmento-objetivo-1-bodegas-especializadas-por-rubro)
