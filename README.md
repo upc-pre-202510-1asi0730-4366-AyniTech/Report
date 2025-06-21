@@ -1006,6 +1006,119 @@ Además, el equipo se enfocó en las historias de usuario relacionadas con este 
 |Bustinza Muñoz, Sebastian Alonso | Sebastianbustianza809 | C | C | C | C | L |
 #### 5.2.3.3. Sprint Backlog 3.
 Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte del back end de la aplicación web y completar las funcionalidades del front end.
+
+<table>
+        <tr>
+            <th>Sprint #</th>
+            <th colspan="7">Sprint 3</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">WorkItem / Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation(Hours)</th>
+            <th>Assigned To</th>
+            <th>Status(To-do/In-Process/To-Review/Done)</th>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Registrar producto nuevo</td>
+            <td>T01</td>
+            <td>Endpoint de registro de producto </td>
+            <td>Crear endpoinr POST para agregar un nuevo producto en la base de datos</td>
+            <td>3h</td>
+            <td>Fabiola Saldaña</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US02</td>
+            <td>Editar información de producto</td>
+            <td>T02</td>
+            <td>Endpoinr para editar producto</td>
+            <td>Craer endpoint PUT para editar los campos de un producto existente <d>
+            <td>3h</td>
+            <td>Fabiola Saldaña</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US03</td>
+            <td>Registrar salida de producto</td>
+            <td>T03</td>
+            <td>Lógica y endpoint de salida</td>
+            <td>Implementar la lógica para registrar salidas y actualizar stock.</td>
+            <td>3h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Generar alertas por bajo stock</td>
+            <td>T04</td>
+            <td>Servicio de alertas de stock</td>
+            <td>Desarrollar lógica para detectar productos con stock mínimo y generar alerta.</td>
+            <td>3h</td>
+            <td>Sebastian Bustinza</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Buscar productos en inventarios</td>
+            <td>T05</td>
+            <td>Endpoint de búsqueda</td>
+            <td>Crear endpoint GET con filtros por nombre, código, categoría, etc.</td>
+            <td>2.5h</td>
+            <td>Henry Esteban</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US07</td>
+            <td>Añadir etiquetas para productos</td>
+            <td>T06</td>
+            <td>Gestión de etiquetas</td>
+            <td>Crear tablas relacionales y endpoints para asignar etiquetas a productos</td>
+            <td>3h</td>
+            <td>Maria Fernanda Peña RdRiofrio</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US12</td>
+            <td>Generar reportes de inventario</td>
+            <td>T07</td>
+            <td>Exportar reportes de inventario</td>
+            <td>Crear funcionalidad para generar reportes (Excel) con datos agregados.</td>
+            <td>2.5h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US17</td>
+            <td>Registrar lote de productos</td>
+            <td>T08</td>
+            <td>Registro de Lotes</td>
+            <td>Implementar la lógica de control de acceso según rol del usuario.</td>
+            <td>3 h</td>
+            <td>Henry Esteban</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US20</td>
+            <td>Crear Kits o combos de productos</td>
+            <td>T09</td>
+            <td>Endpoint de combos.</td>
+            <td>Crear endpoint para definir y registrar combos de productos. </td>
+            <td>3h</td>
+            <td>Maria Fernanda Peña Riofrio</td>
+            <td>Done</td>
+        </tr>
+</table>
+
+
 #### 5.2.3.4. Development Evidence for Sprint Review
 En este punto abarcaremos las funcionalidades y la evidencia de que pudimos completar exitosamente las tareas planteadas en el Sprint Planning 3:
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
