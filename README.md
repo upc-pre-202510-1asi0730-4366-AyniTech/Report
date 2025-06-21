@@ -965,9 +965,23 @@ Link Fronted: https://aynitech.netlify.app/dashboard
 | Sprint Velocity 3|  42 |
 | Sum of Story Points| 42 |
 
-
-
 #### 5.2.3.2. Aspects Leaders and Collaborators.
+
+Durante el tercer sprint, el equipo tuvo como meta implementar el backend de StockWise utilizando C#. El enfoque se centró en desarrollar e implementar los endpoints para la gestión de productos y la creación de órdenes en el backend de la aplicación web.
+
+Además, el equipo se enfocó en las historias de usuario relacionadas con este desarrollo, asegurando que cada nueva característica no solo fuera funcional, sino también alineada con las necesidades de los usuarios. Se utilizó Trello para organizar y distribuir las tareas, permitiendo que cada integrante del equipo se especialicen  en áreas que se corresponden con sus competencias, lo que facilitó un avance eficiente y coordinado hacia el objetivo del sprint.
+
+| Team member | Github Username | Validaciones y Lógica | Base de datos | Testing Backend | Backend deploy | Documentation |
+|:------------|:----------------|:---------------------:|:-------------:|:---------------:|:--------------:|:-------------:|
+|Almerco Rojas, Jocelyn Damaly|JocyDam| L | C | C | C | C |
+|Saldaña Ayala, Fabiola del Rocio| fabs-in-space | L | C | L | C | C |
+|Sánchez Ríos, Camila Cristina| C4m174 | C | C | C | L | C |
+|Peña Riofrio, Maria Fernanda| mariafep | C | C | C | C | L |
+|Esteban Román, Henry Kalet| Kalet12-commit | C | L | C | C | C |
+|Bustinza Muñoz, Sebastian Alonso | | C | C | C | C | L |
+
+
+
 #### 5.2.3.3. Sprint Backlog 3.
 #### 5.2.3.4. Development Evidence for Sprint Review.
 #### 5.2.3.5. Execution Evidence for Sprint Review.
