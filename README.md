@@ -202,8 +202,6 @@
       - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -316,8 +314,6 @@
       - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -424,8 +420,6 @@
       - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -1143,23 +1137,18 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte de
 En este punto abarcaremos las funcionalidades y la evidencia de que pudimos completar exitosamente las tareas planteadas en el Sprint Planning 3:
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
 |----|----|----|----|----|----|
-|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
-| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
-| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
-| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
-| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
-| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
-| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/InventoryLot|e0798e05|feat: New Branch|kalet123-commit |17/06/2025 |
+| |feature/iam| 9be8a7ef|feat: add authentication-api|C4M174|19/06/2025|
+| |feature/iam|168a32df|feat: add combios perfil |C4M174|19/06/2025|
+| |feature/add-product|41cb9262|feat: add cambios producto|C4M174|19/05/2025|
+| |develop|2f546a3f |feat: add products mock api|C4M174|20/06/2025|
+
 
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
 |----|----|----|----|----|----|
 |**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
 | |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
-| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
-| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
-| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
-| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
-| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
@@ -1174,6 +1163,7 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
 <img src="assets/Chapter-5/ini2.png" alt="Captura de la lading" width="500">
 
 **Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
+
 **Link de Web app:** https://aynitech.netlify.app/
  
 #### 5.2.3. Team Collaboration Insights during Sprint.
