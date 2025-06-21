@@ -1646,6 +1646,14 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 # Conclusiones 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una plataforma de alto valor, adaptable y preparada para el crecimiento continuo.
 
+Como primer punto de contaco con los usuarios, se diseño una landing page clara, atractiva y que esta orientada al marketing digital. Esta página, su propósito es presentar StockWise de forma llamativa, destacando sus características y en que se diferencia la competencia. El contendio de la landing fue pensada para captar la atención de gente una bodega tanto como para emprendedores con llamados de acción para ser participe de forma sencilla.
+
+En cuanto al frontend, se avanzó la construcción de una interfaz web moderna, que sea responsiva y sea fácil de utilizar. Acá se aplicaron principio de diseño centrado en el usuario, junto a una estructura basada en componentes reutilizables, lo que permite mantener un flujo de navegación claro y accesible.
+
+Por último, en el backend, se ha desarrollado una arquitectura robusta y escalable utilizando C# como lenguaje de programación, esta organizada en capas y con principios de porgrmación orientada a objetos. Se implementaros, servicios y controladores que gestión operaciones relacionadas al stock, usuarios y reportes.
+
+En conclusión, actualmente StocWise tiene un avance que refleja un progreso significativo, que da una solución integral, accesible y de alto valor para el mercado Peruano. Además, StockWise se diferencia de otras soluciones por ser simple de usar, enfocarse en negocios específicos y ser accesible para emprendedores. Gracias a esta base sólida, el proyecto está bien encaminado para seguir creciendo, llegar a más usuarios y sumar nuevas funciones útiles según lo que necesiten.
+
 # Bibliografía
 1. Dux Software. (2025, 9 abril). *Dux Software: El Sistema de Gestión para tu Negocio.* https://www.duxsoftware.com.ar/
 2. Mecalux. (s. f.). *Store fulfillment.* Mecalux.pe. https://www.mecalux.pe/software/store-fulfillment
