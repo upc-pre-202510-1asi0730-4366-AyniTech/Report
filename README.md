@@ -1161,7 +1161,7 @@ En este punto abarcaremos las funcionalidades y la evidencia de que pudimos comp
 | |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
 | |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
 
-#### 5.2.3.4. Execution Evidence for Sprint Review
+#### 5.2.3.5. Execution Evidence for Sprint Review
 
 
 **LANDING PAGE**
@@ -1599,7 +1599,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/Entrevista_luis.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         ...
     </td>
@@ -1641,6 +1641,20 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Nuestro entrevistado Luis gestiona la bodega de su familia desde los 21 años, el rubro principal son los abarrotes, su tienda es grande, le resultó fácil usarlo, le gustó lo que ofrecemos como empresa, con respecto a la aplicación le pareció un uso intuitivo, solo hubo una pequeña confusión por los colores, le pareció que estaban muy cargados de botones e información, la función que le pareció más útil es la de próximos a caducar. Del q al 10 le pareció que nuestra app obtiene 9 por su utilidad, le agregaría un apartado de imágenes de productos que tiene y recomienda nuestra app para sus colegas.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        17:11 - 20:45
     </td>
   </tr>
 </table>
