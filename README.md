@@ -1642,7 +1642,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="---">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EUT83e8lXiRJrmk7jAoRB8wBs4JUSk2l7JTBqCXgGEtOmA?e=657SYb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -1650,7 +1650,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        17:11 - 20:45
+        00:00 - 04:21
     </td>
   </tr>
 </table>
