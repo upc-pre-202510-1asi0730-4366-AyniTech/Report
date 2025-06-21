@@ -209,8 +209,9 @@
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
-  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -322,8 +323,9 @@
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
-  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -429,8 +431,9 @@
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
-  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -1157,81 +1160,6 @@ En este punto abarcaremos las funcionalidades y la evidencia de que pudimos comp
 | |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
 | |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
 | |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
-#### 5.2.3.5. Execution Evidence for Sprint Review
-La realización de estas tareas refleja un enfoque estructurado para el desarrollo de la aplicación web. Cada tarea aborda un componente crucial del producto, lo que asegura que se cubran tanto aspectos visuales como funcionales. Este enfoque modular permite no solo mantener un orden en el proceso de desarrollo, sino también garantizar que cada sección cumple con las funcionalidades que brinda AyniTech.
-
-A continuación se mostrarán capturas de pantallas así como el vídeo de la ejecución de las nuevas funcionalidades de la Landing Page, la Aplicación Web y el Web Service:
-
-**LANDING PAGE**
-
-Nueva funcionalidad Multilenguaje:
-
-<th>Captura 1: <img src="assets/Chapter-5/En1.png" 
-
-<th>Captura 2: <img src="assets/Chapter-5/En2.png" 
-
-<th>Captura 3: <img src="assets/Chapter-5/En3.png" 
-
-<th>Captura 4: <img src="assets/Chapter-5/En4.png" 
-
-<th>Captura 5: <img src="assets/Chapter-5/En5.png" 
-
-
-**WEB APPLICATION**
-
-
-**Evidencia de Web Service:**
-
-En este sprint, logramos como tercera fase de nuestro producto final, desarrollar la API hecha con Java en Spring Boot.
-
-Muestra de nuestra API hecha con Spring Boot:
-
-<th>Captura del back 1: <img src="assets/Chapter-5/Back1.png" 
-
-
-<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
-
-
-<th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
-
-
-
-Link del video: 
-
-
-
-
-
-
-
-
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
-Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.+
-A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
-
-Repositorio del backend en GitHub: 
-https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
-
-
-<b>Bounded context: Products:</b>
-
-| Entity | Endpoint URL |Swagger | 
-| ------ | --------- | --------- |
-|Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
-------------------------------------------------------
-
-<b>Bounded context: Inventaries:</b>
-
-| Entity | Endpoint URL |Swagger | 
-| ------ | --------- | --------- |
-|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
-
-------------------------------------------------------
-<b>Bounded context: Alert Stock:</b>
-
-| Entity | Endpoint URL |Swagger | 
-| ------ | --------- | --------- |
-|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
@@ -1636,35 +1564,22 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 
 <table border="1">
   <tr>
+    <tr>
     <th>Entrevista</th>
     <td>4</td>
     <th>Nombre</th>
-    <td>Alexander Miranda</td>
+    <td>Luis Alejo Cardenas</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>25</td>
+    <td>23</td>
     <th>Distrito</th>
     <td>Villa el Salvador</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-5/entrevista_alex.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-         Alexander Miranda Vivanco, encargado de la venta de textiles, compartió su experiencia utilizando la aplicación para la gestión de emprendimienntos, destacando la facilidad de uso tanto para el historial de productos como el apartado de creación de un producto. Consideró que el diseño visual era adecuado y sencillo, aunque sugirió complementar ciertas funcionalidades y hacerlo más intuitivo. En especial el diseño del excel exportado. Opinó que la visualización de fechas de vencimiento y la organización de productos por lote fueron las funcionalidades más valiosas de la aplicación.
-    </td>
-  </tr>
-  <tr>
-    <th>URL de la grabación</th>
-    <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/EYijLd_IDRlAoVIRmB0haHQB_BFtGINS912uRbLgy1pacg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ImTGHo">
-        Ver grabación
-      </a>
-    </td>
-  </tr>
-  <tr>
-   <th>Timing</th>
-    <td colspan="3">
-        17:42 - 23:07
+        Nuestro entrevistado Luis gestiona la bodega de su familia desde los 21 años, el rubro principal son los abarrotes, su tienda es grande, le resultó fácil usarlo, le gustó lo que ofrecemos como empresa, con respecto a la aplicación le pareció un uso intuitivo, solo hubo una pequeña confusión por los colores, le pareció que estaban muy cargados de botones e información, la función que le pareció más útil es la de próximos a caducar. Del q al 10 le pareció que nuestra app obtiene 9 por su utilidad, le agregaría un apartado de imágenes de productos que tiene y recomienda nuestra app para sus colegas.
     </td>
   </tr>
 </table>
@@ -1742,8 +1657,8 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 
 
 
-## 5.4.	Video About-the-Product
-
+# Conclusiones
+## Conclusiones y recomendaciones.
 
 # Conclusiones 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una plataforma de alto valor, adaptable y preparada para el crecimiento continuo.
