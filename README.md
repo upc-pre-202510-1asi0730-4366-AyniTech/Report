@@ -949,6 +949,24 @@ Link Fronted: https://aynitech.netlify.app/dashboard
 
 ### 5.2.3. Sprint 3.
 #### 5.2.3.1. Sprint Planning 3.
+
+| Sprint #  |   3  |
+|:----------|:-----------|
+| Sprint Planning Background | |
+| Date | 11/06/2025 |
+| Time | 5:30 pm |
+| Location | Modalidad remota |
+| Prepared By | Henry Esteban |
+| Attendees (to planning meeting) | Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban |
+| Sprint 2 Review Summary | Se realizó el front end y se empezó a desarrollar el backend |
+| Sprint 2 Retrospective Summary | Se tuvo que manejar mejor los tiempos para evitar inconvenientes en la entrega. Se corrigieron errores de la Landing Page y se desarrolló el front end |
+| Sprint Goal & User Stories | |
+| Sprint Goal 3| En este sprint, el objetivo es desarrollar la lógica y funcionalidades principales del backend de la aplicación web, además de poder lograr un despliegue exitoso. Durante varias reuniones, se asignaron diferentes tareas para cada integrante del equipo. |
+| Sprint Velocity 3|  42 |
+| Sum of Story Points| 42 |
+
+
+
 #### 5.2.3.2. Aspects Leaders and Collaborators.
 #### 5.2.3.3. Sprint Backlog 3.
 #### 5.2.3.4. Development Evidence for Sprint Review.
