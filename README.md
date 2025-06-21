@@ -1598,9 +1598,9 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/kerry.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        ...
+        Kerry es una emprendedora de 21 años, encargada de atender la tineda de sus padres. Ella menciona que sus funcionales que más les gustaron fue la alerta de cuando el producto esta por acabarse, adempas tambien considera que el producto de fecha de vencimiento le parece interesante; sin embargo ella percibe que la función le sigue pareciendo muy básica. En cuanto a la interfaz, le gusto mucho los colores llamativos y la internacionalización, pues aunque no lo parezca, algunos productos y acciones se le haría más comodo verlos en ingles y otros en español
     </td>
   </tr>
   <tr>
