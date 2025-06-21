@@ -1004,7 +1004,17 @@ Además, el equipo se enfocó en las historias de usuario relacionadas con este 
 |Peña Riofrio, Maria Fernanda| mariafep | C | C | C | C | L |
 |Esteban Román, Henry Kalet| Kalet12-commit | C | L | C | C | C |
 |Bustinza Muñoz, Sebastian Alonso | Sebastianbustianza809 | C | C | C | C | L |
+
 #### 5.2.3.3. Sprint Backlog 3.
+
+**Vista del Sprint Backlog en Trello:**
+
+![trello](assets/Chapter-5/Trello_Sprint3.png)
+
+**Link del Trello:** 
+[Trello](https://trello.com/invite/b/6856149857ff3b593bf42e19/ATTI1f148caabe73f0489fc96d11a69cf98fEA4E8AC6/stockwise-sprint-3)
+
+
 Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte del back end de la aplicación web y completar las funcionalidades del front end.
 
 <table>
