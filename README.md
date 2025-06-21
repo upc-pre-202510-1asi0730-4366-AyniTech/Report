@@ -203,7 +203,8 @@
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+  - [|Products|api/v1/products|  |](#productsapiv1products--)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -316,7 +317,8 @@
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+  - [|Products|api/v1/products|  |](#productsapiv1products--)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -423,7 +425,8 @@
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+  - [|Products|api/v1/products|  |](#productsapiv1products--)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -1164,14 +1167,66 @@ A continuación se mostrarán capturas de pantallas así como el vídeo de la ej
 
 **LANDING PAGE**
 
-**WEB APPLICATION**
+Nueva funcionalidad Multilenguaje:
 
-**Evidencia de Web Service:**
+<th>Captura 1: <img src="assets/Chapter-5/En1.png" 
 
-*Funciones de Usuarios:*
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+<th>Captura 2: <img src="assets/Chapter-5/En2.png" 
+
+<th>Captura 3: <img src="assets/Chapter-5/En3.png" 
+
+<th>Captura 5: <img src="assets/Chapter-5/En5.png" 
+
+**WEB SERVICE**
+
+En este sprint, logramos como tercera fase de nuestro producto final, desarrollar la API hecha con Java en Spring Boot.
+
+Muestra de nuestra API hecha con Spring Boot:
+
+<th>Captura del back 1: <img src="assets/Chapter-5/Back1.png" 
+
+
+<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
+
+
+<th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
 Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
+A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
 
+Repositorio del backend en GitHub: 
+https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
+
+
+<b>Bounded context: Products:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
+------------------------------------------------------
+
+<b>Bounded context: Inventaries:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Alert Stock:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Authentication:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|api/v1/iam| <img src="assets/Chapter-5/UserSwag.png"> |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
