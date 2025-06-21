@@ -349,7 +349,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Aporte con la creacion del repositorio y los archivos para esta entrega, colabore con la rama iam que abarca el Registro e Iniciar Sesion del usuario, ayude a desplegar la pagina web una vez unido y con las actualizaciones del capitulo 5</p>
         <p><b>TB2:</b></p>
-        <p></p>
+        <p>Aporte con los ajustes esteticos del front al igual de correciones, uni el frontend con la landing del mismo modo actualice los cambios en esta entrega acerca de los botones para los videos. Apoye en el desarrollo del backend del Bounded Context User.</p>
         <p><b>TF:</b></p>
         <p>.</p>
         <p><b>Maria Fernanda Peña Riofrio</b></p>
@@ -384,7 +384,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Durante el proyecto, trabajé en equipo implementando la vista de Stock Alert y aplicando mejoras continuas para optimizar su funcionamiento. También colaboré activamente en la elaboración del informe grupal, aportando ideas y apoyando la coordinación de tareas.</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>Demostré trabajo colaborativo y liderazgo compartido al contribuir en la revisión del sprint con documentación técnica clara y apoyar en el desarrollo del backend del módulo Stock Alert y la función multilenguaje en el Landing, facilitando el cumplimiento de los objetivos del equipo.</p>
         <p><b>TF:</b></p>
         <p>...</p>
       </td>
@@ -478,7 +478,7 @@ y cumple objetivos.</b></td>
         <p><b>TP1:</b></p>
         <p>Aporte con la creacion del repositorio y los archivos para esta entrega, colabore con la rama iam que abarca el Registro e Iniciar Sesion del usuario, ayude a desplegar la pagina web una vez unido y con las actualizaciones del capitulo 5</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>Contribui con los cambios en el trabajo con respecto al frontend y la landing al igual de desarrollar el backend Bounded Context User. Colabora con la planificacion de tareas y apoyo en el grupo</p>
         <p><b>TF:</b></p>
         <p>.</p>
         <p><b>Maria Fernanda Peña Riofrio</b></p>
@@ -516,7 +516,7 @@ y cumple objetivos.</b></td>
         <p><b>TP1:</b></p>
         <p>Contribuí activamente creando la vista de Stock Alert, aplicando mejoras continuas y colaborando en la redacción del informe grupal. Estas acciones me permitieron fomentar un entorno colaborativo e inclusivo, ayudando a definir metas claras, planificar tareas en conjunto.</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>Contribuí a un entorno colaborativo al documentar avances del sprint, planificar tareas y cumplir objetivos mediante el desarrollo del backend de Stock Alert y la función multilenguaje en el Landing, promoviendo inclusión y alineación del equipo.</p>
         <p><b>TF:</b></p>
         <p>...</p>
       </td>
