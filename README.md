@@ -1150,6 +1150,67 @@ En este punto abarcaremos las funcionalidades y la evidencia de que pudimos comp
 | |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
 
 
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+
+**LANDING PAGE**
+
+Nueva funcionalidad Multilenguaje:
+
+<th>Captura 1: <img src="assets/Chapter-5/En1.png" 
+
+<th>Captura 2: <img src="assets/Chapter-5/En2.png" 
+
+<th>Captura 3: <img src="assets/Chapter-5/En3.png" 
+
+<th>Captura 4: <img src="assets/Chapter-5/En4.png" 
+
+<th>Captura 5: <img src="assets/Chapter-5/En5.png" 
+
+**WEB SERVICE**
+
+En este sprint, logramos como tercera fase de nuestro producto final, desarrollar la API hecha con Java en Spring Boot.
+
+Muestra de nuestra API hecha con Spring Boot:
+
+<th>Captura del back 1: <img src="assets/Chapter-5/Back1.png" 
+
+
+<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
+
+
+<th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
+A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
+
+Repositorio del backend en GitHub: 
+https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
+
+
+<b>Bounded context: Products:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
+------------------------------------------------------
+
+<b>Bounded context: Inventaries:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Alert Stock:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
 
@@ -1549,9 +1610,6 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   </tr>
 </table>
 <br>
-
-**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
-
 <table border="1">
   <tr>
     <tr>
@@ -1566,13 +1624,29 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <th>Distrito</th>
     <td>Villa el Salvador</td>
   </tr>
-  <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+  <th>Captura de la entrevista: <img src="assets/Chapter-5/Entrevista_luis.png" alt="Captura de la entrevista" width="500"></th>
     <td colspan="3">
         Nuestro entrevistado Luis gestiona la bodega de su familia desde los 21 años, el rubro principal son los abarrotes, su tienda es grande, le resultó fácil usarlo, le gustó lo que ofrecemos como empresa, con respecto a la aplicación le pareció un uso intuitivo, solo hubo una pequeña confusión por los colores, le pareció que estaban muy cargados de botones e información, la función que le pareció más útil es la de próximos a caducar. Del q al 10 le pareció que nuestra app obtiene 9 por su utilidad, le agregaría un apartado de imágenes de productos que tiene y recomienda nuestra app para sus colegas.
     </td>
   </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        17:11 - 20:45
+    </td>
+  </tr>
 </table>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
 
 <table border="1">
   <tr>
