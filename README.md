@@ -197,6 +197,18 @@
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspects Leaders and Collaborators.](#5232-aspects-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones-1)
@@ -301,14 +313,16 @@
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3](#523-sprint-3)
       - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspects Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.2. Aspects Leaders and Collaborators.](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence  for Sprint Review.](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
-      
+      - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones-1)
@@ -405,6 +419,18 @@
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspects Leaders and Collaborators.](#5232-aspects-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones-1)
@@ -947,14 +973,79 @@ Link Fronted: https://aynitech.netlify.app/dashboard
 **Commits del Frontend**
 ![commits Front](assets/Chapter-5/Insights_sprint2.png)
 
-### 5.2.3. Sprint 3.
-#### 5.2.3.1. Sprint Planning 3.
+### 5.2.3. Sprint 3
+Para este Sprint nos enfocaremos desarrollar una primera version del Web-Services
+#### 5.2.3.1. Sprint Planning 3
+En la siguiente sección, se presentará el sprint #3 con la versión de la aplicación web e implementación parcial del back-end, desarrollado en C#. Mostrando la organización, distribución y resultados de la aplicación web.
+| Sprint # | 3 |
+|---------|-------|
+| **Sprint Planning Background** |      |
+| Date | 11/06/2025|
+| Time | 4:30 pm |
+|Location | Modalidad remota |
+|Prepared By | Camila Sanchez,  Henry Esteban|
+|Attendees (to planning meeting)| Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban|
+|Sprint 0 Review Summary | En el segundo sprint desarrollamos y lanzamos la segunda versión de la aplicación web de AyniTech.|
+|Sprint 0 Retrospective Summary | Para el segundo sprint tuvimos que aprender a trabajar con el modelo GitFlow, lo que nos permitió, desarrollar satisfactoriamente dicho sprint.|
+|**Sprint Goal & User Stories** | |
+|Sprint Goal 1 |Implementar los web services a un 70%. Desarrollamos y desplegamos la primera versión de la estructura Back-End funcional que presente de manera clara para el consumo de la aplicación web, a través del lenguaje de programación "C#".|
+|Sprint Velocity 1 |5 |
+|Sum of Story Points |30 |
 #### 5.2.3.2. Aspects Leaders and Collaborators.
-#### 5.2.3.3. Sprint Backlog 3.
-#### 5.2.3.4. Development Evidence for Sprint Review.
-#### 5.2.3.5. Execution Evidence for Sprint Review.
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.3.3. Sprint Backlog 3
+Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte del back end de la aplicación web y completar las funcionalidades del front end.
+#### 5.2.3.4. Development Evidence for Sprint Review
+En este punto abarcaremos las funcionalidades y la evidencia de que pudimos completar exitosamente las tareas planteadas en el Sprint Planning 3:
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+La realización de estas tareas refleja un enfoque estructurado para el desarrollo de la aplicación web. Cada tarea aborda un componente crucial del producto, lo que asegura que se cubran tanto aspectos visuales como funcionales. Este enfoque modular permite no solo mantener un orden en el proceso de desarrollo, sino también garantizar que cada sección cumple con las funcionalidades que brinda AyniTech.
+
+A continuación se mostrarán capturas de pantallas así como el vídeo de la ejecución de las nuevas funcionalidades de la Landing Page, la Aplicación Web y el Web Service:
+
+**LANDING PAGE**
+
+**WEB APPLICATION**
+
+**Evidencia de Web Service:**
+
+*Funciones de Usuarios:*
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
+
+<img src="assets/Chapter-5/ladi.png" alt="Captura de la lading" width="550">
+
+Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify como plataforma de despliegue para la aplicación web de AyniTech.
+
+<img src="assets/Chapter-5/22.png" alt="Captura de la lading" width="500">
+<img src="assets/Chapter-5/33.png" alt="Captura de la lading" width="500">
+<img src="assets/Chapter-5/reg2.png" alt="Captura de la lading" width="500">
+<img src="assets/Chapter-5/ini2.png" alt="Captura de la lading" width="500">
+
+**Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
+**Link de Web app:** https://aynitech.netlify.app/
+ 
 #### 5.2.3. Team Collaboration Insights during Sprint.
 
 
@@ -1225,7 +1316,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>Santiago de Surco</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/seg1.1.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         ...
     </td>
@@ -1233,7 +1324,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="---">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210973_upc_edu_pe/Ed-8I9bYxj1GjnOlLeQB58UBd9lDt7bxHqXaAjqspe1NgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PILRLJ">
         Ver grabación
       </a>
     </td>
@@ -1241,7 +1332,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        11:12 - 17:11
+        00:00 - 3:53
     </td>
   </tr>
 </table>
@@ -1404,6 +1495,8 @@ El desarrollo de las funcionalidades propuestas para StockWise responde a las ne
 
 
 # Anexos
-**Video exposición:** [Acceder al video de exposición](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202313773_upc_edu_pe/EqhFMC87TlFMvlVc0wcPAeQBE8BXdNH1AMkYj5IQpp2erg?e=1hti0f)
+**Video exposición TB1:** [Acceder al video de exposición](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202313773_upc_edu_pe/EqhFMC87TlFMvlVc0wcPAeQBE8BXdNH1AMkYj5IQpp2erg?e=1hti0f)
+
+**Video exposición TB2:** [Acceder al video de exposición](..)
 
 **Repositorio:** [AyniTech (GitHub)](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech)
