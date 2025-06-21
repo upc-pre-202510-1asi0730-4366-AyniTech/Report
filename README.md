@@ -202,6 +202,9 @@
       - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+  - [|Products|api/v1/products|  |](#productsapiv1products--)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -314,6 +317,9 @@
       - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+  - [|Products|api/v1/products|  |](#productsapiv1products--)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -420,6 +426,9 @@
       - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+  - [|Products|api/v1/products|  |](#productsapiv1products--)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -1146,9 +1155,10 @@ En este punto abarcaremos las funcionalidades y la evidencia de que pudimos comp
 
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
 |----|----|----|----|----|----|
-|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
-| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
-
+|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/Lot|f311225f|feat: new branch|kalet123-commit|17/06/2025 |
+| |feature/alert-stock|a24cb4fb|Feat: Avances Product Management|Fabs|18/06/2025|
+| |feature/iam|96dcdb2e|feat: Implement user authentication and management features|C4m174|20/06/2025|
+| |feature/iam|7aed4253|feat: Refactor user model and commands to include LastName|C4m174|20/06/2025|
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
