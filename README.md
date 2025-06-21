@@ -1173,8 +1173,6 @@ Nueva funcionalidad Multilenguaje:
 
 <th>Captura 3: <img src="assets/Chapter-5/En3.png" 
 
-<th>Captura 4: <img src="assets/Chapter-5/En4.png" 
-
 <th>Captura 5: <img src="assets/Chapter-5/En5.png" 
 
 **WEB SERVICE**
@@ -1220,6 +1218,13 @@ https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
 | Entity | Endpoint URL |Swagger | 
 | ------ | --------- | --------- |
 |Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Authentication:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|api/v1/iam| <img src="assets/Chapter-5/UserSwag.png"> |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
