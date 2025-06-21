@@ -199,7 +199,7 @@
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3.](#523-sprint-3)
       - [5.2.3.1. Sprint Planning 3.](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspects Leaders and Collaborators.](#5232-aspects-leaders-and-collaborators)
+      - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
@@ -313,7 +313,7 @@
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3.](#523-sprint-3)
       - [5.2.3.1. Sprint Planning 3.](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspects Leaders and Collaborators.](#5232-aspects-leaders-and-collaborators)
+      - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
@@ -421,7 +421,7 @@
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3.](#523-sprint-3)
       - [5.2.3.1. Sprint Planning 3.](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspects Leaders and Collaborators.](#5232-aspects-leaders-and-collaborators)
+      - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
@@ -991,7 +991,19 @@ En la siguiente sección, se presentará el sprint #3 con la versión de la apli
 |Sprint Goal 1 |Implementar los web services a un 70%. Desarrollamos y desplegamos la primera versión de la estructura Back-End funcional que presente de manera clara para el consumo de la aplicación web, a través del lenguaje de programación "C#".|
 |Sprint Velocity 1 |5 |
 |Sum of Story Points |30 |
-#### 5.2.3.2. Aspects Leaders and Collaborators.
+#### 5.2.3.2. Aspects Leaders and Collaborators
+Durante el tercer sprint, el equipo tuvo como meta implementar el backend de StockWise utilizando C#. El enfoque se centró en desarrollar e implementar los endpoints para la gestión de productos y la creación de órdenes en el backend de la aplicación web.
+
+Además, el equipo se enfocó en las historias de usuario relacionadas con este desarrollo, asegurando que cada nueva característica no solo fuera funcional, sino también alineada con las necesidades de los usuarios. Se utilizó Trello para organizar y distribuir las tareas, permitiendo que cada integrante del equipo se especialicen  en áreas que se corresponden con sus competencias, lo que facilitó un avance eficiente y coordinado hacia el objetivo del sprint.
+
+| Team member | Github Username | Validaciones y Lógica | Base de datos | Testing Backend | Backend deploy | Documentation |
+|:------------|:----------------|:---------------------:|:-------------:|:---------------:|:--------------:|:-------------:|
+|Almerco Rojas, Jocelyn Damaly|JocyDam| L | C | C | C | C |
+|Saldaña Ayala, Fabiola del Rocio| fabs-in-space | L | C | L | C | C |
+|Sánchez Ríos, Camila Cristina| C4m174 | C | C | C | L | C |
+|Peña Riofrio, Maria Fernanda| mariafep | C | C | C | C | L |
+|Esteban Román, Henry Kalet| Kalet12-commit | C | L | C | C | C |
+|Bustinza Muñoz, Sebastian Alonso | | C | C | C | C | L |
 #### 5.2.3.3. Sprint Backlog 3.
 Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte del back end de la aplicación web y completar las funcionalidades del front end.
 #### 5.2.3.4. Development Evidence for Sprint Review
