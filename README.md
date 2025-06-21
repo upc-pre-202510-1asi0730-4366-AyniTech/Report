@@ -1193,6 +1193,18 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
  
 #### 5.2.3. Team Collaboration Insights during Sprint.
 
+| Alumno | Actividad |
+| ------ | --------- |
+|Jocelyn Damaly Almerco Rojas|Implementación del Report Context - historial de movimientos|
+|Sanchez Rios, Camila Cristina|Implementación de User Bounded Context - usuario, resgistro, perfil|
+|Henry Kalet Esteban Roman|Implementación del Inventory Bounded Context - inventario|
+|Maria Fernanda Peña Riofrio|Implementación de Product Managment - kitsproducts|
+|Fabiola Del Rocio Saldaña Ayala|Implementación de Product Managment - Product|
+|Sebastian Alonso Bustinza Muñoz| Implementación del Inventory Bounded Context - alertastock|
+
+**Commits del BackEnd**
+![commits Front](assets/Chapter-5/)
+
 
 ## 5.3. Validation Interviews
 ### 5.3.1 Diseño de Entrevistas
