@@ -363,7 +363,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         </p>
         <p></p>
         <p><b>TB2:</b></p>
-        <p></p>
+        <p>Aporta con el analísis de entrevistas, la creación de mi rama en el backend para el bounded context de product managment, en la parte de kits de productos y agregando la información necesaria en los sprint , sprint backlog</p>
         <p><b>TF:</b></p>
         <p></p>
         <p><b>Jocelyn Damaly Almerco Rojas</b></p>
@@ -493,7 +493,10 @@ y cumple objetivos.</b></td>
          creando un entorno colaborativo<br>
          entre todos.<br></p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>Coordine con mis compañeros sobre la distribución</p>
+        <p>de la divisón de bounded context con mis compañeros</p>
+        <p>además de ayudar con analisis de enrevista para</p>
+        <p>las validaciones</p>
         <p><b>TF:</b></p>
         <p>...</p>
         <p><b>Jocelyn Damaly Almerco Rojas</b></p>
