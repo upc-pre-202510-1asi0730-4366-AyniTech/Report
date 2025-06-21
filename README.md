@@ -203,16 +203,14 @@
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-  - [|Products|api/v1/products|  |](#productsapiv1products--)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -318,16 +316,14 @@
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-  - [|Products|api/v1/products|  |](#productsapiv1products--)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -427,16 +423,14 @@
       - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-  - [|Products|api/v1/products|  |](#productsapiv1products--)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3. Team Collaboration Insights during Sprint.](#523-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.4.	Video About-the-Product](#54video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -1146,80 +1140,38 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte de
 En este punto abarcaremos las funcionalidades y la evidencia de que pudimos completar exitosamente las tareas planteadas en el Sprint Planning 3:
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
 |----|----|----|----|----|----|
-|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/InventoryLot|e0798e05|feat: New Branch|kalet123-commit |17/06/2025 |
-| |feature/iam| 9be8a7ef|feat: add authentication-api|C4M174|19/06/2025|
-| |feature/iam|168a32df|feat: add combios perfil |C4M174|19/06/2025|
-| |feature/add-product|41cb9262|feat: add cambios producto|C4M174|19/05/2025|
-| |develop|2f546a3f |feat: add products mock api|C4M174|20/06/2025|
-
+|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
 
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
 |----|----|----|----|----|----|
-|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/Lot|f311225f|feat: new branch|kalet123-commit|17/06/2025 |
-| |feature/alert-stock|a24cb4fb|Feat: Avances Product Management|Fabs|18/06/2025|
-| |feature/iam|96dcdb2e|feat: Implement user authentication and management features|C4m174|20/06/2025|
-| |feature/iam|7aed4253|feat: Refactor user model and commands to include LastName|C4m174|20/06/2025|
-
+|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
 #### 5.2.3.5. Execution Evidence for Sprint Review
+La realización de estas tareas refleja un enfoque estructurado para el desarrollo de la aplicación web. Cada tarea aborda un componente crucial del producto, lo que asegura que se cubran tanto aspectos visuales como funcionales. Este enfoque modular permite no solo mantener un orden en el proceso de desarrollo, sino también garantizar que cada sección cumple con las funcionalidades que brinda AyniTech.
 
+A continuación se mostrarán capturas de pantallas así como el vídeo de la ejecución de las nuevas funcionalidades de la Landing Page, la Aplicación Web y el Web Service:
 
 **LANDING PAGE**
 
-Nueva funcionalidad Multilenguaje:
+**WEB APPLICATION**
 
-<th>Captura 1: <img src="assets/Chapter-5/En1.png" 
+**Evidencia de Web Service:**
 
-<th>Captura 2: <img src="assets/Chapter-5/En2.png" 
-
-<th>Captura 3: <img src="assets/Chapter-5/En3.png" 
-
-<th>Captura 4: <img src="assets/Chapter-5/En4.png" 
-
-<th>Captura 5: <img src="assets/Chapter-5/En5.png" 
-
-**WEB SERVICE**
-
-En este sprint, logramos como tercera fase de nuestro producto final, desarrollar la API hecha con Java en Spring Boot.
-
-Muestra de nuestra API hecha con Spring Boot:
-
-<th>Captura del back 1: <img src="assets/Chapter-5/Back1.png" 
-
-
-<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
-
-
-<th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
-
-Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
-
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+*Funciones de Usuarios:*
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
-A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
 
-Repositorio del backend en GitHub: 
-https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
-
-
-<b>Bounded context: Products:</b>
-
-| Entity | Endpoint URL |Swagger | 
-| ------ | --------- | --------- |
-|Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
-------------------------------------------------------
-
-<b>Bounded context: Inventaries:</b>
-
-| Entity | Endpoint URL |Swagger | 
-| ------ | --------- | --------- |
-|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
-
-------------------------------------------------------
-<b>Bounded context: Alert Stock:</b>
-
-| Entity | Endpoint URL |Swagger | 
-| ------ | --------- | --------- |
-|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
@@ -1234,7 +1186,6 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
 <img src="assets/Chapter-5/ini2.png" alt="Captura de la lading" width="500">
 
 **Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
-
 **Link de Web app:** https://aynitech.netlify.app/
  
 #### 5.2.3. Team Collaboration Insights during Sprint.
@@ -1250,7 +1201,6 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
 
 **Commits del BackEnd**
 ![commits Front](assets/Chapter-5/)
-
 
 
 ## 5.3. Validation Interviews
@@ -1620,29 +1570,32 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   </tr>
 </table>
 <br>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
 <table border="1">
   <tr>
-    <tr>
     <th>Entrevista</th>
     <td>4</td>
     <th>Nombre</th>
-    <td>Luis Alejo Cardenas</td>
+    <td>Alexander Miranda</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>23</td>
+    <td>25</td>
     <th>Distrito</th>
     <td>Villa el Salvador</td>
   </tr>
-  <th>Captura de la entrevista: <img src="assets/Chapter-5/Entrevista_luis.png" alt="Captura de la entrevista" width="500"></th>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/entrevista_alex.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Nuestro entrevistado Luis gestiona la bodega de su familia desde los 21 años, el rubro principal son los abarrotes, su tienda es grande, le resultó fácil usarlo, le gustó lo que ofrecemos como empresa, con respecto a la aplicación le pareció un uso intuitivo, solo hubo una pequeña confusión por los colores, le pareció que estaban muy cargados de botones e información, la función que le pareció más útil es la de próximos a caducar. Del q al 10 le pareció que nuestra app obtiene 9 por su utilidad, le agregaría un apartado de imágenes de productos que tiene y recomienda nuestra app para sus colegas.
+         Alexander Miranda Vivanco, encargado de la venta de textiles, compartió su experiencia utilizando la aplicación para la gestión de emprendimienntos, destacando la facilidad de uso tanto para el historial de productos como el apartado de creación de un producto. Consideró que el diseño visual era adecuado y sencillo, aunque sugirió complementar ciertas funcionalidades y hacerlo más intuitivo. En especial el diseño del excel exportado. Opinó que la visualización de fechas de vencimiento y la organización de productos por lote fueron las funcionalidades más valiosas de la aplicación.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EUT83e8lXiRJrmk7jAoRB8wBs4JUSk2l7JTBqCXgGEtOmA?e=657SYb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/EYijLd_IDRlAoVIRmB0haHQB_BFtGINS912uRbLgy1pacg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ImTGHo">
         Ver grabación
       </a>
     </td>
@@ -1650,13 +1603,10 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        00:00 - 04:21
+        17:42 - 23:07
     </td>
   </tr>
 </table>
-
-**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
-
 
 <table border="1">
   <tr>
@@ -1730,9 +1680,16 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 
 
 
+## 5.4.	Video About-the-Product
+A continuación, presentaremos el video About-the-Product en el cual se detalla la propuesta de valor de StockWise así como el flujo de la solución junto con testimonios de usuarios.
 
-# Conclusiones
-## Conclusiones y recomendaciones.
+<br>
+Captura de la entrevista: <br>
+<img src="assets/Chapter-5/Evidencia About the product.png" alt="Captura del abouth the product" width="750">
+<br>
+<a href="https://www.youtube.com/watch?v=gKQCMO4rORw&ab_channel=CamilaSanchez">Ver grabación</a>
+
+
 
 # Conclusiones 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una plataforma de alto valor, adaptable y preparada para el crecimiento continuo.
