@@ -1768,4 +1768,6 @@ En conclusión, actualmente StocWise tiene un avance que refleja un progreso sig
 
 **Video exposición TB2:** [Acceder al video de exposición](..)
 
+**Video About the Product:** [Acceder al video de exposición](https://youtu.be/gKQCMO4rORw)
+
 **Repositorio:** [AyniTech (GitHub)](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech)
