@@ -1595,23 +1595,24 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <th>Entrevista</th>
     <td>6</td>
     <th>Nombre</th>
-    <td>Octavio</td>
+    <td>Maria Paula</td>
   </tr>
   <tr>
     <th>Edad</th>
     <td>23</td>
     <th>Distrito</th>
-    <td>Jesus Maria</td>
+    <td>Los Olivos</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/entrevista_seg2.3.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        ...</td>
+        Nuestra entrevistada Maria Pilares, después de observar y probar tanto la landing page y la aplicación web de nuestro proyecto, nos cuenta que le gusto la idea, ya que es llamativa y esta lo que necesita. Sin embargo, nos cuenta que punto de vista de emprendor, en este caso del sector textil, hay funcionalidades que le faltarían para sus productos, ya que ahí la mayoría de productos no se vencen, solo se gastan ya que son telas. Lo que más le llamo la atención fue la sección de alerta stock del producto, que es algo que realmente es útil para emprendedores.
+    </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="---">
+      <a href="https://drive.google.com/file/d/1VQSyyc5wOJ0KoNuTVDFbdjuiJ4JwRTOf/view?usp=sharing">
         Ver grabación
       </a>
     </td>
@@ -1619,7 +1620,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        23:50 - 27:02
+        00:00 - 09:51
     </td>
   </tr>
 </table>
