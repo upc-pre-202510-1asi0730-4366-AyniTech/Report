@@ -1191,6 +1191,14 @@ Muestra de nuestra API hecha con Spring Boot:
 
 <th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
 
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.1.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.2.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.3.png" 
+
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
