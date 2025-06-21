@@ -1225,6 +1225,29 @@ Acciones clave dentro del sistema
 
 Navegación interactivo por la interfaz web
 
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar".
+
+A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico.
+
+Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma.
+
+Del mismo modo, si el usuario desea retirar su información o actualizarla, lo podrá hacer a través de su perfil.
+
+Finalmente, hacer clic en el botón "Aceptar".
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña.
+
+Luego hace clic en el botón "Log In".
+
+Después, se le redirige al panel de perfil.
+
+Allí puede editar su información personal y acceder a herramientas según su perfil ("Administrador" o "Empleado").
+
 **User Goal: Navegar por el Dashboard**
 
 El usuario inicia sesión desde la Landing Page.
@@ -1298,8 +1321,6 @@ Puede ingresar a una vista de detalles, generar reportes o confirmar acciones de
 
 También puede eliminar una alerta específica luego de una confirmación emergente.
 
-
-
 **Preguntas principales:**
 * ¿Te resultó fácil encontrar cómo agregar un producto?
 * ¿Qué tal fue el proceso para registrar el stock por producto y por lote?
@@ -1330,6 +1351,28 @@ Interactúa el usuario con la landing page y la versión web de nuestra platafor
 Acciones clave dentro del sistema
 
 Navegación interactivo por la interfaz web
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar".
+
+A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico.
+
+Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma.
+
+Del mismo modo, si el usuario desea retirar su información o actualizarla, lo podrá hacer a través de su perfil.
+
+Finalmente, hacer clic en el botón "Aceptar".
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña.
+
+Luego hace clic en el botón "Log In".
+
+Después, se le redirige al panel de perfil.
+
+Allí puede editar su información personal y acceder a herramientas según su perfil ("Administrador" o "Empleado").
 
 **User Goal: Navegar por el Dashboard**
 
@@ -1423,6 +1466,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 
 **Segmento 1: Bodegas especializadas por rubro**
 
+
 <table border="1">
   <tr>
     <th>Entrevista</th>
@@ -1437,15 +1481,15 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>San Martín de Porres</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/Milagros.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        ...
+        Milagros Almerco, evaluó la plataforma StockWise y destacó su facilidad de uso al registrar productos y gestionar inventario. Aunque al inicio tuvo dudas sobre la diferencia entre “stock” y “lote”, logró comprenderlo rápidamente gracias a la interfaz intuitiva. Resaltó como funcionalidades más valiosas el control de productos próximos a vencer y la visualización por lotes, que considera claves para evitar pérdidas. Valoró también el diseño moderno y claro, sin presentar dificultades técnicas. Sugirió como mejora incluir un sistema para registrar pagos pendientes o créditos. En general, calificó la app como práctica, útil y recomendada para otros dueños de bodegas.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="---">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EfEdvSoT6nZBn3Bjd_0YYpIBnQRFJ14Fy8uM2urSLFlOLg?e=Meau7E&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
