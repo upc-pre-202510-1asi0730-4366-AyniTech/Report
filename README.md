@@ -1097,9 +1097,19 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte de
             <td>Done</td>
         </tr>
          <tr>
+            <td>US15</td>
+            <td>Configurar roles y permisos de usuario</td>
+            <td>T08</td>
+            <td>Middleware de roles y permisos</td>
+            <td>Implementar lógica de control de acceso según rol del usuario.</td>
+            <td>2.5h</td>
+            <td>Camila Sanchez</td>
+            <td>Done</td>
+        </tr>
+         <tr>
             <td>US17</td>
             <td>Registrar lote de productos</td>
-            <td>T08</td>
+            <td>T09</td>
             <td>Registro de Lotes</td>
             <td>Implementar la lógica de control de acceso según rol del usuario.</td>
             <td>3 h</td>
@@ -1109,7 +1119,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte de
          <tr>
             <td>US20</td>
             <td>Crear Kits o combos de productos</td>
-            <td>T09</td>
+            <td>T10</td>
             <td>Endpoint de combos.</td>
             <td>Crear endpoint para definir y registrar combos de productos. </td>
             <td>3h</td>
