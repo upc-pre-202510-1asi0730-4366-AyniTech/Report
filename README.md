@@ -1599,7 +1599,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-5/Entrevista_luis.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         ...
     </td>
@@ -1638,7 +1638,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>Villa el Salvador</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/Entrevista_luis.png" alt="Captura de la entrevista" width="500"></th>
     <td colspan="3">
         Nuestro entrevistado Luis gestiona la bodega de su familia desde los 21 años, el rubro principal son los abarrotes, su tienda es grande, le resultó fácil usarlo, le gustó lo que ofrecemos como empresa, con respecto a la aplicación le pareció un uso intuitivo, solo hubo una pequeña confusión por los colores, le pareció que estaban muy cargados de botones e información, la función que le pareció más útil es la de próximos a caducar. Del q al 10 le pareció que nuestra app obtiene 9 por su utilidad, le agregaría un apartado de imágenes de productos que tiene y recomienda nuestra app para sus colegas.
     </td>
