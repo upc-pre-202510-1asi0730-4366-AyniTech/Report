@@ -72,11 +72,18 @@
                 <td>07/04/2025</td>
                 <td>
                     <ul>
+<<<<<<< HEAD
                       <li>Jocelyn Damaly Almerco Rojas</li>
                       <li>Camila Sanchez</li>
                       <li>Maria Fernanda Peña</li>
                       <li>Fabiola Del Rocio Saldaña Ayala</li>
                       <li>Henry Kalet Esteban Roman</li>
+=======
+          <li>Henry Esteban </li>
+          <li>Camila Sanchez</li>
+          <li>..</li>
+          <li>..</li>
+>>>>>>> feature/chapter-5
                     <ul>
            </td>
                          <td>            
@@ -251,11 +258,141 @@
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones-1)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 2](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 2.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+<<<<<<< HEAD
+=======
+[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
+
+[Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [COURSE PROJECT](#course-project)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](#471-class-diagrams)
+    - [4.7.2. Class Dictionary.](#472-class-dictionary)
+  - [4.8. Database Design.](#48-database-design)
+    - [4.8.1. Database Diagram.](#481-database-diagram)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management.](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
+      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 2](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 2.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+>>>>>>> feature/chapter-5
 
 # Student Outcome
 
@@ -3753,7 +3890,7 @@ Link Fronted: https://aynitech.netlify.app/dashboard
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 | Alumno | Actividad |
 | ------ | --------- |
-|Jocelyn Damaly Almerco Rojas|Implementación de Historial de moviemienos|
+|Jocelyn Damaly Almerco Rojas|Implementación de Historial de movimientos|
 |Sanchez Rios, Camila Cristina|Implementación de Inicio de sesión, registro y perfil del usuario|
 |Henry Kalet Esteban Roman|Implementación de Inventario|
 |Maria Fernanda Peña Riofrio|Implementación de Kits de productos|
@@ -3763,12 +3900,988 @@ Link Fronted: https://aynitech.netlify.app/dashboard
 **Commits del Frontend**
 ![commits Front](assets/Chapter-5/Insights_sprint2.png)
 
+### 5.2.3. Sprint 3.
+Para este Sprint nos enfocaremos desarrollar una primera version del Web-Services
+#### 5.2.3.1. Sprint Planning 3.
+En la siguiente sección, se presentará el sprint #3 con la versión de la aplicación web e implementación parcial del back-end, desarrollado en C#. Mostrando la organización, distribución y resultados de la aplicación web.
+| Sprint # | 3 |
+|---------|-------|
+| **Sprint Planning Background** |      |
+| Date | 11/06/2025|
+| Time | 4:30 pm |
+|Location | Modalidad remota |
+|Prepared By | Camila Sanchez,  Henry Esteban|
+|Attendees (to planning meeting)| Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban|
+|Sprint 0 Review Summary | En el segundo sprint desarrollamos y lanzamos la segunda versión de la aplicación web de AyniTech.|
+|Sprint 0 Retrospective Summary | Para el segundo sprint tuvimos que aprender a trabajar con el modelo GitFlow, lo que nos permitió, desarrollar satisfactoriamente dicho sprint.|
+|**Sprint Goal & User Stories** | |
+|Sprint Goal 1 |Implementar los web services a un 70%. Desarrollamos y desplegamos la primera versión de la estructura Back-End funcional que presente de manera clara para el consumo de la aplicación web, a través del lenguaje de programación "C#".|
+|Sprint Velocity 1 |5 |
+|Sum of Story Points |30 |
+#### 5.2.3.2. Aspects Leaders and Collaborators
+Durante el tercer sprint, el equipo tuvo como meta implementar el backend de StockWise utilizando C#. El enfoque se centró en desarrollar e implementar los endpoints para la gestión de productos y la creación de órdenes en el backend de la aplicación web.
 
-# Conclusiones
-## Conclusiones y recomendaciones.
+Además, el equipo se enfocó en las historias de usuario relacionadas con este desarrollo, asegurando que cada nueva característica no solo fuera funcional, sino también alineada con las necesidades de los usuarios. Se utilizó Trello para organizar y distribuir las tareas, permitiendo que cada integrante del equipo se especialicen  en áreas que se corresponden con sus competencias, lo que facilitó un avance eficiente y coordinado hacia el objetivo del sprint.
+
+| Team member | Github Username | Validaciones y Lógica | Base de datos | Testing Backend | Backend deploy | Documentation |
+|:------------|:----------------|:---------------------:|:-------------:|:---------------:|:--------------:|:-------------:|
+|Almerco Rojas, Jocelyn Damaly|JocyDam| L | C | C | C | C |
+|Saldaña Ayala, Fabiola del Rocio| fabs-in-space | L | C | L | C | C |
+|Sánchez Ríos, Camila Cristina| C4m174 | C | C | C | L | C |
+|Peña Riofrio, Maria Fernanda| mariafep | C | C | C | C | L |
+|Esteban Román, Henry Kalet| Kalet12-commit | C | L | C | C | C |
+|Bustinza Muñoz, Sebastian Alonso | Sebastianbustianza809 | C | C | C | C | L |
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+**Vista del Sprint Backlog en Trello:**
+
+![trello](assets/Chapter-5/Trello_Sprint3.png)
+
+**Link del Trello:** 
+[Trello](https://trello.com/invite/b/6856149857ff3b593bf42e19/ATTI1f148caabe73f0489fc96d11a69cf98fEA4E8AC6/stockwise-sprint-3)
+
+
+Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la parte del back end de la aplicación web y completar las funcionalidades del front end.
+
+<table>
+        <tr>
+            <th>Sprint #</th>
+            <th colspan="7">Sprint 3</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">WorkItem / Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation(Hours)</th>
+            <th>Assigned To</th>
+            <th>Status(To-do/In-Process/To-Review/Done)</th>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Registrar producto nuevo</td>
+            <td>T01</td>
+            <td>Endpoint de registro de producto </td>
+            <td>Crear endpoinr POST para agregar un nuevo producto en la base de datos</td>
+            <td>3h</td>
+            <td>Fabiola Saldaña</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US02</td>
+            <td>Editar información de producto</td>
+            <td>T02</td>
+            <td>Endpoinr para editar producto</td>
+            <td>Craer endpoint PUT para editar los campos de un producto existente <d>
+            <td>3h</td>
+            <td>Fabiola Saldaña</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US03</td>
+            <td>Registrar salida de producto</td>
+            <td>T03</td>
+            <td>Lógica y endpoint de salida</td>
+            <td>Implementar la lógica para registrar salidas y actualizar stock.</td>
+            <td>3h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Generar alertas por bajo stock</td>
+            <td>T04</td>
+            <td>Servicio de alertas de stock</td>
+            <td>Desarrollar lógica para detectar productos con stock mínimo y generar alerta.</td>
+            <td>3h</td>
+            <td>Sebastian Bustinza</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Buscar productos en inventarios</td>
+            <td>T05</td>
+            <td>Endpoint de búsqueda</td>
+            <td>Crear endpoint GET con filtros por nombre, código, categoría, etc.</td>
+            <td>2.5h</td>
+            <td>Henry Esteban</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US07</td>
+            <td>Añadir etiquetas para productos</td>
+            <td>T06</td>
+            <td>Gestión de etiquetas</td>
+            <td>Crear tablas relacionales y endpoints para asignar etiquetas a productos</td>
+            <td>3h</td>
+            <td>Maria Fernanda Peña RdRiofrio</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US12</td>
+            <td>Generar reportes de inventario</td>
+            <td>T07</td>
+            <td>Exportar reportes de inventario</td>
+            <td>Crear funcionalidad para generar reportes (Excel) con datos agregados.</td>
+            <td>2.5h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US15</td>
+            <td>Configurar roles y permisos de usuario</td>
+            <td>T08</td>
+            <td>Middleware de roles y permisos</td>
+            <td>Implementar lógica de control de acceso según rol del usuario.</td>
+            <td>2.5h</td>
+            <td>Camila Sanchez</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US17</td>
+            <td>Registrar lote de productos</td>
+            <td>T09</td>
+            <td>Registro de Lotes</td>
+            <td>Implementar la lógica de control de acceso según rol del usuario.</td>
+            <td>3 h</td>
+            <td>Henry Esteban</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US20</td>
+            <td>Crear Kits o combos de productos</td>
+            <td>T10</td>
+            <td>Endpoint de combos.</td>
+            <td>Crear endpoint para definir y registrar combos de productos. </td>
+            <td>3h</td>
+            <td>Maria Fernanda Peña Riofrio</td>
+            <td>Done</td>
+        </tr>
+</table>
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+En este punto abarcaremos las funcionalidades y la evidencia de que pudimos completar exitosamente las tareas planteadas en el Sprint Planning 3:
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+#### 5.2.3.5. Execution Evidence for Sprint Review
+La realización de estas tareas refleja un enfoque estructurado para el desarrollo de la aplicación web. Cada tarea aborda un componente crucial del producto, lo que asegura que se cubran tanto aspectos visuales como funcionales. Este enfoque modular permite no solo mantener un orden en el proceso de desarrollo, sino también garantizar que cada sección cumple con las funcionalidades que brinda AyniTech.
+
+A continuación se mostrarán capturas de pantallas así como el vídeo de la ejecución de las nuevas funcionalidades de la Landing Page, la Aplicación Web y el Web Service:
+
+**LANDING PAGE**
+
+Nueva funcionalidad Multilenguaje:
+
+<th>Captura 1: <img src="assets/Chapter-5/En1.png" 
+
+<th>Captura 2: <img src="assets/Chapter-5/En2.png" 
+
+<th>Captura 3: <img src="assets/Chapter-5/En3.png" 
+
+<th>Captura 5: <img src="assets/Chapter-5/En5.png" 
+
+**WEB SERVICE**
+
+En este sprint, logramos como tercera fase de nuestro producto final, desarrollar la API hecha con Java en Spring Boot.
+
+Muestra de nuestra API hecha con Spring Boot:
+
+<th>Captura del back 1: <img src="assets/Chapter-5/Back1.png" 
+
+
+<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
+
+
+<th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.1.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.2.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.3.png" 
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
+A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
+
+Repositorio del backend en GitHub: 
+https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
+
+
+<b>Bounded context: Products:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
+------------------------------------------------------
+
+<b>Bounded context: Inventaries:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Alert Stock:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Authentication:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|api/v1/iam| <img src="assets/Chapter-5/UserSwag.png"> |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Evidencia de despliegue en Github Pages: Durante este sprint se usó Github Pages como plataforma de despliegue para la Landing Page:
+
+<img src="assets/Chapter-5/ladi.png" alt="Captura de la lading" width="550">
+
+Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify como plataforma de despliegue para la aplicación web de AyniTech.
+
+<img src="assets/Chapter-5/22.png" alt="Captura de la lading" width="500">
+<img src="assets/Chapter-5/33.png" alt="Captura de la lading" width="500">
+<img src="assets/Chapter-5/reg2.png" alt="Captura de la lading" width="500">
+<img src="assets/Chapter-5/ini2.png" alt="Captura de la lading" width="500">
+
+**Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
+**Link de Web app:** https://aynitech.netlify.app/
+ 
+#### 5.2.3. Team Collaboration Insights during Sprint.
+
+| Alumno | Actividad |
+| ------ | --------- |
+|Jocelyn Damaly Almerco Rojas|Implementación del Report Context - historial de movimientos|
+|Sanchez Rios, Camila Cristina|Implementación de User Bounded Context - usuario, resgistro, perfil|
+|Henry Kalet Esteban Roman|Implementación del Inventory Bounded Context - inventario|
+|Maria Fernanda Peña Riofrio|Implementación de Product Managment - kitsproducts|
+|Fabiola Del Rocio Saldaña Ayala|Implementación de Product Managment - Product|
+|Sebastian Alonso Bustinza Muñoz| Implementación del Inventory Bounded Context - alertastock|
+
+**Insights del Web Service::**
+![commits Front](assets/Chapter-5/backin.png)
+
+![commits Front](assets/Chapter-5/backcon.png)
+
+![commits Front](assets/Chapter-5/backfre.png)
+
+## 5.3. Validation Interviews
+### 5.3.1 Diseño de Entrevistas
+
+**Segmento #1: Bodegas especializadas por rubro**
+
+**Presentación del entrevistado**
+* ¿Cuál es tu nombre?
+* ¿Qué edad tienes?
+* ¿Desde cuándo gestionas esta bodega?
+* ¿Cuál es el rubro principal de tu bodega?
+
+Interactúa el usuario con la landing page y la versión web de nuestra plataforma para gestión de inventarios.
+
+**Landing page**
+
+Acciones clave dentro del sistema
+
+Navegación interactivo por la interfaz web
+
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar".
+
+A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico.
+
+Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma.
+
+Del mismo modo, si el usuario desea retirar su información o actualizarla, lo podrá hacer a través de su perfil.
+
+Finalmente, hacer clic en el botón "Aceptar".
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña.
+
+Luego hace clic en el botón "Log In".
+
+Después, se le redirige al panel de perfil.
+
+Allí puede editar su información personal y acceder a herramientas según su perfil ("Administrador" o "Empleado").
+
+**User Goal: Navegar por el Dashboard**
+
+El usuario inicia sesión desde la Landing Page.
+
+Ingresa a la vista principal del Dashboard.
+
+Visualiza el total de productos registrados y la fecha del último proveedor.
+
+Visualiza un resumen de productos próximos a caducar con su respectiva fecha y stock disponible.
+
+Accede a botones de acción rápida como “Historial”, “Inventario”, “Añadir Productos”, “Kits” y “Devolución de productos”.
+
+**User Goal: Inventario (Producto / Lote)**
+
+Ingresa a la sección de Inventario.
+
+Revisa el listado de productos presionando el botón "por producto".
+
+Filtra los productos por categoría, nombre del producto, fecha o stock mínimo.
+
+Consulta el listado con información clave: fecha de entrada, cantidad por unidad, precio, stock mínimo y unidad de medida.
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+Pulsa el botón "Agregar Producto".
+
+Rellena los campos solicitados para registrar uno nuevo.
+
+Pulsa el botón "Crear Kit".
+
+Combina productos existentes para crear un kit nuevo.
+
+
+El usuario pulsa el botón “Añadir Productos” desde el Dashboard.
+
+Visualiza una galería de productos existentes y accede a opciones para editarlos o duplicarlos.
+
+Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre, etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
+
+Desde el menú principal, también accede a la opción “Kits”.
+
+En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
+
+**User Goal: Historial de Movimientos**
+
+Navega a la sección de Historial.
+
+Visualiza entradas y salidas de productos.
+
+Filtra movimientos por fecha, producto o lote.
+
+El usuario accede a la sección de Historial desde el panel principal.
+
+Filtra los registros por tipo de gestión, categoría, stock promedio y fecha.
+
+Visualiza los movimientos realizados, incluyendo datos como nombre del producto, fecha de consulta, precio unitario, cantidad y total.
+
+Consulta métricas como el stock promedio, estado del producto y stock ideal.
+
+Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
+
+**User Goal: Alerta de Stock**
+
+El usuario accede a la sección de Alertas desde el menú superior.
+
+Consulta una lista de productos que presentan alertas por stock mínimo o por cercanía a su fecha de vencimiento.
+
+Visualiza detalles como categoría de alerta, tipo de producto, nombre y fecha de alerta.
+
+Puede ingresar a una vista de detalles, generar reportes o confirmar acciones desde botones individuales por producto.
+
+También puede eliminar una alerta específica luego de una confirmación emergente.
+
+**Preguntas principales:**
+* ¿Te resultó fácil encontrar cómo agregar un producto?
+* ¿Qué tal fue el proceso para registrar el stock por producto y por lote?
+* ¿Te resultó claro el apartado de “Próximos a caducar”? ¿Te pareció útil?
+* ¿Probaste la sección de kits? ¿Te resultó útil combinar productos?
+* ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
+* ¿Qué te pareció el diseño general de la landing page?
+* ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+
+**Valoración de experiencia**
+* Del 1 al 10, ¿qué tan útil te pareció la app para tu bodega?
+* ¿Qué funcionalidad te pareció más valiosa?
+* ¿Qué función le agregarías sí o sí?
+* ¿Recomendarías esta plataforma a otros dueños de bodegas? ¿Por qué?
+
+**Segmento #2: Startups y emprendedores con necesidades logísticas**
+
+**Presentación del entrevistado**
+* ¿Cuál es tu nombre?
+* ¿Qué edad tienes?
+* ¿Qué tipo de producto vendes o almacenas?
+* ¿Tienes local físico, almacén propio o trabajas con terceros?
+
+Interactúa el usuario con la landing page y la versión web de nuestra plataforma para gestión gestionar stock, registrar compras y generar reportes.
+
+**Landing page**
+
+Acciones clave dentro del sistema
+
+Navegación interactivo por la interfaz web
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar".
+
+A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico.
+
+Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma.
+
+Del mismo modo, si el usuario desea retirar su información o actualizarla, lo podrá hacer a través de su perfil.
+
+Finalmente, hacer clic en el botón "Aceptar".
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña.
+
+Luego hace clic en el botón "Log In".
+
+Después, se le redirige al panel de perfil.
+
+Allí puede editar su información personal y acceder a herramientas según su perfil ("Administrador" o "Empleado").
+
+**User Goal: Navegar por el Dashboard**
+
+El usuario inicia sesión desde la Landing Page.
+
+Ingresa a la vista principal del Dashboard.
+
+Visualiza el total de productos registrados y la fecha del último proveedor.
+
+Visualiza un resumen de productos próximos a caducar con su respectiva fecha y stock disponible.
+
+Accede a botones de acción rápida como “Historial”, “Inventario”, “Añadir Productos”, “Kits” y “Devolución de productos”.
+
+**User Goal: Inventario (Lote)**
+
+Accede a la sección de Inventario por lote.
+
+Filtra los lotes por nombre del producto, proveedor, fecha de entrada, cantidad o precio.
+
+Consulta el listado con información detallada como proveedor, producto, fecha, cantidad por unidad, precio y unidad de medida.
+
+Gestiona las acciones disponibles para cada lote desde la columna correspondiente.
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+Pulsa el botón "Agregar Producto".
+
+Rellena los campos solicitados para registrar uno nuevo.
+
+Pulsa el botón "Crear Kit".
+
+Combina productos existentes para crear un kit nuevo.
+
+
+El usuario pulsa el botón “Añadir Productos” desde el Dashboard.
+
+Visualiza una galería de productos existentes y accede a opciones para editarlos o duplicarlos.
+
+Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre, etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
+
+Desde el menú principal, también accede a la opción “Kits”.
+
+En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
+
+**User Goal: Historial de Movimientos**
+
+Navega a la sección de Historial.
+
+Visualiza entradas y salidas de productos.
+
+Filtra movimientos por fecha, producto o lote.
+
+El usuario accede a la sección de Historial desde el panel principal.
+
+Filtra los registros por tipo de gestión, categoría, stock promedio y fecha.
+
+Visualiza los movimientos realizados, incluyendo datos como nombre del producto, fecha de consulta, precio unitario, cantidad y total.
+
+Consulta métricas como el stock promedio, estado del producto y stock ideal.
+
+Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
+
+**User Goal: Alerta de Stock**
+
+El usuario accede a la sección de Alertas desde el menú superior.
+
+Consulta una lista de productos que presentan alertas por stock mínimo o por cercanía a su fecha de vencimiento.
+
+Visualiza detalles como categoría de alerta, tipo de producto, nombre y fecha de alerta.
+
+Puede ingresar a una vista de detalles, generar reportes o confirmar acciones desde botones individuales por producto.
+
+También puede eliminar una alerta específica luego de una confirmación emergente.
+
+**Preguntas principales:**
+* ¿Qué opinas de las alertas de stock mínimo/máximo y vencimiento? ¿Son suficientes?
+* ¿La sección de historial de movimientos te pareció útil para revisar tus registros?
+* ¿Te resultó útil la opción de devolución de productos?
+* ¿Los reportes del historial son útiles para tomar decisiones?
+* ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
+* ¿Qué te pareció el diseño general de la landing page?
+* ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+
+**Valoración de experiencia**
+* Del 1 al 10, ¿qué tan útil te pareció la app para tu bodega?
+* ¿Qué funcionalidad te pareció más valiosa?
+* ¿Qué función le agregarías sí o sí?
+* ¿Recomendarías esta plataforma a otros emprendedores? ¿Por qué?
+
+### 5.3.2 Registro de Entrevistas
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Milagros Almerco</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/Milagros.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Milagros Almerco, evaluó la plataforma StockWise y destacó su facilidad de uso al registrar productos y gestionar inventario. Aunque al inicio tuvo dudas sobre la diferencia entre “stock” y “lote”, logró comprenderlo rápidamente gracias a la interfaz intuitiva. Resaltó como funcionalidades más valiosas el control de productos próximos a vencer y la visualización por lotes, que considera claves para evitar pérdidas. Valoró también el diseño moderno y claro, sin presentar dificultades técnicas. Sugirió como mejora incluir un sistema para registrar pagos pendientes o créditos. En general, calificó la app como práctica, útil y recomendada para otros dueños de bodegas.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EfEdvSoT6nZBn3Bjd_0YYpIBnQRFJ14Fy8uM2urSLFlOLg?e=Meau7E&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        05:24 -11:12
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Elvis Aranga Mesa</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>31</td>
+    <th>Distrito</th>
+    <td>Santiago de Surco</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/seg1.1.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Elvis Aranga Meza, encargado de un mini market en Surco, compartió su experiencia utilizando una aplicación para la gestión de bodegas, destacando la facilidad de uso tanto para agregar productos como para navegar por las funciones principales, y calificando su utilidad con un 9 sobre 10. Consideró el diseño visual adecuado y sencillo, aunque sugirió mejorar el tamaño de la interfaz en dispositivos móviles. Resaltó la utilidad de funciones como la visualización de fechas de vencimiento para evitar mermas y la organización de productos por lote, lo cual facilita la gestión de promociones. Sugirió incorporar reportes y estadísticas que permitan proyectar ventas y establecer metas. Finalmente, recomendó la plataforma a otros bodegueros, especialmente por su precio y utilidad, aunque señaló la importancia de brindar asistencia a usuarios con menos experiencia tecnológica.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210973_upc_edu_pe/Ed-8I9bYxj1GjnOlLeQB58UBd9lDt7bxHqXaAjqspe1NgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PILRLJ">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 3:53
+    </td>
+  </tr>
+</table>
+<br>
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Kerry Baquerrizo</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>21</td>
+    <th>Distrito</th>
+    <td>San Luis</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/kerry.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Kerry es una emprendedora de 21 años, encargada de atender la tineda de sus padres. Ella menciona que sus funcionales que más les gustaron fue la alerta de cuando el producto esta por acabarse, adempas tambien considera que el producto de fecha de vencimiento le parece interesante; sin embargo ella percibe que la función le sigue pareciendo muy básica. En cuanto a la interfaz, le gusto mucho los colores llamativos y la internacionalización, pues aunque no lo parezca, algunos productos y acciones se le haría más comodo verlos en ingles y otros en español
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 5:24
+    </td>
+  </tr>
+</table>
+<br>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>4</td>
+    <th>Nombre</th>
+    <td>Alexander Miranda</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>Villa el Salvador</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/entrevista_alex.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+         Alexander Miranda Vivanco, encargado de la venta de textiles, compartió su experiencia utilizando la aplicación para la gestión de emprendimienntos, destacando la facilidad de uso tanto para el historial de productos como el apartado de creación de un producto. Consideró que el diseño visual era adecuado y sencillo, aunque sugirió complementar ciertas funcionalidades y hacerlo más intuitivo. En especial el diseño del excel exportado. Opinó que la visualización de fechas de vencimiento y la organización de productos por lote fueron las funcionalidades más valiosas de la aplicación.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/EYijLd_IDRlAoVIRmB0haHQB_BFtGINS912uRbLgy1pacg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ImTGHo">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        17:42 - 23:07
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>5</td>
+    <th>Nombre</th>
+    <td>Juan Carlos Ramírez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>49</td>
+    <th>Distrito</th>
+    <td>Surquillo</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        17:11 - 20:45
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>6</td>
+    <th>Nombre</th>
+    <td>Maria Paula</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>23</td>
+    <th>Distrito</th>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/entrevista_seg2.3.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Nuestra entrevistada Maria Pilares, después de observar y probar tanto la landing page y la aplicación web de nuestro proyecto, nos cuenta que le gusto la idea, ya que es llamativa y esta lo que necesita. Sin embargo, nos cuenta que punto de vista de emprendor, en este caso del sector textil, hay funcionalidades que le faltarían para sus productos, ya que ahí la mayoría de productos no se vencen, solo se gastan ya que son telas. Lo que más le llamo la atención fue la sección de alerta stock del producto, que es algo que realmente es útil para emprendedores.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/file/d/1VQSyyc5wOJ0KoNuTVDFbdjuiJ4JwRTOf/view?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 09:51
+    </td>
+  </tr>
+</table>
+
+## 5.3.3. Evaluaciones según heurísticas.
+
+### Web Application a evaluar:
+#### StockWise
+**Meta:** El propósito general de la evaluación es encontrar problemas de usabilidad existentes en la aplicación web StockWise, basándose en la retroalimentación de usuarios reales de los segmentos objetivos (bodegas y emprendimientos).
+
+**Cómo:** Los hallazgos se llevarán a cabo utilizando la Lista Heurística de Nielsen como marco de referencia, interpretando los comentarios y dificultades expresadas por los entrevistados.
+
+### Tareas a evaluar
+Este documento describe las **tareas clave a evaluar** en la aplicación web StockWise, orientada a dueños de bodegas y emprendedores. Las tareas están clasificadas por funcionalidades principales y por objetivos del usuario para asegurar una evaluación integral del sistema.
+
+---
+
+### Tareas a evaluar según User Goals
+
+#### 1. Registro e Inicio de Sesión
+- Proceso de registro para un nuevo usuario.
+- Inicio de sesión con credenciales existentes.
+- Cambio de idioma (Internacionalización) en la Landing Page y la aplicación.
+
+#### 2. Navegación por el Dashboard
+- Visualización del resumen de estado (total de productos, etc.).
+- Revisión del apartado "Próximos a caducar".
+- Acceso a las diferentes funcionalidades desde los botones principales.
+
+#### 3. Gestión de Inventario
+- Añadir un nuevo producto al inventario.
+- Registrar stock diferenciando por "producto" y por "lote".
+- Añadir etiquetas a los productos.
+
+#### 4. Creación de Kits/Combos
+- Seleccionar productos existentes para crear un kit.
+- Visualizar los kits creados.
+
+#### 5. Historial de Movimientos
+- Visualizar el historial de entradas y salidas de productos.
+- Editar un registro existente en el historial.
+- Exportar la información del historial.
+
+#### 6. Alertas de Stock
+- Visualizar las alertas generadas por bajo stock o productos por vencer.
+
+---
+
+### Consideraciones de Evaluación
+Cada tarea debe evaluarse considerando:
+- **Funcionalidad:** Cumple correctamente con su objetivo.
+- **Usabilidad:** Interfaz clara, intuitiva y consistente.
+- **Validación:** Manejo adecuado de errores y validaciones.
+- **Flexibilidad:** Adaptabilidad a diferentes tipos de negocios y usuarios.
+
+---
+
+### Evaluación de Desktop Landing Page
+Este documento presenta los hallazgos identificados en la evaluación heurística de la **Landing Page** de la aplicación web StockWise. Se utiliza una escala de severidad para clasificar los errores según su impacto en la experiencia de usuario.
+
+---
+
+### Escala de Severidad
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+### Problemas Identificados - Landing Page
+
+| #  | Problema                                                                                                                                           | Escala de Severidad | Heurística / Principio Violado                          |
+|----|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|----------------------------------------------------------|
+| 1  | La información sobre los planes de suscripción podría ser más específica, detallando las funcionalidades incluidas en cada uno.                    | 2                    | Usability: Visibilidad del estado del sistema            |
+| 2  | Los botones de acción como “Iniciar sesión” o “Empieza gratis” podrían tener una retroalimentación visual más clara al interactuar.                 | 1                    | Usability: Visibilidad del estado del sistema            |
+| 3  | La sección "Nosotros" se enfoca en testimonios, pero podría incluir información sobre la misión y visión de AyniTech para generar más confianza.    | 2                    | Usability: Coincidencia entre el sistema y el mundo real |
+| 4  | Aunque existe un switch de idioma, la funcionalidad de internacionalización podría ser más prominente o explicada para usuarios que la necesiten.  | 2                    | Usability: Flexibilidad y eficiencia de uso              |
+| 5  | El diseño es claro, pero algunos usuarios podrían percibirlo como un poco genérico y podría no comunicar la propuesta de valor única de StockWise. | 1                    | Usability: Diseño estético y minimalista                 |
+
+---
+
+### PROBLEMA #01: La información de los planes es poco específica
+**Escala de severidad:** 2
+**Principio violado:** Usability – Visibilidad del estado del sistema
+
+**Descripción del problema:**
+Aunque se presentan diferentes planes (gratuito, emprendedor, negocio), los usuarios no tienen suficiente información para diferenciar claramente qué funcionalidades o límites obtiene con cada uno. Esto dificulta la toma de decisiones informadas para seleccionar el plan que mejor se adapte a sus necesidades.
+
+**Recomendacion:**
+Reestructurar la sección de planes para incluir una tabla comparativa o una lista detallada (bullet points) que especifique claramente las características, límites (ej. número de productos, usuarios) y beneficios de cada nivel de suscripción.
+
+---
+
+### PROBLEMA #02: Retroalimentación visual de botones interactivos
+**Escala de severidad:** 1
+**Principio violado:** Usability – Visibilidad del estado del sistema
+
+**Descripción del problema:**
+Los botones principales de llamado a la acción ("Empieza gratis") funcionan correctamente, pero carecen de una retroalimentación visual inmediata y notoria al pasar el cursor sobre ellos o al hacer clic (ej. cambio de color sutil, efecto de sombra). Esto es un detalle menor pero que contribuye a una experiencia de usuario más pulida.
+
+**Recomendacion:**
+Añadir efectos `:hover` y `:active` más pronunciados a los botones interactivos principales para que el usuario reciba una confirmación visual instantánea de que el elemento es clickeable y que el sistema ha registrado su acción.
+
+---
+
+### Web Application: Evaluación Heurística
+
+### Problemas Identificados
+
+| #  | Problema                                                                                                            | Escala de Severidad | Heurística / Principio Violado                          |
+|----|---------------------------------------------------------------------------------------------------------------------|---------------------|---------------------------------------------------------|
+| 1  | Confusión inicial entre los conceptos de "stock por producto" y "registro por lote".                               | 2                   | Usability – Coincidencia entre el sistema y el mundo real |
+| 2  | La interfaz del dashboard se percibe como sobrecargada y los colores resultan muy intensos para algunos usuarios.   | 2                   | Usability – Estética y diseño minimalista               |
+| 3  | Falta de flexibilidad para tipos de negocio no perecederos (ej. textiles).                                          | 3                   | Usability – Flexibilidad y eficiencia de uso            |
+| 4  | El formato del archivo Excel exportado desde el historial es poco amigable y difícil de leer.                        | 2                   | Usability – Diseño estético y minimalista               |
+| 5  | Funcionalidad de "Añadir etiquetas" incompleta, ya que las etiquetas guardadas no son visibles posteriormente.        | 3                   | Usability – Visibilidad del estado del sistema          |
+| 6  | Ausencia de funcionalidades clave sugeridas por los usuarios, como registro de ventas o gestión de créditos.        | 3                   | Usability – Coincidencia entre el sistema y el mundo real|
+
+---
+
+### PROBLEMA #01: Confusión inicial entre los conceptos de "stock por producto" y "registro por lote"
+**Escala de severidad:** 2
+**Principio violado:** Usability – Coincidencia entre el sistema y el mundo real
+
+**Descripción del problema:**
+La entrevistada Milagros Almerco mencionó: *"al inicio me tomó un momento de entender cómo se maneja el registro por lote, pero una vez que lo entendí fue rápido"*. Esto indica que la terminología o el flujo para diferenciar ambos tipos de registro no es inmediatamente intuitivo para un nuevo usuario, generando una fricción inicial.
+
+**Recomendacion:**
+Mejorar la claridad en la interfaz. Se podría añadir un pequeño ícono de información `(i)` con un `tooltip` que explique brevemente la diferencia, o refinar el etiquetado de los botones y secciones para que el propósito de cada uno sea más explícito sin necesidad de prueba y error.
+
+---
+
+### PROBLEMA #02: La interfaz del dashboard se percibe como sobrecargada y los colores muy intensos
+**Escala de severidad:** 2
+**Principio violado:** Usability – Estética y diseño minimalista
+
+**Descripción del problema:**
+El entrevistado Luis Alejo comentó: *"siento que el inicio esto está como que un poco sobrecargado, tal vez de botones o un poco de información"* y sobre el aspecto visual: *"podrían ser un poco los colores para mi gusto, ya que los siento algo fuertes"*. Esto sugiere que la densidad de información y la paleta de colores pueden generar una carga cognitiva innecesaria.
+
+**Recomendacion:**
+Revisar el diseño del dashboard para mejorar la jerarquía visual. Utilizar más espacio en blanco para separar las secciones, agrupar los botones de acción de manera más lógica y considerar ajustar la saturación de la paleta de colores para que sea más agradable a la vista durante un uso prolongado.
+
+---
+
+### PROBLEMA #03: Falta de flexibilidad para tipos de negocio no perecederos (ej. textiles)
+**Escala de severidad:** 3
+**Principio violado:** Usability – Flexibilidad y eficiencia de uso
+
+**Descripción del problema:**
+Usuarios como Alexander Miranda y Maria Paula (del rubro textil) señalaron una limitación importante. Alexander dijo: *"si yo quiero añadir unas medias no tendría que haber una fecha de caducidad, porque como tal no tiene una fecha de caducidad"*. La aplicación obliga a usar campos como "fecha de caducidad" que no son aplicables a todos los negocios, limitando su utilidad.
+
+**Recomendacion:**
+Modificar el formulario de "Añadir producto" para que campos como "Fecha de caducidad" sean opcionales. Se podría incluso permitir a los usuarios configurar qué campos son relevantes para su tipo de negocio, ofreciendo una experiencia mucho más flexible y personalizada.
+
+---
+
+### PROBLEMA #04: El formato del archivo Excel exportado desde el historial es poco amigable
+**Escala de severidad:** 2
+**Principio violado:** Usability – Diseño estético y minimalista
+
+**Descripción del problema:**
+Alexander Miranda, al probar la función de exportar, indicó que el reporte resultante podría ser *"un poco más amigable para saber, o sea, para tener una vista más agradable visualmente"*. Un reporte difícil de leer pierde gran parte de su utilidad.
+
+**Recomendacion:**
+Rediseñar la plantilla de exportación de Excel. Asegurar que los datos se presenten en una tabla bien estructurada, con encabezados claros, formato de celdas adecuado (ej. fechas, moneda) y quizás un resumen simple al inicio. El objetivo es que el reporte sea legible y útil desde el momento en que se abre.
+
+---
+
+### PROBLEMA #05: Funcionalidad de "Añadir etiquetas" incompleta
+**Escala de severidad:** 3
+**Principio violado:** Usability – Visibilidad del estado del sistema
+
+**Descripción del problema:**
+El entrevistado Alexander Miranda notó que tras añadir una etiqueta, esta no se visualizaba: *"me gustaría también que aparezca la etiqueta que ha añadido o K para también tener la opción a futuro para editar"*. Si el sistema no muestra el resultado de una acción del usuario, la funcionalidad se percibe como rota o incompleta.
+
+**Recomendacion:**
+Asegurar que, una vez que el usuario guarde una etiqueta para un producto, esta se muestre inmediatamente en la vista de detalles del producto. Además, estas etiquetas deben ser editables o eliminables, proporcionando un ciclo de interacción completo.
+
+---
+
+### PROBLEMA #06: Ausencia de funcionalidades clave para la gestión completa del negocio
+**Escala de severidad:** 3
+**Principio violado:** Usability – Coincidencia entre el sistema y el mundo real
+
+**Descripción del problema:**
+Varios usuarios solicitaron funcionalidades que consideran esenciales. Milagros sugirió *"un sistema para registrar pagos pendientes de proveedores o créditos de los clientes"*. Alexander fue más allá, pidiendo poder *"registrar productos vendidos y que a partir de los productos vendidos también se reste en mi inventario"*. La ausencia de un módulo de ventas que se integre con el inventario es una omisión importante.
+
+**Recomendacion:**
+Priorizar para futuros sprints el desarrollo de un módulo de "Ventas". Esta funcionalidad permitiría a los usuarios registrar las salidas de productos de manera más realista, actualizando automáticamente el stock. Esto cerraría el ciclo de gestión de inventario y alinearía la aplicación mucho más con las operaciones diarias de sus negocios. Adicionalmente, se puede evaluar un módulo simple de "Cuentas por pagar/cobrar".
+
+
+## 5.4.	Video About-the-Product
+A continuación, presentaremos el video About-the-Product en el cual se detalla la propuesta de valor de StockWise así como el flujo de la solución junto con testimonios de usuarios.
+
+<br>
+Captura de la entrevista: <br>
+<img src="assets/Chapter-5/Evidencia About the product.png" alt="Captura del abouth the product" width="750">
+<br>
+<a href="https://www.youtube.com/watch?v=gKQCMO4rORw&ab_channel=CamilaSanchez">Ver grabación</a>
+
+
 
 # Conclusiones 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una plataforma de alto valor, adaptable y preparada para el crecimiento continuo.
+
+Como primer punto de contaco con los usuarios, se diseño una landing page clara, atractiva y que esta orientada al marketing digital. Esta página, su propósito es presentar StockWise de forma llamativa, destacando sus características y en que se diferencia la competencia. El contendio de la landing fue pensada para captar la atención de gente una bodega tanto como para emprendedores con llamados de acción para ser participe de forma sencilla.
+
+En cuanto al frontend, se avanzó la construcción de una interfaz web moderna, que sea responsiva y sea fácil de utilizar. Acá se aplicaron principio de diseño centrado en el usuario, junto a una estructura basada en componentes reutilizables, lo que permite mantener un flujo de navegación claro y accesible.
+
+Por último, en el backend, se ha desarrollado una arquitectura robusta y escalable utilizando C# como lenguaje de programación, esta organizada en capas y con principios de porgrmación orientada a objetos. Se implementaros, servicios y controladores que gestión operaciones relacionadas al stock, usuarios y reportes.
+
+En conclusión, actualmente StocWise tiene un avance que refleja un progreso significativo, que da una solución integral, accesible y de alto valor para el mercado Peruano. Además, StockWise se diferencia de otras soluciones por ser simple de usar, enfocarse en negocios específicos y ser accesible para emprendedores. Gracias a esta base sólida, el proyecto está bien encaminado para seguir creciendo, llegar a más usuarios y sumar nuevas funciones útiles según lo que necesiten.
 
 # Bibliografía
 1. Dux Software. (2025, 9 abril). *Dux Software: El Sistema de Gestión para tu Negocio.* https://www.duxsoftware.com.ar/
@@ -3777,6 +4890,10 @@ El desarrollo de las funcionalidades propuestas para StockWise responde a las ne
 
 
 # Anexos
-**Video exposición:** [Acceder al video de exposición](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202313773_upc_edu_pe/EqhFMC87TlFMvlVc0wcPAeQBE8BXdNH1AMkYj5IQpp2erg?e=1hti0f)
+**Video exposición TB1:** [Acceder al video de exposición](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202313773_upc_edu_pe/EqhFMC87TlFMvlVc0wcPAeQBE8BXdNH1AMkYj5IQpp2erg?e=1hti0f)
+
+**Video exposición TB2:** [Acceder al video de exposición](..)
+
+**Video About the Product:** [Acceder al video de exposición](https://youtu.be/gKQCMO4rORw)
 
 **Repositorio:** [AyniTech (GitHub)](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech)
