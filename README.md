@@ -450,7 +450,7 @@ y cumple objetivos.</b></td>
                    general de manera efectiva.</p>
         <p>..</p>
         <p><b>TB2:</b></p>
-        <p>..</p>
+        <p>Desde el inicio del proyecto, he contribuido a crear un entorno colaborativo e inclusivo, respetando las ideas del equipo y promoviendo la participación de todos. En conjunto, definimos metas claras por entregas (Sprints), y me aseguré de cumplir con las tareas asignadas en tiempo y forma, como el desarrollo del frontend y la sección 5.3.3 del informe. Además, participé en la planificación de tareas técnicas y de documentación, lo que permitió mantener un ritmo de trabajo ordenado y orientado a los objetivos. Esta experiencia reforzó mi compromiso con el trabajo en equipo, la organización y la entrega responsable de resultados.</p>
         <p><b>TF:</b></p>
         <p>..</p>
         <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
@@ -480,7 +480,7 @@ y cumple objetivos.</b></td>
         <p><b>TB2:</b></p>
         <p>Contribui con los cambios en el trabajo con respecto al frontend y la landing al igual de desarrollar el backend Bounded Context User. Colabora con la planificacion de tareas y apoyo en el grupo</p>
         <p><b>TF:</b></p>
-        <p>.</p>
+        <p>Durante el desarrollo del proyecto, participé activamente en la implementación del frontend junto con Fabiola, aportando soluciones técnicas para mejorar la experiencia del usuario y asegurar la funcionalidad del sistema. Además, asumí la responsabilidad de desarrollar la sección 5.3.3 del informe, lo que implicó coordinarme con mis compañeros para mantener coherencia en el contenido general. Estas actividades reflejan mi compromiso con el trabajo en equipo y mi capacidad para asumir liderazgo compartido, aportando desde mi rol tanto en lo técnico como en la organización del proyecto.</p>
         <p><b>Maria Fernanda Peña Riofrio</b></p>
         <p><b>TB1:</b></p>
         <p>Coordine el diseño y análisis de <br>
