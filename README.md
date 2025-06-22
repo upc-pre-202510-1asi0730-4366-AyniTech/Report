@@ -318,7 +318,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
              de una solución técnica <br>funcional.</p>
         <p>,..</p>
         <p><b>TB2:</b></p>
-        <p>.</p>
+        <p>Durante el desarrollo del proyecto, participé activamente en la implementación del frontend junto con Fabiola, aportando soluciones técnicas para mejorar la experiencia del usuario y asegurar la funcionalidad del sistema. Además, asumí la responsabilidad de desarrollar la sección 5.3.3 del informe, lo que implicó coordinarme con mis compañeros para mantener coherencia en el contenido general. Estas actividades reflejan mi compromiso con el trabajo en equipo y mi capacidad para asumir liderazgo compartido, aportando desde mi rol tanto en lo técnico como en la organización del proyecto.</p>
         <p><b>TF:</b></p>
         <p>.</p>
        <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
