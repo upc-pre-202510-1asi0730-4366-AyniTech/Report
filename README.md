@@ -72,18 +72,11 @@
                 <td>07/04/2025</td>
                 <td>
                     <ul>
-<<<<<<< HEAD
                       <li>Jocelyn Damaly Almerco Rojas</li>
                       <li>Camila Sanchez</li>
                       <li>Maria Fernanda Peña</li>
                       <li>Fabiola Del Rocio Saldaña Ayala</li>
                       <li>Henry Kalet Esteban Roman</li>
-=======
-          <li>Henry Esteban </li>
-          <li>Camila Sanchez</li>
-          <li>..</li>
-          <li>..</li>
->>>>>>> feature/chapter-5
                     <ul>
            </td>
                          <td>            
@@ -4224,6 +4217,19 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
 
 **Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
 **Link de Web app:** https://aynitech.netlify.app/
+
+Evidencia de despliegue Backend en Azure: Durante este sprint, se utilizó Azure como plataforma de despliegue para la aplicación web de AyniTech.
+<img src="assets/Chapter-5/deploy1.jpg" width="750">
+<img src="assets/Chapter-5/deploy2.jpg" width="750">
+<img src="assets/Chapter-5/deploy3.png" width="750">
+<img src="assets/Chapter-5/deploy4.png" width="750">
+<img src="assets/Chapter-5/deploy5.png" width="750">
+<img src="assets/Chapter-5/deploy6.png" width="750">
+<img src="assets/Chapter-5/deploy7.png" width="750">
+
+
+**Link del Backend:** [https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ ](https://stockwise-a4g5evcsbyh9c3df.centralus-01.azurewebsites.net/swagger/index.html)
+
  
 #### 5.2.3. Team Collaboration Insights during Sprint.
 
