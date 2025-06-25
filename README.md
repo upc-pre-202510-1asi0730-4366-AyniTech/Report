@@ -182,7 +182,7 @@
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-n)
       - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
@@ -191,21 +191,30 @@
     - [5.2.2. Sprint 2](#522-sprint-2)
       - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
       - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
       - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 2](#5231-sprint-planning-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 2.](#5233-sprint-backlog-3)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-3)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-3)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-3)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -753,7 +762,7 @@ Para la entrega del Sprint 1, se desplegó el landing page de forma completa. Pa
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de StockWise utilizando JavaScript, Vue. CSS y HTML. El enfoque se centró en desarrollar funcionalidades clave en varias páginas. Además, el equipo se enfocó en las historias de usuario relacionadas con este desarrollo, asegurando que cada nueva característica no solo fuera funcional, sino también alineada con las necesidades de los usuarios. Se utilizó Trello para organizar y distribuir las tareas, permitiendo que cada integrante del equipo se especializara en áreas que se correspondían con sus competencias, lo que facilitó un avance eficiente y coordinado hacia el objetivo del sprint.
 
-#### 5.2.2.3. Sprint Backlog 2.
+#### 5.2.2.3. Sprint Backlog 2
 **Link del Trello:** 
 [Trello](https://trello.com/b/GaGqplFO)
 
@@ -774,7 +783,7 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 |US06|Buscar productos en inventarios|T07|Pantalla de Inventario (Producto o lote)|Implementar un diseño intuitivo para el usuario|2h |Henry Esteban |Done|
 |US20|Crear kits o combos de productos|T08|Pantalla de Kits|Implementar un diseño intuitivo para el usuario|2h |Maria Fernanda Peña |Done|
 
-#### 5.2.2.4. Development Evidence for Sprint Review.
+#### 5.2.2.4. Development Evidence for Sprint Review
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
 |----|----|----|----|----|----|
 |https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
@@ -795,7 +804,7 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 | |feature/stock-alert|6b841ec3 |Add feature/stock-alert | Sebastian|15/05/2025 |
 | |feature/stock-alert|42e08cef |Update stock alert | Sebastian|15/05/2025 |
 
-#### 5.2.2.5. Execution Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review
 
 **Iniciar sesión**
 ![Evidence](assets/Chapter-5/ini.png) 
@@ -829,7 +838,7 @@ Durante el segundo sprint, el equipo tuvo como meta implementar el frontend de S
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 No se implementaron servicios en este sprint 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 Para realizar el despliegue del Frontend se realizaron lo siguientes pasos:
 
 - 1: Hacer merges de las ramas feature en la rama develop y finalmente merge en la rama main
@@ -845,7 +854,7 @@ Para realizar el despliegue del Frontend se realizaron lo siguientes pasos:
    ![Deployment](assets/Chapter-5/dev4.png)
 
 Link Fronted: https://aynitech.netlify.app/dashboard 
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 | Alumno | Actividad |
 | ------ | --------- |
 |Jocelyn Damaly Almerco Rojas|Implementación de Historial de movimientos|
@@ -858,9 +867,9 @@ Link Fronted: https://aynitech.netlify.app/dashboard
 **Commits del Frontend**
 ![commits Front](assets/Chapter-5/Insights_sprint2.png)
 
-### 5.2.3. Sprint 3.
+### 5.2.3. Sprint 3
 Para este Sprint nos enfocaremos desarrollar una primera version del Web-Services
-#### 5.2.3.1. Sprint Planning 3.
+#### 5.2.3.1. Sprint Planning 3
 En la siguiente sección, se presentará el sprint #3 con la versión de la aplicación web e implementación parcial del back-end, desarrollado en C#. Mostrando la organización, distribución y resultados de la aplicación web.
 | Sprint # | 3 |
 |---------|-------|
@@ -890,7 +899,7 @@ Además, el equipo se enfocó en las historias de usuario relacionadas con este 
 |Esteban Román, Henry Kalet| Kalet12-commit | C | L | C | C | C |
 |Bustinza Muñoz, Sebastian Alonso | Sebastianbustianza809 | C | C | C | C | L |
 
-#### 5.2.3.3. Sprint Backlog 3.
+#### 5.2.3.3. Sprint Backlog 3
 
 **Vista del Sprint Backlog en Trello:**
 
@@ -1136,7 +1145,7 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
 **Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
 **Link de Web app:** https://aynitech.netlify.app/
  
-#### 5.2.3. Team Collaboration Insights during Sprint.
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 | Alumno | Actividad |
 | ------ | --------- |
@@ -1154,6 +1163,277 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
 
 ![commits Front](assets/Chapter-5/backfre.png)
 
+### 5.2.4. Sprint 4
+Para este Sprint nos enfocaremos desarrollar (....)
+
+#### 5.2.4.1. Sprint Planning 4
+En la siguiente sección, se presentará el sprint #4 con la versión de la aplicación web e implementación del back-end, desarrollado en C#. Mostrando la organización, distribución y resultados de la aplicación web.
+
+| Sprint # | 4 |
+|---------|-------|
+| **Sprint Planning Background** |      |
+| Date | 28/06/2025|
+| Time | 4:30 pm |
+|Location | Modalidad remota |
+|Prepared By | Camila Sanchez,  Henry Esteban|
+|Attendees (to planning meeting)| Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban|
+|Sprint 0 Review Summary | En el cuarto sprint desarrollamos y lanzamos la conexión entre el front-end y el back-end de la aplicación web de AyniTech.|
+|Sprint 0 Retrospective Summary | Para el cuarto sprint tuvimos que aprender a trabajar con la estructura DDD, lo que nos permitió, desarrollar satisfactoriamente dicho sprint.|
+|**Sprint Goal & User Stories** | |
+|Sprint Goal 1 | (....)|
+|Sprint Velocity 1 | (....) |
+|Sum of Story Points | (....) |
+#### 5.2.4.2. Aspects Leaders and Collaborators
+Durante el cuarto sprint, el equipo (....)
+
+Además, el equipo se enfocó en las historias de usuario relacionadas con este desarrollo, asegurando que cada nueva característica no solo fuera funcional, sino también alineada con las necesidades de los usuarios. Se utilizó Trello para organizar y distribuir las tareas, permitiendo que cada integrante del equipo se especialicen  en áreas que se corresponden con sus competencias, lo que facilitó un avance eficiente y coordinado hacia el objetivo del sprint.
+
+| Team member | Github Username | Validaciones y Lógica | Base de datos | Testing Backend | Backend deploy | Documentation |
+|:------------|:----------------|:---------------------:|:-------------:|:---------------:|:--------------:|:-------------:|
+|Almerco Rojas, Jocelyn Damaly|JocyDam| L | C | C | C | C |
+|Saldaña Ayala, Fabiola del Rocio| fabs-in-space | L | C | L | C | C |
+|Sánchez Ríos, Camila Cristina| C4m174 | C | C | C | L | C |
+|Peña Riofrio, Maria Fernanda| mariafep | C | C | C | C | L |
+|Esteban Román, Henry Kalet| Kalet12-commit | C | L | C | C | C |
+|Bustinza Muñoz, Sebastian Alonso | Sebastianbustianza809 | C | C | C | C | L |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+**Vista del Sprint Backlog en Trello:**
+
+![trello_spring4](assets/Chapter-5/Trello_Sprint4.png)
+
+**Link del Trello:** 
+[Trello](https://trello.com/invite/b/6856149857ff3b593bf42e19/ATTI1f148caabe73f0489fc96d11a69cf98fEA4E8AC6/stockwise-sprint-3)
+
+
+Para el Sprint #4 nos trazamos como objetivo desarrollar y desplegar la conexión del back end y la aplicación web. De esa manera, completar las funcionalidades del front end.
+
+(....)->ACTUALIZAR CUADRO
+
+<table>
+        <tr>
+            <th>Sprint #</th>
+            <th colspan="7">Sprint 4</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">WorkItem / Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation(Hours)</th>
+            <th>Assigned To</th>
+            <th>Status(To-do/In-Process/To-Review/Done)</th>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Registrar producto nuevo</td>
+            <td>T01</td>
+            <td>Endpoint de registro de producto </td>
+            <td>Crear endpoinr POST para agregar un nuevo producto en la base de datos</td>
+            <td>3h</td>
+            <td>Fabiola Saldaña</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US02</td>
+            <td>Editar información de producto</td>
+            <td>T02</td>
+            <td>Endpoinr para editar producto</td>
+            <td>Craer endpoint PUT para editar los campos de un producto existente <d>
+            <td>3h</td>
+            <td>Fabiola Saldaña</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US03</td>
+            <td>Registrar salida de producto</td>
+            <td>T03</td>
+            <td>Lógica y endpoint de salida</td>
+            <td>Implementar la lógica para registrar salidas y actualizar stock.</td>
+            <td>3h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Generar alertas por bajo stock</td>
+            <td>T04</td>
+            <td>Servicio de alertas de stock</td>
+            <td>Desarrollar lógica para detectar productos con stock mínimo y generar alerta.</td>
+            <td>3h</td>
+            <td>Sebastian Bustinza</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Buscar productos en inventarios</td>
+            <td>T05</td>
+            <td>Endpoint de búsqueda</td>
+            <td>Crear endpoint GET con filtros por nombre, código, categoría, etc.</td>
+            <td>2.5h</td>
+            <td>Henry Esteban</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US07</td>
+            <td>Añadir etiquetas para productos</td>
+            <td>T06</td>
+            <td>Gestión de etiquetas</td>
+            <td>Crear tablas relacionales y endpoints para asignar etiquetas a productos</td>
+            <td>3h</td>
+            <td>Maria Fernanda Peña RdRiofrio</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US12</td>
+            <td>Generar reportes de inventario</td>
+            <td>T07</td>
+            <td>Exportar reportes de inventario</td>
+            <td>Crear funcionalidad para generar reportes (Excel) con datos agregados.</td>
+            <td>2.5h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US15</td>
+            <td>Configurar roles y permisos de usuario</td>
+            <td>T08</td>
+            <td>Middleware de roles y permisos</td>
+            <td>Implementar lógica de control de acceso según rol del usuario.</td>
+            <td>2.5h</td>
+            <td>Camila Sanchez</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US17</td>
+            <td>Registrar lote de productos</td>
+            <td>T09</td>
+            <td>Registro de Lotes</td>
+            <td>Implementar la lógica de control de acceso según rol del usuario.</td>
+            <td>3 h</td>
+            <td>Henry Esteban</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US20</td>
+            <td>Crear Kits o combos de productos</td>
+            <td>T10</td>
+            <td>Endpoint de combos.</td>
+            <td>Crear endpoint para definir y registrar combos de productos. </td>
+            <td>3h</td>
+            <td>Maria Fernanda Peña Riofrio</td>
+            <td>Done</td>
+        </tr>
+</table>
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+En este punto abarcaremos las funcionalidades y la evidencia de que pudimos completar exitosamente las tareas planteadas en el Sprint Planning 4:
+
+(....)->ACTUALIZAR CUADROs
+
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
+| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
+| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
+| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
+| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
+| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+La realización de estas tareas refleja un enfoque estructurado para el desarrollo de la aplicación web. Cada tarea aborda un componente crucial del producto, lo que asegura que se cubran tanto aspectos visuales como funcionales. Este enfoque modular permite no solo mantener un orden en el proceso de desarrollo, sino también garantizar que cada sección cumple con las funcionalidades que brinda AyniTech.
+
+A continuación se mostrarán capturas de pantallas de las nuevas funcionalidades de la Landing Page, la Aplicación Web y el Web Service:
+
+(....)->ACTUALIZAR
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
+A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
+
+(....)->ACTUALIZAR CUADRO
+
+Repositorio del backend en GitHub: 
+https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
+
+
+(....)->ACTUALIZAR CUADRO
+
+<b>Bounded context: Products:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
+------------------------------------------------------
+
+<b>Bounded context: Inventaries:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Alert Stock:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Authentication:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|api/v1/iam| <img src="assets/Chapter-5/UserSwag.png"> |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+(....)->ACTUALIZAR EVIDENCIAS
+
+
+**Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
+**Link de Web app:** https://aynitech.netlify.app/
+ 
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+
+(....)->ACTUALIZAR
+
+| Alumno | Actividad |
+| ------ | --------- |
+|Jocelyn Damaly Almerco Rojas|Implementación del Report Context - historial de movimientos|
+|Sanchez Rios, Camila Cristina|Implementación de User Bounded Context - usuario, resgistro, perfil|
+|Henry Kalet Esteban Roman|Implementación del Inventory Bounded Context - inventario|
+|Maria Fernanda Peña Riofrio|Implementación de Product Managment - kitsproducts|
+|Fabiola Del Rocio Saldaña Ayala|Implementación de Product Managment - Product|
+|Sebastian Alonso Bustinza Muñoz| Implementación del Inventory Bounded Context - alertastock|
+
+**Insights del Web Service::**
+![commits Front](assets/Chapter-5/backin.png)
+
+![commits Front](assets/Chapter-5/backcon.png)
+
+![commits Front](assets/Chapter-5/backfre.png)
 ## 5.3. Validation Interviews
 ### 5.3.1 Diseño de Entrevistas
 
