@@ -1164,25 +1164,26 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
 ![commits Front](assets/Chapter-5/backfre.png)
 
 ### 5.2.4. Sprint 4
-Para este Sprint nos enfocaremos desarrollar (....)
+Para este Sprint nos enfocaremos en implementar mejoras en nuestro frontend como backend además de relacionarlo y  que se ejecute con éxito.
 
 #### 5.2.4.1. Sprint Planning 4
-En la siguiente sección, se presentará el sprint #4 con la versión de la aplicación web e implementación del back-end, desarrollado en C#. Mostrando la organización, distribución y resultados de la aplicación web.
+En la siguiente sección, se presentará el sprint #4  con la verión mejorada de la aplicación web y del back-end, desarrollado en C#. Mostrando la organización, distribución y resultados de la aplicación web.
 
 | Sprint # | 4 |
 |---------|-------|
 | **Sprint Planning Background** |      |
-| Date | 28/06/2025|
-| Time | 4:30 pm |
+| Date | 02/03/2025|
+| Time | 9:30 pm |
 |Location | Modalidad remota |
-|Prepared By | Camila Sanchez,  Henry Esteban|
-|Attendees (to planning meeting)| Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban|
-|Sprint 0 Review Summary | En el cuarto sprint desarrollamos y lanzamos la conexión entre el front-end y el back-end de la aplicación web de AyniTech.|
-|Sprint 0 Retrospective Summary | Para el cuarto sprint tuvimos que aprender a trabajar con la estructura DDD, lo que nos permitió, desarrollar satisfactoriamente dicho sprint.|
+|Prepared By | Jocelyn Almerco|
+|Attendees (to planning meeting)| Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban, Sebastian Bustinza|
+|Sprint 3 Review Summary | Se realizó el backend y se corrgieron partes del frontend- Algunas de las correciones fueron: Hacer funcional la parte de alertas productos en el front-end, además de desplegar el front-end sin dificultad. |
+|Sprint 3 Retrospective Summary | Se evaluó el manejo de los tiempos tuvo que manejar para evitar inconvenientes en la entrega además de mejorar el front end y el back end. Para que en la siguiente entrega exista una conexión entre ambas.|
 |**Sprint Goal & User Stories** | |
-|Sprint Goal 1 | (....)|
-|Sprint Velocity 1 | (....) |
+|Sprint Goal 4 |  En este sprint, el objetivo es terminar las mejoras en nuestro frontend como backend y desplegar completamente el backend funcional en la nube. Además de realizar la conexión entre ambas para la aplicación web de AyniTech.|
+|Sprint Velocity 4 | (....) |
 |Sum of Story Points | (....) |
+
 #### 5.2.4.2. Aspects Leaders and Collaborators
 Durante el cuarto sprint, el equipo (....)
 
@@ -1201,10 +1202,10 @@ Además, el equipo se enfocó en las historias de usuario relacionadas con este 
 
 **Vista del Sprint Backlog en Trello:**
 
-![trello_spring4](assets/Chapter-5/Trello_Sprint4.png)
+![trello_spring4]()
 
 **Link del Trello:** 
-[Trello](https://trello.com/invite/b/6856149857ff3b593bf42e19/ATTI1f148caabe73f0489fc96d11a69cf98fEA4E8AC6/stockwise-sprint-3)
+[Trello]()
 
 
 Para el Sprint #4 nos trazamos como objetivo desarrollar y desplegar la conexión del back end y la aplicación web. De esa manera, completar las funcionalidades del front end.
