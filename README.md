@@ -1185,17 +1185,17 @@ En la siguiente sección, se presentará el sprint #4  con la verión mejorada d
 |Sum of Story Points | (....) |
 
 #### 5.2.4.2. Aspects Leaders and Collaborators
-Durante el cuarto sprint, el equipo (....)
+Durante el cuarto sprint, el equipo tuvo como meta mejorar tanto el front-end como back-end de StockWise utilizando C#. El enfoque se centró en realizar las mejoras para crear una conexión entre el front y el back para poder desplegar la aplicación web de manera exitosa.
 
 Además, el equipo se enfocó en las historias de usuario relacionadas con este desarrollo, asegurando que cada nueva característica no solo fuera funcional, sino también alineada con las necesidades de los usuarios. Se utilizó Trello para organizar y distribuir las tareas, permitiendo que cada integrante del equipo se especialicen  en áreas que se corresponden con sus competencias, lo que facilitó un avance eficiente y coordinado hacia el objetivo del sprint.
 
-| Team member | Github Username | Validaciones y Lógica | Base de datos | Testing Backend | Backend deploy | Documentation |
+| Team member | Github Username | Validaciones y Lógica (front y back) | Base de datos | Integración Front-Back | Backend deploy | Documentation |
 |:------------|:----------------|:---------------------:|:-------------:|:---------------:|:--------------:|:-------------:|
-|Almerco Rojas, Jocelyn Damaly|JocyDam| L | C | C | C | C |
-|Saldaña Ayala, Fabiola del Rocio| fabs-in-space | L | C | L | C | C |
-|Sánchez Ríos, Camila Cristina| C4m174 | C | C | C | L | C |
+|Almerco Rojas, Jocelyn Damaly|JocyDam| L | C | L | C | C |
+|Saldaña Ayala, Fabiola del Rocio| fabs-in-space | L | C | L | L | C |
+|Sánchez Ríos, Camila Cristina| C4m174 | L | C | C | C | L|
 |Peña Riofrio, Maria Fernanda| mariafep | C | C | C | C | L |
-|Esteban Román, Henry Kalet| Kalet12-commit | C | L | C | C | C |
+|Esteban Román, Henry Kalet| Kalet12-commit | L | L | C | C | C |
 |Bustinza Muñoz, Sebastian Alonso | Sebastianbustianza809 | C | C | C | C | L |
 
 #### 5.2.4.3. Sprint Backlog 4
