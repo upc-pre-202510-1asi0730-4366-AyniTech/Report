@@ -291,6 +291,15 @@
     - [PROBLEMA #06: Ausencia de funcionalidades clave para la gestión completa del negocio](#problema-06-ausencia-de-funcionalidades-clave-para-la-gestión-completa-del-negocio)
   - [5.4.	Video About-the-Product](#54video-about-the-product)
   - [5..	Video About-the-Team](#5video-about-the-team)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1.Sprint Planning 4.](#5241sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3.Sprint Backlog 4.](#5243sprint-backlog-4)
+      - [5.2.4.4.Development Evidence for Sprint Review.](#5244development-evidence-for-sprint-review)
+      - [5.2.4.5.Execution Evidence for Sprint Review.](#5245execution-evidence-for-sprint-review)
+      - [5.2.4.6.Services Documentation Evidence for Sprint Review.](#5246services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7.Software Deployment Evidence for Sprint Review.](#5247software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8.Team Collaboration Insights during Sprint.](#5248team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -429,6 +438,15 @@
     - [PROBLEMA #06: Ausencia de funcionalidades clave para la gestión completa del negocio](#problema-06-ausencia-de-funcionalidades-clave-para-la-gestión-completa-del-negocio)
   - [5.4.	Video About-the-Product](#54video-about-the-product)
   - [5..	Video About-the-Team](#5video-about-the-team)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1.Sprint Planning 4.](#5241sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3.Sprint Backlog 4.](#5243sprint-backlog-4)
+      - [5.2.4.4.Development Evidence for Sprint Review.](#5244development-evidence-for-sprint-review)
+      - [5.2.4.5.Execution Evidence for Sprint Review.](#5245execution-evidence-for-sprint-review)
+      - [5.2.4.6.Services Documentation Evidence for Sprint Review.](#5246services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7.Software Deployment Evidence for Sprint Review.](#5247software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8.Team Collaboration Insights during Sprint.](#5248team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -5032,6 +5050,17 @@ Captura de la entrevista: <br>
 <img src="assets/Chapter-5/teamv.png" alt="Captura del abouth the team" width="750">
 <br>
 <a href="https://youtu.be/vZVrAkfK6uc">Ver grabación</a>
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1.Sprint Planning 4.
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+#### 5.2.4.3.Sprint Backlog 4.
+#### 5.2.4.4.Development Evidence for Sprint Review.
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+
 
 # Conclusiones 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una plataforma de alto valor, adaptable y preparada para el crecimiento continuo.
