@@ -1181,8 +1181,8 @@ En la siguiente sección, se presentará el sprint #4  con la verión mejorada d
 |Sprint 3 Retrospective Summary | Se evaluó el manejo de los tiempos tuvo que manejar para evitar inconvenientes en la entrega además de mejorar el front end y el back end. Para que en la siguiente entrega exista una conexión entre ambas.|
 |**Sprint Goal & User Stories** | |
 |Sprint Goal 4 |  En este sprint, el objetivo es terminar las mejoras en nuestro frontend como backend y desplegar completamente el backend funcional en la nube. Además de realizar la conexión entre ambas para la aplicación web de AyniTech.|
-|Sprint Velocity 4 | (....) |
-|Sum of Story Points | (....) |
+|Sprint Velocity 4 | 32 |
+|Sum of Story Points | 34 |
 
 #### 5.2.4.2. Aspects Leaders and Collaborators
 Durante el cuarto sprint, el equipo tuvo como meta mejorar tanto el front-end como back-end de StockWise utilizando C#. El enfoque se centró en realizar las mejoras para crear una conexión entre el front y el back para poder desplegar la aplicación web de manera exitosa.
@@ -1200,6 +1200,7 @@ Además, el equipo se enfocó en las historias de usuario relacionadas con este 
 
 #### 5.2.4.3. Sprint Backlog 4
 
+(ACTUALIZAR LINK Y TRELLO)
 **Vista del Sprint Backlog en Trello:**
 
 ![trello_spring4]()
@@ -1209,8 +1210,6 @@ Además, el equipo se enfocó en las historias de usuario relacionadas con este 
 
 
 Para el Sprint #4 nos trazamos como objetivo desarrollar y desplegar la conexión del back end y la aplicación web. De esa manera, completar las funcionalidades del front end.
-
-(....)->ACTUALIZAR CUADRO
 
 <table>
         <tr>
@@ -1232,103 +1231,63 @@ Para el Sprint #4 nos trazamos como objetivo desarrollar y desplegar la conexió
             <th>Status(To-do/In-Process/To-Review/Done)</th>
         </tr>
         <tr>
-            <td>US01</td>
-            <td>Registrar producto nuevo</td>
+            <td>US26</td>
+            <td>Sistema de Autenticación (IAM)</td>
             <td>T01</td>
-            <td>Endpoint de registro de producto </td>
-            <td>Crear endpoinr POST para agregar un nuevo producto en la base de datos</td>
-            <td>3h</td>
-            <td>Fabiola Saldaña</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US02</td>
-            <td>Editar información de producto</td>
-            <td>T02</td>
-            <td>Endpoinr para editar producto</td>
-            <td>Craer endpoint PUT para editar los campos de un producto existente <d>
-            <td>3h</td>
-            <td>Fabiola Saldaña</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US03</td>
-            <td>Registrar salida de producto</td>
-            <td>T03</td>
-            <td>Lógica y endpoint de salida</td>
-            <td>Implementar la lógica para registrar salidas y actualizar stock.</td>
-            <td>3h</td>
-            <td>Jocelyn Almerco</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US05</td>
-            <td>Generar alertas por bajo stock</td>
-            <td>T04</td>
-            <td>Servicio de alertas de stock</td>
-            <td>Desarrollar lógica para detectar productos con stock mínimo y generar alerta.</td>
-            <td>3h</td>
-            <td>Sebastian Bustinza</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US06</td>
-            <td>Buscar productos en inventarios</td>
-            <td>T05</td>
-            <td>Endpoint de búsqueda</td>
-            <td>Crear endpoint GET con filtros por nombre, código, categoría, etc.</td>
-            <td>2.5h</td>
-            <td>Henry Esteban</td>
-            <td>Done</td>
-        </tr>
-         <tr>
-            <td>US07</td>
-            <td>Añadir etiquetas para productos</td>
-            <td>T06</td>
-            <td>Gestión de etiquetas</td>
-            <td>Crear tablas relacionales y endpoints para asignar etiquetas a productos</td>
-            <td>3h</td>
-            <td>Maria Fernanda Peña RdRiofrio</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US12</td>
-            <td>Generar reportes de inventario</td>
-            <td>T07</td>
-            <td>Exportar reportes de inventario</td>
-            <td>Crear funcionalidad para generar reportes (Excel) con datos agregados.</td>
-            <td>2.5h</td>
-            <td>Jocelyn Almerco</td>
-            <td>Done</td>
-        </tr>
-         <tr>
-            <td>US15</td>
-            <td>Configurar roles y permisos de usuario</td>
-            <td>T08</td>
-            <td>Middleware de roles y permisos</td>
-            <td>Implementar lógica de control de acceso según rol del usuario.</td>
-            <td>2.5h</td>
+            <td>Desarrollo del Login y Register</td>
+            <td>Implementación del login y registro para usuarios, con validación de credenciales</td>
+            <td>8h</td>
             <td>Camila Sanchez</td>
             <td>Done</td>
         </tr>
-         <tr>
-            <td>US17</td>
-            <td>Registrar lote de productos</td>
-            <td>T09</td>
-            <td>Registro de Lotes</td>
-            <td>Implementar la lógica de control de acceso según rol del usuario.</td>
-            <td>3 h</td>
-            <td>Henry Esteban</td>
+        <tr>
+            <td>US27</td>
+            <td>Actualización FrontEnd</td>
+            <td>T02</td>
+            <td>Mejoras en el FrontEnd</td>
+            <td>Implementación de mejoras en la interfaz para funcionalidades del inventario e historial.<d>
+            <td>6h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US28</td>
+            <td>Actualización del Backend</td>
+            <td>T03</td>
+            <td>Mejoras en el BackEnd</td>
+            <td>Implementación de mejoras en el código del backend.</td>
+            <td>6h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US29</td>
+            <td>Front-Back unidos</td>
+            <td>T04</td>
+            <td>Conexión entre el Front-Back</td>
+            <td>Implementación de APIS para la conexión entre front y back.</td>
+            <td>3h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US30</td>
+            <td>Despliegue del BackEnd</td>
+            <td>T05</td>
+            <td>Deployment del BackEnds en azure</td>
+            <td>Configuración y despliegue del backend con la información actualizada en Azure.</td>
+            <td>8h</td>
+            <td>Fabiola Saldaña</td>
             <td>Done</td>
         </tr>
          <tr>
-            <td>US20</td>
-            <td>Crear Kits o combos de productos</td>
-            <td>T10</td>
-            <td>Endpoint de combos.</td>
-            <td>Crear endpoint para definir y registrar combos de productos. </td>
-            <td>3h</td>
-            <td>Maria Fernanda Peña Riofrio</td>
+            <td>US31</td>
+            <td>Pruebas de Integración</td>
+            <td>T06</td>
+            <td>Validación de FrontEnd y BackEnd integrados</td>
+            <td>Realización de pruebas para asegurar que el front y back trabajan de manera sincronizada</td>
+            <td>6h</td>
+            <td>Fabiola Saldaña</td>
             <td>Done</td>
         </tr>
 </table>
