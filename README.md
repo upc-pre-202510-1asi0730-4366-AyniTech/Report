@@ -1135,7 +1135,7 @@ En este sprint, logramos como tercera fase de nuestro producto final, desarrolla
 
 Muestra de nuestra API hecha con Spring Boot:
 
-<th>Captura del back 1: <img src="assets/Chapter-5/back11.png" 
+<th>Captura del back 1: <img src="assets/Chapter-5/back1.png" 
 
 
 <th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
@@ -1150,12 +1150,6 @@ Muestra de nuestra API hecha con Spring Boot:
 <th>Captura del back 3: <img src="assets/Chapter-5/back5.2.png" 
 
 <th>Captura del back 3: <img src="assets/Chapter-5/back5.3.png" 
-
-<th>Captura del back 3: <img src="assets/Chapter-5/UserSwag (2).png" 
-
-<th>Captura del back 3: <img src="assets/Chapter-5/combos.png" 
-
-<th>Captura del back 3: <img src="assets/Chapter-5/report.png" 
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
 
@@ -1381,7 +1375,46 @@ La realización de estas tareas refleja un enfoque estructurado para el desarrol
 
 A continuación se mostrarán capturas de pantallas de las nuevas funcionalidades de la Landing Page, la Aplicación Web y el Web Service:
 
-(....)->ACTUALIZAR
+**LANDING PAGE**
+
+Nueva funcionalidad Multilenguaje:
+
+<th>Captura 1: <img src="assets/Chapter-5/En1.png" 
+
+<th>Captura 2: <img src="assets/Chapter-5/En2.png" 
+
+<th>Captura 3: <img src="assets/Chapter-5/En3.png" 
+
+<th>Captura 5: <img src="assets/Chapter-5/En5.png" 
+
+**WEB SERVICE**
+
+En este sprint, logramos como tercera fase de nuestro producto final, desarrollar la API hecha con Java en Spring Boot.
+
+Muestra de nuestra API hecha con Spring Boot:
+
+<th>Captura del back 1: <img src="assets/Chapter-5/back11.png" 
+
+
+<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
+
+
+<th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/UserSwag (2).png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.1.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.2.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.3.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/combos.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/report.png" 
+
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
 
