@@ -1438,24 +1438,20 @@ https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
  
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
-
-(....)->ACTUALIZAR
-
 | Alumno | Actividad |
 | ------ | --------- |
 |Jocelyn Damaly Almerco Rojas|Implementación del Report Context - historial de movimientos|
 |Sanchez Rios, Camila Cristina|Implementación de User Bounded Context - usuario, resgistro, perfil|
-|Henry Kalet Esteban Roman|Implementación del Inventory Bounded Context - inventario|
-|Maria Fernanda Peña Riofrio|Implementación de Product Managment - kitsproducts|
+|Jocelyn Damaly Almerco Rojas|Implementación del Inventory Bounded Context - inventario|
 |Fabiola Del Rocio Saldaña Ayala|Implementación de Product Managment - Product|
-|Sebastian Alonso Bustinza Muñoz| Implementación del Inventory Bounded Context - alertastock|
+
 
 **Insights del Web Service::**
-![commits Front](assets/Chapter-5/backin.png)
+![commits Front](assets/Chapter-5/rco.png)
 
-![commits Front](assets/Chapter-5/backcon.png)
+![commits Front](assets/Chapter-5/reco2.png)
 
-![commits Front](assets/Chapter-5/backfre.png)
+![commits Front](assets/Chapter-5/reco3.png)
 ## 5.3. Validation Interviews
 ### 5.3.1 Diseño de Entrevistas
 
