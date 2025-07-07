@@ -135,6 +135,28 @@
         </ul>
       </td>
   </tr>
+                 <tr>
+                <th>TF</th>
+                <td>07/07/2025</td>
+                <td>
+                    <ul>
+                      <li>Jocelyn Damaly Almerco Rojas</li>
+                      <li>Camila Sanchez</li>
+                      <li>Maria Fernanda Peña</li>
+                      <li>Fabiola Del Rocio Saldaña Ayala</li>
+                      <li>Henry Kalet Esteban Roman</li>
+                      <li>Sebastian Alonso Bustinza Muñoz</li>
+                    <ul>
+           </td>
+      <td>            
+             <ul>
+          <li>Capítulo V: Sprint 4 </li>
+          <li>Mejoras continuas Student Outcome</li>
+          <li>Agregar technical stories</li>
+          <li>Versiones finales de Backend y Frontend</li>
+        </ul>
+      </td>
+  </tr>
 </tbody>
 </table>
 
