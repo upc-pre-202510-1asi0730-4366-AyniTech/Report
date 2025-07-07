@@ -4584,7 +4584,7 @@ Captura de la entrevista: <br>
 <br>
 <a href="https://www.youtube.com/watch?v=gKQCMO4rORw&ab_channel=CamilaSanchez">Ver grabación</a>
 
-## 5..	Video About-the-Team
+## 5.5	Video About-the-Team
 
 A continuación, presentaremos el video About-the-Team en el cual se evidencia nuestra colaboración y comunicación como grupo a lo largo de este proyecto. Del mismo modo, nuestras experiencias y reflexiones por cada integrante.
 
