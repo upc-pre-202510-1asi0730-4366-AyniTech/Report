@@ -182,7 +182,7 @@
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-n)
+      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
       - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
@@ -192,43 +192,65 @@
       - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
       - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3](#523-sprint-3)
       - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    - [5.2.4. Sprint 4](#524-sprint-3)
-      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-3)
-      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-3)
+  - [|Products|api/v1/products|  |](#productsapiv1products--)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspects Leaders and Collaborators](#5242-aspects-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
       - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
       - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+  - [|Products|api/v1/products|  |](#productsapiv1products---1)
+  - [|User|/sign- in /sign - up /change - role |  |](#usersign--in-sign---up-change---role---)
+  - [|User|api/v1/reports|  |](#userapiv1reports--)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+    - [Web Application a evaluar:](#web-application-a-evaluar)
+      - [StockWise](#stockwise)
+    - [Tareas a evaluar](#tareas-a-evaluar)
+    - [Tareas a evaluar según User Goals](#tareas-a-evaluar-según-user-goals)
+      - [1. Registro e Inicio de Sesión](#1-registro-e-inicio-de-sesión)
+      - [2. Navegación por el Dashboard](#2-navegación-por-el-dashboard)
+      - [3. Gestión de Inventario](#3-gestión-de-inventario)
+      - [4. Creación de Kits/Combos](#4-creación-de-kitscombos)
+      - [5. Historial de Movimientos](#5-historial-de-movimientos)
+      - [6. Alertas de Stock](#6-alertas-de-stock)
+    - [Consideraciones de Evaluación](#consideraciones-de-evaluación)
+    - [Evaluación de Desktop Landing Page](#evaluación-de-desktop-landing-page)
+    - [Escala de Severidad](#escala-de-severidad)
+    - [Problemas Identificados - Landing Page](#problemas-identificados---landing-page)
+    - [PROBLEMA #01: La información de los planes es poco específica](#problema-01-la-información-de-los-planes-es-poco-específica)
+    - [PROBLEMA #02: Retroalimentación visual de botones interactivos](#problema-02-retroalimentación-visual-de-botones-interactivos)
+    - [Web Application: Evaluación Heurística](#web-application-evaluación-heurística)
+    - [Problemas Identificados](#problemas-identificados)
+    - [PROBLEMA #01: Confusión inicial entre los conceptos de "stock por producto" y "registro por lote"](#problema-01-confusión-inicial-entre-los-conceptos-de-stock-por-producto-y-registro-por-lote)
+    - [PROBLEMA #02: La interfaz del dashboard se percibe como sobrecargada y los colores muy intensos](#problema-02-la-interfaz-del-dashboard-se-percibe-como-sobrecargada-y-los-colores-muy-intensos)
+    - [PROBLEMA #03: Falta de flexibilidad para tipos de negocio no perecederos (ej. textiles)](#problema-03-falta-de-flexibilidad-para-tipos-de-negocio-no-perecederos-ej-textiles)
+    - [PROBLEMA #04: El formato del archivo Excel exportado desde el historial es poco amigable](#problema-04-el-formato-del-archivo-excel-exportado-desde-el-historial-es-poco-amigable)
+    - [PROBLEMA #05: Funcionalidad de "Añadir etiquetas" incompleta](#problema-05-funcionalidad-de-añadir-etiquetas-incompleta)
+    - [PROBLEMA #06: Ausencia de funcionalidades clave para la gestión completa del negocio](#problema-06-ausencia-de-funcionalidades-clave-para-la-gestión-completa-del-negocio)
+  - [5.4.	Video About-the-Product](#54video-about-the-product)
+- [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
 
 [Capítulo IV: Product Design](#capítulo-iv-product-design)
 - [COURSE PROJECT](#course-project)
@@ -314,28 +336,64 @@
     - [5.2.2. Sprint 2](#522-sprint-2)
       - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
-      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 2](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 2.](#5233-sprint-backlog-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspects Leaders and Collaborators](#5232-aspects-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [|Products|api/v1/products|  |](#productsapiv1products--)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspects Leaders and Collaborators](#5242-aspects-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+  - [|Products|api/v1/products|  |](#productsapiv1products---1)
+  - [|User|/sign- in /sign - up /change - role |  |](#usersign--in-sign---up-change---role---)
+  - [|User|api/v1/reports|  |](#userapiv1reports--)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+    - [Web Application a evaluar:](#web-application-a-evaluar)
+      - [StockWise](#stockwise)
+    - [Tareas a evaluar](#tareas-a-evaluar)
+    - [Tareas a evaluar según User Goals](#tareas-a-evaluar-según-user-goals)
+      - [1. Registro e Inicio de Sesión](#1-registro-e-inicio-de-sesión)
+      - [2. Navegación por el Dashboard](#2-navegación-por-el-dashboard)
+      - [3. Gestión de Inventario](#3-gestión-de-inventario)
+      - [4. Creación de Kits/Combos](#4-creación-de-kitscombos)
+      - [5. Historial de Movimientos](#5-historial-de-movimientos)
+      - [6. Alertas de Stock](#6-alertas-de-stock)
+    - [Consideraciones de Evaluación](#consideraciones-de-evaluación)
+    - [Evaluación de Desktop Landing Page](#evaluación-de-desktop-landing-page)
+    - [Escala de Severidad](#escala-de-severidad)
+    - [Problemas Identificados - Landing Page](#problemas-identificados---landing-page)
+    - [PROBLEMA #01: La información de los planes es poco específica](#problema-01-la-información-de-los-planes-es-poco-específica)
+    - [PROBLEMA #02: Retroalimentación visual de botones interactivos](#problema-02-retroalimentación-visual-de-botones-interactivos)
+    - [Web Application: Evaluación Heurística](#web-application-evaluación-heurística)
+    - [Problemas Identificados](#problemas-identificados)
+    - [PROBLEMA #01: Confusión inicial entre los conceptos de "stock por producto" y "registro por lote"](#problema-01-confusión-inicial-entre-los-conceptos-de-stock-por-producto-y-registro-por-lote)
+    - [PROBLEMA #02: La interfaz del dashboard se percibe como sobrecargada y los colores muy intensos](#problema-02-la-interfaz-del-dashboard-se-percibe-como-sobrecargada-y-los-colores-muy-intensos)
+    - [PROBLEMA #03: Falta de flexibilidad para tipos de negocio no perecederos (ej. textiles)](#problema-03-falta-de-flexibilidad-para-tipos-de-negocio-no-perecederos-ej-textiles)
+    - [PROBLEMA #04: El formato del archivo Excel exportado desde el historial es poco amigable](#problema-04-el-formato-del-archivo-excel-exportado-desde-el-historial-es-poco-amigable)
+    - [PROBLEMA #05: Funcionalidad de "Añadir etiquetas" incompleta](#problema-05-funcionalidad-de-añadir-etiquetas-incompleta)
+    - [PROBLEMA #06: Ausencia de funcionalidades clave para la gestión completa del negocio](#problema-06-ausencia-de-funcionalidades-clave-para-la-gestión-completa-del-negocio)
+  - [5.4.	Video About-the-Product](#54video-about-the-product)
+- [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -1302,21 +1360,17 @@ En este punto abarcaremos las funcionalidades y la evidencia de que pudimos comp
 |----|----|----|----|----|----|
 |**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
 | |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
-| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
-| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
-| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
-| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
-| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+
 
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
 |----|----|----|----|----|----|
-|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
-| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
-| |feature/iam|a760f8c8|feat: add log |C4M174|14/05/2025|
-| |feature/iam|c43e30bd|feat: add login|C4M174|14/05/2025|
-| |feature/iam|97abafbb  |feat: add authentication service|C4M174|14/05/2025|
-| |feature/inventory|ac2773df |feature: new branch | kalet123-commit|14/05/2025 |
-| |feature/inventory|3831040f|feature: add bounded countext | kalet123-commit|14/05/2025 |
+|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/main|59c02ff3|feat: Subiendo mis avances iniciales a la rama pruebin|Damaly34873|5/07/2025 |
+| |feature/main|8e41bfc5|add: pruebas 3|Fabs|5/07/2025|
+| |feature/main| 47ae96ee|chore: Actualizar archivos de configuración y binarios tras cambios en el proyecto |C4M174|5/07/2025|
+| |feature/main| 4968d2a1|Implementación de autenticación JWT y gestión de roles de usuario. Se actualizó la conexión a la base de datos |C4M174|6/07/2025|
+| |feature/main|913dccb4 |Actualización de rutas de usuario en archivos de configuración y ajuste de versiones de SDK en el proyecto Lot.|C4M174|06/07/2025|
+| |feature/main|61820321 |add: definición de seguridad JWT para Swagger, permitiendo la autenticación mediante el esquema Bearer. | C4M174|06/07/2025 |
+
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 La realización de estas tareas refleja un enfoque estructurado para el desarrollo de la aplicación web. Cada tarea aborda un componente crucial del producto, lo que asegura que se cubran tanto aspectos visuales como funcionales. Este enfoque modular permite no solo mantener un orden en el proceso de desarrollo, sino también garantizar que cada sección cumple con las funcionalidades que brinda AyniTech.
@@ -1331,13 +1385,9 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc
 Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
 A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
 
-(....)->ACTUALIZAR CUADRO
-
 Repositorio del backend en GitHub: 
 https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
 
-
-(....)->ACTUALIZAR CUADRO
 
 <b>Bounded context: Products:</b>
 
@@ -1364,7 +1414,19 @@ https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
 
 | Entity | Endpoint URL |Swagger | 
 | ------ | --------- | --------- |
-|User|api/v1/iam| <img src="assets/Chapter-5/UserSwag.png"> |
+|User|/sign- in /sign - up /change - role | <img src="assets/Chapter-5/UserSwag (2).png"> |
+------------------------------------------------------
+<b>Bounded context: Report:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|api/v1/reports| <img src="assets/Chapter-5/report.png"> |
+------------------------------------------------------
+<b>Bounded context: Combos:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|api/v1/combos| <img src="assets/Chapter-5/combos.png"> |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
