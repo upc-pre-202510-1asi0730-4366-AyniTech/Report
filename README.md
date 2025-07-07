@@ -1135,7 +1135,7 @@ En este sprint, logramos como tercera fase de nuestro producto final, desarrolla
 
 Muestra de nuestra API hecha con Spring Boot:
 
-<th>Captura del back 1: <img src="assets/Chapter-5/Back1.png" 
+<th>Captura del back 1: <img src="assets/Chapter-5/back11.png" 
 
 
 <th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
@@ -1150,6 +1150,12 @@ Muestra de nuestra API hecha con Spring Boot:
 <th>Captura del back 3: <img src="assets/Chapter-5/back5.2.png" 
 
 <th>Captura del back 3: <img src="assets/Chapter-5/back5.3.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/UserSwag (2).png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/combos.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/report.png" 
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
 
@@ -1209,17 +1215,16 @@ Evidencia de despliegue en Netlify: Durante este sprint, se utilizó Netlify com
 | ------ | --------- |
 |Jocelyn Damaly Almerco Rojas|Implementación del Report Context - historial de movimientos|
 |Sanchez Rios, Camila Cristina|Implementación de User Bounded Context - usuario, resgistro, perfil|
-|Henry Kalet Esteban Roman|Implementación del Inventory Bounded Context - inventario|
-|Maria Fernanda Peña Riofrio|Implementación de Product Managment - kitsproducts|
+|Jocelyn Damaly Almerco Rojas|Implementación del Inventory Bounded Context - inventario|
 |Fabiola Del Rocio Saldaña Ayala|Implementación de Product Managment - Product|
-|Sebastian Alonso Bustinza Muñoz| Implementación del Inventory Bounded Context - alertastock|
+
 
 **Insights del Web Service::**
-![commits Front](assets/Chapter-5/backin.png)
+![commits Front](assets/Chapter-5/rco.png)
 
-![commits Front](assets/Chapter-5/backcon.png)
+![commits Front](assets/Chapter-5/reco2.png)
 
-![commits Front](assets/Chapter-5/backfre.png)
+![commits Front](assets/Chapter-5/reco3.png)
 
 ### 5.2.4. Sprint 4
 Para este Sprint nos enfocaremos en implementar mejoras en nuestro frontend como backend además de relacionarlo y  que se ejecute con éxito.
@@ -1354,12 +1359,10 @@ Para el Sprint #4 nos trazamos como objetivo desarrollar y desplegar la conexió
 #### 5.2.4.4. Development Evidence for Sprint Review
 En este punto abarcaremos las funcionalidades y la evidencia de que pudimos completar exitosamente las tareas planteadas en el Sprint Planning 4:
 
-(....)->ACTUALIZAR CUADROs
-
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
 |----|----|----|----|----|----|
-|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/History|0d6e97a8|feat: completar cambios faltantes en localización y vista|Damaly34873|15/05/2025 |
-| |feature/History|49dfd0e9|Fix: ajustar diseño para mantener cards debajo de barra|Damaly34873|15/05/2025|
+|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/main|846e0625|feat: Alertas y creacion producto funcional|Fabs|5/07/2025 |
+| |feature/main|132508f7|Feat: Subiendo mis avances iniciales a la rama|Damaly34873|05/07/2025|
 
 
 |Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
@@ -1370,6 +1373,7 @@ En este punto abarcaremos las funcionalidades y la evidencia de que pudimos comp
 | |feature/main| 4968d2a1|Implementación de autenticación JWT y gestión de roles de usuario. Se actualizó la conexión a la base de datos |C4M174|6/07/2025|
 | |feature/main|913dccb4 |Actualización de rutas de usuario en archivos de configuración y ajuste de versiones de SDK en el proyecto Lot.|C4M174|06/07/2025|
 | |feature/main|61820321 |add: definición de seguridad JWT para Swagger, permitiendo la autenticación mediante el esquema Bearer. | C4M174|06/07/2025 |
+| |feature/main| dc07cd2e |Correcciones de la autenticacion| Fabs|06/07/2025 |
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
