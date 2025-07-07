@@ -1257,13 +1257,13 @@ Además, el equipo se enfocó en las historias de usuario relacionadas con este 
 
 #### 5.2.4.3. Sprint Backlog 4
 
-(ACTUALIZAR LINK Y TRELLO)
+
 **Vista del Sprint Backlog en Trello:**
 
-![trello_spring4]()
+![trello](assets/Chapter-5/Trello_Sprint4.png)
 
 **Link del Trello:** 
-[Trello]()
+[Trello](https://trello.com/invite/b/686b8010b9f7f5c7acf1ef12/ATTI90859880d998d1c5dc3d8b40725e60fbF74A6E39/sprint-4)
 
 
 Para el Sprint #4 nos trazamos como objetivo desarrollar y desplegar la conexión del back end y la aplicación web. De esa manera, completar las funcionalidades del front end.
