@@ -464,377 +464,90 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td><b>Acciones realizadas</b></td>
     <td><b>Conclusiones</b></td>
   </tr>
-    </thead>
-  <tbody>
-    <tr>
-      <td><b>Trabaja en equipo para <br>
+  <tr>
+    <td><b>Trabaja en equipo para <br>
       proporcionar liderazgo en <br> 
       forma conjunta.</b></td>
-      <td>
-<p><b>Henry Kalet Esteban Roman</b></p>
-        <p><b>TB1:</b>Asumí un rol activo<br>
-        de liderazgo dentro del equipo,<br>
-        tomando la iniciativa con el<br>
-         apartado de Antecedentes y<br>
-        Problemática, así comoen la <br>
-        definición de los segmentos.<br>
-        objetivo Esto permitió al<br>
-        grupo tener una base para el<br> 
-        enfoque del proyecto. También<br>
-        lideré la elaboración del<br>
-        To-be Scenario Mapping<br>
-        y participé activamente con<br>
-        user stories y el diseño de<br>
-        wireframesy mockups, <br>
-        promoviendo una visión común<br>
-        del producto final.</p>
-        <p></p>
-        <p><b>TP1:</b>Durante el Sprint 2
-        , demostré<br>
-         liderazgo
-         <br> compartido<br>
-         dentro del equipo al participar <br>
-         activamente en la toma de<br>
-          decisiones clave relacionadas con <br>
-          el diseño e implementación de la <br>funcionalidad de inventario. Coordiné con mis <br>
-          compañeros la asignación de<br>
-           tareas según las <br>
-          fortalezas individuales,<br>
-           promoví espacios de <br>
-          retroalimentación técnica y me <br>
-          aseguré de que <br>
-          todos los miembros comprendieran <br>
-          el objetivo común.<br>
-           Esta colaboración no solo fortaleció <br>
-           la cohesión del equipo,<br>
-            sino que también<br>
-             permitió avanzar<br>
-             de manera eficiente en la construcción <br>
-             de una solución técnica <br>funcional.</p>
-        <p></p>
-        <p><b>TB2:</b></p>
-        <p>Durante el desarrollo del proyecto,<br>
-        participé activamente en la implementación del<br>
-        frontend junto con Fabiola, aportando soluciones<br>
-        técnicas para mejorar la experiencia del usuario<br>
-        y asegurar la funcionalidad del sistema. Además,<br>
-        asumí la responsabilidad de desarrollar la sección<br>
-        5.3.3 del informe, lo que implicó coordinarme con <br>
-        mis compañeros para mantener coherencia en el<br>
-        contenido general. Estas actividades reflejan mi<br>
-        compromiso con el trabajo en equipo y mi capacidad<br>
-        para asumir liderazgo compartido, aportando desde<br>
-        mi rol tanto en lo técnico como en la organización<br>
-        del proyecto.</p>
-        <p><b>TF:</b></p>
-        <p></p>
-       <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
-         <p><b>TB1:</b> Colaboré con el desarrollo del<br> 
-         needfinding para el cual tuve que<br>
-         coordinar con mi grupo para definir <br>
-         bien a nuestros user personas y sus<br>
-         necesidades. También apoyé en el<br> 
-         diseño del c4 y en el apartado<br>
-         Software Object-Oriented Design</p>
-        <p></p>
-        <p><b>TP1:</b>Colaboré con el desarrollo de<br> 
-         las pantallas como el dashboard y el<br>
-         perfil de usuario. También ayudé para<br>
-         unir el código.</p>
-        <p></p>
-        <p><b>TB2:</b>Aporté con el Bounded Context de<br>
-        Product Management. También unifiqué el código <br>
-        y lo desplegué. También realicé el video del<br>
-        About the product.</p>
-        <p></p>
-        <p><b>TF:</b>Contribuí con las conexiones entre<br>
-        el backend y frontend para los apartados de alertas<br>
-        y creación de productos. Asimismo, desplegué la nueva<br>
-        versión de la base de datos y el backend.</p>
-        <p></p>
-        <p><b>Camila Sanchez Rios</b></p>
-        <p><b>TB1:</b></p>
-        <p>Me encargue de crear la organización<br>
-        y los repositorios en el github. Colabore<br>
-        con Capítulo IV: Product Design (Landing<br>
-        y Web), Capitulo III: User Stories,<br>
-        Capitulo II: Entrevistas<br></p>
-        <p><b>TP1:</b></p>
-        <p>Aporte con la creacion del repositorio y los <br>
-        archivos para esta entrega, colabore con la rama<br>
-        iam que abarca el Registro e Iniciar Sesion del<br>
-        usuario, ayude a desplegar la pagina web una vez<br>
-        unido y con las actualizaciones del capitulo 5</p>
-        <p><b>TB2:</b></p>
-        <p>Aporte con los ajustes esteticos del front<br>
-        al igual de correciones, uni el frontend con la<br>
-        landing del mismo modo actualice los cambios en<br>
-        esta entrega acerca de los botones para los<br>
-        videos. Apoye en el desarrollo del backend del<br>
-        Bounded Context User.</p>
-        <p><b>TF:</b></p>
-        <p></p>
-        <p><b>Maria Fernanda Peña Riofrio</b></p>
-        <p><b>TB1:</b></p>
-        <p>Me encargue del anális competitivo<br>
-        y a definir estrategías frente a<br>
-        competidores.
-        </p>
-        <p><b>TP1:</b>Colaboré con el desarrollo de<br> 
-         una pantalla como el Kits de productos.<br>
-        </p>
-        <p></p>
-        <p><b>TB2:</b></p>
-        <p>Aporta con el analísis de entrevistas, la<br>
-        creación de mi rama en el backend para el<br>
-        bounded context de product managment, en la<br>
-        parte de kits de productos y agregando la<br>
-        información necesaria en los sprint, sprint<br>
-        backlog</p>
-        <p><b>TF:</b></p>
-        <p></p>
-        <p><b>Jocelyn Damaly Almerco Rojas</b></p>
-        <p><b>TB1:</b></p>
-        <p>Me encargué de la elaboración de <br>
-        los diagramas C4, apoyé en el registro<br>
-        de entrevistas y también colaboré en el<br>
-        desarrollo de wireframes y mockups.<br></p>
-        <p><b>TP1:</b></p>
-        <p>Durante el proyecto, trabajé en equipo<br>
-        implementando la vista de history, donde <br>
-        hice dos cartas para el stock y el otro para<br>
-        el producto. Además ayudé en los user stories.<br>
-        Además colaboré con el ppt y en el informe grupal.</p>
-        <p><b>TB2:</b></p>
-        <p></p>
-        <p><b>TF:</b></p>
-        <p></p>
-        <p><b>Sebastian Alonso Bustinza Muñoz</b></p>
-        <p><b>TB1:</b></p>
-        <p>...</p>
-        <p><b>TP1:</b></p>
-        <p>Durante el proyecto, trabajé en equipo <br>
-        implementando la vista de Stock Alert y <br>
-        aplicando mejoras continuas para optimizar<br>
-         su funcionamiento. También colaboré activamente<br>
-          en la elaboración del informe grupal, aportando ideas<br>
-          y apoyando la coordinación de tareas.</p>
-        <p><b>TB2:</b></p>
-        <p>Demostré trabajo colaborativo y liderazgo <br>
-        compartido al contribuir en la revisión del sprint<br>
-         con documentación técnica clara y apoyar en el <br>
-         desarrollo del backend del módulo Stock Alert y <br>
-         la función multilenguaje en el Landing, <br>
-         facilitando el cumplimiento de los objetivos<br>
-          del equipo.</p>
-        <p><b>TF:</b></p>
-        <p>...</p>
-      </td>
-      <td>
-        <p><strong>TB1:</strong> Nosotros demostramos un liderazgo<br>
-        compartido y una colaboración efectiva, <br>
-        estableciendo objetivos claros, <br>
-        planificando tareas de manera<br>
-        organizada y cumpliendo los <br>
-        entregables en los plazos establecidos.</p>
-        <p><strong>TP1:</strong> Seguimos demostrando liderazgo, </p>
-        compromiso y solidaridad con<br>
-        nuestros compañeros cuando tienen<br>
-        dificultades durante el desarrollo<br>
-       de esta entrega.
-                <p></p>
-        <p><strong>TB2:</strong></p>
-        <p></p>
-        <p><strong>TF:</strong></p>
-        <p></p>
-      </td>
-    </tr>
-    <tr>
-      <td><b>Crea un entorno colaborativo e <br>
-inclusivo, estable metas, planifica tareas <br>
-y cumple objetivos.</b></td>
-      <td>
-        <p><b>Henry Kalet Esteban Román</b></p>
-        <p><b>TB1:</b>Fomenté un entorno<br>
-        colaborativo al integrar los aportes<br>
-        de mis compañeros durante la edición<br>
-        y análisis de entrevistas. Coordiné<br>
-        con el equipo para definir a nuestros<br>
-        user personas dentro del needfinding<br>
-        asegurando que todas las voces fueran<br>
-        consideradas. Además, apoyé en el<br>
-        apartado Software Object-Oriented<br>
-        Design, cumpliendo con los objetivos<br>
-        establecidos en los plazos definidos.<br></p>
-        <p></p>
-        <p><b>TP1:</b>Para el desarrollo<br>
-         de la funcionalidad de inventario<br>
-         , contribuí a la creación de un <br>
-         entorno inclusivo donde todas las<br>
-          ideas fueron consideradas y<br>
-           discutidas abiertamente. Propusimos<br>
-            metas claras para el sprint, <br>
-            como completar el diseño de<br>
-             interfaz del módulo,<br>
-              implementar el backend<br>
-               de registro de lotes y<br>
-             realizar pruebas funcionales.<br>
-              A través de herramientas<br>
-               de planificación como el <br>
-               backlog priorizado y<br>
-                reuniones de revisión, <br>
-                logramos cumplir con los<br>
-                 objetivos establecidos, <br>
-                 garantizando que el <br>
-                 módulo de inventario <br>
-                 funcione correctamente<br>
-                  y se integre con el sistema<br>
-                   general de manera efectiva.</p>
-        <p></p>
-        <p><b>TB2:</b></p>
-        <p>Desde el inicio del proyecto, he contribuido<br>
-         a crear un entorno colaborativo e inclusivo,<br>
-          respetando las ideas del equipo y promoviendo<br>
-           la participación de todos. En conjunto, definimos<br>
-            metas claras por entregas (Sprints), y me aseguré<br>
-             de cumplir con las tareas asignadas en tiempo y forma,<br>
-              como el desarrollo del frontend y la sección 5.3.3 del informe.<br>
-               Además, participé en la planificación de tareas técnicas y de <br>
-               documentación, lo que permitió mantener un ritmo de trabajo ordenado <br>
-               y orientado a los objetivos. Esta experiencia reforzó mi compromiso<br>
-                con el trabajo en equipo, la organización y la entrega responsable<br>
-                 de resultados.</p>
-        <p><b>TF:</b></p>
-        <p></p>
-        <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
-         <p><b>TB1:</b> Coordiné con mis compañeros<br> 
-         para el desarrollo del needfinding<br>
-         y para todos el apartado de  Software <br> 
-         Object-Oriented Design<br></p>
-        <p></p>
-        <p><b>TP1:</b>Coordiné con mis compañeros<br> 
-         para la distribución de pantallas<br>
-         en base a los bounded contexts y <br>
-         en el desarrollo de las pantallas.<br></p>
-        <p></p>
-        <p><b>TB2:</b>Coordiné con el equipo para el<br>
-        Bounded Context de Product Management y para<br>
-        tener los últimos cambios del backend para<br>
-        desplegarlo.</p>
-        <p></p>
-        <p><b>TF:</b>Trabajé en equipo para dividirnos<br>
-        las conexiones entre el backend y frontend.</p>
-        <p></p>
-        <p><b>Camila Sanchez Rios</b></p>
-        <p><b>TB1:</b></p>
-        <p>Me encargue de crear la organización<br>
-        y los repositorios en el github. Colabore<br>
-        con Capítulo IV: Product Design (Landing<br>
-        y Web), Capitulo III: User Stories,<br>
-         Capitulo II: Entrevistas<br></p>
-        <p><b>TP1:</b></p>
-        <p>Aporte con la creacion del repositorio y los<br>
-         archivos para esta entrega, colabore con la rama<br>
-          iam que abarca el Registro e Iniciar Sesion del<br>
-           usuario, ayude a desplegar la pagina web una<br>
-            vez unido y con las actualizaciones del capitulo 5</p>
-        <p><b>TB2:</b></p>
-        <p>Contribui con los cambios en el trabajo con <br>
-        respecto al frontend y la landing al igual de <br>
-        desarrollar el backend Bounded Context User. <br>
-        Colabora con la planificacion de tareas y apoyo <br>
-        en el grupo</p>
-        <p><b>TF:</b></p>
-        <p>Durante el desarrollo del proyecto, participé<br>
-         activamente en la implementación del frontend <br>
-         junto con Fabiola, aportando soluciones técnicas <br>
-         <br>para mejorar la experiencia del usuario y asegurar<br>
-          la funcionalidad del sistema. Además, asumí la <br>
-          responsabilidad de desarrollar la sección 5.3.3 <br>
-          del informe, lo que implicó coordinarme con mis<br>
-           compañeros para mantener coherencia en el contenido<br>
-            general. Estas actividades reflejan mi compromiso<br>
-             con el trabajo en equipo y mi capacidad para asumir<br>
-              liderazgo compartido, aportando desde mi rol tanto<br>
-               en lo técnico como en la organización del proyecto.</p>
-        <p><b>Maria Fernanda Peña Riofrio</b></p>
-        <p><b>TB1:</b></p>
-        <p>Coordine el diseño y análisis de <br>
-        entrevistas, propuse términos para <br>
-        el ubiquitous language y ayudé a <br> 
-        distribuir tareas dentro del equipo  <br> 
-        </p>
-        <p><b>TP1:</b>Coordiné con mis compañeros<br> 
-         sobre la distribución de pantallas<br>
-         creando un entorno colaborativo<br>
-         entre todos.<br></p>
-        <p><b>TB2:</b></p>
-        <p>Coordine con mis compañeros sobre la distribución</p>
-        <p>de la divisón de bounded context con mis compañeros</p>
-        <p>además de ayudar con analisis de enrevista para</p>
-        <p>las validaciones</p>
-        <p><b>TF:</b></p>
-        <p>...</p>
-        <p><b>Jocelyn Damaly Almerco Rojas</b></p>
-        <p><b>TB1:</b></p>
-        <p>Estuve atento a las reuniones y me<br>
-         encargué de registrar mi entrevista a<br>
-        tiempo. Además, participé en las reuniones<br>
-        de coordinación y evaluación de las user<br>
-        stories, con el objetivo de elaborar los<br>
-        wireframes y mockups."</p>
-        <p><b>TP1:</b></p>
-        <p>Contribuí creando la pantalla de historial, <br>
-        aplicando el orden adecuado de las carpetas y <br>
-        también colaborando en la redacción del informe grupal.</p>
-        <p><b>TB2:</b></p>
-        <p>...</p>
-        <p><b>TF:</b></p>
-        <p>...</p>
-        <p><b>Sebastian Alonso Bustinza Muñoz</b></p>
-        <p><b>TB1:</b></p>
-        <p>...</p>
-        <p><b>TP1:</b></p>
-        <p>Contribuí activamente creando la vista de Stock Alert,<br>
-         aplicando mejoras continuas y colaborando en la redacción<br>
-          del informe grupal. Estas acciones me permitieron<br>
-           fomentar un entorno colaborativo e inclusivo, ayudando<br>
-           a definir metas claras, planificar tareas en conjunto.</p>
-        <p><b>TB2:</b></p>
-        <p>Contribuí a un entorno colaborativo al documentar<br>
-         avances del sprint, planificar tareas y cumplir objetivos<br>
-          mediante el desarrollo del backend de Stock Alert y la <br>
-          función multilenguaje en el Landing, promoviendo inclusión<br>
-           y alineación del equipo.</p>
-        <p><b>TF:</b></p>
-        <p>...</p>
-      </td>
-       <td>
-        <p><strong>TB1:</strong> Nosotros creamos un entorno colaborativo<br>
-        e inclusivo, establecimos metas claras,<br>
-         planificamos las tareas de manera <br>
-         eficiente y cumplimos todos los<br>
-          objetivos dentro de los plazos acordados.<br></p>
-        <p><strong>TP1:</strong> Hemos creamos un entorno colaborativo y<br>
-        unido donde todos hemos colaborado y<br>
-        hemos cumplido con las metas propuestas.<br></p>
-        <p><strong>TB2:</strong>En esta etapa, el equipo consolidó el<br>
-         trabajo colaborativo al implementar funcionalidades clave del<br>
-         frontend y coordinar la unificación de código y el despliegue.<br>
-         Cada uno aportó desde su área en la documentación y código,<br>
-         demostrando compromiso y liderazgo compartido para mantener<br>
-         la coherencia del proyecto.</p>
-        <p></p>
-        <p><strong>TF:</strong>Logramos integrar exitosamente el frontend<br>
-        con el backend, estableciendo las conexiones necesarias<br>
-        para el intercambio de datos y la operación de alertas y<br>
-        creación de productos. Con ello, el sistema quedó <br>
-        completamente funcional, cumpliendo el objetivo de <br>
-        hacer interactiva la aplicación de punta a punta</p>
-      </td>
-    </tr>
-
-  </tbody>
+    <td>
+      <p><b>Henry Kalet Esteban Román</b></p>
+      <p><b>TB1:</b> Asumí un rol activo de liderazgo dentro del equipo, tomando la iniciativa con el apartado de Antecedentes y Problemática, así como en la definición de los segmentos objetivo. Esto permitió al grupo tener una base para el enfoque del proyecto. También lideré la elaboración del To-be Scenario Mapping y participé activamente con user stories y el diseño de wireframes y mockups, promoviendo una visión común del producto final.</p>
+      <p><b>TP1:</b> Durante el Sprint 2, demostré liderazgo compartido dentro del equipo al participar activamente en la toma de decisiones clave relacionadas con el diseño e implementación de la funcionalidad de inventario. Coordiné con mis compañeros la asignación de tareas según las fortalezas individuales, promoví espacios de retroalimentación técnica y me aseguré de que todos los miembros comprendieran el objetivo común. Esta colaboración no solo fortaleció la cohesión del equipo, sino que también permitió avanzar de manera eficiente en la construcción de una solución técnica funcional.</p>
+      <p><b>TB2:</b> Durante el desarrollo del proyecto, participé activamente en la implementación del frontend junto con Fabiola, aportando soluciones técnicas para mejorar la experiencia del usuario y asegurar la funcionalidad del sistema. Además, asumí la responsabilidad de desarrollar la sección 5.3.3 del informe, lo que implicó coordinarme con mis compañeros para mantener coherencia en el contenido general. Estas actividades reflejan mi compromiso con el trabajo en equipo y mi capacidad para asumir liderazgo compartido, aportando desde mi rol tanto en lo técnico como en la organización del proyecto.</p>
+      <p><b>TF:</b> Lideré la integración final del frontend y backend, asegurando la correcta comunicación entre ambos mediante la implementación de endpoints RESTful y la validación de la funcionalidad de alertas y creación de productos. Coordiné la revisión y mejora de artefactos previos, aplicando feedback recibido y promoviendo la mejora continua en el equipo. Organicé sesiones de revisión técnica y planificación, distribuyendo tareas según fortalezas individuales y fomentando la participación activa de todos los miembros. Documenté y aseguré el cumplimiento de las convenciones de código, nomenclatura y buenas prácticas en el repositorio, utilizando GitFlow para la gestión colaborativa del proyecto.</p>
+      <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
+      <p><b>TB1:</b> Colaboré con el desarrollo del needfinding para el cual tuve que coordinar con mi grupo para definir bien a nuestros user personas y sus necesidades. También apoyé en el diseño del c4 y en el apartado Software Object-Oriented Design.</p>
+      <p><b>TP1:</b> Colaboré con el desarrollo de las pantallas como el dashboard y el perfil de usuario. También ayudé para unir el código.</p>
+      <p><b>TB2:</b> Aporté con el Bounded Context de Product Management. También unifiqué el código y lo desplegué. También realicé el video del About the product.</p>
+      <p><b>TF:</b> Desplegué la nueva versión de la base de datos y backend, asegurando la disponibilidad y funcionamiento de los servicios en la nube. Implementé y validé la conexión entre frontend y backend para los módulos de alertas y productos, resolviendo incidencias técnicas y asegurando la calidad del producto. Coordiné la integración de los cambios finales y la documentación técnica, promoviendo la colaboración y el cumplimiento de los objetivos del sprint. Apliqué buenas prácticas de programación y gestión de versiones, facilitando la colaboración y el mantenimiento del proyecto.</p>
+      <p><b>Camila Sanchez Rios</b></p>
+      <p><b>TB1:</b> Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo IV: Product Design (Landing y Web), Capítulo III: User Stories, Capítulo II: Entrevistas.</p>
+      <p><b>TP1:</b> Aporté con la creación del repositorio y los archivos para esta entrega, colaboré con la rama iam que abarca el Registro e Iniciar Sesión del usuario, ayudé a desplegar la página web una vez unido y con las actualizaciones del capítulo 5.</p>
+      <p><b>TB2:</b> Aporté con los ajustes estéticos del front al igual de correcciones, uní el frontend con la landing del mismo modo actualicé los cambios en esta entrega acerca de los botones para los videos. Apoyé en el desarrollo del backend del Bounded Context User.</p>
+      <p><b>TF:</b> Participé activamente en la implementación y validación del frontend, asegurando la integración con el backend y la experiencia de usuario. Colaboré en la planificación y distribución de tareas, así como en la actualización de la documentación y artefactos del proyecto. Apoyé en la gestión del repositorio y la integración de los cambios, siguiendo las convenciones y buenas prácticas establecidas.</p>
+      <p><b>Maria Fernanda Peña Riofrio</b></p>
+      <p><b>TB1:</b> Me encargué del análisis competitivo y a definir estrategias frente a competidores.</p>
+      <p><b>TP1:</b> Colaboré con el desarrollo de una pantalla como el Kits de productos.</p>
+      <p><b>TB2:</b> Aporté con el análisis de entrevistas, la creación de mi rama en el backend para el bounded context de product management, en la parte de kits de productos y agregando la información necesaria en los sprint, sprint backlog.</p>
+      <p><b>TF:</b> Realicé mejoras continuas en los artefactos y documentación, corrigiendo errores de entregas anteriores y asegurando la coherencia del proyecto. Coordiné la revisión de user stories y la integración de feedback, promoviendo la mejora continua y la participación de todos los miembros. Apoyé en la integración técnica y en la validación de funcionalidades clave.</p>
+      <p><b>Jocelyn Damaly Almerco Rojas</b></p>
+      <p><b>TB1:</b> Me encargué de la elaboración de los diagramas C4, apoyé en el registro de entrevistas y también colaboré en el desarrollo de wireframes y mockups.</p>
+      <p><b>TP1:</b> Durante el proyecto, trabajé en equipo implementando la vista de history, donde hice dos cartas para el stock y el otro para el producto. Además ayudé en los user stories. Además colaboré con el ppt y en el informe grupal.</p>
+      <p><b>TB2:</b> Colaboré con las mejoras técnicas y análisis de entrevistas, además realice mi backend con mi bounded context correspondiente</p>
+      <p><b>TF:</b> Realicé el módulo de reports del backend, asegurando su integración con el resto del sistema. Mejoré la conexión y comunicación entre los diferentes bounded contexts, facilitando la colaboración técnica. Apoyé en la revisión y mejora de artefactos previos, aplicando feedback y asegurando la calidad del producto final.</p>
+      <p><b>Sebastián Alonso Bustinza Muñoz</b></p>
+      <p><b>TP1:</b> Durante el proyecto, trabajé en equipo implementando la vista de Stock Alert y aplicando mejoras continuas para optimizar su funcionamiento. También colaboré activamente en la elaboración del informe grupal, aportando ideas y apoyando la coordinación de tareas.</p>
+      <p><b>TB2:</b> Demostré trabajo colaborativo y liderazgo compartido al contribuir en la revisión del sprint con documentación técnica clara y apoyar en el desarrollo del backend del módulo Stock Alert y la función multilenguaje en el Landing, facilitando el cumplimiento de los objetivos del equipo.</p>
+      <p><b>TF:</b> Implementé funcionalidades extra en mi parte correspondiente, siguiendo las user stories y asegurando la integración con el sistema. Edité la presentación final y colaboré en la documentación, asegurando la claridad y coherencia de la entrega. Apoyé en la validación y pruebas de la solución, promoviendo la mejora continua y la colaboración técnica.</p>
+    </td>
+    <td>
+      <p><strong>TB1:</strong> Nosotros demostramos un liderazgo compartido y una colaboración efectiva, estableciendo objetivos claros, planificando tareas de manera organizada y cumpliendo los entregables en los plazos establecidos.</p>
+      <p><strong>TP1:</strong> Seguimos demostrando liderazgo, compromiso y solidaridad con nuestros compañeros cuando tienen dificultades durante el desarrollo de esta entrega.</p>
+      <p><strong>TB2:</strong> El equipo consolidó el trabajo colaborativo al implementar funcionalidades clave del frontend y coordinar la unificación de código y el despliegue. Cada uno aportó desde su área en la documentación y código, demostrando compromiso y liderazgo compartido para mantener la coherencia del proyecto.</p>
+      <p><strong>TF:</strong> En la entrega final, el equipo demostró liderazgo compartido y colaboración efectiva, integrando exitosamente todos los componentes del sistema y cumpliendo con los objetivos establecidos. Se evidenció la aplicación de buenas prácticas, la mejora continua y la capacidad de adaptación ante los retos técnicos, logrando una solución funcional y de calidad.</p>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Crea un entorno colaborativo e <br>
+      inclusivo, establece metas, planifica tareas <br>
+      y cumple objetivos.</b></td>
+    <td>
+      <p><b>Henry Kalet Esteban Román</b></p>
+      <p><b>TB1:</b> Fomenté un entorno colaborativo al integrar los aportes de mis compañeros durante la edición y análisis de entrevistas. Coordiné con el equipo para definir a nuestros user personas dentro del needfinding asegurando que todas las voces fueran consideradas. Además, apoyé en el apartado Software Object-Oriented Design, cumpliendo con los objetivos establecidos en los plazos definidos.</p>
+      <p><b>TP1:</b> Para el desarrollo de la funcionalidad de inventario, contribuí a la creación de un entorno inclusivo donde todas las ideas fueron consideradas y discutidas abiertamente. Propusimos metas claras para el sprint, como completar el diseño de interfaz del módulo, implementar el backend de registro de lotes y realizar pruebas funcionales. A través de herramientas de planificación como el backlog priorizado y reuniones de revisión, logramos cumplir con los objetivos establecidos, garantizando que el módulo de inventario funcione correctamente y se integre con el sistema general de manera efectiva.</p>
+      <p><b>TB2:</b> Desde el inicio del proyecto, he contribuido a crear un entorno colaborativo e inclusivo, respetando las ideas del equipo y promoviendo la participación de todos. En conjunto, definimos metas claras por entregas (Sprints), y me aseguré de cumplir con las tareas asignadas en tiempo y forma, como el desarrollo del frontend y la sección 5.3.3 del informe. Además, participé en la planificación de tareas técnicas y de documentación, lo que permitió mantener un ritmo de trabajo ordenado y orientado a los objetivos. Esta experiencia reforzó mi compromiso con el trabajo en equipo, la organización y la entrega responsable de resultados.</p>
+      <p><b>TF:</b> Fomenté un entorno inclusivo, promoviendo la participación de todos en la planificación y ejecución de tareas. Coordiné la definición de metas claras para la entrega final y aseguré el cumplimiento de los objetivos mediante reuniones periódicas y seguimiento de avances. Apoyé en la documentación y validación de la solución, asegurando la calidad y coherencia del producto.</p>
+      <p><b>Fabiola del Rocio Saldaña Ayala</b></p>
+      <p><b>TB1:</b> Coordiné con mis compañeros para el desarrollo del needfinding y para todos el apartado de  Software Object-Oriented Design.</p>
+      <p><b>TP1:</b> Coordiné con mis compañeros para la distribución de pantallas en base a los bounded contexts y en el desarrollo de las pantallas.</p>
+      <p><b>TB2:</b> Coordiné con el equipo para el Bounded Context de Product Management y para tener los últimos cambios del backend para desplegarlo.</p>
+      <p><b>TF:</b> Coordiné la integración de los diferentes módulos y la planificación de tareas, asegurando la colaboración y el cumplimiento de los plazos. Promoví la comunicación efectiva y la resolución de problemas en equipo, facilitando la toma de decisiones y la adaptación a los cambios. Documenté y validé los procesos de integración y despliegue, asegurando la trazabilidad y calidad del proyecto.</p>
+      <p><b>Camila Sanchez Rios</b></p>
+      <p><b>TB1:</b> Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo IV: Product Design (Landing y Web), Capítulo III: User Stories, Capítulo II: Entrevistas.</p>
+      <p><b>TP1:</b> Aporté con la creación del repositorio y los archivos para esta entrega, colaboré con la rama iam que abarca el Registro e Iniciar Sesión del usuario, ayudé a desplegar la página web una vez unido y con las actualizaciones del capítulo 5.</p>
+      <p><b>TB2:</b> Contribuí con los cambios en el trabajo con respecto al frontend y la landing al igual de desarrollar el backend Bounded Context User. Colaboré con la planificación de tareas y apoyo en el grupo.</p>
+      <p><b>TF:</b> Colaboré en la planificación y distribución de tareas, asegurando la participación de todos los miembros y el cumplimiento de los objetivos. Apoyé en la documentación y validación de la solución, promoviendo la mejora continua y la colaboración. Participé en la integración y pruebas finales, asegurando la funcionalidad y usabilidad del sistema.</p>
+      <p><b>Maria Fernanda Peña Riofrio</b></p>
+      <p><b>TB1:</b> Coordiné el diseño y análisis de entrevistas, propuse términos para el ubiquitous language y ayudé a distribuir tareas dentro del equipo.</p>
+      <p><b>TP1:</b> Coordiné con mis compañeros sobre la distribución de pantallas creando un entorno colaborativo entre todos.</p>
+      <p><b>TB2:</b> Coordiné con mis compañeros sobre la distribución de la división de bounded context con mis compañeros además de ayudar con análisis de entrevista para las validaciones.</p>
+      <p><b>TF:</b> Coordiné la revisión y mejora de artefactos, promoviendo la participación y el aporte de todos los miembros. Apoyé en la planificación y seguimiento de tareas, asegurando el cumplimiento de los objetivos y la calidad del producto. Documenté y validé los cambios realizados, facilitando la colaboración y la mejora continua.</p>
+      <p><b>Jocelyn Damaly Almerco Rojas</b></p>
+      <p><b>TB1:</b> Estuve atento a las reuniones y me encargué de registrar mi entrevista a tiempo. Además, participé en las reuniones de coordinación y evaluación de las user stories, con el objetivo de elaborar los wireframes y mockups.</p>
+      <p><b>TP1:</b> Contribuí creando la pantalla de historial, aplicando el orden adecuado de las carpetas y también colaborando en la redacción del informe grupal.</p>
+      <p><b>TB2:</b>Organice la estructuras de backend siguiendo el formato DDD y respetando los diagramas de clase y C4</p>
+      <p><b>TF:</b> Colaboré en la integración y validación de los módulos desarrollados, asegurando la coherencia y funcionalidad del sistema. Apoyé en la documentación y mejora de artefactos, promoviendo la participación y el trabajo en equipo. Participé en la planificación y seguimiento de tareas, asegurando el cumplimiento de los objetivos.</p>
+      <p><b>Sebastián Alonso Bustinza Muñoz</b></p>
+      <p><b>TP1:</b> Contribuí activamente creando la vista de Stock Alert, aplicando mejoras continuas y colaborando en la redacción del informe grupal. Estas acciones me permitieron fomentar un entorno colaborativo e inclusivo, ayudando a definir metas claras, planificar tareas en conjunto.</p>
+      <p><b>TB2:</b> Contribuí a un entorno colaborativo al documentar avances del sprint, planificar tareas y cumplir objetivos mediante el desarrollo del backend de Stock Alert y la función multilenguaje en el Landing, promoviendo inclusión y alineación del equipo.</p>
+      <p><b>TF:</b> Fomenté un entorno colaborativo al documentar avances, planificar tareas y cumplir objetivos mediante el desarrollo de funcionalidades clave y la validación de la solución. Colaboré en la integración y pruebas finales, asegurando la calidad y funcionalidad del sistema. Apoyé en la documentación y presentación final, promoviendo la inclusión y la participación de todos los miembros.</p>
+    </td>
+    <td>
+      <p><strong>TB1:</strong> Nosotros creamos un entorno colaborativo e inclusivo, establecimos metas claras, planificamos las tareas de manera eficiente y cumplimos todos los objetivos dentro de los plazos acordados.</p>
+      <p><strong>TP1:</strong> Hemos creado un entorno colaborativo y unido donde todos hemos colaborado y hemos cumplido con las metas propuestas.</p>
+      <p><strong>TB2:</strong> En esta etapa, el equipo consolidó el trabajo colaborativo al implementar funcionalidades clave del frontend y coordinar la unificación de código y el despliegue. Cada uno aportó desde su área en la documentación y código, demostrando compromiso y liderazgo compartido para mantener la coherencia del proyecto.</p>
+      <p><strong>TF:</strong> Durante la entrega final, el equipo consolidó un entorno colaborativo e inclusivo, estableciendo metas claras, planificando tareas de manera eficiente y cumpliendo con todos los objetivos propuestos. La comunicación y el trabajo en equipo permitieron superar los retos y entregar una solución funcional, innovadora y de calidad, evidenciando el desarrollo de competencias técnicas y colaborativas.</p>
+    </td>
+  </tr>
 </table>
 
 # Capítulo I: Introducción
