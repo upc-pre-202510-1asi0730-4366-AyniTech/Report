@@ -275,8 +275,8 @@
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4 Video About-the-Product](#54-video-about-the-product)
-  - [5.5 Video About-the-Team](#video-about-the-team)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+  - [5.5 Video About-the-Team](#55-video-about-the-team)
 - [Conclusiones y recomendaciones](#Conclusiones )
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -4575,7 +4575,7 @@ Varios usuarios solicitaron funcionalidades que consideran esenciales. Milagros 
 Priorizar para futuros sprints el desarrollo de un módulo de "Ventas". Esta funcionalidad permitiría a los usuarios registrar las salidas de productos de manera más realista, actualizando automáticamente el stock. Esto cerraría el ciclo de gestión de inventario y alinearía la aplicación mucho más con las operaciones diarias de sus negocios. Adicionalmente, se puede evaluar un módulo simple de "Cuentas por pagar/cobrar".
 
 
-## 5.4.	Video About-the-Product
+## 5.4. Video About-the-Product
 A continuación, presentaremos el video About-the-Product en el cual se detalla la propuesta de valor de StockWise así como el flujo de la solución junto con testimonios de usuarios.
 
 <br>
@@ -4584,7 +4584,7 @@ Captura de la entrevista: <br>
 <br>
 <a href="https://www.youtube.com/watch?v=gKQCMO4rORw&ab_channel=CamilaSanchez">Ver grabación</a>
 
-## 5.5	Video About-the-Team
+## 5.5 Video About-the-Team 
 
 A continuación, presentaremos el video About-the-Team en el cual se evidencia nuestra colaboración y comunicación como grupo a lo largo de este proyecto. Del mismo modo, nuestras experiencias y reflexiones por cada integrante.
 
