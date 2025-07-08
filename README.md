@@ -279,8 +279,8 @@
       - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
   - [|Products|api/v1/products|  |](#productsapiv1products---1)
-  - [|User|/sign- in /sign - up /change - role |  |](#usersign--in-sign---up-change---role---)
-  - [|User|api/v1/reports|  |](#userapiv1reports--)
+  - [|Authentication|/api/v1/authentication |  |](#authenticationapiv1authentication---)
+  - [|Report|api/v1/reports|  |](#reportapiv1reports--)
       - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
       - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -3978,7 +3978,7 @@ Muestra de nuestra API hecha con Spring Boot:
 <th>Captura del back 1: <img src="assets/Chapter-5/back11.png" 
 
 
-<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
+<th>Captura del back 2: <img src="assets/Chapter-5/inven.png" 
 
 
 <th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
@@ -4015,37 +4015,37 @@ https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
 |Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
 ------------------------------------------------------
 
-<b>Bounded context: Inventaries:</b>
+<b>Bounded context: Inventory:</b>
 
 | Entity | Endpoint URL |Swagger | 
 | ------ | --------- | --------- |
-|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
+|Inventory|api/v1/inventory| <img src="assets/Chapter-5/inven.png"> |
 
 ------------------------------------------------------
-<b>Bounded context: Alert Stock:</b>
+<b>Bounded context: StockAlert:</b>
 
 | Entity | Endpoint URL |Swagger | 
 | ------ | --------- | --------- |
-|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
+|StockAlert|api/v1/alerts| <img src="assets/Chapter-5/AlertSwag.png"> |
 
 ------------------------------------------------------
 <b>Bounded context: Authentication:</b>
 
 | Entity | Endpoint URL |Swagger | 
 | ------ | --------- | --------- |
-|User|/sign- in /sign - up /change - role | <img src="assets/Chapter-5/UserSwag (2).png"> |
+|Authentication|/api/v1/authentication | <img src="assets/Chapter-5/UserSwag (2).png"> |
 ------------------------------------------------------
 <b>Bounded context: Report:</b>
 
 | Entity | Endpoint URL |Swagger | 
 | ------ | --------- | --------- |
-|User|api/v1/reports| <img src="assets/Chapter-5/report.png"> |
+|Report|api/v1/reports| <img src="assets/Chapter-5/report.png"> |
 ------------------------------------------------------
 <b>Bounded context: Combos:</b>
 
 | Entity | Endpoint URL |Swagger | 
 | ------ | --------- | --------- |
-|User|api/v1/combos| <img src="assets/Chapter-5/combos.png"> |
+|Combos|api/v1/combos| <img src="assets/Chapter-5/combos.png"> |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
