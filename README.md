@@ -4083,7 +4083,7 @@ En este sprint, logramos como tercera fase de nuestro producto final, desarrolla
 
 Muestra de nuestra API hecha con Spring Boot:
 
-<th>Captura del back 1: <img src="assets/Chapter-5/back1.png" 
+<th>Captura del back 1: <img src="assets/Chapter-5/back11.png" 
 
 
 <th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
@@ -4156,8 +4156,6 @@ https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
 |User|api/v1/combos| <img src="assets/Chapter-5/combos.png"> |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
-
-(....)->ACTUALIZAR EVIDENCIAS
 
 
 **Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
