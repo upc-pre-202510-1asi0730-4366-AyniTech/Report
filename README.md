@@ -3892,7 +3892,7 @@ Evidencia de despliegue Backend en Azure: Durante este sprint, se utilizó Azure
 **Link del Backend:** [https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ ](https://stockwise-a4g5evcsbyh9c3df.centralus-01.azurewebsites.net/swagger/index.html)
 
  
-#### 5.2.3. Team Collaboration Insights during Sprint.
+#### 5.2.3.8 Team Collaboration Insights during Sprint.
 
 | Alumno | Actividad |
 | ------ | --------- |
@@ -3910,6 +3910,275 @@ Evidencia de despliegue Backend en Azure: Durante este sprint, se utilizó Azure
 
 ![commits Front](assets/Chapter-5/backfre.png)
 
+### 5.2.4. Sprint 4
+Para este Sprint nos enfocaremos en implementar mejoras en nuestro frontend como backend además de relacionarlo y  que se ejecute con éxito.
+
+#### 5.2.4.1. Sprint Planning 4
+En la siguiente sección, se presentará el sprint #4  con la verión mejorada de la aplicación web y del back-end, desarrollado en C#. Mostrando la organización, distribución y resultados de la aplicación web.
+
+| Sprint # | 4 |
+|---------|-------|
+| **Sprint Planning Background** |      |
+| Date | 02/03/2025|
+| Time | 9:30 pm |
+|Location | Modalidad remota |
+|Prepared By | Jocelyn Almerco|
+|Attendees (to planning meeting)| Jocelyn Almerco, Camila Sanchez, Maria Fernanda Peña, Fabiola Del Rocio Saldaña, Henry Esteban, Sebastian Bustinza|
+|Sprint 3 Review Summary | Se realizó el backend y se corrgieron partes del frontend- Algunas de las correciones fueron: Hacer funcional la parte de alertas productos en el front-end, además de desplegar el front-end sin dificultad. |
+|Sprint 3 Retrospective Summary | Se evaluó el manejo de los tiempos tuvo que manejar para evitar inconvenientes en la entrega además de mejorar el front end y el back end. Para que en la siguiente entrega exista una conexión entre ambas.|
+|**Sprint Goal & User Stories** | |
+|Sprint Goal 4 |  En este sprint, el objetivo es terminar las mejoras en nuestro frontend como backend y desplegar completamente el backend funcional en la nube. Además de realizar la conexión entre ambas para la aplicación web de AyniTech.|
+|Sprint Velocity 4 | 32 |
+|Sum of Story Points | 34 |
+
+#### 5.2.4.2. Aspects Leaders and Collaborators
+Durante el cuarto sprint, el equipo tuvo como meta mejorar tanto el front-end como back-end de StockWise utilizando C#. El enfoque se centró en realizar las mejoras para crear una conexión entre el front y el back para poder desplegar la aplicación web de manera exitosa.
+
+Además, el equipo se enfocó en las historias de usuario relacionadas con este desarrollo, asegurando que cada nueva característica no solo fuera funcional, sino también alineada con las necesidades de los usuarios. Se utilizó Trello para organizar y distribuir las tareas, permitiendo que cada integrante del equipo se especialicen  en áreas que se corresponden con sus competencias, lo que facilitó un avance eficiente y coordinado hacia el objetivo del sprint.
+
+| Team member | Github Username | Validaciones y Lógica (front y back) | Base de datos | Integración Front-Back | Backend deploy | Documentation |
+|:------------|:----------------|:---------------------:|:-------------:|:---------------:|:--------------:|:-------------:|
+|Almerco Rojas, Jocelyn Damaly|JocyDam| L | C | L | C | C |
+|Saldaña Ayala, Fabiola del Rocio| fabs-in-space | L | C | L | L | C |
+|Sánchez Ríos, Camila Cristina| C4m174 | L | C | C | C | L|
+|Peña Riofrio, Maria Fernanda| mariafep | C | C | C | C | L |
+|Esteban Román, Henry Kalet| Kalet12-commit | L | L | C | C | C |
+|Bustinza Muñoz, Sebastian Alonso | Sebastianbustianza809 | C | C | C | C | L |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+
+**Vista del Sprint Backlog en Trello:**
+
+![trello](assets/Chapter-5/Trello_Sprint4.png)
+
+**Link del Trello:** 
+[Trello](https://trello.com/invite/b/686b8010b9f7f5c7acf1ef12/ATTI90859880d998d1c5dc3d8b40725e60fbF74A6E39/sprint-4)
+
+
+Para el Sprint #4 nos trazamos como objetivo desarrollar y desplegar la conexión del back end y la aplicación web. De esa manera, completar las funcionalidades del front end.
+
+<table>
+        <tr>
+            <th>Sprint #</th>
+            <th colspan="7">Sprint 4</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">WorkItem / Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation(Hours)</th>
+            <th>Assigned To</th>
+            <th>Status(To-do/In-Process/To-Review/Done)</th>
+        </tr>
+        <tr>
+            <td>US26</td>
+            <td>Sistema de Autenticación (IAM)</td>
+            <td>T01</td>
+            <td>Desarrollo del Login y Register</td>
+            <td>Implementación del login y registro para usuarios, con validación de credenciales</td>
+            <td>8h</td>
+            <td>Camila Sanchez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US27</td>
+            <td>Actualización FrontEnd</td>
+            <td>T02</td>
+            <td>Mejoras en el FrontEnd</td>
+            <td>Implementación de mejoras en la interfaz para funcionalidades del inventario e historial.<d>
+            <td>6h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US28</td>
+            <td>Actualización del Backend</td>
+            <td>T03</td>
+            <td>Mejoras en el BackEnd</td>
+            <td>Implementación de mejoras en el código del backend.</td>
+            <td>6h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US29</td>
+            <td>Front-Back unidos</td>
+            <td>T04</td>
+            <td>Conexión entre el Front-Back</td>
+            <td>Implementación de APIS para la conexión entre front y back.</td>
+            <td>3h</td>
+            <td>Jocelyn Almerco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US30</td>
+            <td>Despliegue del BackEnd</td>
+            <td>T05</td>
+            <td>Deployment del BackEnds en azure</td>
+            <td>Configuración y despliegue del backend con la información actualizada en Azure.</td>
+            <td>8h</td>
+            <td>Fabiola Saldaña</td>
+            <td>Done</td>
+        </tr>
+         <tr>
+            <td>US31</td>
+            <td>Pruebas de Integración</td>
+            <td>T06</td>
+            <td>Validación de FrontEnd y BackEnd integrados</td>
+            <td>Realización de pruebas para asegurar que el front y back trabajan de manera sincronizada</td>
+            <td>6h</td>
+            <td>Fabiola Saldaña</td>
+            <td>Done</td>
+        </tr>
+</table>
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+En este punto abarcaremos las funcionalidades y la evidencia de que pudimos completar exitosamente las tareas planteadas en el Sprint Planning 4:
+
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|**Frontend-Web-Applications:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Frontend-Web-Applications|feature/main|846e0625|feat: Alertas y creacion producto funcional|Fabs|5/07/2025 |
+| |feature/main|132508f7|Feat: Subiendo mis avances iniciales a la rama|Damaly34873|05/07/2025|
+
+
+|Repository|Branch| Commit Id| Commit Message | Commit Name|Commited on (Date)|
+|----|----|----|----|----|----|
+|**Backend:** https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend|feature/main|59c02ff3|feat: Subiendo mis avances iniciales a la rama pruebin|Damaly34873|5/07/2025 |
+| |feature/main|8e41bfc5|add: pruebas 3|Fabs|5/07/2025|
+| |feature/main| 47ae96ee|chore: Actualizar archivos de configuración y binarios tras cambios en el proyecto |C4M174|5/07/2025|
+| |feature/main| 4968d2a1|Implementación de autenticación JWT y gestión de roles de usuario. Se actualizó la conexión a la base de datos |C4M174|6/07/2025|
+| |feature/main|913dccb4 |Actualización de rutas de usuario en archivos de configuración y ajuste de versiones de SDK en el proyecto Lot.|C4M174|06/07/2025|
+| |feature/main|61820321 |add: definición de seguridad JWT para Swagger, permitiendo la autenticación mediante el esquema Bearer. | C4M174|06/07/2025 |
+| |feature/main| dc07cd2e |Correcciones de la autenticacion| Fabs|06/07/2025 |
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+La realización de estas tareas refleja un enfoque estructurado para el desarrollo de la aplicación web. Cada tarea aborda un componente crucial del producto, lo que asegura que se cubran tanto aspectos visuales como funcionales. Este enfoque modular permite no solo mantener un orden en el proceso de desarrollo, sino también garantizar que cada sección cumple con las funcionalidades que brinda AyniTech.
+
+A continuación se mostrarán capturas de pantallas de las nuevas funcionalidades de la Landing Page, la Aplicación Web y el Web Service:
+
+**LANDING PAGE**
+
+Nueva funcionalidad Multilenguaje:
+
+<th>Captura 1: <img src="assets/Chapter-5/En1.png" 
+
+<th>Captura 2: <img src="assets/Chapter-5/En2.png" 
+
+<th>Captura 3: <img src="assets/Chapter-5/En3.png" 
+
+<th>Captura 5: <img src="assets/Chapter-5/En5.png" 
+
+**WEB SERVICE**
+
+En este sprint, logramos como tercera fase de nuestro producto final, desarrollar la API hecha con Java en Spring Boot.
+
+Muestra de nuestra API hecha con Spring Boot:
+
+<th>Captura del back 1: <img src="assets/Chapter-5/back1.png" 
+
+
+<th>Captura del back 2: <img src="assets/Chapter-5/Back2.png" 
+
+
+<th>Captura del back 3: <img src="assets/Chapter-5/Back3.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/UserSwag (2).png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.1.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.2.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/back5.3.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/combos.png" 
+
+<th>Captura del back 3: <img src="assets/Chapter-5/report.png" 
+
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EblTBhVn-XdHk8i0mZ2lgk4Bhv_qik1a9cU36yRPQmp3ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9rtZSO 
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+Para este tercer sprint usamos la primera versión de nuestro servicio desarrollado en c#.
+A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
+
+Repositorio del backend en GitHub: 
+https://github.com/upc-pre-202510-1asi0730-4366-AyniTech/Backend
+
+
+<b>Bounded context: Products:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/products| <img src="assets/Chapter-5/productsSwag.png"> |
+------------------------------------------------------
+
+<b>Bounded context: Inventaries:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/inventaries| <img src="assets/Chapter-5/InvenSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Alert Stock:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|Products|api/v1/alert| <img src="assets/Chapter-5/AlertSwag.png"> |
+
+------------------------------------------------------
+<b>Bounded context: Authentication:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|/sign- in /sign - up /change - role | <img src="assets/Chapter-5/UserSwag (2).png"> |
+------------------------------------------------------
+<b>Bounded context: Report:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|api/v1/reports| <img src="assets/Chapter-5/report.png"> |
+------------------------------------------------------
+<b>Bounded context: Combos:</b>
+
+| Entity | Endpoint URL |Swagger | 
+| ------ | --------- | --------- |
+|User|api/v1/combos| <img src="assets/Chapter-5/combos.png"> |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+(....)->ACTUALIZAR EVIDENCIAS
+
+
+**Link de Landing Page:** https://upc-pre-202510-1asi0730-4366-aynitech.github.io/Landing-Page/ 
+**Link de Web app:** https://aynitech.netlify.app/
+ 
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+| Alumno | Actividad |
+| ------ | --------- |
+|Jocelyn Damaly Almerco Rojas|Implementación del Report Context - historial de movimientos|
+|Sanchez Rios, Camila Cristina|Implementación de User Bounded Context - usuario, resgistro, perfil|
+|Jocelyn Damaly Almerco Rojas|Implementación del Inventory Bounded Context - inventario|
+|Fabiola Del Rocio Saldaña Ayala|Implementación de Product Managment - Product|
+
+
+**Insights del Web Service::**
+![commits Front](assets/Chapter-5/rco.png)
+
+![commits Front](assets/Chapter-5/reco2.png)
+
+![commits Front](assets/Chapter-5/reco3.png)
 ## 5.3. Validation Interviews
 ### 5.3.1 Diseño de Entrevistas
 
@@ -4318,26 +4587,26 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>5</td>
+    <td>3</td>
     <th>Nombre</th>
-    <td>Juan Carlos Ramírez</td>
+    <td>Luis Alejo</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>49</td>
+    <td>23</td>
     <th>Distrito</th>
-    <td>Surquillo</td>
+    <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="---" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-5/Entrevista_luis.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        ...
+        Nuestro entrevistado Luis gestiona su tienda emprendedora justo a su familia desde los 21 años, el rubro principal son los abarrotes, su tienda es grande, le resultó fácil usarlo, le gustó lo que ofrecemos como empresa, con respecto a la aplicación le pareció un uso intuitivo, solo hubo una pequeña confusión por los colores, le pareció que estaban muy cargados de botones e información, la función que le pareció más útil es la de próximos a caducar. Del q al 10 le pareció que nuestra app obtiene 9 por su utilidad, le agregaría un apartado de imágenes de productos que tiene y recomienda nuestra app para sus colegas.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="---">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123362_upc_edu_pe/EUT83e8lXiRJrmk7jAoRB8wBs4JUSk2l7JTBqCXgGEtOmA?e=657SYb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -4345,7 +4614,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        17:11 - 20:45
+        00:00 - 4:21
     </td>
   </tr>
 </table>
@@ -4575,7 +4844,7 @@ Varios usuarios solicitaron funcionalidades que consideran esenciales. Milagros 
 Priorizar para futuros sprints el desarrollo de un módulo de "Ventas". Esta funcionalidad permitiría a los usuarios registrar las salidas de productos de manera más realista, actualizando automáticamente el stock. Esto cerraría el ciclo de gestión de inventario y alinearía la aplicación mucho más con las operaciones diarias de sus negocios. Adicionalmente, se puede evaluar un módulo simple de "Cuentas por pagar/cobrar".
 
 
-## 5.4. Video About-the-Product
+## 5.4.	Video About-the-Product
 A continuación, presentaremos el video About-the-Product en el cual se detalla la propuesta de valor de StockWise así como el flujo de la solución junto con testimonios de usuarios.
 
 <br>
@@ -4584,25 +4853,6 @@ Captura de la entrevista: <br>
 <br>
 <a href="https://www.youtube.com/watch?v=gKQCMO4rORw&ab_channel=CamilaSanchez">Ver grabación</a>
 
-## 5.5 Video About-the-Team 
-
-A continuación, presentaremos el video About-the-Team en el cual se evidencia nuestra colaboración y comunicación como grupo a lo largo de este proyecto. Del mismo modo, nuestras experiencias y reflexiones por cada integrante.
-
-<br>
-Captura de la entrevista: <br>
-<img src="assets/Chapter-5/teamv.png" alt="Captura del abouth the team" width="750">
-<br>
-<a href="https://youtu.be/vZVrAkfK6uc">Ver grabación</a>
-
-### 5.2.4. Sprint 4
-#### 5.2.4.1.Sprint Planning 4.
-#### 5.2.4.2. Aspect Leaders and Collaborators.
-#### 5.2.4.3.Sprint Backlog 4.
-#### 5.2.4.4.Development Evidence for Sprint Review.
-#### 5.2.4.5.Execution Evidence for Sprint Review.
-#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
-#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
-#### 5.2.4.8.Team Collaboration Insights during Sprint.
 
 
 # Conclusiones 
@@ -4628,7 +4878,5 @@ En conclusión, actualmente StocWise tiene un avance que refleja un progreso sig
 **Video exposición TB2:** [Acceder al video de exposición](..)
 
 **Video About the Product:** [Acceder al video de exposición](https://youtu.be/gKQCMO4rORw)
-
-**Video About the Team:** [Acceder al video de exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EVhN9uwvVHFPi4pe9ufq7iEBKUzdj_-HrNFXDnLiXtBl2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bsLmLJ)
 
 **Repositorio:** [AyniTech (GitHub)](https://github.com/upc-pre-202510-1asi0730-4366-AyniTech)
