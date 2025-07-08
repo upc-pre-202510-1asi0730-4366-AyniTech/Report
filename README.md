@@ -4851,7 +4851,15 @@ Captura de la entrevista: <br>
 <br>
 <a href="https://www.youtube.com/watch?v=gKQCMO4rORw&ab_channel=CamilaSanchez">Ver grabación</a>
 
+## 5.5 Video About-the-Team 
 
+A continuación, presentaremos el video About-the-Team en el cual se evidencia nuestra colaboración y comunicación como grupo a lo largo de este proyecto. Del mismo modo, nuestras experiencias y reflexiones por cada integrante.
+
+<br>
+Captura de la entrevista: <br>
+<img src="assets/Chapter-5/teamv.png" alt="Captura del abouth the team" width="750">
+<br>
+<a href="https://youtu.be/vZVrAkfK6uc">Ver grabación</a>
 
 # Conclusiones 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una plataforma de alto valor, adaptable y preparada para el crecimiento continuo.
